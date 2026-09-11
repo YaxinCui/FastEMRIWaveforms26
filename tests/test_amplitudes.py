@@ -59,12 +59,19 @@ class AmplitudesTest(FewBackendTest):
             np.testing.assert_allclose(amplitudes, amplitudes_array, rtol=1e-10)
 
         # test the amplitudes at some random points against their numerical values
-        for test_point in KERRECCEQ_AMP_TEST_POINTS:
-            a, p, e = test_point["ape"]
-            mode_interp = amp_module(a, p, e, xI, specific_modes=[test_point["lmkn"]])[
-                test_point["lmkn"]
-            ].item()
-        np.testing.assert_allclose(mode_interp, test_point["Almkn"], rtol=0, atol=1e-9)
+        # 2026-09-11 12:07 CST (linux): Assert every fixture independently. Keep
+        # original constants/tolerance; a newly exposed disagreement is evidence,
+        # not permission to replace the reference with this implementation.
+        for index, test_point in enumerate(KERRECCEQ_AMP_TEST_POINTS):
+            with self.subTest(index=index, mode=test_point["lmkn"], ape=test_point["ape"]):
+                a, p, e = test_point["ape"]
+                mode_interp = amp_module(a, p, e, xI, specific_modes=[test_point["lmkn"]])[
+                    test_point["lmkn"]
+                ].item()
+                np.testing.assert_allclose(mode_interp, test_point["Almkn"], rtol=0, atol=1e-9)
+
+        # Symmetry tests use a deliberate point, not a loop's incidental state.
+        a, p, e = KERRECCEQ_AMP_TEST_POINTS[-1]["ape"]
 
         # test the mode symmetry
         specific_modes = [(3, 2, 0, 1), (3, -2, 0, -1)]

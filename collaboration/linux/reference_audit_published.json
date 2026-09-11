@@ -1,0 +1,182 @@
+{
+  "timestamp_cst": "2026-09-11T13:02:25.448890+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "source": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few/__init__.py",
+  "backend": "cpu",
+  "fixtures": [
+    {
+      "index": 0,
+      "mode": [
+        3,
+        2,
+        0,
+        4
+      ],
+      "ape": [
+        0.94071396,
+        3.03167504,
+        0.23666111
+      ],
+      "expected": [
+        0.002753336140076555,
+        0.004143260615912325
+      ],
+      "actual": [
+        0.0027533363495207313,
+        0.0041432608787941175
+      ],
+      "absolute_error": 3.361156050798001e-10,
+      "passes": true
+    },
+    {
+      "index": 1,
+      "mode": [
+        2,
+        -2,
+        0,
+        5
+      ],
+      "ape": [
+        0.77593827,
+        5.44830674,
+        0.39950367
+      ],
+      "expected": [
+        -0.0001975310651632842,
+        4.806588136412258e-05
+      ],
+      "actual": [
+        -0.0001975310641821237,
+        4.80658810441802e-05
+      ],
+      "absolute_error": 1.032007286883459e-12,
+      "passes": true
+    },
+    {
+      "index": 2,
+      "mode": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "ape": [
+        0.99090693,
+        1.81708312,
+        0.25313127
+      ],
+      "expected": [
+        -0.09712303568244392,
+        0.0004771647068539275
+      ],
+      "actual": [
+        -0.05104330844531107,
+        -0.40484839592479177
+      ],
+      "absolute_error": 0.4079364550559394,
+      "passes": false
+    },
+    {
+      "index": 3,
+      "mode": [
+        4,
+        -3,
+        0,
+        1
+      ],
+      "ape": [
+        0.87600927,
+        43.70360964,
+        0.478125
+      ],
+      "expected": [
+        -9.89242565478408e-07,
+        1.750469365836169e-05
+      ],
+      "actual": [
+        -9.892768070411627e-07,
+        1.750474689550898e-05
+      ],
+      "absolute_error": 6.329832913537483e-11,
+      "passes": true
+    },
+    {
+      "index": 4,
+      "mode": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "ape": [
+        0.36158837,
+        72.94420732,
+        0.39375
+      ],
+      "expected": [
+        5.869887391976143e-05,
+        0.00136010620358342
+      ],
+      "actual": [
+        5.8698873926043565e-05,
+        0.0013601062037293039
+      ],
+      "absolute_error": 1.4601915553752757e-13,
+      "passes": true
+    }
+  ],
+  "script_sha256": "2109e142e368220ba8a029cd7cf5fb4c15bc7c91ac193dbaa5a7a5e096860004",
+  "expected_values_changed": false,
+  "rtol": 0.0,
+  "atol": 1e-09,
+  "independent_table_evaluation": {
+    "method": "SciPy bisplev of one spin/mode; no FEW interpolation kernel or forward map",
+    "mode_index": 1165,
+    "spin_index": 3,
+    "u": 0.3125,
+    "w": 0.53125,
+    "exact_ape": [
+      0.9909069337322672,
+      1.817083116219875,
+      0.2531312656783681
+    ],
+    "actual": [
+      -0.05104331491159769,
+      -0.40484826629676185
+    ],
+    "fixture_difference": 0.40793632552714165,
+    "warning": "Same-table consistency evidence, not an independent physical truth."
+  },
+  "published_raw_node": {
+    "url": "https://raw.githubusercontent.com/cchapmanbird/KerrEccentricEquatorialFigures/7edb856bae835d4540e7aa18b9229d6ae41aceef/scripts/Validation/Amplitude/BicubicTricubicComparison/A220_slice.h5",
+    "revision": "7edb856bae835d4540e7aa18b9229d6ae41aceef",
+    "sha256": "37b190b52013e432099e4fc14318755a1c2fa87a231ab393cb1e6641175f563f",
+    "bytes": 2879056,
+    "release_doi": "10.5281/zenodo.15631641",
+    "axes": "u,w,z,[Re,Im]; params last axis a,p,e",
+    "node_index": [
+      10,
+      17,
+      3
+    ],
+    "exact_ape": [
+      0.9909069337322672,
+      1.817083116219875,
+      0.2531312656783681
+    ],
+    "published_amplitude": [
+      -0.05104331491159769,
+      -0.4048482662967619
+    ],
+    "few_at_exact_ape": [
+      -0.0510433149115921,
+      -0.4048482662967727
+    ],
+    "few_vs_published_absolute_error": 1.2134814158153864e-14,
+    "scipy_vs_published_absolute_error": 5.551115123125783e-17,
+    "old_fixture_vs_published_absolute_error": 0.4079363255271417,
+    "warning": "Published author dataset anchor, not an independently rerun Teukolsky solver; old fixture preserved."
+  },
+  "passes": 4,
+  "failures": 1
+}
