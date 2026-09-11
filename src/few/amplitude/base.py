@@ -2,7 +2,7 @@ from typing import Optional, Union
 
 import numpy as np
 
-from ..utils.baseclasses import ParallelModuleBase
+from ..utils.baseclasses import KerrEccentricEquatorial, ParallelModuleBase
 
 
 class AmplitudeBase(ParallelModuleBase):
@@ -24,6 +24,27 @@ class AmplitudeBase(ParallelModuleBase):
 
         """
         raise NotImplementedError
+
+    def _equatorial_retrograde_array(self, a, p, e, xI, *args, specific_modes=None, **kwargs):
+        """Apply the existing named-mode convention to Kerr raw/all selections."""
+        # 2026-09-11 16:40 CST (linux): Read ORIGINAL user labels before folding
+        # negative-m IDs. Coordinate rotation flips m, not radial n; the separate
+        # negative-mode symmetry is encoded by special_index_map_arr. Keep the
+        # tuple path's two parity/conjugation operations in their original order.
+        requested = self.mode_indexes if specific_modes is None else specific_modes
+        ell, m, k, n = (values[requested] for values in (self.l_arr, self.m_arr, self.k_arr, self.n_arr))
+        mode_indexes = self.special_index_map_arr[ell, -m, k, n]
+        self.num_modes_eval = len(requested)
+        values = self.get_amplitudes(a, p, e, xI, *args, specific_modes=mode_indexes, **kwargs)
+        # Preserve provider dtype; integer-array multiplication otherwise promotes
+        # a custom complex64 provider even though the real Kerr table is FP64.
+        parity = ((-1) ** ell).astype(values.real.dtype, copy=False)
+        values = parity * values
+        conjugate = m > 0
+        if self.xp.any(conjugate):
+            parity_conjugate = ((-1) ** (ell[conjugate] + k[conjugate])).astype(values.real.dtype, copy=False)
+            values[:, conjugate] = parity_conjugate * self.xp.conj(values[:, conjugate])
+        return values
 
     def __call__(
         self, 
@@ -78,6 +99,20 @@ class AmplitudeBase(ParallelModuleBase):
             m_mode_sign = -1
         else:
             m_mode_sign = 1
+
+        # 2026-09-11 16:40 CST (linux): The proven contract is Kerr equatorial.
+        # Preserve tuple, prograde/canonical and generic-provider legacy paths.
+        # get_amplitudes still receives original a/xI and owns signed-spin lookup.
+        if (
+            isinstance(self, KerrEccentricEquatorial)
+            and m_mode_sign < 0
+            and xI.size > 0
+            and self.xp.all(xI == -1.0)
+            and (specific_modes is None or isinstance(specific_modes, self.xp.ndarray))
+        ):
+            return self._equatorial_retrograde_array(
+                a, p, e, xI, *args, specific_modes=specific_modes, **kwargs
+            )
 
         if specific_modes is not None: # if the user has specified modes
             self.num_modes_eval = len(specific_modes)
@@ -146,5 +181,4 @@ class AmplitudeBase(ParallelModuleBase):
                     temp[lmkn] = (-1) ** (l + k) * self.xp.conj(temp[lmkn])
 
             return temp
-
 

@@ -1,0 +1,2565 @@
+{
+  "timestamp_cst": "2026-09-11T17:14:36.353886+08:00",
+  "passes": true,
+  "scope": "Sources/native/archive authentication and actual recorded contracts; no new H5 physics solve",
+  "checks": [
+    {
+      "name": "terminal/passes",
+      "passes": true
+    },
+    {
+      "name": "identity",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cpu_v2.npz",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "top-level init pinned",
+      "passes": true
+    },
+    {
+      "name": "all-contract separate",
+      "passes": true
+    },
+    {
+      "name": "raw-contract separate",
+      "passes": true
+    },
+    {
+      "name": "tuple preserved oracle",
+      "passes": true
+    },
+    {
+      "name": "34 arrays",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_0 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "terminal/passes",
+      "passes": true
+    },
+    {
+      "name": "identity",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cpu_v2.npz",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "top-level init pinned",
+      "passes": true
+    },
+    {
+      "name": "all-contract separate",
+      "passes": true
+    },
+    {
+      "name": "raw-contract separate",
+      "passes": true
+    },
+    {
+      "name": "tuple preserved oracle",
+      "passes": true
+    },
+    {
+      "name": "34 arrays",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_0 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "24 preserved",
+      "passes": true
+    },
+    {
+      "name": "10 corrected",
+      "passes": true
+    },
+    {
+      "name": "terminal/passes",
+      "passes": true
+    },
+    {
+      "name": "identity",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cuda12x_v2.npz",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "top-level init pinned",
+      "passes": true
+    },
+    {
+      "name": "all-contract separate",
+      "passes": true
+    },
+    {
+      "name": "raw-contract separate",
+      "passes": true
+    },
+    {
+      "name": "tuple preserved oracle",
+      "passes": true
+    },
+    {
+      "name": "34 arrays",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_0 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "terminal/passes",
+      "passes": true
+    },
+    {
+      "name": "identity",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cuda12x_v2.npz",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "top-level init pinned",
+      "passes": true
+    },
+    {
+      "name": "all-contract separate",
+      "passes": true
+    },
+    {
+      "name": "raw-contract separate",
+      "passes": true
+    },
+    {
+      "name": "tuple preserved oracle",
+      "passes": true
+    },
+    {
+      "name": "34 arrays",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_0_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_1_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_2_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_3_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "canonical_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_all FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_raw FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple finite/hash",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "direct_4_tuple FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_0 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_0_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_1 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_1_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_2 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_2_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_3 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_3_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_4 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_4_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_5 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_5_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6 shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "wave_6 FP64 complex",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes finite/hash",
+      "passes": true
+    },
+    {
+      "name": "wave_6_modes shape/dtype",
+      "passes": true
+    },
+    {
+      "name": "24 preserved",
+      "passes": true
+    },
+    {
+      "name": "10 corrected",
+      "passes": true
+    }
+  ],
+  "files": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cpu_v2.json": "cc54380fc04212f1c5c57e44f78bcde0446a79650e143507c0825b373ad34332",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py": "2323fced9795dfea50a4849ff957f91ae75959044f2ba9b1d56715ef74fca4ea",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cpu_v2.npz": "14624c9a4969dd35c03a0bdd3026a62c5331e2b013115fba389a2e90e14d74a0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/__init__.py": "4625a2f05ad5e2331902cc33a08c70add2e4d4c7582b0f868059ddf4083a3555",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cpu_v2.json": "2b8244234f96128337dc43b25e4ccdd44b41d9dd3f3fa658cebc9ae97a257bfc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cpu_v2.npz": "2475a465136a1d36034fbecaebf803f491cc6b3ff70a39f3ee8e1d0bb292a894",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/_editable.py": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/__init__.py": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/exceptions.py": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/__init__.py": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/config.py": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/registry.py": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/manager.py": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/__init__.py": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/__init__.py": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/__init__.py": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/citations.py": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/globals.py": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/__init__.py": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/constants.py": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/elliptic.py": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/utility.py": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/geodesic.py": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/kerrecceq.py": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/schwarzecc.py": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py": "99d59ce0be51365a3af2bfde7950e85979d72f8967992cb8744330530a52f78b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/ampinterp2d.py": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/romannet.py": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/base.py": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/aakwave.py": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/directmodesum.py": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/interpolatedmodesum.py": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/fdinterp.py": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/pn.py": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/base.py": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/dopr853.py": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/jacobian.py": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/base.py": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/flux.py": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/pn5.py": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/__init__.py": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/integrate.py": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/inspiral.py": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/ylm.py": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/modeselector.py": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/__init__.py": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/wrappers.py": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/__init__.py": "4625a2f05ad5e2331902cc33a08c70add2e4d4c7582b0f868059ddf4083a3555",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cuda12x_v2.json": "f02ba8a9d51b709c56c43185d5303fde95bab77cd5951db592ff35bf8d4240ba",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cuda12x_v2.npz": "5a25d8776d0048377e3d29a4dd390c2a99dcba71889306d6a82c98954db7532c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so": "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so": "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cuda12x_v2.json": "9d3a1b2f8b73feb2d2ac728e0ca8696cd4b07d140858c45c6fc0f7ef3df03e19",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cuda12x_v2.npz": "cedeeedd353c5cd6aaa4c1863e66345654d214643afd62de73f0ed8845479ad4"
+  },
+  "audit_sha256": "febdae96e0d907aa5c3102a971dda9cbc8a123dbaeb93f4837c4a198774c9dcb"
+}

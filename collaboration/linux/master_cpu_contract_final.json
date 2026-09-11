@@ -1,0 +1,167 @@
+{
+  "timestamp_cst": "2026-09-11T16:28:34.795184+08:00",
+  "terminal": true,
+  "evidence_valid": true,
+  "contract_passes": false,
+  "bug_reproduced": true,
+  "scope": "Existing same-backend master archive only, no new Teukolsky solve or full-waveform correctness claim",
+  "script": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_archive_probe.py",
+    "bytes": 8682,
+    "sha256": "5d7696fac920726b42a17fd691aab5d163f2aaf76f3cd26c3903452d1b75667d"
+  },
+  "reference_report": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/real_master_cpu_replay.json",
+    "bytes": 20875,
+    "sha256": "c25ad3930ed9e1054548e756da747030267a0ba480e49a4b9e2e386ba009bf2e"
+  },
+  "rows": [
+    {
+      "mode": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "tuple_matches_rotation": true,
+      "raw_matches_tuple": true,
+      "raw_max_abs_difference": 0.0,
+      "tuple_first": [
+        0.3624363376263055,
+        0.08395252044710379
+      ],
+      "raw_first": [
+        0.3624363376263055,
+        0.08395252044710379
+      ],
+      "all_matches_tuple": false,
+      "all_max_abs_difference": 0.16790504089420757,
+      "all_first": [
+        0.3624363376263055,
+        -0.08395252044710379
+      ]
+    },
+    {
+      "mode": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "tuple_matches_rotation": true,
+      "raw_matches_tuple": false,
+      "raw_max_abs_difference": 0.0005578421592364573,
+      "tuple_first": [
+        -2.3829411898800616e-07,
+        -4.156872122398723e-06
+      ],
+      "raw_first": [
+        6.50985233433331e-05,
+        -0.00020854512812430557
+      ],
+      "all_matches_tuple": false,
+      "all_max_abs_difference": 4.0077783343245885e-06,
+      "all_first": [
+        2.3829411898800616e-07,
+        -4.156872122398723e-06
+      ]
+    },
+    {
+      "mode": [
+        3,
+        -1,
+        0,
+        -2
+      ],
+      "tuple_matches_rotation": true,
+      "raw_matches_tuple": false,
+      "raw_max_abs_difference": 0.0005578421592364573,
+      "tuple_first": [
+        2.3829411898800616e-07,
+        -4.156872122398723e-06
+      ],
+      "raw_first": [
+        -6.50985233433331e-05,
+        -0.00020854512812430557
+      ]
+    },
+    {
+      "mode": [
+        2,
+        0,
+        0,
+        -1
+      ],
+      "tuple_matches_rotation": true,
+      "raw_matches_tuple": false,
+      "raw_max_abs_difference": 0.002306358294236276,
+      "tuple_first": [
+        0.007925187253854483,
+        0.0008392431778430795
+      ],
+      "raw_first": [
+        0.007925187253854483,
+        -0.0008392431778430795
+      ],
+      "all_matches_tuple": true,
+      "all_max_abs_difference": 0.0,
+      "all_first": [
+        0.007925187253854483,
+        0.0008392431778430795
+      ]
+    },
+    {
+      "mode": [
+        10,
+        10,
+        0,
+        55
+      ],
+      "tuple_matches_rotation": true,
+      "raw_matches_tuple": false,
+      "raw_max_abs_difference": 5.542359939684297e-12,
+      "tuple_first": [
+        -1.6859827180739403e-18,
+        -1.4624831908236019e-18
+      ],
+      "raw_first": [
+        -5.668756980583272e-17,
+        -5.189783482339811e-16
+      ],
+      "all_matches_tuple": false,
+      "all_max_abs_difference": 6.849311925439669e-15,
+      "all_first": [
+        -1.6859827180739403e-18,
+        1.4624831908236019e-18
+      ]
+    }
+  ],
+  "backend": "cpu",
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/real_master_cpu_replay.npz",
+    "bytes": 3058595,
+    "sha256": "1abee0d173a4e95c73ecfcddbc7f4d935e8bd0194ed108b0a9d1d5512c0dc291"
+  },
+  "data_identities_recorded_by_producer": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "selection_source": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+    "bytes": 6194,
+    "sha256": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17"
+  },
+  "mode_layout_source": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+    "bytes": 29143,
+    "sha256": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4"
+  }
+}

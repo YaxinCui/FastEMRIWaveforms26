@@ -1,0 +1,24 @@
+{
+  "timestamp_cst": "2026-09-11T16:40:20.974774+08:00",
+  "terminal": true,
+  "passes": true,
+  "backend": "cpu",
+  "returncode": 0,
+  "imported": {
+    "backend": "cpu",
+    "sources": {
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/tests/test_retrograde_contract.py": "3839eca8f45b0a6ea796867f5d197e62f9c1fd071922d86a7bf524e43c590380",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py": "99d59ce0be51365a3af2bfde7950e85979d72f8967992cb8744330530a52f78b",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4"
+    }
+  },
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_retrograde_contract",
+    "-v"
+  ],
+  "log": "RETROGRADE_META={\"backend\": \"cpu\", \"sources\": {\"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/tests/test_retrograde_contract.py\": \"3839eca8f45b0a6ea796867f5d197e62f9c1fd071922d86a7bf524e43c590380\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py\": \"99d59ce0be51365a3af2bfde7950e85979d72f8967992cb8744330530a52f78b\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py\": \"026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4\"}}\ntest_default_all_matches_named_mode_and_independent_labels (tests.test_retrograde_contract.RetrogradeContractTest.test_default_all_matches_named_mode_and_independent_labels) ... ok\ntest_distinct_n_and_minus_n_counterexample (tests.test_retrograde_contract.RetrogradeContractTest.test_distinct_n_and_minus_n_counterexample) ... ok\ntest_finite_mode_rotation_and_nonzero_initial_phase (tests.test_retrograde_contract.RetrogradeContractTest.test_finite_mode_rotation_and_nonzero_initial_phase) ... ok\ntest_generic_provider_keeps_legacy_route (tests.test_retrograde_contract.RetrogradeContractTest.test_generic_provider_keeps_legacy_route) ... ok\ntest_independent_harmonic_rotation (tests.test_retrograde_contract.RetrogradeContractTest.test_independent_harmonic_rotation) ... ok\ntest_raw_full_signed_catalogue_and_permutation_duplicates (tests.test_retrograde_contract.RetrogradeContractTest.test_raw_full_signed_catalogue_and_permutation_duplicates) ... ok\ntest_scalar_arrays_state_and_forwarded_input (tests.test_retrograde_contract.RetrogradeContractTest.test_scalar_arrays_state_and_forwarded_input) ... ok\ntest_tuple_prograde_and_canonical_contract_unchanged (tests.test_retrograde_contract.RetrogradeContractTest.test_tuple_prograde_and_canonical_contract_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.179s\n\nOK\n",
+  "script_sha256": "20f4518adf811df3b8a0b767be65da98213fad81f11ad1ec59e23efa5a4563a5"
+}

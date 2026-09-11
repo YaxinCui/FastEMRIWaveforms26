@@ -1,0 +1,984 @@
+{
+  "timestamp_cst": "2026-09-11T17:03:49.723805+08:00",
+  "terminal": true,
+  "passes": true,
+  "variant": "fixed",
+  "backend": "cuda12x",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "source_root": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract",
+  "producer": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/retrograde_real.py",
+    "sha256": "2323fced9795dfea50a4849ff957f91ae75959044f2ba9b1d56715ef74fca4ea",
+    "bytes": 11732
+  },
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "xp_version": "14.2.0",
+  "scope": "Actual FP64 amplitudes and short source waveforms; API contract, not independent physics truth or speed",
+  "cuda_host_time_adapter": true,
+  "checks": [
+    {
+      "label": "spin0_all_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin0_raw_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin0_tuple_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin1_all_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin1_raw_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin1_tuple_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin2_all_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin2_raw_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin2_tuple_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin3_all_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin3_raw_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin3_tuple_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin4_all_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin4_raw_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    },
+    {
+      "label": "spin4_tuple_rotation",
+      "passes": true,
+      "max_abs": 0.0
+    }
+  ],
+  "comparisons": [
+    {
+      "key": "canonical_0_all",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "direct_0_all",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_0_raw",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_0_tuple",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "canonical_1_all",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "direct_1_all",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_1_raw",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_1_tuple",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "canonical_2_all",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "direct_2_all",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_2_raw",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_2_tuple",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "canonical_3_all",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "direct_3_all",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_3_raw",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_3_tuple",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "canonical_4_all",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "direct_4_all",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_4_raw",
+      "byte_equal": false,
+      "allowed_contract_change": true
+    },
+    {
+      "key": "direct_4_tuple",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_0",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_0_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_1",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_1_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_2",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_2_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_3",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_3_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_4",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_4_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_5",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_5_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_6",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    },
+    {
+      "key": "wave_6_modes",
+      "byte_equal": true,
+      "allowed_contract_change": false
+    }
+  ],
+  "reference": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_master_cuda12x_v2.json",
+    "sha256": "f02ba8a9d51b709c56c43185d5303fde95bab77cd5951db592ff35bf8d4240ba",
+    "bytes": 25382
+  },
+  "amplitude_parameters": {
+    "spins": [
+      0.6,
+      -0.6,
+      0.0,
+      0.999,
+      -0.999
+    ],
+    "p": [
+      12.0,
+      14.0,
+      40.0
+    ],
+    "e": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "modes": [
+      [
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        -1,
+        0,
+        -2
+      ],
+      [
+        3,
+        0,
+        0,
+        -1
+      ],
+      [
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        10,
+        0,
+        55
+      ]
+    ]
+  },
+  "waveform_parameters": {
+    "settings": {
+      "T": 0.003,
+      "dt": 15.0,
+      "Phi_phi0": 0.3,
+      "Phi_theta0": 0.4,
+      "Phi_r0": 0.5
+    },
+    "cases": [
+      [
+        0.6,
+        12.0,
+        1.0,
+        null
+      ],
+      [
+        0.6,
+        12.0,
+        -1.0,
+        null
+      ],
+      [
+        -0.6,
+        12.0,
+        1.0,
+        null
+      ],
+      [
+        0.0,
+        12.0,
+        -1.0,
+        null
+      ],
+      [
+        0.999,
+        12.0,
+        1.0,
+        null
+      ],
+      [
+        0.6,
+        40.0,
+        1.0,
+        null
+      ],
+      [
+        0.6,
+        12.0,
+        -1.0,
+        [
+          [
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            2
+          ]
+        ]
+      ]
+    ],
+    "fixed": [
+      1000000.0,
+      10.0,
+      0.3,
+      1.1,
+      0.7,
+      1.0
+    ]
+  },
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+      "bytes": 336952
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+      "bytes": 103528
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+      "bytes": 398504
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+      "bytes": 91016
+    }
+  ],
+  "sources": {
+    "src/few/_editable.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/_editable.py",
+      "sha256": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb",
+      "bytes": 310,
+      "master_equal": true
+    },
+    "src/few/amplitude/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/__init__.py",
+      "sha256": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300",
+      "bytes": 297,
+      "master_equal": true
+    },
+    "src/few/utils/exceptions.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/exceptions.py",
+      "sha256": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15",
+      "bytes": 2554,
+      "master_equal": true
+    },
+    "src/few/cutils/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/__init__.py",
+      "sha256": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461",
+      "bytes": 23421,
+      "master_equal": true
+    },
+    "src/few/utils/config.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/config.py",
+      "sha256": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1",
+      "bytes": 28206,
+      "master_equal": true
+    },
+    "src/few/files/registry.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/registry.py",
+      "sha256": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2",
+      "bytes": 6337,
+      "master_equal": true
+    },
+    "src/few/files/manager.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/manager.py",
+      "sha256": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f",
+      "bytes": 19709,
+      "master_equal": true
+    },
+    "src/few/files/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/files/__init__.py",
+      "sha256": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4",
+      "bytes": 111,
+      "master_equal": true
+    },
+    "src/few/summation/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/__init__.py",
+      "sha256": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c",
+      "bytes": 246,
+      "master_equal": true
+    },
+    "src/few/trajectory/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/__init__.py",
+      "sha256": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440",
+      "bytes": 248,
+      "master_equal": true
+    },
+    "src/few/utils/citations.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/citations.py",
+      "sha256": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931",
+      "bytes": 11391,
+      "master_equal": true
+    },
+    "src/few/utils/globals.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/globals.py",
+      "sha256": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8",
+      "bytes": 15148,
+      "master_equal": true
+    },
+    "src/few/utils/mappings/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/__init__.py",
+      "sha256": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b",
+      "bytes": 165,
+      "master_equal": true
+    },
+    "src/few/utils/constants.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/constants.py",
+      "sha256": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81",
+      "bytes": 447,
+      "master_equal": true
+    },
+    "src/few/utils/elliptic.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/elliptic.py",
+      "sha256": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d",
+      "bytes": 8039,
+      "master_equal": true
+    },
+    "src/few/utils/utility.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/utility.py",
+      "sha256": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708",
+      "bytes": 18553,
+      "master_equal": true
+    },
+    "src/few/utils/geodesic.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/geodesic.py",
+      "sha256": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290",
+      "bytes": 43561,
+      "master_equal": true
+    },
+    "src/few/utils/mappings/kerrecceq.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/kerrecceq.py",
+      "sha256": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf",
+      "bytes": 16723,
+      "master_equal": true
+    },
+    "src/few/utils/baseclasses.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/baseclasses.py",
+      "sha256": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+      "bytes": 29143,
+      "master_equal": true
+    },
+    "src/few/utils/mappings/schwarzecc.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/schwarzecc.py",
+      "sha256": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9",
+      "bytes": 748,
+      "master_equal": true
+    },
+    "src/few/amplitude/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/base.py",
+      "sha256": "99d59ce0be51365a3af2bfde7950e85979d72f8967992cb8744330530a52f78b",
+      "bytes": 8318,
+      "master_equal": false
+    },
+    "src/few/amplitude/ampinterp2d.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/ampinterp2d.py",
+      "sha256": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+      "bytes": 25866,
+      "master_equal": true
+    },
+    "src/few/amplitude/romannet.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/amplitude/romannet.py",
+      "sha256": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a",
+      "bytes": 12532,
+      "master_equal": true
+    },
+    "src/few/summation/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/base.py",
+      "sha256": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971",
+      "bytes": 5350,
+      "master_equal": true
+    },
+    "src/few/summation/aakwave.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/aakwave.py",
+      "sha256": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3",
+      "bytes": 6205,
+      "master_equal": true
+    },
+    "src/few/summation/directmodesum.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/directmodesum.py",
+      "sha256": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1",
+      "bytes": 4543,
+      "master_equal": true
+    },
+    "src/few/summation/interpolatedmodesum.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/interpolatedmodesum.py",
+      "sha256": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f",
+      "bytes": 13413,
+      "master_equal": true
+    },
+    "src/few/summation/fdinterp.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/summation/fdinterp.py",
+      "sha256": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd",
+      "bytes": 20634,
+      "master_equal": true
+    },
+    "src/few/utils/mappings/pn.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/pn.py",
+      "sha256": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d",
+      "bytes": 8202,
+      "master_equal": true
+    },
+    "src/few/trajectory/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/base.py",
+      "sha256": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5",
+      "bytes": 6803,
+      "master_equal": true
+    },
+    "src/few/trajectory/dopr853.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/dopr853.py",
+      "sha256": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2",
+      "bytes": 25343,
+      "master_equal": true
+    },
+    "src/few/utils/mappings/jacobian.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/mappings/jacobian.py",
+      "sha256": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f",
+      "bytes": 3882,
+      "master_equal": true
+    },
+    "src/few/trajectory/ode/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/base.py",
+      "sha256": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44",
+      "bytes": 13839,
+      "master_equal": true
+    },
+    "src/few/trajectory/ode/flux.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/flux.py",
+      "sha256": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe",
+      "bytes": 27412,
+      "master_equal": true
+    },
+    "src/few/trajectory/ode/pn5.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/pn5.py",
+      "sha256": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0",
+      "bytes": 125903,
+      "master_equal": true
+    },
+    "src/few/trajectory/ode/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/ode/__init__.py",
+      "sha256": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183",
+      "bytes": 383,
+      "master_equal": true
+    },
+    "src/few/trajectory/integrate.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/integrate.py",
+      "sha256": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1",
+      "bytes": 26633,
+      "master_equal": true
+    },
+    "src/few/trajectory/inspiral.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/trajectory/inspiral.py",
+      "sha256": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9",
+      "bytes": 15633,
+      "master_equal": true
+    },
+    "src/few/utils/ylm.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/ylm.py",
+      "sha256": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d",
+      "bytes": 34869,
+      "master_equal": true
+    },
+    "src/few/utils/modeselector.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/utils/modeselector.py",
+      "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+      "bytes": 26456,
+      "master_equal": true
+    },
+    "src/few/waveform/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996,
+      "master_equal": true
+    },
+    "src/few/waveform/waveform.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/waveform.py",
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+      "bytes": 34884,
+      "master_equal": true
+    },
+    "src/few/waveform/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/waveform/__init__.py",
+      "sha256": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4",
+      "bytes": 596,
+      "master_equal": true
+    },
+    "src/few/cutils/wrappers.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/src/few/cutils/wrappers.py",
+      "sha256": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33",
+      "bytes": 2298,
+      "master_equal": true
+    }
+  },
+  "contract_passes": true,
+  "bug_reproduced": false,
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp13-retrograde-amplitude-contract/collaboration/linux/real_fixed_cuda12x_v2.npz",
+    "sha256": "cedeeedd353c5cd6aaa4c1863e66345654d214643afd62de73f0ed8845479ad4",
+    "bytes": 6755977
+  },
+  "array_manifest": {
+    "canonical_0_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "362a971f0a59c75d80a25eaed99f516122cb14517c6f4a85f1df05d8576709c0"
+    },
+    "direct_0_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "d23ce6328040237a12bf613aa2f56e08f00b5d6296ade09c619332f41e36e746"
+    },
+    "direct_0_raw": {
+      "shape": [
+        3,
+        12990
+      ],
+      "dtype": "complex128",
+      "sha256": "fe2d16f17aac7f3c70867b2ec04d70453dfc7e8724697ccd46838ab451fbf509"
+    },
+    "direct_0_tuple": {
+      "shape": [
+        3,
+        7
+      ],
+      "dtype": "complex128",
+      "sha256": "48dd55bc0096f2c881903873429159616d5d9e0b3ea80f4ce7214cc995796fe1"
+    },
+    "canonical_1_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "a9538d035c22e0bda0554776e25e21f4b0114ac71998410e0a05cf281dd15c3c"
+    },
+    "direct_1_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "03e91f5ff91ddedc780a61711027697114485dd00998a01d56044b143db6ca2d"
+    },
+    "direct_1_raw": {
+      "shape": [
+        3,
+        12990
+      ],
+      "dtype": "complex128",
+      "sha256": "3a32f292d1eb6bac3254f1bb22d808776cc1dd9c4e08a32f4b725bc7b43ef0fe"
+    },
+    "direct_1_tuple": {
+      "shape": [
+        3,
+        7
+      ],
+      "dtype": "complex128",
+      "sha256": "385504d85be6e1c2a11f46a5810518d2b9fdd89cf1365ef244af0b729c4ac491"
+    },
+    "canonical_2_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "3f7e5868429047fa91f0699276ae6ff7e198a14f416446eaa1f9239dc6784f41"
+    },
+    "direct_2_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "898a01e88bcbcf0793d8e46222e5c0efed7f46fa8655d059742689c5dc6e23f7"
+    },
+    "direct_2_raw": {
+      "shape": [
+        3,
+        12990
+      ],
+      "dtype": "complex128",
+      "sha256": "ca6392fb1ef216ba3ebc230cef2c19d5b6dedde279956d10761cd6c01952489f"
+    },
+    "direct_2_tuple": {
+      "shape": [
+        3,
+        7
+      ],
+      "dtype": "complex128",
+      "sha256": "66ac6b03c875dbba8f077166486a53f0ebc6f1db264382fa75f9ce99101fc379"
+    },
+    "canonical_3_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "56d3657497a5c54b3dcfd9332967769a329e30e94a8770529b8d455e2e4f7a80"
+    },
+    "direct_3_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "26c3b7148a4353c50a8d3f955b8fd22e924533c0004222b1ab8e55c01f231d48"
+    },
+    "direct_3_raw": {
+      "shape": [
+        3,
+        12990
+      ],
+      "dtype": "complex128",
+      "sha256": "eaa4146feb13d71c9f03a0887c347905265e87cf36382622f99b03f6a4b427f1"
+    },
+    "direct_3_tuple": {
+      "shape": [
+        3,
+        7
+      ],
+      "dtype": "complex128",
+      "sha256": "830b04de054ebdf091059c9f7d75ebe098247a828369dfa7c12ccb8a4f6c5a1b"
+    },
+    "canonical_4_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "e5822ac4460c78dea85f6692fb623243628e0fc238b83a0be1573729cba6af1d"
+    },
+    "direct_4_all": {
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "fbf0f07898ce9e41c99bdd7e6ce917b1f8b7a97f80f3980f1ccac64f5372adf5"
+    },
+    "direct_4_raw": {
+      "shape": [
+        3,
+        12990
+      ],
+      "dtype": "complex128",
+      "sha256": "3e9ad863fda6584fa0cd94bd1d90f6816ce1998ddbd586c7ca4014e5defa844f"
+    },
+    "direct_4_tuple": {
+      "shape": [
+        3,
+        7
+      ],
+      "dtype": "complex128",
+      "sha256": "54d5632bd48e564000bbb5b94b885e21ee1fc7bebc0c3fd0cb56d5bec8832e6c"
+    },
+    "wave_0": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "74ecce7248b201f5d332cd8e94af5fd790f9470048d9374589ca2d61d178d120"
+    },
+    "wave_0_modes": {
+      "shape": [
+        4,
+        89
+      ],
+      "dtype": "int32",
+      "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+    },
+    "wave_1": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "9ece3f6314a4b5f6c4b74a3f7c1d49761e82811117606b166c91f1789fcd9bf9"
+    },
+    "wave_1_modes": {
+      "shape": [
+        4,
+        99
+      ],
+      "dtype": "int32",
+      "sha256": "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea"
+    },
+    "wave_2": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "2bf8efdea7789d701f3c321118791d7998a12d8807bc356a1c0e4e0c1dea2777"
+    },
+    "wave_2_modes": {
+      "shape": [
+        4,
+        99
+      ],
+      "dtype": "int32",
+      "sha256": "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea"
+    },
+    "wave_3": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "5234f7b0dc961dce6e87550a6c77440a822c8d10787076bafd681eeec13dec48"
+    },
+    "wave_3_modes": {
+      "shape": [
+        4,
+        91
+      ],
+      "dtype": "int32",
+      "sha256": "1abf23ee09b61f8c7e5985abe5c55130eb2b78650a1e7c12cb43bfebf69cbfd7"
+    },
+    "wave_4": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "06b971d62fb498c74ad6a3ba4b3046b37c96def277f2dc864d6ea0d5b5c3d411"
+    },
+    "wave_4_modes": {
+      "shape": [
+        4,
+        87
+      ],
+      "dtype": "int32",
+      "sha256": "5312ca800d8c2de4ccd7b06a1de06f883d3db344490b62986bec3e953459b2e6"
+    },
+    "wave_5": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "088bebde294a6ad48432ee3d312225161bdf5bb707f91ecb92989719676478d3"
+    },
+    "wave_5_modes": {
+      "shape": [
+        4,
+        55
+      ],
+      "dtype": "int32",
+      "sha256": "3368256fed6c0db8469d5dec653cef642a5978210c209b4a902cbf225619626b"
+    },
+    "wave_6": {
+      "shape": [
+        6312
+      ],
+      "dtype": "complex128",
+      "sha256": "97beb2b3e3d8fae978621701c54c5c4a5e89abc3790583a5bd923a2481772bb5"
+    },
+    "wave_6_modes": {
+      "shape": [
+        4,
+        2
+      ],
+      "dtype": "int64",
+      "sha256": "f34adbcbf98f612fa7452eb49456a619c0aa511f8b484ad6591480c0eea78492"
+    }
+  }
+}
