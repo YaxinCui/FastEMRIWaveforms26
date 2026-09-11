@@ -1,0 +1,44 @@
+{
+  "timestamp_cst": "2026-09-11T15:25:47.258911+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "backend": "cpu",
+  "guarded": false,
+  "passes": false,
+  "terminal": true,
+  "scope": "Actual table amplitude/selector same-entry regression; CPU short source waveforms. Not independent physics or speed certification.",
+  "cuda_full_waveform": "Not tested: independent master host/CuPy derivative boundary (exp04) is outside this branch",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "sha256": "eadb64d94bfec9a44d17e44aeac10734b99569457bea013fed0a7f6207c7d1ac",
+      "bytes": 13871
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "sha256": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+      "bytes": 6194
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+      "bytes": 26456
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+      "bytes": 34884
+    }
+  ],
+  "arrays": [],
+  "compatibility": [],
+  "invalid_requests": [],
+  "error": {
+    "type": "TypeError",
+    "message": "argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
+  }
+}

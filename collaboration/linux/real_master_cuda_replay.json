@@ -1,0 +1,423 @@
+{
+  "timestamp_cst": "2026-09-11T15:26:54.912248+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "backend": "cuda12x",
+  "guarded": false,
+  "passes": true,
+  "terminal": true,
+  "scope": "Actual table amplitude/selector same-entry regression; CPU short source waveforms. Not independent physics or speed certification.",
+  "cuda_full_waveform": "Not tested: independent master host/CuPy derivative boundary (exp04) is outside this branch",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "sha256": "5ee31ca5910639ce4fdb1a61792c84eebf1a90be31d171df275980c23c82dc2d",
+      "bytes": 14042
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "sha256": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+      "bytes": 6194
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+      "bytes": 26456
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+      "bytes": 34884
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "sha256": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+      "bytes": 25866
+    }
+  ],
+  "arrays": [
+    {
+      "key": "prograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "cfddc66c6b610f1421e988f59f417bc246e734a44242fc3ffab9ccf371ac5cfb"
+    },
+    {
+      "key": "prograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "a01805864ef9d1d4e35d5fa0dcbe324dcf087d7cdb1310d0fef33b776a11ff94"
+    },
+    {
+      "key": "prograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "a01805864ef9d1d4e35d5fa0dcbe324dcf087d7cdb1310d0fef33b776a11ff94"
+    },
+    {
+      "key": "prograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "a01805864ef9d1d4e35d5fa0dcbe324dcf087d7cdb1310d0fef33b776a11ff94"
+    },
+    {
+      "key": "prograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f"
+    },
+    {
+      "key": "prograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d"
+    },
+    {
+      "key": "prograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06"
+    },
+    {
+      "key": "prograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400"
+    },
+    {
+      "key": "prograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d"
+    },
+    {
+      "key": "canonical_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "5eb952d08c613077a6854c221fee1248d1a75314d2b6b1b902589224321371f1"
+    },
+    {
+      "key": "canonical_retrograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "41830c855f4a1a35b86e583e3fe76687bdd238fc8d66d0de185137a41d69e656"
+    },
+    {
+      "key": "canonical_retrograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "41830c855f4a1a35b86e583e3fe76687bdd238fc8d66d0de185137a41d69e656"
+    },
+    {
+      "key": "canonical_retrograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "41830c855f4a1a35b86e583e3fe76687bdd238fc8d66d0de185137a41d69e656"
+    },
+    {
+      "key": "canonical_retrograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f"
+    },
+    {
+      "key": "canonical_retrograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d"
+    },
+    {
+      "key": "canonical_retrograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06"
+    },
+    {
+      "key": "canonical_retrograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400"
+    },
+    {
+      "key": "canonical_retrograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d"
+    },
+    {
+      "key": "direct_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "304029496a9441273fd26bb0db5019b39ecf1269358b7118e2941aa4f2fa48c8"
+    },
+    {
+      "key": "direct_retrograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "c627b0a7c2a580b55aa9472f18897270d051634ed0d03863b3772bb848065ba2"
+    },
+    {
+      "key": "direct_retrograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "e14a6de0bd149dae91f75be94bd7b8c5104a70c2ac271b3933d3689bca982931"
+    },
+    {
+      "key": "direct_retrograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "e14a6de0bd149dae91f75be94bd7b8c5104a70c2ac271b3933d3689bca982931"
+    },
+    {
+      "key": "direct_retrograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f"
+    },
+    {
+      "key": "direct_retrograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d"
+    },
+    {
+      "key": "direct_retrograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06"
+    },
+    {
+      "key": "direct_retrograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400"
+    },
+    {
+      "key": "direct_retrograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d"
+    }
+  ],
+  "compatibility": [],
+  "invalid_requests": [
+    {
+      "entry": "amplitude",
+      "rejected": false,
+      "aliases": [
+        2,
+        2,
+        0,
+        -55
+      ],
+      "byte_equal": true,
+      "max_amplitude": 2.5351769097123517e-14
+    },
+    {
+      "entry": "selector",
+      "rejected": false,
+      "aliases": [
+        2,
+        2,
+        0,
+        -55
+      ],
+      "byte_equal": true,
+      "max_amplitude": 2.5351769097123517e-14
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+      "bytes": 336952
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+      "bytes": 103528
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+      "bytes": 398504
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+      "bytes": 91016
+    }
+  ],
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "xp": "cupy",
+  "modes": [
+    [
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      2
+    ],
+    [
+      3,
+      -1,
+      0,
+      -2
+    ],
+    [
+      3,
+      1,
+      0,
+      -2
+    ],
+    [
+      3,
+      -1,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      0,
+      -1
+    ],
+    [
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      10,
+      10,
+      0,
+      55
+    ],
+    [
+      10,
+      -10,
+      0,
+      -55
+    ]
+  ],
+  "full_ids": [
+    1165,
+    1278,
+    7268,
+    1274,
+    7272,
+    54,
+    56,
+    6992,
+    12876
+  ],
+  "amplitude_cases": [
+    [
+      "prograde",
+      0.6,
+      1.0
+    ],
+    [
+      "canonical_retrograde",
+      -0.6,
+      1.0
+    ],
+    [
+      "direct_retrograde",
+      0.6,
+      -1.0
+    ]
+  ],
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cuda_replay.npz",
+    "sha256": "40603109335cb1a3363051bd7829ab7f10530173b46fa5b8c5061194f705cfc6",
+    "bytes": 940756
+  }
+}

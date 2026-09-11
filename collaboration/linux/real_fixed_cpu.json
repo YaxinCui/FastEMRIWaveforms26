@@ -1,0 +1,722 @@
+{
+  "timestamp_cst": "2026-09-11T15:27:47.245174+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "backend": "cpu",
+  "guarded": true,
+  "passes": true,
+  "terminal": true,
+  "scope": "Actual table amplitude/selector same-entry regression; CPU short source waveforms. Not independent physics or speed certification.",
+  "cuda_full_waveform": "Not tested: independent master host/CuPy derivative boundary (exp04) is outside this branch",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "sha256": "5ee31ca5910639ce4fdb1a61792c84eebf1a90be31d171df275980c23c82dc2d",
+      "bytes": 14042
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "sha256": "ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a",
+      "bytes": 6598
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "sha256": "2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9",
+      "bytes": 25216
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/waveform.py",
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+      "bytes": 34884
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "sha256": "1c5fbcfb3f64fb896ae23c56f70b4b76a13f39f0cc12e5ad2c0384581d02d8cd",
+      "bytes": 3065
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/ampinterp2d.py",
+      "sha256": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+      "bytes": 25866
+    }
+  ],
+  "arrays": [
+    {
+      "key": "prograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "7b863717fc78f606e3ba657ddabf70c9f5bf1e14586188535bb1a0263843bb63",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "764def94ac4b6d87b08963bfd3f133e491409a008528c995e1da7ab3635a0464",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "764def94ac4b6d87b08963bfd3f133e491409a008528c995e1da7ab3635a0464",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "764def94ac4b6d87b08963bfd3f133e491409a008528c995e1da7ab3635a0464",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "37296c8a91ad046a52c4ef7b88979ba5762bfc410ae40fb6c891da0bf31bef0a",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "7f1e7c60b826799d23b2b4307ee0cadc60049137ef91c7de2ed38a1272d2f6a3",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "7f1e7c60b826799d23b2b4307ee0cadc60049137ef91c7de2ed38a1272d2f6a3",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "7f1e7c60b826799d23b2b4307ee0cadc60049137ef91c7de2ed38a1272d2f6a3",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "dec0f9013863e5a762b4b74deca2c10aea626d7afb849f8d94c43e85001dbb3f",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_tuples",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "b93acb76b8916640b0fc76878f42dbe6ca7d27a174b2109949496ce0b77e7edd",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_raw_ids",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "2f75e5f83fb8103c1cea919383130301298ca8374a3c7ea4161339f90f622a55",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_0",
+      "shape": [
+        3,
+        9
+      ],
+      "dtype": "complex128",
+      "sha256": "2f75e5f83fb8103c1cea919383130301298ca8374a3c7ea4161339f90f622a55",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_1",
+      "shape": [
+        18
+      ],
+      "dtype": "complex128",
+      "sha256": "03367885a7aef9e468e464c07b48f5cb3ed6a9703eec4f5910e0436e8137847f",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_2",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "e982ffa8e760ed03e795fb9d347749f3a115ff5f480c5b07e49681e92c1f8e3d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_3",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "2a6dd77d92d262367315e2aa543c2dee7186d31b2c2d94569df21efa9768ea06",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_4",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_selector_5",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "sha256": "fac4f9e5ec845df6a5fb614d3f395e60f39a82d8f8b087c12bea3eecd181e29d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_threshold",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "cc23b298589258c2cc9a9eb726d526f96378f890c94811bc6afe830425b920a8",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_threshold_modes",
+      "shape": [
+        4,
+        89
+      ],
+      "dtype": "int32",
+      "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_all",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "73a5860ea3f07eba6bbeaef1ce002a51573eeb49ab850067a4583354cdf1e129",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_all_modes",
+      "shape": [
+        4,
+        6993
+      ],
+      "dtype": "int32",
+      "sha256": "feb6480ba002fa24449035aca6531a30ead2f7aa1beb8a3a03edcb23c3b47c35",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_positive",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "49dff960871da43695bdce71cd326c97ebcd3e02d7e9d8a7ccf7ef7a933ef6ef",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_positive_modes",
+      "shape": [
+        4,
+        3
+      ],
+      "dtype": "int64",
+      "sha256": "9dc2a975db6d99b84a945de78b4278eaf3f5c6dab3d221096263f48a1a7b09bf",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_signed",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "9cbbd6c325a4da5c0bfc7d55d97cd31c707a667e496fb9addec93e0294fced6e",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_prograde_signed_modes",
+      "shape": [
+        4,
+        3
+      ],
+      "dtype": "int64",
+      "sha256": "388bdaa2cc6523a1369bef2984f2cfc2a54110c069a80fa1bb21945b2672fe7d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_threshold",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "1b2d6c08c5c3d312c80f2f01140eb4ea4165a08b6b6ab1834b746fc646d9a62d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_threshold_modes",
+      "shape": [
+        4,
+        99
+      ],
+      "dtype": "int32",
+      "sha256": "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_all",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "c4797233068c5c7aef7b86854823e063fa3af0afb5f92438b078b6017b1c2100",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_all_modes",
+      "shape": [
+        4,
+        6993
+      ],
+      "dtype": "int32",
+      "sha256": "feb6480ba002fa24449035aca6531a30ead2f7aa1beb8a3a03edcb23c3b47c35",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_positive",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "ffab6d7127152b19d70b19da4a0db70eea19b203a1bfe38a7336f510cf9f57f9",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_positive_modes",
+      "shape": [
+        4,
+        3
+      ],
+      "dtype": "int64",
+      "sha256": "9dc2a975db6d99b84a945de78b4278eaf3f5c6dab3d221096263f48a1a7b09bf",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_signed",
+      "shape": [
+        211
+      ],
+      "dtype": "complex128",
+      "sha256": "dfbec825a0295cce2ef81b06d7849cb49f15f1c58f357348841f71182e684ffc",
+      "master_byte_equal": true
+    },
+    {
+      "key": "wave_retrograde_signed_modes",
+      "shape": [
+        4,
+        3
+      ],
+      "dtype": "int64",
+      "sha256": "388bdaa2cc6523a1369bef2984f2cfc2a54110c069a80fa1bb21945b2672fe7d",
+      "master_byte_equal": true
+    }
+  ],
+  "compatibility": [
+    {
+      "label": "prograde_host_raw_ids",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_0",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_1",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_2",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_3",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_4",
+      "byte_equal": true
+    },
+    {
+      "label": "prograde_selector_array_5",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_host_raw_ids",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_0",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_1",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_2",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_3",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_4",
+      "byte_equal": true
+    },
+    {
+      "label": "canonical_retrograde_selector_array_5",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_host_raw_ids",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_0",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_1",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_2",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_3",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_4",
+      "byte_equal": true
+    },
+    {
+      "label": "direct_retrograde_selector_array_5",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_prograde_positive_array_call",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_prograde_positive_array_constructor_default",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_prograde_signed_array_call",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_prograde_signed_array_constructor_default",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_retrograde_positive_array_call",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_retrograde_positive_array_constructor_default",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_retrograde_signed_array_call",
+      "byte_equal": true
+    },
+    {
+      "label": "wave_retrograde_signed_array_constructor_default",
+      "byte_equal": true
+    }
+  ],
+  "invalid_requests": [
+    {
+      "entry": "amplitude",
+      "rejected": true,
+      "error": "Requested mode is unphysical or outside the model's covered mode domain"
+    },
+    {
+      "entry": "selector",
+      "rejected": true,
+      "error": "Requested mode is unphysical or outside the model's covered mode domain"
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+      "bytes": 82672
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+      "bytes": 70400
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+      "bytes": 9866272
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+      "bytes": 74240
+    }
+  ],
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "reference": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cpu_replay.npz",
+    "sha256": "b874256d91be34bf134c5db5cce5f5ed72f57430050c66bc75350f0d18c0e0b9",
+    "bytes": 972258
+  },
+  "xp": "numpy",
+  "modes": [
+    [
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      2
+    ],
+    [
+      3,
+      -1,
+      0,
+      -2
+    ],
+    [
+      3,
+      1,
+      0,
+      -2
+    ],
+    [
+      3,
+      -1,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      0,
+      -1
+    ],
+    [
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      10,
+      10,
+      0,
+      55
+    ],
+    [
+      10,
+      -10,
+      0,
+      -55
+    ]
+  ],
+  "full_ids": [
+    1165,
+    1278,
+    7268,
+    1274,
+    7272,
+    54,
+    56,
+    6992,
+    12876
+  ],
+  "amplitude_cases": [
+    [
+      "prograde",
+      0.6,
+      1.0
+    ],
+    [
+      "canonical_retrograde",
+      -0.6,
+      1.0
+    ],
+    [
+      "direct_retrograde",
+      0.6,
+      -1.0
+    ]
+  ],
+  "waveform_settings": {
+    "T": 0.0001,
+    "dt": 15.0,
+    "Phi_phi0": 0.3,
+    "Phi_theta0": 0.4,
+    "Phi_r0": 0.5
+  },
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cpu.npz",
+    "sha256": "b874256d91be34bf134c5db5cce5f5ed72f57430050c66bc75350f0d18c0e0b9",
+    "bytes": 972258
+  }
+}

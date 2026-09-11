@@ -3,6 +3,7 @@ from typing import Optional, Union
 import numpy as np
 
 from ..utils.baseclasses import ParallelModuleBase
+from ..utils.modeindices import flat_indices, mode_tuples
 
 
 class AmplitudeBase(ParallelModuleBase):
@@ -80,30 +81,30 @@ class AmplitudeBase(ParallelModuleBase):
             m_mode_sign = 1
 
         if specific_modes is not None: # if the user has specified modes
-            self.num_modes_eval = len(specific_modes)
-            if isinstance(specific_modes, self.xp.ndarray):
-                mode_indexes = specific_modes.copy()
+            if isinstance(specific_modes, (np.ndarray, self.xp.ndarray)):
+                # 2026-09-11 15:00 CST (linux): IDs include the signed catalogue
+                # tail, but negative Python indices and out-of-range IDs do not.
+                mode_indexes = flat_indices(specific_modes, len(self.l_arr), self.xp)
                 # Identify requested negative mkn modes, the conjugate relation must be applied at the end
                 conj_mode_mask = mode_indexes >= self.num_teuk_modes
                 mode_indexes[conj_mode_mask] = self.negative_mode_indexes[mode_indexes[conj_mode_mask] - self.num_m_1_up]
 
             elif isinstance(specific_modes, list):
-                specific_modes_arr = self.xp.asarray(specific_modes)
+                specific_modes_arr = mode_tuples(specific_modes, self.special_index_map_arr.shape, self.xp)
+                host_modes = specific_modes_arr.get() if self.backend.uses_cupy else specific_modes_arr
+                specific_modes = [tuple(row) for row in host_modes.tolist()]
                 mode_indexes = self.special_index_map_arr[
                     specific_modes_arr[:, 0],
                     m_mode_sign * specific_modes_arr[:, 1],  # may need fix for array mode index input?
                     specific_modes_arr[:, 2],
                     specific_modes_arr[:, 3],
                 ] # find locations of the modes in the special index map array
-                if self.xp.any(mode_indexes == -1):
-                    failed_mode = specific_modes_arr[
-                        self.xp.where(mode_indexes == -1)[0][0]
-                    ]
-                    raise ValueError(
-                        f"Could not find mode index ({failed_mode[0]},{failed_mode[1]},{failed_mode[2]},{failed_mode[3]})."
-                    )
+                mode_indexes = flat_indices(mode_indexes, self.num_teuk_modes, self.xp)
             else:
-                mode_indexes = specific_modes
+                raise ValueError("specific_modes must be a tuple list or a 1D integer ID array")
+            # 2026-09-11 15:18 CST (linux): Validate dimensionality before len,
+            # including zero-dimensional arrays passed as raw mode IDs.
+            self.num_modes_eval = len(mode_indexes)
         else: # if the user has not specified modes
             if m_mode_sign < 0: # check to see whether xI is negative
                 mode_indexes = self.negative_mode_indexes # if so, use negative m-modes. Note this is defined in SphericalHarmonic base class
@@ -125,7 +126,7 @@ class AmplitudeBase(ParallelModuleBase):
             if self.xp.any(conj_mode_mask):
                 # apply +/- m symmetry
                 teuk_modes[:, conj_mode_mask] = (
-                    (-1) ** (self.l_arr + self.k_arr)[mode_indexes[conj_mode_mask]]
+                    (1 - 2*((self.l_arr + self.k_arr)[mode_indexes[conj_mode_mask]] % 2))
                     * self.xp.conj(teuk_modes[:, conj_mode_mask])
                 )
             
@@ -146,5 +147,3 @@ class AmplitudeBase(ParallelModuleBase):
                     temp[lmkn] = (-1) ** (l + k) * self.xp.conj(temp[lmkn])
 
             return temp
-
-

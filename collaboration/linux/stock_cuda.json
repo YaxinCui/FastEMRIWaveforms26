@@ -1,0 +1,16 @@
+{
+  "timestamp_cst": "2026-09-11T15:33:27.905127+08:00",
+  "terminal": true,
+  "passes": true,
+  "backend": "cuda12x",
+  "tests": 1,
+  "skipped": 0,
+  "log": "test_kerrecceq (tests.test_amplitudes.AmplitudesTest.test_kerrecceq) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 9.455s\n\nOK\n",
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_checks.py": "9ab46941219acbc1e8d861f9cf2a5ac2ac054c0a3500563cae7486c02bbeae2d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_amplitudes.py": "3a02223c2920f58ad406ad3c75b487e943d567d6b2163d04ac158239a1803173",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py": "ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py": "2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9"
+  },
+  "scope": "Unmodified stock tests only; Kerr fixture indentation defect is not repaired or certified here"
+}

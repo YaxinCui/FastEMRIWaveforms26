@@ -4,6 +4,7 @@ import numpy as np
 
 from .baseclasses import BackendLike, ParallelModuleBase
 from .globals import get_logger
+from .modeindices import flat_indices, mode_tuples
 
 from .ylm import GetYlms
 from ..trajectory.inspiral import EMRIInspiral
@@ -137,42 +138,6 @@ class ModeSelector(ParallelModuleBase):
         self.negative_m_flag = False  # flag to check if m < 0 modes are included
         """bool: Specifies whether there are negative m-modes in mode_selection."""
 
-        if isinstance(self.mode_selection, str) and self.mode_selection not in [
-            "all",
-            "threshold",
-        ]:
-            raise ValueError(
-                "If mode_selection is a string, it must be either 'all', 'threshold', or None."
-            )
-        elif isinstance(self.mode_selection, list):
-            # Do not allow empty lists
-            if len(self.mode_selection) == 0:
-                raise ValueError("If mode selection is a list, cannot be empty.")
-
-            # Do not allow duplicate modes
-            if self.xp.any(
-                self.xp.unique(
-                    self.xp.asarray(mode_selection), return_counts=True, axis=0
-                )[1]
-                > 1
-            ):
-                raise ValueError("Mode selection has duplicate modes.")
-
-            # Check if m < 0 modes are included. Warn user of potential errors this might cause if true.
-            self.mode_arr = self.xp.asarray(self.mode_selection)
-            if self.xp.any(self.mode_arr[:, 1] < 0):
-                get_logger().warning(
-                    "(ModeSelector) Warning: Only supports mode_selection with m < 0 if include_minus_mkn = False. May lead to error during evaluation."
-                )
-                self.negative_m_flag = True
-            if self.xp.any(self.xp.abs(self.mode_arr[:, 1]) > self.mode_arr[:, 0]):
-                raise ValueError("Mode selection has unphysical |m| > l mode(s).")
-            if self.xp.any(self.mode_arr[:, 0] < 2):
-                raise ValueError("Mode selection has unphysical l < 2 mode(s).")
-
-        else:
-            self.mode_arr = None
-
         self.mode_selection_threshold = mode_selection_threshold
         """float: Target mismatch threshold for mode selection. Modes will be selected such that the mismatch is approximately equal to this value."""
 
@@ -182,9 +147,43 @@ class ModeSelector(ParallelModuleBase):
             self.modeinds_map = self.xp.asarray(modeinds_map)
             assert self.modeinds_map.ndim == 4, "Modeinds map must be a 4D array."
 
+        # 2026-09-11 15:00 CST (linux): Shared validation for construction and
+        # calls; shape-derived bounds preserve snapshot/custom-map adapters.
+        self.mode_arr = self._validated_mode_array(self.mode_selection)
+        if self.mode_arr is not None:
+            # 2026-09-11 15:18 CST (linux): Own constructor defaults, matching
+            # legacy list snapshots and avoiding array truth in wavefront code.
+            host_modes = self.mode_arr.get() if self.backend.uses_cupy else self.mode_arr
+            self.mode_selection = [tuple(row) for row in host_modes.tolist()]
+        self.negative_m_flag = self.mode_arr is not None and bool(self.xp.any(self.mode_arr[:, 1] < 0))
+        if self.negative_m_flag and include_minus_mkn:
+            get_logger().warning("(ModeSelector) Negative m requests require include_minus_mkn=False at evaluation.")
+
     @classmethod
     def supported_backends(cls):
         return cls.GPU_RECOMMENDED()
+
+    def _validated_mode_array(self, selection):
+        if selection is None:
+            return None
+        if isinstance(selection, str):
+            if selection not in ("all", "threshold"):
+                raise ValueError("mode_selection must be 'all', 'threshold', None, or an (N,4) mode list/array")
+            return None
+        if not isinstance(selection, (list, np.ndarray, self.xp.ndarray)):
+            raise ValueError("Explicit mode selection must be a list or an (N,4) integer array")
+        # A custom map may narrow coverage, but must not enlarge the physical
+        # catalogue of the amplitude generator simply by allocating extra slots.
+        # 2026-09-11 15:18 CST (linux): Preserve custom-only adapters; when a
+        # native catalogue exists, neither its bounds nor holes can be enlarged.
+        native_map = getattr(self.amplitude_generator, "index_map_arr", None)
+        native_shape = native_map.shape if native_map is not None else self.modeinds_map.shape
+        modes = mode_tuples(selection, native_shape, self.xp, unique=True)
+        if native_map is not None:
+            flat_indices(native_map[tuple(modes.T)], len(self.amplitude_generator.l_arr), self.xp)
+        if self.modeinds_map.shape != native_shape:
+            modes = mode_tuples(modes, self.modeinds_map.shape, self.xp)
+        return modes
 
     def _set_defaults_and_check_inputs(self, mode_selection, mode_selection_threshold, include_minus_mkn,):
         if include_minus_mkn is None:
@@ -193,56 +192,14 @@ class ModeSelector(ParallelModuleBase):
         # If mode_selection is None, default to values specified at instantiation
         if mode_selection is None:
             mode_selection = self.mode_selection
-            mode_arr = self.mode_arr
-            if self.negative_m_flag and include_minus_mkn:
-                raise ValueError(
-                    "Only supports mode_selection with m >= 0 when include_minus_mkn = True."
-                )
-        # if it is a string, check if it is 'all' or 'threshold'. If so, return all modes
-        elif isinstance(mode_selection, str) and mode_selection not in [
-            "all",
-            "threshold",
-        ]:
-            raise ValueError(
-                "If mode_selection is a string, it must be either 'all', 'threshold', or None."
-            )
-        # if it is a list of modes, make sure it passes checks
-        elif isinstance(mode_selection, list):
-            if len(mode_selection) == 0:
-                raise ValueError("If mode selection is a list, cannot be empty.")
-
-            # warn if mode selection is large and user provides a list of tuples
-            if len(mode_selection) > 50:
-                # warnings.warn("Mode selection is large. Instantiate class with mode selection rather than providing it at call time for better performance.")
-                get_logger().warning(
-                    "(ModeSelector) Warning: Mode selection is large. Instantiate class with mode selection rather than providing it at call time for better performance."
-                )
-
-            if self.xp.any(
-                self.xp.unique(
-                    self.xp.asarray(mode_selection), return_counts=True, axis=0
-                )[1]
-                > 1
-            ):
-                raise ValueError("Mode selection has duplicate modes.")
-
-            mode_arr = self.xp.asarray(mode_selection)
-            if include_minus_mkn:
-                if self.xp.any(mode_arr[:, 1] < 0):
-                    raise ValueError(
-                        "Only supports mode_selection with m >= 0 when include_minus_mkn = True."
-                    )
-            if self.xp.any(self.xp.abs(mode_arr[:, 1]) > mode_arr[:, 0]):
-                raise ValueError("Mode selection has unphysical |m| > l mode(s).")
-            if self.xp.any(mode_arr[:, 0] < 2):
-                raise ValueError("Mode selection has unphysical l < 2 mode(s).")
-        else:
-            mode_arr = None
+        mode_arr = self._validated_mode_array(mode_selection)
+        if mode_arr is not None and include_minus_mkn and bool(self.xp.any(mode_arr[:, 1] < 0)):
+            raise ValueError("Only supports mode_selection with m >= 0 when include_minus_mkn=True")
 
         if mode_selection_threshold is None:
             mode_selection_threshold = self.mode_selection_threshold
 
-        if not include_minus_mkn and not isinstance(mode_selection, list):
+        if not include_minus_mkn and mode_arr is None:
             get_logger().warning(
                 "(ModeSelector) Warning: Overriding include_minus_mkn to True as mode_selection is not a list."
             )
@@ -314,7 +271,7 @@ class ModeSelector(ParallelModuleBase):
             mode_selection, mode_selection_threshold, include_minus_mkn
         )
         
-        if mode_selection == "all":
+        if isinstance(mode_selection, str) and mode_selection == "all":
             # get teuk modes
             teuk_modes = self.amplitude_generator(a, p, e, xI)
             
@@ -341,11 +298,13 @@ class ModeSelector(ParallelModuleBase):
             )
 
         # if mode selection is a list, compute only these modes for efficiency
-        elif isinstance(mode_selection, list):
+        elif mode_arr is not None:
             try:
                 keep_modes = self.modeinds_map[mode_arr[:, 0], mode_arr[:, 1], mode_arr[:, 2], mode_arr[:,3]]
             except IndexError:
                 raise ValueError("Mode selection indices are out of bounds.")
+
+            keep_modes = flat_indices(keep_modes, len(self.amplitude_generator.l_arr), self.xp)
 
             # pass array of mode indexes (most efficient, returns an array)
             teuk_modes = self.amplitude_generator(a, p, e, xI, specific_modes=keep_modes)

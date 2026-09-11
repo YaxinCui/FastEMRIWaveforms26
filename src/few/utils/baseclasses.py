@@ -189,13 +189,18 @@ class SphericalHarmonic(ParallelModuleBase):
     """Number of unique (l,m) values."""
 
     index_map: dict[tuple[int, int, int, int], int]
-    """Maps mode index to mode tuple."""
+    """Maps a signed mode tuple to its full-catalogue integer ID."""
     special_index_map: dict[tuple[int, int, int, int], int]
-    """Maps mode index to mode tuple with m > 0."""
+    """Maps a signed mode tuple to the stored m >= 0 amplitude ID."""
     index_map_arr: xp_ndarray
     """Array mapping mode tuple to mode index - used for fast indexing. Returns -1 if mode does not exist."""
     special_index_map_arr: xp_ndarray
-    """Array mapping mode tuple to mode index with m > 0 - used for fast indexing. Returns -1 if mode does not exist."""
+    """Array mapping a mode tuple to a stored m >= 0 ID; -1 means absent.
+
+    2026-09-11 15:03 CST (linux): Signed-axis array indexing is an implementation
+    convention, not permission to request coordinates beyond physical/table
+    limits. Negative m flips k/n in this map; m=0 is not folded.
+    """
 
     def __init__(
         self, lmax: int = 10, kmax: int = 0, nmax: int = 0, force_backend: BackendLike = None

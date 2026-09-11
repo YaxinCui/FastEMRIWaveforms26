@@ -1,0 +1,35 @@
+{
+  "timestamp_cst": "2026-09-11T15:20:36.508447+08:00",
+  "backend": "cuda12x",
+  "passes": true,
+  "provenance_ok": true,
+  "imported": {
+    "backend": "cuda12x",
+    "xp": "cupy",
+    "source_sha256": {
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py": "89903b78688f5ae89cd8924fb87b01bdc014e5415d87b9a18f7bc5784fac8882",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py": "ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py": "1588577436aa7b4c958ea27b59ce766ad1b2eb8617413ded63caea51cd462d41",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py": "2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py": "1c5fbcfb3f64fb896ae23c56f70b4b76a13f39f0cc12e5ad2c0384581d02d8cd",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24"
+    }
+  },
+  "returncode": 0,
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_mode_domain",
+    "-v"
+  ],
+  "log": "DOMAIN_META={\"backend\": \"cuda12x\", \"xp\": \"cupy\", \"source_sha256\": {\"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py\": \"89903b78688f5ae89cd8924fb87b01bdc014e5415d87b9a18f7bc5784fac8882\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py\": \"ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py\": \"1588577436aa7b4c958ea27b59ce766ad1b2eb8617413ded63caea51cd462d41\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py\": \"2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py\": \"1c5fbcfb3f64fb896ae23c56f70b4b76a13f39f0cc12e5ad2c0384581d02d8cd\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so\": \"0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24\"}}\ntest_alias_and_invalid_tuples_rejected_before_amplitude (tests.test_mode_domain.ModeDomainTest.test_alias_and_invalid_tuples_rejected_before_amplitude) ... ok\ntest_array_mode_selection_defaults_and_noncontiguous (tests.test_mode_domain.ModeDomainTest.test_array_mode_selection_defaults_and_noncontiguous) ... ok\ntest_bad_map_entries_rejected (tests.test_mode_domain.ModeDomainTest.test_bad_map_entries_rejected) ... ok\ntest_constructor_defaults_own_input (tests.test_mode_domain.ModeDomainTest.test_constructor_defaults_own_input) ... ok\ntest_custom_map_coverage_and_native_holes (tests.test_mode_domain.ModeDomainTest.test_custom_map_coverage_and_native_holes) ... ok\ntest_default_all_threshold_unchanged_and_duplicates_rejected (tests.test_mode_domain.ModeDomainTest.test_default_all_threshold_unchanged_and_duplicates_rejected) ... ok\ntest_flat_indices_rejected_before_amplitude (tests.test_mode_domain.ModeDomainTest.test_flat_indices_rejected_before_amplitude) ... ok\ntest_flat_signed_ids_and_input_ownership (tests.test_mode_domain.ModeDomainTest.test_flat_signed_ids_and_input_ownership) ... ok\ntest_valid_signed_modes_and_parity (tests.test_mode_domain.ModeDomainTest.test_valid_signed_modes_and_parity) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 12.675s\n\nOK\n",
+  "harness_worktree_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py": "2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py": "ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py": "1588577436aa7b4c958ea27b59ce766ad1b2eb8617413ded63caea51cd462d41",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py": "89903b78688f5ae89cd8924fb87b01bdc014e5415d87b9a18f7bc5784fac8882",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py": "2784a53a06f4a5fbae0dea34c3043dd2e2160b3cae264a3db8c31f6317249384",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py": "1c5fbcfb3f64fb896ae23c56f70b4b76a13f39f0cc12e5ad2c0384581d02d8cd"
+  }
+}

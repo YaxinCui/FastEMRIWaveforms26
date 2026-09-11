@@ -1,0 +1,22 @@
+{
+  "timestamp_cst": "2026-09-11T15:01:44.723495+08:00",
+  "backend": "cpu",
+  "passes": true,
+  "returncode": 0,
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_mode_domain",
+    "-v"
+  ],
+  "log": "test_alias_and_invalid_tuples_rejected_before_amplitude (tests.test_mode_domain.ModeDomainTest.test_alias_and_invalid_tuples_rejected_before_amplitude) ... ok\ntest_array_mode_selection_defaults_and_noncontiguous (tests.test_mode_domain.ModeDomainTest.test_array_mode_selection_defaults_and_noncontiguous) ... ok\ntest_bad_map_entries_rejected (tests.test_mode_domain.ModeDomainTest.test_bad_map_entries_rejected) ... ok\ntest_default_all_threshold_unchanged_and_duplicates_rejected (tests.test_mode_domain.ModeDomainTest.test_default_all_threshold_unchanged_and_duplicates_rejected) ... ok\ntest_flat_indices_rejected_before_amplitude (tests.test_mode_domain.ModeDomainTest.test_flat_indices_rejected_before_amplitude) ... ok\ntest_flat_signed_ids_and_input_ownership (tests.test_mode_domain.ModeDomainTest.test_flat_signed_ids_and_input_ownership) ... ok\ntest_valid_signed_modes_and_parity (tests.test_mode_domain.ModeDomainTest.test_valid_signed_modes_and_parity) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 7.005s\n\nOK\n",
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py": "14e02ae3b2fc020249dd66790bbcbf1a3d5227919c9b80796223741afc1da618",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py": "91f26b66ad885d959d5beaa316969b5010d2cc2b5048d2697509af801b2dbca2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py": "1588577436aa7b4c958ea27b59ce766ad1b2eb8617413ded63caea51cd462d41",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py": "56df641078a1bc2e41d10ae4e8a84d89ecb1881e8786067f5146f7bd15c33ad0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py": "2ff9cf8b160c839a4500ade9eb88eabfde3e8905aefbefb76436387ba3ff0610",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py": "ac836e6f4eb5022330114b3824bdb97f234c86af12ff45871155171079c2e0db"
+  }
+}
