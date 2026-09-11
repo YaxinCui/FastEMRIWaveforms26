@@ -1,0 +1,359 @@
+{
+  "timestamp_cst": "2026-09-11T21:10:38.087009+08:00",
+  "passes": true,
+  "terminal": true,
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/probe_tdi.py",
+      "bytes": 4985,
+      "sha256": "ffe35520f48bc2ea2de94a03209cc2b7cd5db4eaf0381958417c649a16e38cc7"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/prepared_tdi.py",
+      "bytes": 7170,
+      "sha256": "703c3fb9605d8354b53b8531502fa7a34a46463194c9f6f2644347da7b6cff4e"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "bytes": 26775,
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03"
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 211104,
+      "sha256": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 287208,
+      "sha256": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119"
+    }
+  ],
+  "cases": [
+    {
+      "case": "prograde",
+      "input": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/real_prograde_final.npz",
+        "bytes": 8917553,
+        "sha256": "4f0c1937b971487ccf9357e301fa4cc4751b1b752fe045ea41cdfd981eba0e6d"
+      },
+      "orbit": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+        "bytes": 1212152,
+        "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe"
+      },
+      "preparation_seconds": 0.15350612400652608,
+      "plan": {
+        "n": 6312,
+        "cut": 1333,
+        "order": 25,
+        "dt": 15.0,
+        "input_entries": 4550208,
+        "nnz": 1246932,
+        "bytes": 15006940,
+        "fraction_min": 0.0,
+        "fraction_max": 0.8677766266082472,
+        "orbit_queries": 6,
+        "native_tdi_calls": 0
+      },
+      "rows": [
+        {
+          "native_seconds": 0.010033848004241008,
+          "sparse_seconds": 0.0008840290029183961,
+          "relative_l2": 2.525799540528789e-14,
+          "channels": [
+            1.7747114259247757e-14,
+            7.745254727528589e-14,
+            1.2989451376571902e-12
+          ]
+        },
+        {
+          "native_seconds": 0.009982265000871848,
+          "sparse_seconds": 0.0008371660005650483,
+          "relative_l2": 3.4958510482421016e-15,
+          "channels": [
+            2.4401660245786634e-15,
+            9.787332286698954e-15,
+            1.8268521268508324e-13
+          ]
+        },
+        {
+          "native_seconds": 0.009928865998517722,
+          "sparse_seconds": 0.0008247279984061606,
+          "relative_l2": 1.2910153823173583e-15,
+          "channels": [
+            8.975035148076067e-16,
+            3.440758181734927e-15,
+            6.733577488713521e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009943835000740364,
+          "sparse_seconds": 0.0007820199971320108,
+          "relative_l2": 7.0394172036705495e-16,
+          "channels": [
+            5.022369883115689e-16,
+            1.8185018328936494e-15,
+            3.5811893306756074e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009989370002585929,
+          "sparse_seconds": 0.0008756780007388443,
+          "relative_l2": 5.474083545782418e-16,
+          "channels": [
+            3.7993911569534985e-16,
+            1.4637513373761245e-15,
+            2.843941936474801e-14
+          ]
+        },
+        {
+          "native_seconds": 0.010006139003962744,
+          "sparse_seconds": 0.0008519370021531358,
+          "relative_l2": 4.720948411975669e-16,
+          "channels": [
+            3.2962221995017733e-16,
+            1.2673981590236592e-15,
+            2.4643997115617054e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009962709998944774,
+          "sparse_seconds": 0.0008544510055799037,
+          "relative_l2": 4.2137562373908705e-16,
+          "channels": [
+            3.110664145004587e-16,
+            1.0799383455058398e-15,
+            2.125401607734654e-14
+          ]
+        },
+        {
+          "native_seconds": 0.0099587189979502,
+          "sparse_seconds": 0.0008004699993762188,
+          "relative_l2": 3.4809479282104685e-15,
+          "channels": [
+            2.425717047811015e-15,
+            1.0129152271467585e-14,
+            1.7798454002054005e-13
+          ]
+        },
+        {
+          "native_seconds": 0.009983308998926077,
+          "sparse_seconds": 0.0008093340002233163,
+          "relative_l2": 1.3111868596263869e-15,
+          "channels": [
+            9.243442673076092e-16,
+            3.4527278755297998e-15,
+            6.75205813122307e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009957499001757242,
+          "sparse_seconds": 0.0008269169993582182,
+          "relative_l2": 7.188292736221018e-16,
+          "channels": [
+            4.951656534314501e-16,
+            1.9748350012379133e-15,
+            3.710551196079269e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009971297993615735,
+          "sparse_seconds": 0.0008566510005039163,
+          "relative_l2": 5.457988665346285e-16,
+          "channels": [
+            3.906528659121791e-16,
+            1.3862982583986616e-15,
+            2.7897369006834334e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009952613996574655,
+          "sparse_seconds": 0.0008637999999336898,
+          "relative_l2": 4.747347983821454e-16,
+          "channels": [
+            3.4140843350148963e-16,
+            1.213557232472018e-15,
+            2.4357347913993396e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009912588000588585,
+          "sparse_seconds": 0.0008565759999328293,
+          "relative_l2": 4.2384270441750477e-16,
+          "channels": [
+            3.133040189099669e-16,
+            1.0970544351097806e-15,
+            2.1209099703163906e-14
+          ]
+        }
+      ]
+    },
+    {
+      "case": "retrograde",
+      "input": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/real_retrograde_final.npz",
+        "bytes": 8908854,
+        "sha256": "49031fee50a9a2fc05971d908b471df3bb755bed548115e526b25ae0eacf0ca2"
+      },
+      "orbit": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+        "bytes": 1212152,
+        "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe"
+      },
+      "preparation_seconds": 0.10835255900019547,
+      "plan": {
+        "n": 6312,
+        "cut": 1333,
+        "order": 25,
+        "dt": 15.0,
+        "input_entries": 4550208,
+        "nnz": 1246932,
+        "bytes": 15006940,
+        "fraction_min": 0.0,
+        "fraction_max": 0.8677766266082472,
+        "orbit_queries": 6,
+        "native_tdi_calls": 0
+      },
+      "rows": [
+        {
+          "native_seconds": 0.00995293199957814,
+          "sparse_seconds": 0.0008641960012027994,
+          "relative_l2": 1.0770377581756713e-13,
+          "channels": [
+            7.525300782011414e-14,
+            3.329255578630357e-13,
+            5.556210181847555e-12
+          ]
+        },
+        {
+          "native_seconds": 0.00999402700108476,
+          "sparse_seconds": 0.0008123299994622357,
+          "relative_l2": 7.052457523759498e-15,
+          "channels": [
+            5.00652296992104e-15,
+            2.0192240182280055e-14,
+            3.54264418904643e-13
+          ]
+        },
+        {
+          "native_seconds": 0.009962661999452394,
+          "sparse_seconds": 0.0008203239995054901,
+          "relative_l2": 2.7501753522378253e-15,
+          "channels": [
+            1.9431397496410232e-15,
+            7.407814818656754e-15,
+            1.4053128190566152e-13
+          ]
+        },
+        {
+          "native_seconds": 0.009944238998286892,
+          "sparse_seconds": 0.0008049879979807884,
+          "relative_l2": 1.3946130742401483e-15,
+          "channels": [
+            9.889959085529481e-16,
+            3.645362473811018e-15,
+            7.218770086009668e-14
+          ]
+        },
+        {
+          "native_seconds": 0.00995010800397722,
+          "sparse_seconds": 0.0008265249998657964,
+          "relative_l2": 8.484055455413165e-16,
+          "channels": [
+            6.120044837445657e-16,
+            2.244107491294621e-15,
+            4.256888895066835e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009971150000637863,
+          "sparse_seconds": 0.0008359119965462014,
+          "relative_l2": 6.139068491183415e-16,
+          "channels": [
+            4.3967985013590047e-16,
+            1.6449352957196744e-15,
+            3.1069788160037336e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009973101994546596,
+          "sparse_seconds": 0.0008110659982776269,
+          "relative_l2": 5.4875967593765055e-16,
+          "channels": [
+            3.853556603927678e-16,
+            1.4528649086409962e-15,
+            2.9039043815093595e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009940065996488556,
+          "sparse_seconds": 0.0008028599986573681,
+          "relative_l2": 7.014594952320881e-15,
+          "channels": [
+            4.994501057638845e-15,
+            2.0026412322975378e-14,
+            3.5083618433527076e-13
+          ]
+        },
+        {
+          "native_seconds": 0.009936659997038078,
+          "sparse_seconds": 0.0008616770064691082,
+          "relative_l2": 2.853258704786734e-15,
+          "channels": [
+            1.955961105510317e-15,
+            7.923589781699172e-15,
+            1.4962285608904484e-13
+          ]
+        },
+        {
+          "native_seconds": 0.00994911899761064,
+          "sparse_seconds": 0.0008124280066112988,
+          "relative_l2": 1.3106238423493109e-15,
+          "channels": [
+            8.97051502532012e-16,
+            3.62858391835605e-15,
+            6.897414708769765e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009921389995724894,
+          "sparse_seconds": 0.000821658999484498,
+          "relative_l2": 8.368434149423439e-16,
+          "channels": [
+            5.93678518128478e-16,
+            2.23391759383502e-15,
+            4.284055043338322e-14
+          ]
+        },
+        {
+          "native_seconds": 0.00995862799754832,
+          "sparse_seconds": 0.0007915960013633594,
+          "relative_l2": 6.4847007157528e-16,
+          "channels": [
+            4.663935316474522e-16,
+            1.7016753891054869e-15,
+            3.30409784059197e-14
+          ]
+        },
+        {
+          "native_seconds": 0.009929666994139552,
+          "sparse_seconds": 0.0008074279976426624,
+          "relative_l2": 5.453652299988098e-16,
+          "channels": [
+            4.005551328162424e-16,
+            1.3866826687799008e-15,
+            2.7491358892533387e-14
+          ]
+        }
+      ]
+    }
+  ]
+}

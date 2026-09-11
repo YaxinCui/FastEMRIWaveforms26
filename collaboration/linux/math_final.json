@@ -1,0 +1,8 @@
+{
+  "timestamp_cst": "2026-09-11T21:31:22.387075+08:00",
+  "returncode": 0,
+  "passes": true,
+  "log": "test_domain_and_budget (__main__.Tests.test_domain_and_budget) ... ok\ntest_factory_matches_plain_stock (__main__.Tests.test_factory_matches_plain_stock) ... ok\ntest_mutated_geometry_and_tables (__main__.Tests.test_mutated_geometry_and_tables) ... /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/test_prepared_tdi.py:189: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.\nAs an alternative, you can create a new view using np.reshape (with copy=False if needed).\n  r.A_in.shape = (1, r.A_in.size)\nok\ntest_native_random_pulse_zero (__main__.Tests.test_native_random_pulse_zero) ... ok\ntest_owned_plan_and_outputs (__main__.Tests.test_owned_plan_and_outputs) ... ok\ntest_scalar_stencil (__main__.Tests.test_scalar_stencil) ... ok\ntest_unregistered_and_changed_config (__main__.Tests.test_unregistered_and_changed_config) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 2.422s\n\nOK\n",
+  "test_sha256": "b2a265b3d4d3915ce73e605977abc81dce949ba15d33c332d53a4097ff980835",
+  "implementation_sha256": "1d5a9e0451e8e09f7f38a2feed3367130db212f3ecd0cefb5d20a985f385ecb5"
+}

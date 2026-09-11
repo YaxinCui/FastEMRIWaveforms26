@@ -1,0 +1,193 @@
+{
+  "timestamp_cst": "2026-09-11T21:29:11.815018+08:00",
+  "passes": true,
+  "terminal": true,
+  "source": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/real_prograde_final.json",
+    "bytes": 88656,
+    "sha256": "6b73de4ba860aed14fc707c6285ddfdaf3f4908368625a7341506c3146e08227"
+  },
+  "inputs": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/real_prograde_final.npz",
+      "bytes": 8917553,
+      "sha256": "4f0c1937b971487ccf9357e301fa4cc4751b1b752fe045ea41cdfd981eba0e6d"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "bytes": 1212152,
+      "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/response_immutable_final.json",
+      "bytes": 70592,
+      "sha256": "2a761081dbd1e06972ed155c38e65d6896d7283bff7a255c8cfca2a78e3e84ee"
+    }
+  ],
+  "producers": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/lifecycle_response.py",
+      "bytes": 6394,
+      "sha256": "9ab8fc1d41717892407b5f33b61fe060def00feb29668c77c36ee5e6db93cb99"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/prepared_tdi.py",
+      "bytes": 13535,
+      "sha256": "1d5a9e0451e8e09f7f38a2feed3367130db212f3ecd0cefb5d20a985f385ecb5"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/validate_response.py",
+      "bytes": 17166,
+      "sha256": "fdda9fff37f2a7801d53be007a9e4d4ea13de01e4ca436583f0a60d8282304b6"
+    }
+  ],
+  "scope": "Fresh stock vs immutable response construction + plan + all projections/TDI/FFT/whitening/packing/return/cleanup. Same preconfigured orbit and SSB; excludes orbit configure/H5 load/FEW. Stock avoids redundant channel copies.",
+  "timings": [
+    {
+      "count": 1,
+      "seconds": {
+        "stock": [
+          0.09086509900225792,
+          0.0903956179972738,
+          0.09043249399837805,
+          0.0901368709965027,
+          0.09071454399963841
+        ],
+        "sparse": [
+          0.1911270750060794,
+          0.18865006199484924,
+          0.18999481700302567,
+          0.18951062300038757,
+          0.18901092399755726
+        ]
+      },
+      "stages": {
+        "stock": [
+          {
+            "construction_seconds": 0.0741202909994172,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07407882199913729,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.0738581100013107,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07377777000510832,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07425390199932735,
+            "plan_seconds": 0.0
+          }
+        ],
+        "sparse": [
+          {
+            "construction_seconds": 0.11712832399643958,
+            "plan_seconds": 0.061912948003737256
+          },
+          {
+            "construction_seconds": 0.11340548400039552,
+            "plan_seconds": 0.06286485299642663
+          },
+          {
+            "construction_seconds": 0.11378405599680264,
+            "plan_seconds": 0.06358859899773961
+          },
+          {
+            "construction_seconds": 0.11356187100318493,
+            "plan_seconds": 0.06362855900079012
+          },
+          {
+            "construction_seconds": 0.11309736300609075,
+            "plan_seconds": 0.06356147400219925
+          }
+        ]
+      },
+      "errors": [
+        1.3536607118499681e-14,
+        1.3536607118499681e-14,
+        1.3536607118499681e-14,
+        1.3536607118499681e-14,
+        1.3536607118499681e-14
+      ],
+      "ratio": 0.47718957685128344
+    },
+    {
+      "count": 13,
+      "seconds": {
+        "stock": [
+          0.2615778590043192,
+          0.2626022600015858,
+          0.26160114799859,
+          0.2613279259967385,
+          0.2603440219972981
+        ],
+        "sparse": [
+          0.2530391550026252,
+          0.2545614789996762,
+          0.25432156199531164,
+          0.24555058300029486,
+          0.2500755790024414
+        ]
+      },
+      "stages": {
+        "stock": [
+          {
+            "construction_seconds": 0.07391230499342782,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07460874100070214,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07417417299438966,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07423548999940977,
+            "plan_seconds": 0.0
+          },
+          {
+            "construction_seconds": 0.07404439799574902,
+            "plan_seconds": 0.0
+          }
+        ],
+        "sparse": [
+          {
+            "construction_seconds": 0.1137805819962523,
+            "plan_seconds": 0.06382356399990385
+          },
+          {
+            "construction_seconds": 0.11341277199971955,
+            "plan_seconds": 0.06359551799687324
+          },
+          {
+            "construction_seconds": 0.11489963399799308,
+            "plan_seconds": 0.06391293000342557
+          },
+          {
+            "construction_seconds": 0.11143670699675567,
+            "plan_seconds": 0.058783906999451574
+          },
+          {
+            "construction_seconds": 0.11379914300050586,
+            "plan_seconds": 0.06384211400290951
+          }
+        ]
+      },
+      "errors": [
+        7.235646471766983e-16,
+        7.235646471766983e-16,
+        7.235646471766983e-16,
+        7.235646471766983e-16,
+        7.235646471766983e-16
+      ],
+      "ratio": 1.033744595778489
+    }
+  ]
+}

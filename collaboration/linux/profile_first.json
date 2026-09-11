@@ -1,0 +1,675 @@
+{
+  "timestamp_cst": "2026-09-11T21:06:03.921469+08:00",
+  "passes": true,
+  "producer": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/profile_response.py",
+    "bytes": 4919,
+    "sha256": "4eef1605f6c1a4fef0c82793e5d0c91477be734b048c6322ae1b50a857bb170c"
+  },
+  "input": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/real_prograde_final.npz",
+    "bytes": 8917553,
+    "sha256": "4f0c1937b971487ccf9357e301fa4cc4751b1b752fe045ea41cdfd981eba0e6d"
+  },
+  "orbit": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+    "bytes": 1212152,
+    "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe"
+  },
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "bytes": 26775,
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03"
+    }
+  ],
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "scope": "CPU stage diagnostic, native property timing adds overhead; first 39 rows unprofiled, last 13 cProfile",
+  "rows": [
+    {
+      "projection": 0.0040309480027644895,
+      "tdi": 0.009944227000232786,
+      "copy_fft": 0.0004070490031153895,
+      "total": 0.014382224006112665,
+      "native_projection": 0.0033364080009050667,
+      "native_tdi": 0.009802184998989105
+    },
+    {
+      "projection": 0.00400169500062475,
+      "tdi": 0.009957518996088766,
+      "copy_fft": 0.0004298010026104748,
+      "total": 0.01438901499932399,
+      "native_projection": 0.0033461050043115392,
+      "native_tdi": 0.00979854199977126
+    },
+    {
+      "projection": 0.004074516000400763,
+      "tdi": 0.009918871997797396,
+      "copy_fft": 0.00039502300205640495,
+      "total": 0.014388411000254564,
+      "native_projection": 0.0033293449960183352,
+      "native_tdi": 0.009776232996955514
+    },
+    {
+      "projection": 0.004016639999463223,
+      "tdi": 0.009943745004420634,
+      "copy_fft": 0.0004194290013401769,
+      "total": 0.014379814005224034,
+      "native_projection": 0.0033274939996772446,
+      "native_tdi": 0.009797689002880361
+    },
+    {
+      "projection": 0.004043608998472337,
+      "tdi": 0.009962639000150375,
+      "copy_fft": 0.00040800400165608153,
+      "total": 0.014414252000278793,
+      "native_projection": 0.003338302005431615,
+      "native_tdi": 0.009812283999053761
+    },
+    {
+      "projection": 0.004041981999762356,
+      "tdi": 0.009939118004695047,
+      "copy_fft": 0.00041216599493054673,
+      "total": 0.01439326599938795,
+      "native_projection": 0.003324730001622811,
+      "native_tdi": 0.009793236997211352
+    },
+    {
+      "projection": 0.004050872994412202,
+      "tdi": 0.009923038000124507,
+      "copy_fft": 0.00040011700184550136,
+      "total": 0.01437402799638221,
+      "native_projection": 0.003336329995363485,
+      "native_tdi": 0.00977937200514134
+    },
+    {
+      "projection": 0.003976829000748694,
+      "tdi": 0.009897039999486879,
+      "copy_fft": 0.0003799879996222444,
+      "total": 0.014253856999857817,
+      "native_projection": 0.00332790199900046,
+      "native_tdi": 0.009765050999703817
+    },
+    {
+      "projection": 0.003979551998781972,
+      "tdi": 0.009967858000891283,
+      "copy_fft": 0.0004298700005165301,
+      "total": 0.014377280000189785,
+      "native_projection": 0.0033381730027031153,
+      "native_tdi": 0.00981632399634691
+    },
+    {
+      "projection": 0.004122651000216138,
+      "tdi": 0.009939528004906606,
+      "copy_fft": 0.00039644599746679887,
+      "total": 0.014458625002589542,
+      "native_projection": 0.0033640120018390007,
+      "native_tdi": 0.009784503999981098
+    },
+    {
+      "projection": 0.004096293996553868,
+      "tdi": 0.009907081999699585,
+      "copy_fft": 0.00038381299964385107,
+      "total": 0.014387188995897304,
+      "native_projection": 0.0033344730036333203,
+      "native_tdi": 0.009764376998646185
+    },
+    {
+      "projection": 0.004028824005217757,
+      "tdi": 0.009927663995767944,
+      "copy_fft": 0.0004107729982933961,
+      "total": 0.014367260999279097,
+      "native_projection": 0.0033216739975614473,
+      "native_tdi": 0.009794710000278428
+    },
+    {
+      "projection": 0.004054042001371272,
+      "tdi": 0.009952802000043448,
+      "copy_fft": 0.0004150099994149059,
+      "total": 0.014421854000829626,
+      "native_projection": 0.0033345030024065636,
+      "native_tdi": 0.009803616994759068
+    },
+    {
+      "projection": 0.004053078999277204,
+      "tdi": 0.00992384099663468,
+      "copy_fft": 0.0004038290062453598,
+      "total": 0.014380749002157245,
+      "native_projection": 0.0033282919976045378,
+      "native_tdi": 0.009785050999198575
+    },
+    {
+      "projection": 0.003958294000767637,
+      "tdi": 0.009891041001537815,
+      "copy_fft": 0.00038629699702141806,
+      "total": 0.01423563199932687,
+      "native_projection": 0.0033328409990645014,
+      "native_tdi": 0.009760166998603381
+    },
+    {
+      "projection": 0.0039550340006826445,
+      "tdi": 0.009935529000358656,
+      "copy_fft": 0.00041282299935119227,
+      "total": 0.014303386000392493,
+      "native_projection": 0.003335219000291545,
+      "native_tdi": 0.009770216995093506
+    },
+    {
+      "projection": 0.004181112999503966,
+      "tdi": 0.009923072997480631,
+      "copy_fft": 0.00042641600157367066,
+      "total": 0.014530601998558268,
+      "native_projection": 0.0033308999991277233,
+      "native_tdi": 0.00976348199765198
+    },
+    {
+      "projection": 0.004219834998366423,
+      "tdi": 0.009974264998163562,
+      "copy_fft": 0.00041525800043018535,
+      "total": 0.01460935799696017,
+      "native_projection": 0.003361551003763452,
+      "native_tdi": 0.009822043997701257
+    },
+    {
+      "projection": 0.004135045004659332,
+      "tdi": 0.010156395001104102,
+      "copy_fft": 0.00043292199552524835,
+      "total": 0.014724362001288682,
+      "native_projection": 0.0033499530036351644,
+      "native_tdi": 0.00998088699998334
+    },
+    {
+      "projection": 0.004221085000608582,
+      "tdi": 0.010016102001827676,
+      "copy_fft": 0.00039764100074535236,
+      "total": 0.01463482800318161,
+      "native_projection": 0.003332091000629589,
+      "native_tdi": 0.009865881998848636
+    },
+    {
+      "projection": 0.003975040002842434,
+      "tdi": 0.009976458000892308,
+      "copy_fft": 0.00039451899647247046,
+      "total": 0.014346017000207212,
+      "native_projection": 0.003331972002342809,
+      "native_tdi": 0.009850602997175884
+    },
+    {
+      "projection": 0.003933145999326371,
+      "tdi": 0.010001091999583878,
+      "copy_fft": 0.0004040669955429621,
+      "total": 0.01433830499445321,
+      "native_projection": 0.003320992000226397,
+      "native_tdi": 0.009858937999524642
+    },
+    {
+      "projection": 0.003951926999434363,
+      "tdi": 0.009939427996869199,
+      "copy_fft": 0.0004056410034536384,
+      "total": 0.0142969959997572,
+      "native_projection": 0.0033390509997843765,
+      "native_tdi": 0.009786542999790981
+    },
+    {
+      "projection": 0.004039021994685754,
+      "tdi": 0.00998212300328305,
+      "copy_fft": 0.00039047600148478523,
+      "total": 0.01441162099945359,
+      "native_projection": 0.0033471240021754056,
+      "native_tdi": 0.009826708999753464
+    },
+    {
+      "projection": 0.004079116995853838,
+      "tdi": 0.009910747001413256,
+      "copy_fft": 0.0004268549964763224,
+      "total": 0.014416718993743416,
+      "native_projection": 0.0033402049957658164,
+      "native_tdi": 0.009765738999703899
+    },
+    {
+      "projection": 0.00402312300138874,
+      "tdi": 0.009931708002113737,
+      "copy_fft": 0.00037469899689313024,
+      "total": 0.014329530000395607,
+      "native_projection": 0.003345129000081215,
+      "native_tdi": 0.009798424995096866
+    },
+    {
+      "projection": 0.0039337170019280165,
+      "tdi": 0.009943926997948438,
+      "copy_fft": 0.00041532100294716656,
+      "total": 0.014292965002823621,
+      "native_projection": 0.0033281509968219325,
+      "native_tdi": 0.009811440002522431
+    },
+    {
+      "projection": 0.004091417999006808,
+      "tdi": 0.00992965199839091,
+      "copy_fft": 0.0004017930041300133,
+      "total": 0.01442286300152773,
+      "native_projection": 0.003349815000547096,
+      "native_tdi": 0.009789724004804157
+    },
+    {
+      "projection": 0.004110382004000712,
+      "tdi": 0.00995439099642681,
+      "copy_fft": 0.00041579900425858796,
+      "total": 0.01448057200468611,
+      "native_projection": 0.003368090001458768,
+      "native_tdi": 0.00979163400188554
+    },
+    {
+      "projection": 0.004161411001405213,
+      "tdi": 0.01003655800013803,
+      "copy_fft": 0.0004215040025883354,
+      "total": 0.014619473004131578,
+      "native_projection": 0.003336822999699507,
+      "native_tdi": 0.009872508999251295
+    },
+    {
+      "projection": 0.0041902150042005815,
+      "tdi": 0.009943519995431416,
+      "copy_fft": 0.0004182560005574487,
+      "total": 0.014551991000189446,
+      "native_projection": 0.0033270359999733046,
+      "native_tdi": 0.009784754998690914
+    },
+    {
+      "projection": 0.00418478900246555,
+      "tdi": 0.00993356500111986,
+      "copy_fft": 0.00042989700159523636,
+      "total": 0.014548251005180646,
+      "native_projection": 0.0033406169968657196,
+      "native_tdi": 0.009780874999705702
+    },
+    {
+      "projection": 0.004071647999808192,
+      "tdi": 0.009941285003151279,
+      "copy_fft": 0.00040603899833513424,
+      "total": 0.014418972001294605,
+      "native_projection": 0.0033370710007147864,
+      "native_tdi": 0.009792493998247664
+    },
+    {
+      "projection": 0.004075185002875514,
+      "tdi": 0.009943135002686176,
+      "copy_fft": 0.00040904999332269654,
+      "total": 0.014427369998884387,
+      "native_projection": 0.003333389002364129,
+      "native_tdi": 0.009799413004657254
+    },
+    {
+      "projection": 0.004010171003756113,
+      "tdi": 0.009937276001437567,
+      "copy_fft": 0.0004029749979963526,
+      "total": 0.014350422003190033,
+      "native_projection": 0.003333285996632185,
+      "native_tdi": 0.009805619003600441
+    },
+    {
+      "projection": 0.003964279996580444,
+      "tdi": 0.010097311002027709,
+      "copy_fft": 0.00040956700104288757,
+      "total": 0.014471157999651041,
+      "native_projection": 0.0033281130017712712,
+      "native_tdi": 0.00996634900366189
+    },
+    {
+      "projection": 0.004043352004373446,
+      "tdi": 0.009928671999659855,
+      "copy_fft": 0.00039401600224664435,
+      "total": 0.014366040006279945,
+      "native_projection": 0.003343731994391419,
+      "native_tdi": 0.009784455003682524
+    },
+    {
+      "projection": 0.004044032997626346,
+      "tdi": 0.00994890899892198,
+      "copy_fft": 0.00043047399958595634,
+      "total": 0.014423415996134281,
+      "native_projection": 0.003338950002216734,
+      "native_tdi": 0.00978789300279459
+    },
+    {
+      "projection": 0.00413304000539938,
+      "tdi": 0.009906842999043874,
+      "copy_fft": 0.000385038998501841,
+      "total": 0.014424922002945095,
+      "native_projection": 0.0033363719994667917,
+      "native_tdi": 0.009765968003193848
+    },
+    {
+      "projection": 0.004337436999776401,
+      "tdi": 0.010086299997055903,
+      "copy_fft": 0.00044013900333084166,
+      "total": 0.014863876000163145,
+      "native_projection": 0.0033774069961509667,
+      "native_tdi": 0.009831395000219345
+    },
+    {
+      "projection": 0.004333110999141354,
+      "tdi": 0.010029940000094939,
+      "copy_fft": 0.0004363080006442033,
+      "total": 0.014799358999880496,
+      "native_projection": 0.0034327699977438897,
+      "native_tdi": 0.009801596999750473
+    },
+    {
+      "projection": 0.004198346003249753,
+      "tdi": 0.01075053899694467,
+      "copy_fft": 0.00042632500117179006,
+      "total": 0.015375210001366213,
+      "native_projection": 0.0033403740017092787,
+      "native_tdi": 0.010545436998654623
+    },
+    {
+      "projection": 0.004163057004916482,
+      "tdi": 0.00995799399970565,
+      "copy_fft": 0.0003941229952033609,
+      "total": 0.014515173999825493,
+      "native_projection": 0.003341613002703525,
+      "native_tdi": 0.009778845000255387
+    },
+    {
+      "projection": 0.004086585002369247,
+      "tdi": 0.010044680995633826,
+      "copy_fft": 0.00041793700074777007,
+      "total": 0.014549202998750843,
+      "native_projection": 0.0033426399968448095,
+      "native_tdi": 0.009849577996646985
+    },
+    {
+      "projection": 0.004225394994136877,
+      "tdi": 0.01017982200573897,
+      "copy_fft": 0.0003997959938715212,
+      "total": 0.014805012993747368,
+      "native_projection": 0.003351309002027847,
+      "native_tdi": 0.009984955999243539
+    },
+    {
+      "projection": 0.004143816004216205,
+      "tdi": 0.010183036996750161,
+      "copy_fft": 0.0004388270026538521,
+      "total": 0.014765680003620218,
+      "native_projection": 0.0033442339990870096,
+      "native_tdi": 0.009973004001949448
+    },
+    {
+      "projection": 0.004277503001503646,
+      "tdi": 0.010002898998209275,
+      "copy_fft": 0.00043298899981891736,
+      "total": 0.014713390999531839,
+      "native_projection": 0.003342778996739071,
+      "native_tdi": 0.009809827999561094
+    },
+    {
+      "projection": 0.004143309997743927,
+      "tdi": 0.009954218003258575,
+      "copy_fft": 0.00038709300133632496,
+      "total": 0.014484621002338827,
+      "native_projection": 0.0033364319970132783,
+      "native_tdi": 0.009789984003873542
+    },
+    {
+      "projection": 0.0040538799948990345,
+      "tdi": 0.00999036300345324,
+      "copy_fft": 0.0003877540002577007,
+      "total": 0.014431996998609975,
+      "native_projection": 0.0033414569988963194,
+      "native_tdi": 0.009812948999751825
+    },
+    {
+      "projection": 0.00411657400400145,
+      "tdi": 0.010067839997645933,
+      "copy_fft": 0.00040875199920265004,
+      "total": 0.014593166000850033,
+      "native_projection": 0.0034288179958821274,
+      "native_tdi": 0.009859773999778554
+    },
+    {
+      "projection": 0.004155547001573723,
+      "tdi": 0.010182072001043707,
+      "copy_fft": 0.0004229420010233298,
+      "total": 0.01476056100364076,
+      "native_projection": 0.003339572998811491,
+      "native_tdi": 0.009977229994547088
+    },
+    {
+      "projection": 0.004164401005255058,
+      "tdi": 0.010220683994702995,
+      "copy_fft": 0.00040297600207850337,
+      "total": 0.014788061002036557,
+      "native_projection": 0.0033426730005885474,
+      "native_tdi": 0.010033865997684188
+    }
+  ],
+  "hot": [
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/profile_response.py', 84, 'run')",
+      "calls": 1,
+      "self_seconds": 0.00041820400000000004,
+      "cumulative_seconds": 0.19167688000000002
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py', 569, 'get_tdi_delays')",
+      "calls": 13,
+      "self_seconds": 0.0004959420000000001,
+      "cumulative_seconds": 0.13161530500000002
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/profile_response.py', 47, 'invoke')",
+      "calls": 13,
+      "self_seconds": 0.12863780800000002,
+      "cumulative_seconds": 0.129060314
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py', 459, 'get_projections')",
+      "calls": 13,
+      "self_seconds": 0.00064424,
+      "cumulative_seconds": 0.054235765000000005
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/profile_response.py', 35, 'invoke')",
+      "calls": 13,
+      "self_seconds": 0.043319365000000006,
+      "cumulative_seconds": 0.043674925
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py', 171, 'x_base')",
+      "calls": 13,
+      "self_seconds": 0.000309935,
+      "cumulative_seconds": 0.005909265
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/fft/_pocketfft.py', 324, 'rfft')",
+      "calls": 13,
+      "self_seconds": 3.1591e-05,
+      "cumulative_seconds": 0.004858994
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/fft/_pocketfft.py', 58, '_raw_fft')",
+      "calls": 13,
+      "self_seconds": 0.0048149970000000005,
+      "cumulative_seconds": 0.004824007
+    },
+    {
+      "function": "('~', 0, \"<method 'reduce' of 'numpy.ufunc' objects>\")",
+      "calls": 91,
+      "self_seconds": 0.002992513,
+      "cumulative_seconds": 0.002992513
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py', 137, 'open')",
+      "calls": 13,
+      "self_seconds": 0.000158684,
+      "cumulative_seconds": 0.00227142
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/files.py', 379, '__init__')",
+      "calls": 26,
+      "self_seconds": 0.00026656600000000004,
+      "cumulative_seconds": 0.0022649560000000003
+    },
+    {
+      "function": "('~', 0, \"<method 'max' of 'numpy.ndarray' objects>\")",
+      "calls": 52,
+      "self_seconds": 3.4188000000000005e-05,
+      "cumulative_seconds": 0.002111888
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/_core/_methods.py', 39, '_amax')",
+      "calls": 52,
+      "self_seconds": 2.402e-05,
+      "cumulative_seconds": 0.0020777
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py', 444, '_data_time_check')",
+      "calls": 13,
+      "self_seconds": 2.4030000000000002e-05,
+      "cumulative_seconds": 0.002042256
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/group.py', 351, '__getitem__')",
+      "calls": 26,
+      "self_seconds": 0.000862621,
+      "cumulative_seconds": 0.001421378
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/files.py', 218, 'make_fid')",
+      "calls": 13,
+      "self_seconds": 0.0012477480000000001,
+      "cumulative_seconds": 0.001288747
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/dataset.py', 804, '__getitem__')",
+      "calls": 13,
+      "self_seconds": 0.00043320900000000005,
+      "cumulative_seconds": 0.001165304
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/_core/fromnumeric.py', 2342, 'sum')",
+      "calls": 13,
+      "self_seconds": 2.6101000000000003e-05,
+      "cumulative_seconds": 0.000946573
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/_core/fromnumeric.py', 66, '_wrapreduction')",
+      "calls": 13,
+      "self_seconds": 3.2403e-05,
+      "cumulative_seconds": 0.0009165750000000001
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/gpubackendtools/pointeradjust.py', 15, 'wrapper')",
+      "calls": 26,
+      "self_seconds": 0.000645925,
+      "cumulative_seconds": 0.0007633090000000001
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/files.py', 645, '__exit__')",
+      "calls": 13,
+      "self_seconds": 3.5092e-05,
+      "cumulative_seconds": 0.0007398140000000001
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/files.py', 620, 'close')",
+      "calls": 13,
+      "self_seconds": 0.00069905,
+      "cumulative_seconds": 0.000703004
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/utils/utility.py', 68, 'AET')",
+      "calls": 13,
+      "self_seconds": 0.000612593,
+      "cumulative_seconds": 0.000612593
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py', 222, 'xp')",
+      "calls": 130,
+      "self_seconds": 3.6320000000000005e-05,
+      "cumulative_seconds": 0.000586902
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py', 145, 'unique')",
+      "calls": 13,
+      "self_seconds": 4.7465e-05,
+      "cumulative_seconds": 0.000572425
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/gpubackendtools/parallelbase.py', 40, 'backend')",
+      "calls": 130,
+      "self_seconds": 4.0427000000000004e-05,
+      "cumulative_seconds": 0.000550582
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/files.py', 112, 'make_fapl')",
+      "calls": 13,
+      "self_seconds": 0.000541159,
+      "cumulative_seconds": 0.000541159
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py', 350, '_unique1d')",
+      "calls": 13,
+      "self_seconds": 0.00030546500000000004,
+      "cumulative_seconds": 0.000515281
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/gpubackendtools/globals.py', 390, 'get_backend')",
+      "calls": 130,
+      "self_seconds": 0.000178758,
+      "cumulative_seconds": 0.000510155
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/dataset.py', 572, '_fast_reader')",
+      "calls": 13,
+      "self_seconds": 0.00046315500000000003,
+      "cumulative_seconds": 0.00046457700000000003
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py', 1413, 'diff')",
+      "calls": 39,
+      "self_seconds": 0.000245996,
+      "cumulative_seconds": 0.00028030700000000004
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/base.py', 531, '__get__')",
+      "calls": 26,
+      "self_seconds": 4.2974000000000006e-05,
+      "cumulative_seconds": 0.00026446200000000003
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/dataset.py', 796, '_fast_read_ok')",
+      "calls": 13,
+      "self_seconds": 0.00010635100000000001,
+      "cumulative_seconds": 0.000250042
+    },
+    {
+      "function": "('/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/h5py/_hl/base.py', 281, 'file')",
+      "calls": 13,
+      "self_seconds": 4.2312000000000004e-05,
+      "cumulative_seconds": 0.00021714800000000002
+    },
+    {
+      "function": "('~', 0, '<built-in method numpy.zeros>')",
+      "calls": 65,
+      "self_seconds": 0.000210041,
+      "cumulative_seconds": 0.000210041
+    }
+  ],
+  "mean_seconds": {
+    "projection": 0.004057870667169575,
+    "tdi": 0.009953537897485942,
+    "copy_fft": 0.0004076580000214446,
+    "total": 0.014419066564676961,
+    "native_projection": 0.003337338871997184,
+    "native_tdi": 0.009806562563962637
+  }
+}
