@@ -1,0 +1,23 @@
+{
+  "timestamp_cst": "2026-09-11T15:05:34.400869+08:00",
+  "passes": false,
+  "terminal": true,
+  "commands": [
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py",
+        "-v"
+      ],
+      "state": "terminal",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "test_sampling_distribution_names (__main__.SamplingDependencyTest.test_sampling_distribution_names) ... FAIL\n\n======================================================================\nFAIL: test_sampling_distribution_names (__main__.SamplingDependencyTest.test_sampling_distribution_names)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py\", line 23, in test_sampling_distribution_names\n    self.assertNotIn(\nAssertionError: 'lisatools' unexpectedly found in {'lisaanalysistools', 'fastlisaresponse', 'eryn', 'lisatools'} : PyPI lisatools is an unrelated portfolio tool sharing the import namespace\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    }
+  ],
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/build_checks.py": "6cd277b878b165d40b626a11ac2d1808592d11f7cd6781105f3bf708fc800850",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/pyproject.toml": "de6cc0015ded9066efd0cd60bd70e16fe6ddfb91db6b260c869ac8966dd8b0f1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py": "561d8a436c7225b4fd73fbda1f82417cfefe0e977a169549a8982e106ba28ae2"
+  }
+}

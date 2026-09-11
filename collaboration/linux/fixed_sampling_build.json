@@ -1,0 +1,41 @@
+{
+  "timestamp_cst": "2026-09-11T15:05:51.790526+08:00",
+  "passes": true,
+  "terminal": true,
+  "commands": [
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py",
+        "-v"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_sampling_distribution_names (__main__.SamplingDependencyTest.test_sampling_distribution_names) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/home/ubuntu/.local/bin/uv",
+        "build",
+        "--wheel",
+        "--python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "--out-dir",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare",
+        "--config-setting",
+        "cmake.define.FEW_WITH_GPU=BARE",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Building wheel...\nWARNING: tool.scikit-build.metadata is deprecated; use the standard top-level [[tool.dynamic-metadata]] instead\n*** scikit-build-core 1.0.3 using CMake 4.4.3 (wheel)\n*** Configuring CMake...\nloading initial cache file /tmp/tmpjum344sj/build/CMakeInit.txt\n-- The CXX compiler identification is GNU 15.2.0\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /usr/bin/c++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Found Python: /home/ubuntu/.cache/uv/builds-v0/.tmp2GJrIQ/bin/python (found version \"3.12.13\") found components: Interpreter Development.Module NumPy\n-- Performing Test GFORTRAN_AVAILABLE\n-- Performing Test GFORTRAN_AVAILABLE - Failed\n-- Performing Test CXX_COMPILER_SUPPORTS_FEW_MARCH\n-- Performing Test CXX_COMPILER_SUPPORTS_FEW_MARCH - Success\n-- The CXX compiler supports option '-march=native'.\n-- FEW GPU and CPU support are disabled (use only to build a       non-functional pure-python release).\n-- Building few.git_version metadata\n-- Find Git executable\n-- Found Git: /usr/bin/git (found version \"2.53.0\")\n-- Find Git executable - found\n-- Checking if in Git worktree\n-- Checking if in Git worktree - yes\n-- Building few.git_version metadata - done\n-- FEW options used for this build:\n--   FEW_WITH_GPU: BARE\n--   FEW_CUDA_ARCH: native\n--   FEW_MARCH: native\n--   FEW_LAPACKE_DETECT_WITH: AUTO\n--   FEW_LAPACKE_FETCH: AUTO\n--   FEW_LAPACKE_EXTRA_LIBS: \n-- Configuring done (0.4s)\n-- Generating done (0.0s)\n-- Build files have been written to: /tmp/tmpjum344sj/build\n*** Building project with Ninja...\nninja: no work to do.\n*** Installing project into wheel...\n-- Install configuration: \"Release\"\n*** Making wheel...\n*** Created fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl\nSuccessfully built /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl\n"
+    }
+  ],
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/build_checks.py": "6cd277b878b165d40b626a11ac2d1808592d11f7cd6781105f3bf708fc800850",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/pyproject.toml": "464c5a679839fcdd9068d4001c7059115c2bf8ad172f94c5c03ab22f1885573c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py": "561d8a436c7225b4fd73fbda1f82417cfefe0e977a169549a8982e106ba28ae2"
+  }
+}

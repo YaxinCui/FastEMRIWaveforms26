@@ -76,10 +76,11 @@ optional-dependencies.doc = [
 ]
 
 optional-dependencies.sampling = [
+  # 2026-09-11 15:06 CST (linux): The GW distribution is lisaanalysistools;
+  # PyPI's unrelated lisatools distribution collides with its import package.
   "eryn",
   "fastlisaresponse",
   "lisaanalysistools",
-  "lisatools",
 ]
 
 optional-dependencies.testing = [

@@ -1,0 +1,471 @@
+{
+  "timestamp_cst": "2026-09-11T15:23:07.162384+08:00",
+  "passes": true,
+  "terminal": true,
+  "scope": "BARE metadata-only wheels and dry-run dependency resolution, not runnable FEW/sampling acceptance",
+  "script": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/packaging_probe.py",
+    "sha256": "9c7aaf42826379b364cb439ad2e9649108d94dd6330942229da549e5b1a52842",
+    "bytes": 13626
+  },
+  "driver_executable": "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+  "commands": [
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+        "-c",
+        "import json,sys; print(json.dumps(dict(executable=sys.executable,prefix=sys.prefix,base_prefix=sys.base_prefix)))"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "{\"executable\": \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python\", \"prefix\": \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env\", \"base_prefix\": \"/home/ubuntu/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+        "-m",
+        "pip",
+        "list",
+        "--format=json"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "[{\"name\": \"pip\", \"version\": \"26.2.1\"}]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--only-binary=:all:",
+        "--index-url",
+        "https://pypi.org/simple",
+        "--report",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/before_resolution.json",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-master-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b-cp312-cp312-linux_x86_64.whl[sampling]"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "Processing /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-master-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b-cp312-cp312-linux_x86_64.whl (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\nCollecting h5py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached h5py-3.16.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.0 kB)\nCollecting jsonschema (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)\nCollecting lisaconstants (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached lisaconstants-2.0.2-py3-none-any.whl.metadata (3.9 kB)\nCollecting multispline (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached multispline-0.9.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (14 kB)\nCollecting numba (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached numba-0.67.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)\nCollecting numpy (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)\nCollecting nvidia-ml-py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached nvidia_ml_py-13.610.43-py3-none-any.whl.metadata (9.7 kB)\nCollecting platformdirs (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached platformdirs-4.11.8-py3-none-any.whl.metadata (5.5 kB)\nCollecting pydantic (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)\nCollecting pyyaml (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)\nCollecting requests (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)\nCollecting rich (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting scipy (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)\nCollecting tqdm (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)\nCollecting wrapt (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached wrapt-2.4.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (7.4 kB)\nCollecting eryn (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached eryn-1.2.6-py3-none-any.whl.metadata (6.3 kB)\nCollecting fastlisaresponse (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached fastlisaresponse-1.1.17-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.1 kB)\nCollecting lisaanalysistools (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.9 kB)\nCollecting lisatools (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached lisatools-0.5.1-py3-none-any.whl.metadata (1.9 kB)\nCollecting matplotlib (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached matplotlib-3.11.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)\nCollecting pandas (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pandas-3.0.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)\nCollecting corner (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached corner-2.3.0-py3-none-any.whl.metadata (2.3 kB)\nCollecting seaborn (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)\nCollecting contourpy>=1.0.1 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)\nCollecting cycler>=0.10 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)\nCollecting fonttools>=4.28.2 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached fonttools-4.65.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (125 kB)\nCollecting kiwisolver>=1.3.1 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)\nCollecting packaging>=20.0 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)\nCollecting pillow>=9 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)\nCollecting pyparsing>=3 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)\nCollecting python-dateutil>=2.7 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)\nCollecting six>=1.5 (from python-dateutil>=2.7->matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)\nCollecting h5py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached h5py-3.14.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.7 kB)\nCollecting gpubackendtools (from fastlisaresponse->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached gpubackendtools-0.1.1-py3-none-any.whl.metadata (2.0 kB)\nCollecting attrs>=22.2.0 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting jsonschema-specifications>=2023.03.6 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)\nCollecting referencing>=0.28.4 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)\nCollecting rpds-py>=0.25.0 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)\nCollecting typing-extensions>=4.4.0 (from referencing>=0.28.4->jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting jinja2>=3.1.4 (from lisaconstants->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)\nCollecting MarkupSafe>=2.0 (from jinja2>=3.1.4->lisaconstants->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)\nCollecting beautifulsoup4<5.0.0,>=4.11.1 (from lisatools->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)\nCollecting cachetools<6.0.0,>=5.2.1 (from lisatools->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)\nCollecting soupsieve>=1.6.1 (from beautifulsoup4<5.0.0,>=4.11.1->lisatools->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)\nCollecting charset_normalizer<4,>=2 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)\nCollecting idna<4,>=2.5 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached idna-3.19-py3-none-any.whl.metadata (9.2 kB)\nCollecting urllib3<3,>=1.26 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)\nCollecting certifi>=2023.5.7 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)\nCollecting llvmlite<0.50,>=0.49.0dev0 (from numba->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached llvmlite-0.49.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)\nCollecting annotated-types>=0.6.0 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)\nCollecting pydantic-core==2.46.5 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)\nCollecting typing-inspection>=0.4.2 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)\nCollecting markdown-it-py>=2.2.0 (from rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting pygments<3.0.0,>=2.13.0 (from rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b)\n  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)\nWould install Jinja2-3.1.6 MarkupSafe-3.0.3 PyYAML-6.0.3 Pygments-2.21.0 annotated-types-0.8.0 attrs-26.1.0 beautifulsoup4-4.15.0 cachetools-5.5.2 certifi-2026.7.22 charset-normalizer-3.5.1 contourpy-1.3.3 corner-2.3.0 cycler-0.12.1 eryn-1.2.6 fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b fastlisaresponse-1.1.17 fonttools-4.65.0 gpubackendtools-0.1.1 h5py-3.14.0 idna-3.19 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kiwisolver-1.5.1 lisaanalysistools-1.2.8 lisaconstants-2.0.2 lisatools-0.5.1 llvmlite-0.49.0 markdown-it-py-4.2.0 matplotlib-3.11.1 mdurl-0.1.2 multispline-0.9.0 numba-0.67.0 numpy-2.5.3 nvidia-ml-py-13.610.43 packaging-26.3 pandas-3.0.5 pillow-12.3.0 platformdirs-4.11.8 pydantic-2.13.5 pydantic_core-2.46.5 pyparsing-3.3.2 python-dateutil-2.9.0.post0 referencing-0.37.0 requests-2.34.2 rich-15.0.0 rpds-py-2026.6.3 scipy-1.18.1 seaborn-0.13.2 six-1.17.0 soupsieve-2.9.2 tqdm-4.70.0 typing-inspection-0.4.4 typing_extensions-4.16.0 urllib3-2.7.0 wrapt-2.4.1\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--only-binary=:all:",
+        "--index-url",
+        "https://pypi.org/simple",
+        "--report",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/after_resolution.json",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl[sampling]"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "Processing /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\nCollecting h5py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached h5py-3.16.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.0 kB)\nCollecting jsonschema (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)\nCollecting lisaconstants (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached lisaconstants-2.0.2-py3-none-any.whl.metadata (3.9 kB)\nCollecting multispline (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached multispline-0.9.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (14 kB)\nCollecting numba (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached numba-0.67.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)\nCollecting numpy (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)\nCollecting nvidia-ml-py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached nvidia_ml_py-13.610.43-py3-none-any.whl.metadata (9.7 kB)\nCollecting platformdirs (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached platformdirs-4.11.8-py3-none-any.whl.metadata (5.5 kB)\nCollecting pydantic (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)\nCollecting pyyaml (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)\nCollecting requests (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)\nCollecting rich (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting scipy (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)\nCollecting tqdm (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)\nCollecting wrapt (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached wrapt-2.4.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (7.4 kB)\nCollecting eryn (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached eryn-1.2.6-py3-none-any.whl.metadata (6.3 kB)\nCollecting fastlisaresponse (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached fastlisaresponse-1.1.17-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.1 kB)\nCollecting lisaanalysistools (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.9 kB)\nCollecting matplotlib (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached matplotlib-3.11.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)\nCollecting pandas (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pandas-3.0.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)\nCollecting corner (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached corner-2.3.0-py3-none-any.whl.metadata (2.3 kB)\nCollecting seaborn (from eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)\nCollecting contourpy>=1.0.1 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)\nCollecting cycler>=0.10 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)\nCollecting fonttools>=4.28.2 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached fonttools-4.65.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (125 kB)\nCollecting kiwisolver>=1.3.1 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)\nCollecting packaging>=20.0 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)\nCollecting pillow>=9 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)\nCollecting pyparsing>=3 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)\nCollecting python-dateutil>=2.7 (from matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)\nCollecting six>=1.5 (from python-dateutil>=2.7->matplotlib->eryn->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)\nCollecting h5py (from fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached h5py-3.14.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.7 kB)\nCollecting gpubackendtools (from fastlisaresponse->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached gpubackendtools-0.1.1-py3-none-any.whl.metadata (2.0 kB)\nCollecting attrs>=22.2.0 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting jsonschema-specifications>=2023.03.6 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)\nCollecting referencing>=0.28.4 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)\nCollecting rpds-py>=0.25.0 (from jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)\nCollecting typing-extensions>=4.4.0 (from referencing>=0.28.4->jsonschema->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting jinja2>=3.1.4 (from lisaconstants->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)\nCollecting MarkupSafe>=2.0 (from jinja2>=3.1.4->lisaconstants->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)\nCollecting llvmlite<0.50,>=0.49.0dev0 (from numba->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached llvmlite-0.49.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)\nCollecting annotated-types>=0.6.0 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)\nCollecting pydantic-core==2.46.5 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)\nCollecting typing-inspection>=0.4.2 (from pydantic->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)\nCollecting charset_normalizer<4,>=2 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached charset_normalizer-3.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)\nCollecting idna<4,>=2.5 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached idna-3.19-py3-none-any.whl.metadata (9.2 kB)\nCollecting urllib3<3,>=1.26 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)\nCollecting certifi>=2023.5.7 (from requests->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)\nCollecting markdown-it-py>=2.2.0 (from rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting pygments<3.0.0,>=2.13.0 (from rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911->fastemriwaveforms==2.1.0.post1.dev91+g47e4fea4b.d20260911)\n  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)\nWould install Jinja2-3.1.6 MarkupSafe-3.0.3 PyYAML-6.0.3 Pygments-2.21.0 annotated-types-0.8.0 attrs-26.1.0 certifi-2026.7.22 charset-normalizer-3.5.1 contourpy-1.3.3 corner-2.3.0 cycler-0.12.1 eryn-1.2.6 fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911 fastlisaresponse-1.1.17 fonttools-4.65.0 gpubackendtools-0.1.1 h5py-3.14.0 idna-3.19 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 kiwisolver-1.5.1 lisaanalysistools-1.2.8 lisaconstants-2.0.2 llvmlite-0.49.0 markdown-it-py-4.2.0 matplotlib-3.11.1 mdurl-0.1.2 multispline-0.9.0 numba-0.67.0 numpy-2.5.3 nvidia-ml-py-13.610.43 packaging-26.3 pandas-3.0.5 pillow-12.3.0 platformdirs-4.11.8 pydantic-2.13.5 pydantic_core-2.46.5 pyparsing-3.3.2 python-dateutil-2.9.0.post0 referencing-0.37.0 requests-2.34.2 rich-15.0.0 rpds-py-2026.6.3 scipy-1.18.1 seaborn-0.13.2 six-1.17.0 tqdm-4.70.0 typing-inspection-0.4.4 typing_extensions-4.16.0 urllib3-2.7.0 wrapt-2.4.1\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+        "-m",
+        "pip",
+        "list",
+        "--format=json"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "[{\"name\": \"pip\", \"version\": \"26.2.1\"}]\n",
+      "stderr": ""
+    }
+  ],
+  "pypi": [
+    {
+      "distribution": "lisatools",
+      "version": "0.5.1",
+      "metadata_url": "https://pypi.org/pypi/lisatools/0.5.1/json",
+      "metadata_sha256": "da7e6571e836711f14b33a7be1b8cdf9dd584b3a861944b8faabbf1ec850eab6",
+      "summary": "Tools for monitoring my Lifetime ISA portfolio.",
+      "project_urls": null,
+      "wheel_url": "https://files.pythonhosted.org/packages/8e/34/19cb7a9f2bc7e81739c7a20e1f465e1bd121943db14f45ed6a86b6824a99/lisatools-0.5.1-py3-none-any.whl",
+      "cache_source": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisatools-0.5.1-py3-none-any.whl",
+        "sha256": "3208dbd1b1987f5bdc2fda59d3e5318a86d7317bcf4d7c71fbc9a69a0fdd15e6",
+        "bytes": 11709
+      },
+      "wheel": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/lisatools-0.5.1-py3-none-any.whl",
+        "sha256": "3208dbd1b1987f5bdc2fda59d3e5318a86d7317bcf4d7c71fbc9a69a0fdd15e6",
+        "bytes": 11709
+      }
+    },
+    {
+      "distribution": "lisaanalysistools",
+      "version": "1.2.8",
+      "metadata_url": "https://pypi.org/pypi/lisaanalysistools/1.2.8/json",
+      "metadata_sha256": "0a7adf4da727058c441b2f114b6969e4bc6816d320f0da9adc088981b93db179",
+      "summary": "A package for LISA Data Analysis",
+      "project_urls": null,
+      "wheel_url": "https://files.pythonhosted.org/packages/76/69/f31f8bc70b27ebb3720aa98af9ac83c9146ec93519b88c530eec08214e0d/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "cache_source": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "3cee8d2c0364a078ed18987e736d0cbf06af95ca9d95ac4b1983c6ec6675f9f5",
+        "bytes": 2586832
+      },
+      "wheel": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "sha256": "3cee8d2c0364a078ed18987e736d0cbf06af95ca9d95ac4b1983c6ec6675f9f5",
+        "bytes": 2586832
+      }
+    }
+  ],
+  "resolver_config": {
+    "removed_variable_names": [],
+    "pip_config_file": "/dev/null",
+    "index": "https://pypi.org/simple"
+  },
+  "resolver_environment": {
+    "executable": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env/bin/python",
+    "prefix": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-resolver-env",
+    "base_prefix": "/home/ubuntu/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu"
+  },
+  "inventory_before": [
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    }
+  ],
+  "before": {
+    "identity": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-master-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b-cp312-cp312-linux_x86_64.whl",
+      "sha256": "24e1b625868802408b2673a950cfb1edb7bdbdfcd1faf1efce1b424d2c8d581d",
+      "bytes": 240933
+    },
+    "name": "fastemriwaveforms",
+    "version": "2.1.0.post1.dev91+g47e4fea4b",
+    "requirements": [
+      "exceptiongroup; python_version < \"3.11\"",
+      "h5py",
+      "jsonschema",
+      "lisaconstants",
+      "multispline",
+      "numba",
+      "numpy",
+      "nvidia-ml-py",
+      "platformdirs",
+      "pydantic",
+      "pyyaml",
+      "requests",
+      "rich",
+      "scipy",
+      "tqdm",
+      "wrapt",
+      "ipykernel; extra == \"doc\"",
+      "ipython; extra == \"doc\"",
+      "ipywidgets; extra == \"doc\"",
+      "myst-parser; extra == \"doc\"",
+      "nbsphinx; extra == \"doc\"",
+      "pypandoc; extra == \"doc\"",
+      "sphinx; extra == \"doc\"",
+      "sphinx-rtd-theme; extra == \"doc\"",
+      "sphinx-tippy; extra == \"doc\"",
+      "eryn; extra == \"sampling\"",
+      "fastlisaresponse; extra == \"sampling\"",
+      "lisaanalysistools; extra == \"sampling\"",
+      "lisatools; extra == \"sampling\"",
+      "matplotlib; extra == \"testing\""
+    ],
+    "stable_headers": {
+      "Metadata-Version": [
+        "2.2"
+      ],
+      "Name": [
+        "fastemriwaveforms"
+      ],
+      "Summary": [
+        "Fast and accurate EMRI Waveforms."
+      ],
+      "Author": [
+        "Michael Katz, Lorenzo Speri, Christian Chapman-Bird, Alvin J. K. Chua, Niels Warburton, Scott Hughes, Maxime Pigou, Zach Nasipak"
+      ],
+      "Maintainer-Email": [
+        "Michael Katz <mikekatz04@gmail.com>, Christian Chapman-Bird <c.chapmanbird@gmail.com>"
+      ],
+      "Classifier": [
+        "Environment :: GPU :: NVIDIA CUDA",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Programming Language :: C++",
+        "Programming Language :: Cython",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14"
+      ],
+      "Project-URL": [
+        "Documentation, https://fastemriwaveforms.readthedocs.io/en/stable",
+        "Download, https://pypi.org/project/fastemriwaveforms/#files",
+        "Homepage, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms",
+        "Source, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms",
+        "Tracker, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/issues"
+      ],
+      "Requires-Python": [
+        ">=3.12"
+      ],
+      "Provides-Extra": [
+        "doc",
+        "sampling",
+        "testing"
+      ],
+      "Description-Content-Type": [
+        "text/markdown"
+      ]
+    },
+    "description": "# few: FastEMRIWaveforms\n\n[![Documentation Status](https://app.readthedocs.org/projects/fastemriwaveforms/badge/?version=stable)](https://fastemriwaveforms.readthedocs.io/en/stable/)\n[![DOI](https://zenodo.org/badge/223486766.svg)](https://doi.org/10.5281/zenodo.3969004)\n\nThis package contains a highly modular framework for the rapid generation of accurate extreme-mass-ratio inspiral (EMRI) waveforms. FEW combines a variety of separately accessible modules to construct EMRI waveform models for both CPUs and GPUs.\n\n* Generally, the modules fall into four categories: trajectory, amplitudes, summation, and utilities. Please see the [documentation](https://fastemriwaveforms.readthedocs.io/en/stable) for further information on these modules.\n* The code can be found on Github [here](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms).\n* The data necessary for various modules in this package will automatically download the first time it is needed. If you would like to view the data, it can be found on [Zenodo](https://zenodo.org/records/3981654).\n* The current and all past code release zip files can also be found on Zenodo [here](https://zenodo.org/records/3969004).\n\n**Please see the [citation](#citation) section below for information on citing FEW.** This package is part of the [Black Hole Perturbation Toolkit](https://bhptoolkit.org/).\n\n## Getting started\n\nDetailed installation instructions can be found in the [documentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html).\nBelow is a quick set of instructions to install the FastEMRIWaveform package on CPUs and GPUs.\n\nTo install the latest version of `fastemriwaveforms` using `pip`, simply run:\n\n```sh\n# For CPU-only version\npip install fastemriwaveforms\n\n# For GPU-enabled versions with CUDA 12.Y.Z\npip install fastemriwaveforms-cuda12x\n```\n\nTo know your CUDA version, run the tool `nvidia-smi` in a terminal a check the CUDA version reported in the table header:\n\n```sh\n$ nvidia-smi\n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |\n|-----------------------------------------+------------------------+----------------------+\n...\n```\n\nYou may also install `fastemriwaveforms` directly using conda (including on Windows)\nas well as its CUDA 12.x plugin (only on Linux). It is strongly advised to:\n\n1. Ensure that your conda environment makes sole use of the `conda-forge` channel\n2. Install `fastemriwaveforms` directly when building your conda environment, not afterwards\n\n```sh\n# For CPU-only version, on either Linux, macOS or Windows:\nconda create --name few_cpu -c conda-forge --override-channels python=3.12 fastemriwaveforms\nconda activate few_cpu\n\n# For CUDA 12.x version, only on Linux\nconda create --name few_cuda -c conda-forge --override-channels python=3.12 fastemriwaveforms-cuda12x\nconda activate few_cuda\n```\n\nNow, in a python file or notebook:\n\n```py3\nimport few\n```\n\nYou may check the currently available backends:\n\n```py3\n>>> for backend in [\"cpu\", \"cuda12x\", \"cuda\", \"gpu\"]:\n...     print(f\" - Backend '{backend}': {\"available\" if few.has_backend(backend) else \"unavailable\"}\")\n - Backend 'cpu': available\n - Backend 'cuda12x': unavailable\n - Backend 'cuda': unavailable\n - Backend 'gpu': unavailable\n```\n\nNote that the `cuda` backend is an alias for `cuda12x` (and soon, `cuda13x`). If any is available, then the `cuda` backend is available.\nSimilarly, the `gpu` backend is (for now) an alias for `cuda`.\n\nIf you expected a backend to be available but it is not, run the following command to obtain an error\nmessage which can guide you to fix this issue:\n\n```py3\n>>> import few\n>>> few.get_backend(\"cuda12x\")\nModuleNotFoundError: No module named 'few_backend_cuda12x'\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.BackendNotInstalled: The 'cuda12x' backend is not installed.\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.MissingDependencies: FastEMRIWaveforms CUDA plugin is missing.\n    If you are using few in an environment managed using pip, run:\n        $ pip install fastemriwaveforms-cuda12x\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.BackendAccessException: Backend 'cuda12x' is unavailable. See previous error messages.\n```\n\nOnce FEW is working and the expected backends are selected, check out the [examples notebooks](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/tree/master/examples/)\non how to start with this software.\n\n## Installing from sources\n\n### Prerequisites\n\nTo install this software from source, you will need:\n\n- A C++ compiler (g++, clang++, ...)\n- A Python version supported by [scikit-build-core](https://github.com/scikit-build/scikit-build-core) (>=3.7 as of Jan. 2025)\n\nSome installation steps require the external library `LAPACK` along with its C-bindings provided by `LAPACKE`.\nIf these libraries and their header files (in particular `lapacke.h`) are available on your system, they will be detected\nand used automatically. If they are available on a non-standard location, see below for some options to help detecting them.\nNote that by default, if `LAPACKE` is not available on your system, the installation step will attempt to download its sources\nand add them to the compilation tree. This makes the installation a bit longer but a lot easier.\n\nIf you want to enable GPU support in FEW, you will also need the NVIDIA CUDA Compiler `nvcc` in your path as well as\nthe [CUDA toolkit](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) (with, in particular, the\nlibraries `CUDA Runtime Library`, `cuBLAS` and `cuSPARSE`).\n\nThere are a set of files required for total use of this package. They will download automatically the first time they are needed. Files are generally under 10MB. However, there is a 100MB file needed for the slow waveform and the bicubic amplitude interpolation. This larger file will only download if you run either of those two modules. The files are hosted on the [Black Hole Perturbation Toolkit Download Server](https://download.bhptoolkit.org/few/data).\n\n### Installation instructions using conda\n\nWe recommend to install FEW using conda in order to have the compilers all within an environment.\nFirst clone the repo\n\n```\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\n```\n\nNow create an environment (these instructions work for all platforms but some\nadjustements can be needed, refer to the\n[detailed installation documentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html) for more information):\n\n```\nconda create -n few_env -y -c conda-forge --override-channels |\n    cxx-compiler pkgconfig conda-forge/label/lapack_rc::liblapacke\n```\n\nactivate the environment\n\n```\nconda activate few_env\n```\n\nThen we can install locally for development:\n```\npip install -e '.[dev, testing]'\n```\n\n### Installation instructions using conda on GPUs and linux\nBelow is a quick set of instructions to install the Fast EMRI Waveform package on GPUs and linux.\n\n```sh\nconda create -n few_env -c conda-forge fastemriwaveforms-cuda12x python=3.12\nconda activate few_env\n```\n\nTest the installation device by running python\n```python\nimport few\nfew.get_backend(\"cuda12x\")\n```\n\n### Running the installation\n\nTo start the from-source installation, ensure the pre-requisite are met, clone\nthe repository, and then simply run a `pip install` command:\n\n```sh\n# Clone the repository\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\n\n# Run the install\npip install .\n```\n\nIf the installation does not work, first check the [detailed installation\ndocumentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html). If\nit still does not work, please open an issue on the\n[GitHub repository](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/issues)\nor contact the developers through other means.\n\n\n\n### Running the Tests\n\nThe tests require a few dependencies which are not installed by default. To install them, add the `[testing]` label to FEW package\nname when installing it. E.g:\n\n```sh\n# For CPU-only version with testing enabled\npip install fastemriwaveforms[testing]\n\n# For GPU version with CUDA 12.Y and testing enabled\npip install fastemriwaveforms-cuda12x[testing]\n\n# For from-source install with testing enabled\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\npip install '.[testing]'\n```\n\nTo run the tests, open a terminal in a directory containing the sources of FEW and then run the `unittest` module in `discover` mode:\n\n```sh\n$ git clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\n$ cd FastEMRIWaveforms\n$ python -m few.tests  # or \"python -m unittest discover\"\n...\n----------------------------------------------------------------------\nRan 20 tests in 71.514s\nOK\n```\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.\n\nIf you want to develop FEW and produce documentation, install `few` from source with the `[dev]` label and in `editable` mode:\n\n```\n$ git clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\n$ cd FastEMRIWaveforms\npip install -e '.[dev, testing]'\n```\n\nThis will install necessary packages for building the documentation (`sphinx`, `pypandoc`, `sphinx_rtd_theme`, `nbsphinx`) and to run the tests.\n\nThe documentation source files are in `docs/source`. To compile the documentation locally, change to the `docs` directory and run `make html`.\n\n## Versioning\n\nWe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/tags).\n\n## Contributors\n\nA (non-exhaustive) list of contributors to the FEW code can be found in [CONTRIBUTORS.md](CONTRIBUTORS.md).\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Citation\n\nPlease make sure to cite FEW papers and the FEW software on [Zenodo](https://zenodo.org/records/3969004).\nWe provide a set of prepared references in [PAPERS.bib](PAPERS.bib). There are other papers that require citation based on the classes used. For most classes this applies to, you can find these by checking the `citation` attribute for that class.  All references are detailed in the [CITATION.cff](CITATION.cff) file.\n\n## Acknowledgments\n\n* This research resulting in this code was supported by National Science Foundation under grant DGE-0948017 and the Chateaubriand Fellowship from the Office for Science \\& Technology of the Embassy of France in the United States.\n* It was also supported in part through the computational resources and staff contributions provided for the Quest/Grail high performance computing facility at Northwestern University.\n",
+    "sampling": [
+      "eryn",
+      "fastlisaresponse",
+      "lisaanalysistools",
+      "lisatools"
+    ],
+    "native_files": [],
+    "resolution": {
+      "identity": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/before_resolution.json",
+        "sha256": "c52d1588faa63b99e27e867a08a17852af8125519f7a38fee2bc3dca760610f0",
+        "bytes": 876398
+      },
+      "distributions": {
+        "fastemriwaveforms": "2.1.0.post1.dev91+g47e4fea4b",
+        "eryn": "1.2.6",
+        "corner": "2.3.0",
+        "matplotlib": "3.11.1",
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.65.0",
+        "kiwisolver": "1.5.1",
+        "numpy": "2.5.3",
+        "packaging": "26.3",
+        "pillow": "12.3.0",
+        "pyparsing": "3.3.2",
+        "python-dateutil": "2.9.0.post0",
+        "six": "1.17.0",
+        "fastlisaresponse": "1.1.17",
+        "h5py": "3.14.0",
+        "lisaanalysistools": "1.2.8",
+        "gpubackendtools": "0.1.1",
+        "jsonschema": "4.26.0",
+        "attrs": "26.1.0",
+        "jsonschema-specifications": "2025.9.1",
+        "referencing": "0.37.0",
+        "rpds-py": "2026.6.3",
+        "typing-extensions": "4.16.0",
+        "lisaconstants": "2.0.2",
+        "jinja2": "3.1.6",
+        "markupsafe": "3.0.3",
+        "lisatools": "0.5.1",
+        "beautifulsoup4": "4.15.0",
+        "cachetools": "5.5.2",
+        "requests": "2.34.2",
+        "charset-normalizer": "3.5.1",
+        "idna": "3.19",
+        "urllib3": "2.7.0",
+        "certifi": "2026.7.22",
+        "soupsieve": "2.9.2",
+        "multispline": "0.9.0",
+        "numba": "0.67.0",
+        "llvmlite": "0.49.0",
+        "nvidia-ml-py": "13.610.43",
+        "pandas": "3.0.5",
+        "platformdirs": "4.11.8",
+        "pydantic": "2.13.5",
+        "pydantic-core": "2.46.5",
+        "annotated-types": "0.8.0",
+        "typing-inspection": "0.4.4",
+        "pyyaml": "6.0.3",
+        "rich": "15.0.0",
+        "pygments": "2.21.0",
+        "markdown-it-py": "4.2.0",
+        "mdurl": "0.1.2",
+        "scipy": "1.18.1",
+        "seaborn": "0.13.2",
+        "tqdm": "4.70.0",
+        "wrapt": "2.4.1"
+      }
+    }
+  },
+  "after": {
+    "identity": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl",
+      "sha256": "d14c3f4b9044e2c3fe1271b109e43ddbd02661fcc973f60cf06de7d0b4052cb0",
+      "bytes": 241823
+    },
+    "name": "fastemriwaveforms",
+    "version": "2.1.0.post1.dev91+g47e4fea4b.d20260911",
+    "requirements": [
+      "exceptiongroup; python_version < \"3.11\"",
+      "h5py",
+      "jsonschema",
+      "lisaconstants",
+      "multispline",
+      "numba",
+      "numpy",
+      "nvidia-ml-py",
+      "platformdirs",
+      "pydantic",
+      "pyyaml",
+      "requests",
+      "rich",
+      "scipy",
+      "tqdm",
+      "wrapt",
+      "ipykernel; extra == \"doc\"",
+      "ipython; extra == \"doc\"",
+      "ipywidgets; extra == \"doc\"",
+      "myst-parser; extra == \"doc\"",
+      "nbsphinx; extra == \"doc\"",
+      "pypandoc; extra == \"doc\"",
+      "sphinx; extra == \"doc\"",
+      "sphinx-rtd-theme; extra == \"doc\"",
+      "sphinx-tippy; extra == \"doc\"",
+      "eryn; extra == \"sampling\"",
+      "fastlisaresponse; extra == \"sampling\"",
+      "lisaanalysistools; extra == \"sampling\"",
+      "matplotlib; extra == \"testing\""
+    ],
+    "stable_headers": {
+      "Metadata-Version": [
+        "2.2"
+      ],
+      "Name": [
+        "fastemriwaveforms"
+      ],
+      "Summary": [
+        "Fast and accurate EMRI Waveforms."
+      ],
+      "Author": [
+        "Michael Katz, Lorenzo Speri, Christian Chapman-Bird, Alvin J. K. Chua, Niels Warburton, Scott Hughes, Maxime Pigou, Zach Nasipak"
+      ],
+      "Maintainer-Email": [
+        "Michael Katz <mikekatz04@gmail.com>, Christian Chapman-Bird <c.chapmanbird@gmail.com>"
+      ],
+      "Classifier": [
+        "Environment :: GPU :: NVIDIA CUDA",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Programming Language :: C++",
+        "Programming Language :: Cython",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14"
+      ],
+      "Project-URL": [
+        "Documentation, https://fastemriwaveforms.readthedocs.io/en/stable",
+        "Download, https://pypi.org/project/fastemriwaveforms/#files",
+        "Homepage, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms",
+        "Source, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms",
+        "Tracker, https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/issues"
+      ],
+      "Requires-Python": [
+        ">=3.12"
+      ],
+      "Provides-Extra": [
+        "doc",
+        "sampling",
+        "testing"
+      ],
+      "Description-Content-Type": [
+        "text/markdown"
+      ]
+    },
+    "description": "# few: FastEMRIWaveforms\n\n[![Documentation Status](https://app.readthedocs.org/projects/fastemriwaveforms/badge/?version=stable)](https://fastemriwaveforms.readthedocs.io/en/stable/)\n[![DOI](https://zenodo.org/badge/223486766.svg)](https://doi.org/10.5281/zenodo.3969004)\n\nThis package contains a highly modular framework for the rapid generation of accurate extreme-mass-ratio inspiral (EMRI) waveforms. FEW combines a variety of separately accessible modules to construct EMRI waveform models for both CPUs and GPUs.\n\n* Generally, the modules fall into four categories: trajectory, amplitudes, summation, and utilities. Please see the [documentation](https://fastemriwaveforms.readthedocs.io/en/stable) for further information on these modules.\n* The code can be found on Github [here](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms).\n* The data necessary for various modules in this package will automatically download the first time it is needed. If you would like to view the data, it can be found on [Zenodo](https://zenodo.org/records/3981654).\n* The current and all past code release zip files can also be found on Zenodo [here](https://zenodo.org/records/3969004).\n\n**Please see the [citation](#citation) section below for information on citing FEW.** This package is part of the [Black Hole Perturbation Toolkit](https://bhptoolkit.org/).\n\n## Getting started\n\nDetailed installation instructions can be found in the [documentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html).\nBelow is a quick set of instructions to install the FastEMRIWaveform package on CPUs and GPUs.\n\nTo install the latest version of `fastemriwaveforms` using `pip`, simply run:\n\n```sh\n# For CPU-only version\npip install fastemriwaveforms\n\n# For GPU-enabled versions with CUDA 12.Y.Z\npip install fastemriwaveforms-cuda12x\n```\n\nTo know your CUDA version, run the tool `nvidia-smi` in a terminal a check the CUDA version reported in the table header:\n\n```sh\n$ nvidia-smi\n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 550.54.15              Driver Version: 550.54.15      CUDA Version: 12.4     |\n|-----------------------------------------+------------------------+----------------------+\n...\n```\n\nYou may also install `fastemriwaveforms` directly using conda (including on Windows)\nas well as its CUDA 12.x plugin (only on Linux). It is strongly advised to:\n\n1. Ensure that your conda environment makes sole use of the `conda-forge` channel\n2. Install `fastemriwaveforms` directly when building your conda environment, not afterwards\n\n```sh\n# For CPU-only version, on either Linux, macOS or Windows:\nconda create --name few_cpu -c conda-forge --override-channels python=3.12 fastemriwaveforms\nconda activate few_cpu\n\n# For CUDA 12.x version, only on Linux\nconda create --name few_cuda -c conda-forge --override-channels python=3.12 fastemriwaveforms-cuda12x\nconda activate few_cuda\n```\n\nNow, in a python file or notebook:\n\n```py3\nimport few\n```\n\nYou may check the currently available backends:\n\n```py3\n>>> for backend in [\"cpu\", \"cuda12x\", \"cuda\", \"gpu\"]:\n...     print(f\" - Backend '{backend}': {\"available\" if few.has_backend(backend) else \"unavailable\"}\")\n - Backend 'cpu': available\n - Backend 'cuda12x': unavailable\n - Backend 'cuda': unavailable\n - Backend 'gpu': unavailable\n```\n\nNote that the `cuda` backend is an alias for `cuda12x` (and soon, `cuda13x`). If any is available, then the `cuda` backend is available.\nSimilarly, the `gpu` backend is (for now) an alias for `cuda`.\n\nIf you expected a backend to be available but it is not, run the following command to obtain an error\nmessage which can guide you to fix this issue:\n\n```py3\n>>> import few\n>>> few.get_backend(\"cuda12x\")\nModuleNotFoundError: No module named 'few_backend_cuda12x'\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.BackendNotInstalled: The 'cuda12x' backend is not installed.\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.MissingDependencies: FastEMRIWaveforms CUDA plugin is missing.\n    If you are using few in an environment managed using pip, run:\n        $ pip install fastemriwaveforms-cuda12x\n\nThe above exception was the direct cause of the following exception:\n...\n\nfew.cutils.BackendAccessException: Backend 'cuda12x' is unavailable. See previous error messages.\n```\n\nOnce FEW is working and the expected backends are selected, check out the [examples notebooks](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/tree/master/examples/)\non how to start with this software.\n\n## Installing from sources\n\n### Prerequisites\n\nTo install this software from source, you will need:\n\n- A C++ compiler (g++, clang++, ...)\n- A Python version supported by [scikit-build-core](https://github.com/scikit-build/scikit-build-core) (>=3.7 as of Jan. 2025)\n\nSome installation steps require the external library `LAPACK` along with its C-bindings provided by `LAPACKE`.\nIf these libraries and their header files (in particular `lapacke.h`) are available on your system, they will be detected\nand used automatically. If they are available on a non-standard location, see below for some options to help detecting them.\nNote that by default, if `LAPACKE` is not available on your system, the installation step will attempt to download its sources\nand add them to the compilation tree. This makes the installation a bit longer but a lot easier.\n\nIf you want to enable GPU support in FEW, you will also need the NVIDIA CUDA Compiler `nvcc` in your path as well as\nthe [CUDA toolkit](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) (with, in particular, the\nlibraries `CUDA Runtime Library`, `cuBLAS` and `cuSPARSE`).\n\nThere are a set of files required for total use of this package. They will download automatically the first time they are needed. Files are generally under 10MB. However, there is a 100MB file needed for the slow waveform and the bicubic amplitude interpolation. This larger file will only download if you run either of those two modules. The files are hosted on the [Black Hole Perturbation Toolkit Download Server](https://download.bhptoolkit.org/few/data).\n\n### Installation instructions using conda\n\nWe recommend to install FEW using conda in order to have the compilers all within an environment.\nFirst clone the repo\n\n```\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\n```\n\nNow create an environment (these instructions work for all platforms but some\nadjustements can be needed, refer to the\n[detailed installation documentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html) for more information):\n\n```\nconda create -n few_env -y -c conda-forge --override-channels |\n    cxx-compiler pkgconfig conda-forge/label/lapack_rc::liblapacke\n```\n\nactivate the environment\n\n```\nconda activate few_env\n```\n\nThen we can install locally for development:\n```\npip install -e '.[dev, testing]'\n```\n\n### Installation instructions using conda on GPUs and linux\nBelow is a quick set of instructions to install the Fast EMRI Waveform package on GPUs and linux.\n\n```sh\nconda create -n few_env -c conda-forge fastemriwaveforms-cuda12x python=3.12\nconda activate few_env\n```\n\nTest the installation device by running python\n```python\nimport few\nfew.get_backend(\"cuda12x\")\n```\n\n### Running the installation\n\nTo start the from-source installation, ensure the pre-requisite are met, clone\nthe repository, and then simply run a `pip install` command:\n\n```sh\n# Clone the repository\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\n\n# Run the install\npip install .\n```\n\nIf the installation does not work, first check the [detailed installation\ndocumentation](https://fastemriwaveforms.readthedocs.io/en/stable/user/install.html). If\nit still does not work, please open an issue on the\n[GitHub repository](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/issues)\nor contact the developers through other means.\n\n\n\n### Running the Tests\n\nThe tests require a few dependencies which are not installed by default. To install them, add the `[testing]` label to FEW package\nname when installing it. E.g:\n\n```sh\n# For CPU-only version with testing enabled\npip install fastemriwaveforms[testing]\n\n# For GPU version with CUDA 12.Y and testing enabled\npip install fastemriwaveforms-cuda12x[testing]\n\n# For from-source install with testing enabled\ngit clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\ncd FastEMRIWaveforms\npip install '.[testing]'\n```\n\nTo run the tests, open a terminal in a directory containing the sources of FEW and then run the `unittest` module in `discover` mode:\n\n```sh\n$ git clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\n$ cd FastEMRIWaveforms\n$ python -m few.tests  # or \"python -m unittest discover\"\n...\n----------------------------------------------------------------------\nRan 20 tests in 71.514s\nOK\n```\n\n## Contributing\n\nPlease read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.\n\nIf you want to develop FEW and produce documentation, install `few` from source with the `[dev]` label and in `editable` mode:\n\n```\n$ git clone https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms.git\n$ cd FastEMRIWaveforms\npip install -e '.[dev, testing]'\n```\n\nThis will install necessary packages for building the documentation (`sphinx`, `pypandoc`, `sphinx_rtd_theme`, `nbsphinx`) and to run the tests.\n\nThe documentation source files are in `docs/source`. To compile the documentation locally, change to the `docs` directory and run `make html`.\n\n## Versioning\n\nWe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms/tags).\n\n## Contributors\n\nA (non-exhaustive) list of contributors to the FEW code can be found in [CONTRIBUTORS.md](CONTRIBUTORS.md).\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## Citation\n\nPlease make sure to cite FEW papers and the FEW software on [Zenodo](https://zenodo.org/records/3969004).\nWe provide a set of prepared references in [PAPERS.bib](PAPERS.bib). There are other papers that require citation based on the classes used. For most classes this applies to, you can find these by checking the `citation` attribute for that class.  All references are detailed in the [CITATION.cff](CITATION.cff) file.\n\n## Acknowledgments\n\n* This research resulting in this code was supported by National Science Foundation under grant DGE-0948017 and the Chateaubriand Fellowship from the Office for Science \\& Technology of the Embassy of France in the United States.\n* It was also supported in part through the computational resources and staff contributions provided for the Quest/Grail high performance computing facility at Northwestern University.\n",
+    "sampling": [
+      "eryn",
+      "fastlisaresponse",
+      "lisaanalysistools"
+    ],
+    "native_files": [],
+    "resolution": {
+      "identity": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-verified/after_resolution.json",
+        "sha256": "aaf6d8d14bb74e3709ec433dab0e5ce7f3b218aca91d1d320855c0d92d9440fd",
+        "bytes": 856925
+      },
+      "distributions": {
+        "fastemriwaveforms": "2.1.0.post1.dev91+g47e4fea4b.d20260911",
+        "eryn": "1.2.6",
+        "corner": "2.3.0",
+        "matplotlib": "3.11.1",
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.65.0",
+        "kiwisolver": "1.5.1",
+        "numpy": "2.5.3",
+        "packaging": "26.3",
+        "pillow": "12.3.0",
+        "pyparsing": "3.3.2",
+        "python-dateutil": "2.9.0.post0",
+        "six": "1.17.0",
+        "fastlisaresponse": "1.1.17",
+        "h5py": "3.14.0",
+        "lisaanalysistools": "1.2.8",
+        "gpubackendtools": "0.1.1",
+        "jsonschema": "4.26.0",
+        "attrs": "26.1.0",
+        "jsonschema-specifications": "2025.9.1",
+        "referencing": "0.37.0",
+        "rpds-py": "2026.6.3",
+        "typing-extensions": "4.16.0",
+        "lisaconstants": "2.0.2",
+        "jinja2": "3.1.6",
+        "markupsafe": "3.0.3",
+        "multispline": "0.9.0",
+        "numba": "0.67.0",
+        "llvmlite": "0.49.0",
+        "nvidia-ml-py": "13.610.43",
+        "pandas": "3.0.5",
+        "platformdirs": "4.11.8",
+        "pydantic": "2.13.5",
+        "pydantic-core": "2.46.5",
+        "annotated-types": "0.8.0",
+        "typing-inspection": "0.4.4",
+        "pyyaml": "6.0.3",
+        "requests": "2.34.2",
+        "charset-normalizer": "3.5.1",
+        "idna": "3.19",
+        "urllib3": "2.7.0",
+        "certifi": "2026.7.22",
+        "rich": "15.0.0",
+        "pygments": "2.21.0",
+        "markdown-it-py": "4.2.0",
+        "mdurl": "0.1.2",
+        "scipy": "1.18.1",
+        "seaborn": "0.13.2",
+        "tqdm": "4.70.0",
+        "wrapt": "2.4.1"
+      }
+    }
+  },
+  "namespace_overlap": {
+    "lisatools/__init__.py": {
+      "lisatools": "4ea4dbd3b01153750c0c2cba2c851fa4b5c26761297713c8c6d73f3ecfa8e755",
+      "lisaanalysistools": "19bcec6b881a58e7cecfbfceacedb12ac245c32f54ed20264549efa0681d320f"
+    }
+  },
+  "inventory_after": [
+    {
+      "name": "pip",
+      "version": "26.2.1"
+    }
+  ]
+}
