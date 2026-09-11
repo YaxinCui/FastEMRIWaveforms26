@@ -1,0 +1,213 @@
+{
+  "timestamp_cst": "2026-09-11T14:26:14.864690+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "backend": "cpu",
+  "adapter": false,
+  "passes": true,
+  "scope": "Actual short source waveforms; configuration regression, not scientific acceptance or timing",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/real_config_probe.py",
+      "sha256": "80a1295df7bedb4aff7b42d9df96a6171b8d61f359fafe06d6a9cce580a176b3",
+      "bytes": 5428
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py",
+      "sha256": "5dfb5c4e124efc164a2f21cb927eb63c5e1648ff4257c82405d1cda0ff07785b",
+      "bytes": 25284
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/utils/modeselector.py",
+      "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+      "bytes": 26456
+    }
+  ],
+  "native": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "bytes": 9866272
+  },
+  "cases": [
+    {
+      "case": "nominal",
+      "intrinsic": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0
+      ],
+      "calls": [
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "caad7c24a695a490167113c39d230dcf8257cdec27fa25a02be5b5aba9329ea7"
+        },
+        {
+          "selection": "threshold",
+          "constructor": "all",
+          "psd_calls": 1,
+          "modes": 116,
+          "samples": 211,
+          "sha256": "8e8b439b0714c632431da649f62d395e91e8b2fc5d3c7e84f3eb875936e28838"
+        },
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "caad7c24a695a490167113c39d230dcf8257cdec27fa25a02be5b5aba9329ea7"
+        },
+        {
+          "selection": null,
+          "constructor": "threshold",
+          "psd_calls": 1,
+          "modes": 116,
+          "samples": 211,
+          "sha256": "8e8b439b0714c632431da649f62d395e91e8b2fc5d3c7e84f3eb875936e28838"
+        },
+        {
+          "selection": "all",
+          "constructor": "threshold",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "caad7c24a695a490167113c39d230dcf8257cdec27fa25a02be5b5aba9329ea7"
+        }
+      ],
+      "passes": true
+    },
+    {
+      "case": "high_e",
+      "intrinsic": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "calls": [
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "5ebc3939a3da21a64195834f0d9788d47404e0632ded1ed1604192f849e0ac63"
+        },
+        {
+          "selection": "threshold",
+          "constructor": "all",
+          "psd_calls": 1,
+          "modes": 557,
+          "samples": 211,
+          "sha256": "258aa6301560f1bc1b5062619328ae601f2d9a8c954f12ee56aeafff901c14d8"
+        },
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "5ebc3939a3da21a64195834f0d9788d47404e0632ded1ed1604192f849e0ac63"
+        },
+        {
+          "selection": null,
+          "constructor": "threshold",
+          "psd_calls": 1,
+          "modes": 557,
+          "samples": 211,
+          "sha256": "258aa6301560f1bc1b5062619328ae601f2d9a8c954f12ee56aeafff901c14d8"
+        },
+        {
+          "selection": "all",
+          "constructor": "threshold",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "5ebc3939a3da21a64195834f0d9788d47404e0632ded1ed1604192f849e0ac63"
+        }
+      ],
+      "passes": true
+    },
+    {
+      "case": "retrograde",
+      "intrinsic": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.3,
+        -1.0
+      ],
+      "calls": [
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "c4797233068c5c7aef7b86854823e063fa3af0afb5f92438b078b6017b1c2100"
+        },
+        {
+          "selection": "threshold",
+          "constructor": "all",
+          "psd_calls": 1,
+          "modes": 98,
+          "samples": 211,
+          "sha256": "cda340bb4438a6615a0140adaa5c3f4a9b77a474d166b11a102000d669388a8f"
+        },
+        {
+          "selection": null,
+          "constructor": "all",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "c4797233068c5c7aef7b86854823e063fa3af0afb5f92438b078b6017b1c2100"
+        },
+        {
+          "selection": null,
+          "constructor": "threshold",
+          "psd_calls": 1,
+          "modes": 98,
+          "samples": 211,
+          "sha256": "cda340bb4438a6615a0140adaa5c3f4a9b77a474d166b11a102000d669388a8f"
+        },
+        {
+          "selection": "all",
+          "constructor": "threshold",
+          "psd_calls": 0,
+          "modes": 6993,
+          "samples": 211,
+          "sha256": "c4797233068c5c7aef7b86854823e063fa3af0afb5f92438b078b6017b1c2100"
+        }
+      ],
+      "passes": true
+    }
+  ],
+  "settings": {
+    "T": 0.0001,
+    "dt": 15.0,
+    "Phi_phi0": 0.3,
+    "Phi_theta0": 0.4,
+    "Phi_r0": 0.5
+  },
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ]
+}

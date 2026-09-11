@@ -1,0 +1,20 @@
+{
+  "timestamp_cst": "2026-09-11T14:43:12.639407+08:00",
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_effective_mode_selection",
+    "tests.test_mode_selector",
+    "-v"
+  ],
+  "returncode": 0,
+  "passes": true,
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py": "5dfb5c4e124efc164a2f21cb927eb63c5e1648ff4257c82405d1cda0ff07785b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_effective_mode_selection.py": "9138e3fe5b48961a601d0bedebd34e3c0acafe9b7d08e35d28d456edfe00a468",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_checks.py": "812c79d69027c6fbad2496be2849eb201813961f68acf0c7e9682d1687ead965",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_mode_selector.py": "4831d9be5a64fcfcd06651bcf5cfb5734570fd133d310f071bc50de28b1c64c1"
+  },
+  "log": "test_all_threshold_default_sequence (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_all_threshold_default_sequence) ... ok\ntest_batch_sampling_obeys_override (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_batch_sampling_obeys_override) ... ok\ntest_list_default_remains_list (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_list_default_remains_list) ... ok\ntest_none_constructor_uses_threshold (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_none_constructor_uses_threshold) ... ok\ntest_threshold_override_all_skips_derivatives (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_threshold_override_all_skips_derivatives) ... ok\nTest 'ModeSelector' is starting.\n  Test 'ModeSelector': running with backend 'cpu'\ntest_mode_selector (tests.test_mode_selector.ModeSelectorTest.test_mode_selector) ... (CubicSplineInterpolant) Warning: New t array outside bounds of input t array. These points are filled with edge values.\nok\n\n  Test 'ModeSelector': done.\n\n----------------------------------------------------------------------\nRan 6 tests in 13.185s\n\nOK\n"
+}

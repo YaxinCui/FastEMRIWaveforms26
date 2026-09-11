@@ -1,0 +1,18 @@
+{
+  "timestamp_cst": "2026-09-11T14:16:42.697177+08:00",
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_effective_mode_selection",
+    "-v"
+  ],
+  "returncode": 0,
+  "passes": true,
+  "source_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py": "5dfb5c4e124efc164a2f21cb927eb63c5e1648ff4257c82405d1cda0ff07785b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_effective_mode_selection.py": "c5e84b8af2bb56531aaafa1f17dc02d82498e17f644be5b8ef38a8ceb5edcfcd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_checks.py": "d4d87708b757b3efb1f0abfeb624e4b0d3b8c36962699966a57467255a04c88c"
+  },
+  "log": "test_all_threshold_default_sequence (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_all_threshold_default_sequence) ... ok\ntest_batch_sampling_obeys_override (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_batch_sampling_obeys_override) ... ok\ntest_list_default_remains_list (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_list_default_remains_list) ... ok\ntest_threshold_override_all_skips_derivatives (tests.test_effective_mode_selection.EffectiveModeSelectionTest.test_threshold_override_all_skips_derivatives) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 6.981s\n\nOK\n"
+}

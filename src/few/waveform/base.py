@@ -275,6 +275,12 @@ class SphericalHarmonicWaveformBase(
             else iterator
         )
 
+        # 2026-09-11 14:16 CST (linux): A call-time selection overrides the
+        # constructor default. Resolve it without mutating future-call defaults.
+        effective_mode_selection = (
+            self.mode_selector.mode_selection if mode_selection is None else mode_selection
+        )
+
         for i, inds_in in iterator:
             # get subsections of the arrays for each batch
             t_temp = t[inds_in]
@@ -287,7 +293,7 @@ class SphericalHarmonicWaveformBase(
 
             # get frequencies to pass to mode selection
             # TODO: write a method that just returns the derivatives at each spline knot (vectorises easier).
-            if self.mode_selector.mode_selection != "all":
+            if effective_mode_selection != "all":
                 freqs = self.inspiral_generator.inspiral_generator.eval_integrator_derivative_spline(t_temp, order=1)[:,3:6] / 2 / np.pi
 
                 online_mode_selection_args = dict(
