@@ -1,0 +1,24 @@
+{
+  "timestamp_cst": "2026-09-11T17:44:04.751236+08:00",
+  "passes": true,
+  "runs": [
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/test_single_pass_basis.py"
+      ],
+      "returncode": 0,
+      "log": "test_counter_exception_restoration (__main__.Tests.test_counter_exception_restoration) ... ok\ntest_guard (__main__.Tests.test_guard) ... ok\ntest_missing_and_zero_groups (__main__.Tests.test_missing_and_zero_groups) ... ok\ntest_pair_global_phasor_is_wrong (__main__.Tests.test_pair_global_phasor_is_wrong) ... ok\ntest_signed_pair_basis (__main__.Tests.test_signed_pair_basis) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.026s\n\nOK\n",
+      "test_sha256": "ad120ae9a1240c27ee9379d7d90ece7b6adb6fadb4f5bd25a8dc9d65df1428c3"
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/test_phase_likelihood.py"
+      ],
+      "returncode": 0,
+      "log": "test_aliasing_negative_control (__main__.Tests.test_aliasing_negative_control) ... ok\ntest_compact_storage (__main__.Tests.test_compact_storage) ... ok\ntest_cross_terms_necessary (__main__.Tests.test_cross_terms_necessary) ... ok\ntest_independent_longdouble_series (__main__.Tests.test_independent_longdouble_series) ... ok\ntest_invalid_and_ownership (__main__.Tests.test_invalid_and_ownership) ... ok\ntest_sine_sign_and_tiny_phase (__main__.Tests.test_sine_sign_and_tiny_phase) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.020s\n\nOK\n",
+      "test_sha256": "551c70754522a52b2682df62c28b6f3131cc73c83266a7ad5e12cb2a3b0cb5f3"
+    }
+  ]
+}
