@@ -1,0 +1,25 @@
+{
+  "timestamp_cst": "2026-09-11T15:51:47.555615+08:00",
+  "terminal": true,
+  "passes": true,
+  "returncode": 0,
+  "backend": "cpu",
+  "imported": {
+    "backend": "cpu",
+    "sources": {
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/tests/test_spin_cache.py": "64df1836bc1325467408b2dfaaf26f8d5ceea8c527b2bd9a6ade8d6da89e0304",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/ampinterp2d.py": "8c98b5d5175c3df3c7f08ab3977c6dd8a9d4abf46c8a8525403f1f8d9776ca7c",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/_spincache.py": "894cbcbecd1a94a11af1f510e0f13e8587eca866cad3afbeb9cb9a0ef05f8f71",
+      "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc"
+    }
+  },
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "-m",
+    "unittest",
+    "tests.test_spin_cache",
+    "-v"
+  ],
+  "log": "SPIN_CACHE_META={\"backend\": \"cpu\", \"sources\": {\"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/tests/test_spin_cache.py\": \"64df1836bc1325467408b2dfaaf26f8d5ceea8c527b2bd9a6ade8d6da89e0304\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/ampinterp2d.py\": \"8c98b5d5175c3df3c7f08ab3977c6dd8a9d4abf46c8a8525403f1f8d9776ca7c\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/_spincache.py\": \"894cbcbecd1a94a11af1f510e0f13e8587eca866cad3afbeb9cb9a0ef05f8f71\", \"/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so\": \"4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc\"}}\ntest_analytic_oracle_and_eager_bytes (tests.test_spin_cache.SpinCacheTest.test_analytic_oracle_and_eager_bytes) ... ok\ntest_changed_file_and_failed_load_are_not_cached (tests.test_spin_cache.SpinCacheTest.test_changed_file_and_failed_load_are_not_cached) ... ok\ntest_clear_and_parent_release_ownership (tests.test_spin_cache.SpinCacheTest.test_clear_and_parent_release_ownership) ... ok\ntest_lru_changes_spin_without_stale_outputs (tests.test_spin_cache.SpinCacheTest.test_lru_changes_spin_without_stale_outputs) ... ok\ntest_metadata_safety_and_initialization_identity (tests.test_spin_cache.SpinCacheTest.test_metadata_safety_and_initialization_identity) ... ok\ntest_no_coefficient_reads_at_construction_and_one_two_four_slices (tests.test_spin_cache.SpinCacheTest.test_no_coefficient_reads_at_construction_and_one_two_four_slices) ... ok\ntest_nondefault_stream_and_device_guard (tests.test_spin_cache.SpinCacheTest.test_nondefault_stream_and_device_guard) ... ok\ntest_parameter_validation_and_downsample_physical_indices (tests.test_spin_cache.SpinCacheTest.test_parameter_validation_and_downsample_physical_indices) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.330s\n\nOK\n",
+  "script_sha256": "343e8aa6a87858462c4ea16a3d9faf2bc97d54cfa76a74d7b75d39c979c0c1cf"
+}

@@ -1,0 +1,1177 @@
+{
+  "timestamp_cst": "2026-09-11T16:18:56.357403+08:00",
+  "passes": true,
+  "terminal": true,
+  "backend": "cuda12x",
+  "pairs": 7,
+  "verified_first": false,
+  "protocol": "Serial fresh processes, alternating master/lazy and lazy/master. Full H5 SHA256 pass before EVERY worker explicitly warms file cache. ONCE FEW integrity remains enabled. Process is statistical unit.",
+  "script_sha256": "a2c92bb3d3d2d46a96506a6bdedb8faef27939c9d3ef9126f0646dbcaacd60eb",
+  "worker_sha256": "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+  "runs": [
+    {
+      "pair": 0,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.json",
+        "--benchmark"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.json",
+        "sha256": "fa4e7015148fa30bdc1d655715dd2df1a4ebb001d675816b6975efa465bc357b"
+      }
+    },
+    {
+      "pair": 0,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_lazy.json",
+        "sha256": "c42266d0533cc3a785b516b6414700799cbde49cd457e7dd9666a9a358b1618e"
+      }
+    },
+    {
+      "pair": 1,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair1_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair1_lazy.json",
+        "sha256": "e80420d86cb747a1d519cbd952b90392fed0989ad314871cf0cbb919911f0b4d"
+      }
+    },
+    {
+      "pair": 1,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair1_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair1_master.json",
+        "sha256": "19b47ef3b745aab1f7fb656713bc8904d46c35e06a1ec6e9787615f2583054e0"
+      }
+    },
+    {
+      "pair": 2,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair2_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair2_master.json",
+        "sha256": "140ad113a90c952fdef621ac510b159f19dab7a93731f9a5ce56882b4c01dfa4"
+      }
+    },
+    {
+      "pair": 2,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair2_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair2_lazy.json",
+        "sha256": "db8979b70506283d77c8a43b8a7e5dd2d3eb5514753054d6dff607846edf8e6f"
+      }
+    },
+    {
+      "pair": 3,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair3_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair3_lazy.json",
+        "sha256": "986cb62f5711e8b98e462959460013955067f4606bbcbdaf6c7a92ba30b712bc"
+      }
+    },
+    {
+      "pair": 3,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair3_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair3_master.json",
+        "sha256": "c9ff40bfac618ec9db0c75b7b9787b36f76a0d86b3eac7dfebc6a580b04bee13"
+      }
+    },
+    {
+      "pair": 4,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair4_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair4_master.json",
+        "sha256": "54436c3ded04fdcb7858e8e7b521e3a6402d475ee07544a01defdd5f0f608e1e"
+      }
+    },
+    {
+      "pair": 4,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair4_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair4_lazy.json",
+        "sha256": "5d03fc4e1421eae37d95a4ff4c0286a8da267d1ebaa1b60590aed8f4542aa4e5"
+      }
+    },
+    {
+      "pair": 5,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair5_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair5_lazy.json",
+        "sha256": "eb85b579c907b6d913f0b6552dd779c86554064a93424c4657e0118e21e3b25a"
+      }
+    },
+    {
+      "pair": 5,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair5_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair5_master.json",
+        "sha256": "fdd60e11a89d8e0d0c02e45f0fdee22a93560e6c7b9d4e0c93c8a9d591495808"
+      }
+    },
+    {
+      "pair": 6,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair6_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair6_master.json",
+        "sha256": "5f86b082f9a4c44ae6768d59c03587f01efdfe26c18d747345d18995bcfca052"
+      }
+    },
+    {
+      "pair": 6,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cuda12x",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair6_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cuda12x\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cuda/pair6_lazy.json",
+        "sha256": "7fcde8c02b51ef6c45950748a8f6b617fbb1ca8f732c0ddcfe23a9cbb33c52df"
+      }
+    }
+  ],
+  "summary": {
+    "construction_seconds": {
+      "median_seconds": {
+        "master": 12.731252520999988,
+        "lazy": 11.500237838998146
+      },
+      "ratio_of_medians": 1.1070425411400955,
+      "paired_ratios": [
+        1.1119537372124668,
+        1.1186464040466626,
+        1.0851838285969764,
+        1.1014373950443324,
+        1.1109509939591373,
+        1.1072018896032683,
+        1.114688753861393
+      ],
+      "paired_median": 1.1109509939591373,
+      "paired_min": 1.0851838285969764,
+      "paired_max": 1.1186464040466626
+    },
+    "first_seconds": {
+      "median_seconds": {
+        "master": 9.744146960001672,
+        "lazy": 9.82945112699963
+      },
+      "ratio_of_medians": 0.9913215737180234,
+      "paired_ratios": [
+        0.9976478198776062,
+        0.9936739427953756,
+        0.9834216450834978,
+        0.9906479030403991,
+        0.979588006724345,
+        0.9991162694386346,
+        0.9810185978412759
+      ],
+      "paired_median": 0.9906479030403991,
+      "paired_min": 0.979588006724345,
+      "paired_max": 0.9991162694386346
+    },
+    "construction_plus_first_seconds": {
+      "median_seconds": {
+        "master": 22.456096750000142,
+        "lazy": 21.365875600000436
+      },
+      "ratio_of_medians": 1.0510262799620385,
+      "paired_ratios": [
+        1.0593050491938383,
+        1.06086545676693,
+        1.0384683774105556,
+        1.050467703977392,
+        1.0499657692596445,
+        1.0575488978655037,
+        1.0525281310457573
+      ],
+      "paired_median": 1.0525281310457573,
+      "paired_min": 1.0384683774105556,
+      "paired_max": 1.06086545676693
+    },
+    "verified_setup_plus_first_seconds": {
+      "median_seconds": {
+        "master": 22.45610805799879,
+        "lazy": 21.36588785999993
+      },
+      "ratio_of_medians": 1.0510262061255087,
+      "paired_ratios": [
+        1.0593050891083513,
+        1.0608653585482952,
+        1.0384680622333946,
+        1.050467622926062,
+        1.0499658124339635,
+        1.0575489090860173,
+        1.0525282862601613
+      ],
+      "paired_median": 1.0525282862601613,
+      "paired_min": 1.0384680622333946,
+      "paired_max": 1.0608653585482952
+    },
+    "call_first": {
+      "median_seconds": {
+        "master": 9.744146960001672,
+        "lazy": 9.82945112699963
+      },
+      "ratio_of_medians": 0.9913215737180234
+    },
+    "call_repeat1": {
+      "median_seconds": {
+        "master": 0.01731953499984229,
+        "lazy": 0.017040950999216875
+      },
+      "ratio_of_medians": 1.0163479139537586
+    },
+    "call_repeat2": {
+      "median_seconds": {
+        "master": 0.01694599000256858,
+        "lazy": 0.01717394799925387
+      },
+      "ratio_of_medians": 0.9867265234123689
+    },
+    "call_near_spin": {
+      "median_seconds": {
+        "master": 0.017544980000820942,
+        "lazy": 0.018047359997581225
+      },
+      "ratio_of_medians": 0.9721632417800934
+    },
+    "call_far_spin": {
+      "median_seconds": {
+        "master": 0.6426568399983807,
+        "lazy": 0.6726745419982763
+      },
+      "ratio_of_medians": 0.9553755938039165
+    },
+    "call_retrograde": {
+      "median_seconds": {
+        "master": 0.017534433001856087,
+        "lazy": 0.08845001800000318
+      },
+      "ratio_of_medians": 0.1982411467893139
+    },
+    "call_return": {
+      "median_seconds": {
+        "master": 0.018179219001467573,
+        "lazy": 0.08964687100160518
+      },
+      "ratio_of_medians": 0.2027869885290482
+    }
+  },
+  "expected_manifests": {
+    "master": {
+      "sources": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+          "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+          15721
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+          "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+          25866
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+          "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+          24996
+        ]
+      ],
+      "native": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+          "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+          336952
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+          "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+          103528
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+          "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+          398504
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+          "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+          91016
+        ]
+      ],
+      "data": [
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+          "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+          9857632
+        ],
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+          "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+          5089095248
+        ]
+      ]
+    },
+    "lazy": {
+      "sources": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+          "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+          15721
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/_spincache.py",
+          "894cbcbecd1a94a11af1f510e0f13e8587eca866cad3afbeb9cb9a0ef05f8f71",
+          4080
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/ampinterp2d.py",
+          "8c98b5d5175c3df3c7f08ab3977c6dd8a9d4abf46c8a8525403f1f8d9776ca7c",
+          32002
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/waveform/base.py",
+          "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+          24996
+        ]
+      ],
+      "native": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+          "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+          336952
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+          "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+          103528
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+          "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+          398504
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+          "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+          91016
+        ]
+      ],
+      "data": [
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+          "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+          9857632
+        ],
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+          "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+          5089095248
+        ]
+      ]
+    }
+  },
+  "expected_workload": {
+    "settings": {
+      "T": 0.003,
+      "dt": 15.0,
+      "Phi_phi0": 0.3,
+      "Phi_theta0": 0.4,
+      "Phi_r0": 0.5
+    },
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "xp": "cupy",
+    "calls": [
+      [
+        "first",
+        null,
+        [
+          [
+            "first",
+            [
+              6312
+            ],
+            "complex128",
+            "74ecce7248b201f5d332cd8e94af5fd790f9470048d9374589ca2d61d178d120"
+          ],
+          [
+            "first_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "repeat1",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "repeat1",
+            [
+              6312
+            ],
+            "complex128",
+            "74ecce7248b201f5d332cd8e94af5fd790f9470048d9374589ca2d61d178d120"
+          ],
+          [
+            "repeat1_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "repeat2",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "repeat2",
+            [
+              6312
+            ],
+            "complex128",
+            "74ecce7248b201f5d332cd8e94af5fd790f9470048d9374589ca2d61d178d120"
+          ],
+          [
+            "repeat2_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "near_spin",
+        [
+          0.61,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "near_spin",
+            [
+              6312
+            ],
+            "complex128",
+            "404f04103ed2e9edf9b418031676381e2609ce9c0f0621d4b7d5f89f9e068394"
+          ],
+          [
+            "near_spin_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "56ea123b90f796cdc3c604c73c467d9893211df671b3f46424c2e51041eb5f87"
+          ]
+        ]
+      ],
+      [
+        "far_spin",
+        [
+          0.9,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "far_spin",
+            [
+              6312
+            ],
+            "complex128",
+            "1aa966c9c7133bdd75c34cf3e18305b8c6756e225b8be8e5d17695353bc45b3e"
+          ],
+          [
+            "far_spin_modes",
+            [
+              4,
+              87
+            ],
+            "int32",
+            "5312ca800d8c2de4ccd7b06a1de06f883d3db344490b62986bec3e953459b2e6"
+          ]
+        ]
+      ],
+      [
+        "retrograde",
+        [
+          0.6,
+          12.0,
+          -1.0,
+          null
+        ],
+        [
+          [
+            "retrograde",
+            [
+              6312
+            ],
+            "complex128",
+            "9ece3f6314a4b5f6c4b74a3f7c1d49761e82811117606b166c91f1789fcd9bf9"
+          ],
+          [
+            "retrograde_modes",
+            [
+              4,
+              99
+            ],
+            "int32",
+            "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea"
+          ]
+        ]
+      ],
+      [
+        "return",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "return",
+            [
+              6312
+            ],
+            "complex128",
+            "74ecce7248b201f5d332cd8e94af5fd790f9470048d9374589ca2d61d178d120"
+          ],
+          [
+            "return_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ]
+    ]
+  },
+  "first_memory_samples": {
+    "master": [
+      {
+        "smaps_rollup": {
+          "Rss": "2305428 kB",
+          "Pss": "2290954 kB",
+          "Private_Dirty": "2015092 kB"
+        },
+        "io": {
+          "rchar": "10226851061",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7076392 kB",
+          "VmRSS": "2305428 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16560226304,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2306060 kB",
+          "Pss": "2291532 kB",
+          "Private_Dirty": "2016380 kB"
+        },
+        "io": {
+          "rchar": "10227860249",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7075716 kB",
+          "VmRSS": "2306060 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16557211648,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2306064 kB",
+          "Pss": "2291536 kB",
+          "Private_Dirty": "2016560 kB"
+        },
+        "io": {
+          "rchar": "10227860347",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7076624 kB",
+          "VmRSS": "2306064 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16559112192,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2306180 kB",
+          "Pss": "2291673 kB",
+          "Private_Dirty": "2010716 kB"
+        },
+        "io": {
+          "rchar": "10227860053",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7077532 kB",
+          "VmRSS": "2306180 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16692346880,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2305932 kB",
+          "Pss": "2291425 kB",
+          "Private_Dirty": "2010380 kB"
+        },
+        "io": {
+          "rchar": "10227860003",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7078204 kB",
+          "VmRSS": "2305932 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16712204288,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2305956 kB",
+          "Pss": "2291442 kB",
+          "Private_Dirty": "2011116 kB"
+        },
+        "io": {
+          "rchar": "10227860053",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7077592 kB",
+          "VmRSS": "2305956 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16711221248,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "2306220 kB",
+          "Pss": "2291660 kB",
+          "Private_Dirty": "2011460 kB"
+        },
+        "io": {
+          "rchar": "10227860249",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "7075652 kB",
+          "VmRSS": "2306220 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 5089725440,
+          "total_bytes": 5455644160
+        },
+        "cuda_mem_info": [
+          16711483392,
+          23065591808
+        ]
+      }
+    ],
+    "lazy": [
+      {
+        "smaps_rollup": {
+          "Rss": "1617476 kB",
+          "Pss": "1603036 kB",
+          "Private_Dirty": "1327680 kB"
+        },
+        "io": {
+          "rchar": "5383591400",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617476 kB",
+          "VmRSS": "1617476 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21506555904,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1618008 kB",
+          "Pss": "1603456 kB",
+          "Private_Dirty": "1327924 kB"
+        },
+        "io": {
+          "rchar": "5383591400",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1618008 kB",
+          "VmRSS": "1618008 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21506752512,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1617848 kB",
+          "Pss": "1603259 kB",
+          "Private_Dirty": "1319892 kB"
+        },
+        "io": {
+          "rchar": "5383591744",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617848 kB",
+          "VmRSS": "1617848 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21609578496,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1617908 kB",
+          "Pss": "1603356 kB",
+          "Private_Dirty": "1321660 kB"
+        },
+        "io": {
+          "rchar": "5383591498",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617908 kB",
+          "VmRSS": "1617908 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21636579328,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1617920 kB",
+          "Pss": "1603368 kB",
+          "Private_Dirty": "1322316 kB"
+        },
+        "io": {
+          "rchar": "5383591301",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617920 kB",
+          "VmRSS": "1617920 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21636841472,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1617784 kB",
+          "Pss": "1603177 kB",
+          "Private_Dirty": "1322644 kB"
+        },
+        "io": {
+          "rchar": "5383591498",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617784 kB",
+          "VmRSS": "1617784 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21656895488,
+          23065591808
+        ]
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1617640 kB",
+          "Pss": "1603122 kB",
+          "Private_Dirty": "1323144 kB"
+        },
+        "io": {
+          "rchar": "5383591302",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1617640 kB",
+          "VmRSS": "1617640 kB"
+        },
+        "cupy_pool": {
+          "used_bytes": 245341696,
+          "total_bytes": 611277824
+        },
+        "cuda_mem_info": [
+          21656567808,
+          23065591808
+        ]
+      }
+    ]
+  }
+}

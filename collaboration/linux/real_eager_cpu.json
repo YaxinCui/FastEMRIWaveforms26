@@ -1,0 +1,870 @@
+{
+  "timestamp_cst": "2026-09-11T15:59:55.432508+08:00",
+  "policy": "eager",
+  "backend": "cpu",
+  "benchmark": false,
+  "verified_first": false,
+  "passes": true,
+  "terminal": true,
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "host_derivative_adapter": false,
+  "scope": "Actual source waveform and amplitude, not TDI/inference or independent Teukolsky truth",
+  "timing_scope": "Synchronized wall-clock; construction+first includes adapter setup and ONCE integrity check unless explicit verified-first phase; no memory snapshots within joint interval",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "xp": "numpy",
+  "calls": [
+    {
+      "label": "first",
+      "seconds": 9.87506235500041,
+      "wave": {
+        "key": "first",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "first_modes",
+        "shape": [
+          4,
+          89
+        ],
+        "dtype": "int32",
+        "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6190672 kB",
+          "Pss": "6090362 kB",
+          "Private_Dirty": "5995040 kB"
+        },
+        "io": {
+          "rchar": "10227953194",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6333660 kB",
+          "VmRSS": "6190672 kB"
+        }
+      }
+    },
+    {
+      "label": "repeat1",
+      "parameters": [
+        0.6,
+        12.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.11246110399952158,
+      "wave": {
+        "key": "repeat1",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "repeat1_modes",
+        "shape": [
+          4,
+          89
+        ],
+        "dtype": "int32",
+        "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6191280 kB",
+          "Pss": "6090970 kB",
+          "Private_Dirty": "5995648 kB"
+        },
+        "io": {
+          "rchar": "10228250457",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6428056 kB",
+          "VmRSS": "6191280 kB"
+        }
+      }
+    },
+    {
+      "label": "repeat2",
+      "parameters": [
+        0.6,
+        12.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.11368092499833438,
+      "wave": {
+        "key": "repeat2",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "repeat2_modes",
+        "shape": [
+          4,
+          89
+        ],
+        "dtype": "int32",
+        "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6191280 kB",
+          "Pss": "6090970 kB",
+          "Private_Dirty": "5995648 kB"
+        },
+        "io": {
+          "rchar": "10228547720",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6428056 kB",
+          "VmRSS": "6191280 kB"
+        }
+      }
+    },
+    {
+      "label": "near_spin",
+      "parameters": [
+        0.61,
+        12.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.11804679700071574,
+      "wave": {
+        "key": "near_spin",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "c112beedfa96c3be1040d5e6ce8054479a26f79ef234d0169efb051a5facc514",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "near_spin_modes",
+        "shape": [
+          4,
+          89
+        ],
+        "dtype": "int32",
+        "sha256": "56ea123b90f796cdc3c604c73c467d9893211df671b3f46424c2e51041eb5f87",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6192672 kB",
+          "Pss": "6092362 kB",
+          "Private_Dirty": "5997040 kB"
+        },
+        "io": {
+          "rchar": "10228844986",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6192672 kB"
+        }
+      }
+    },
+    {
+      "label": "far_spin",
+      "parameters": [
+        0.9,
+        12.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.6817076609986543,
+      "wave": {
+        "key": "far_spin",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "9a3b10ddc8c2067d6178e9a0844ead97491f4143cc483be36e60162452c3c190",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "far_spin_modes",
+        "shape": [
+          4,
+          87
+        ],
+        "dtype": "int32",
+        "sha256": "5312ca800d8c2de4ccd7b06a1de06f883d3db344490b62986bec3e953459b2e6",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6189268 kB",
+          "Pss": "6088958 kB",
+          "Private_Dirty": "5993592 kB"
+        },
+        "io": {
+          "rchar": "10229142257",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6189268 kB"
+        }
+      }
+    },
+    {
+      "label": "retrograde",
+      "parameters": [
+        0.6,
+        12.0,
+        -1.0,
+        null
+      ],
+      "seconds": 0.11309397200238891,
+      "wave": {
+        "key": "retrograde",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "463d13f920f2eb349ae528bb8c66f657eb046357ee9332af7c6cba086b6fb1e2",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "retrograde_modes",
+        "shape": [
+          4,
+          99
+        ],
+        "dtype": "int32",
+        "sha256": "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6189284 kB",
+          "Pss": "6088974 kB",
+          "Private_Dirty": "5993608 kB"
+        },
+        "io": {
+          "rchar": "10229439528",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6189284 kB"
+        }
+      }
+    },
+    {
+      "label": "return",
+      "parameters": [
+        0.6,
+        12.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.11225130700040609,
+      "wave": {
+        "key": "return",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "return_modes",
+        "shape": [
+          4,
+          89
+        ],
+        "dtype": "int32",
+        "sha256": "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6189284 kB",
+          "Pss": "6088974 kB",
+          "Private_Dirty": "5993608 kB"
+        },
+        "io": {
+          "rchar": "10229736799",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6189284 kB"
+        }
+      }
+    },
+    {
+      "label": "outer_region",
+      "parameters": [
+        0.6,
+        40.0,
+        1.0,
+        null
+      ],
+      "seconds": 0.04775659699953394,
+      "wave": {
+        "key": "outer_region",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "f85b57b02cfd31fad015fb2aeccac4054188f80ab2509892d8c6a0bb88cd6571",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "outer_region_modes",
+        "shape": [
+          4,
+          55
+        ],
+        "dtype": "int32",
+        "sha256": "3368256fed6c0db8469d5dec653cef642a5978210c209b4a902cbf225619626b",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6193028 kB",
+          "Pss": "6092718 kB",
+          "Private_Dirty": "5997352 kB"
+        },
+        "io": {
+          "rchar": "10230034070",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6193028 kB"
+        }
+      }
+    },
+    {
+      "label": "few_modes",
+      "parameters": [
+        0.6,
+        12.0,
+        1.0,
+        [
+          [
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            2
+          ]
+        ]
+      ],
+      "seconds": 0.0029399119994195644,
+      "wave": {
+        "key": "few_modes",
+        "shape": [
+          6312
+        ],
+        "dtype": "complex128",
+        "sha256": "820fad8128ba57f466f2f66d184362a1f7c2ff45780589943b4fb29807adce95",
+        "master_byte_equal": true
+      },
+      "modes": {
+        "key": "few_modes_modes",
+        "shape": [
+          4,
+          2
+        ],
+        "dtype": "int64",
+        "sha256": "f34adbcbf98f612fa7452eb49456a619c0aa511f8b484ad6591480c0eea78492",
+        "master_byte_equal": true
+      },
+      "cache": null,
+      "memory": {
+        "smaps_rollup": {
+          "Rss": "6193060 kB",
+          "Pss": "6092750 kB",
+          "Private_Dirty": "5997352 kB"
+        },
+        "io": {
+          "rchar": "10230331341",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6429448 kB",
+          "VmRSS": "6193060 kB"
+        }
+      }
+    }
+  ],
+  "amplitudes": [
+    {
+      "key": "prograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "19beb830fafcc6515e9eea44b1facc3c11110dbb71487189cc455b4513f73024",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "8c315aed9852009bc88a6e66b1569c5d61d516d4a214a5e4d584e1e840f8e057",
+      "master_byte_equal": true
+    },
+    {
+      "key": "prograde_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "8c315aed9852009bc88a6e66b1569c5d61d516d4a214a5e4d584e1e840f8e057",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "d69f81e32b8b158506f0a7d0efa307c327c897bc5f43b3176d0bf1d9bc5e46aa",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "3c2e0bd8b74770439aecfa3d583e58b2f627ae55255bbc9612c67f7258e837f3",
+      "master_byte_equal": true
+    },
+    {
+      "key": "canonical_retrograde_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "3c2e0bd8b74770439aecfa3d583e58b2f627ae55255bbc9612c67f7258e837f3",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "20d54243b3c1f796c56feecb59cc0e560cef49331b32280c6e36ce30ae8e8746",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "d47dc541bcdf2d1ecb549cf49b4ae681246b6f98773d5667635dd335f58a8c59",
+      "master_byte_equal": true
+    },
+    {
+      "key": "direct_retrograde_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "349ceb1a1bed628a72921b821a0a426de4341531295bdd0d03517c94cc2e1812",
+      "master_byte_equal": true
+    },
+    {
+      "key": "spin_edge_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "b8f5527d0a49a247458015bc474a6bd904b5b14b0e6cb3a586037216f77b3af4",
+      "master_byte_equal": true
+    },
+    {
+      "key": "spin_edge_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "0be3a51bb9c5bbdb3a6789acdd03a93a5c96d51d3130a39cee779689aa221bdc",
+      "master_byte_equal": true
+    },
+    {
+      "key": "spin_edge_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "0be3a51bb9c5bbdb3a6789acdd03a93a5c96d51d3130a39cee779689aa221bdc",
+      "master_byte_equal": true
+    },
+    {
+      "key": "negative_edge_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "94c8f01aa5a7448511253803d4db2b0f394506f4650502c4a344397096682d0d",
+      "master_byte_equal": true
+    },
+    {
+      "key": "negative_edge_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "d930808acf9f98212e02267148ab831a9ae460f9a8a00cdae99e55f20a2faba0",
+      "master_byte_equal": true
+    },
+    {
+      "key": "negative_edge_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "d930808acf9f98212e02267148ab831a9ae460f9a8a00cdae99e55f20a2faba0",
+      "master_byte_equal": true
+    },
+    {
+      "key": "zero_spin_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "aa1495d0697333dd85236c7042c8277c8f3e9ba84a5063c41c05c537f43b4305",
+      "master_byte_equal": true
+    },
+    {
+      "key": "zero_spin_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "b89bc5da26ef46f2d865b1cff52814d619d21a311251646d44ec67cdee33f1e5",
+      "master_byte_equal": true
+    },
+    {
+      "key": "zero_spin_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "b89bc5da26ef46f2d865b1cff52814d619d21a311251646d44ec67cdee33f1e5",
+      "master_byte_equal": true
+    },
+    {
+      "key": "region_boundary_all",
+      "shape": [
+        3,
+        6993
+      ],
+      "dtype": "complex128",
+      "sha256": "1632cf93de50d321a9a5d659eeb0170c92ff87c3be8c6d54384a8e0830d27437",
+      "master_byte_equal": true
+    },
+    {
+      "key": "region_boundary_tuples",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "9ccabbf54dff21057e5959e44a14831c117a31e872036c8262dd2a153bf829f0",
+      "master_byte_equal": true
+    },
+    {
+      "key": "region_boundary_raw",
+      "shape": [
+        3,
+        5
+      ],
+      "dtype": "complex128",
+      "sha256": "9ccabbf54dff21057e5959e44a14831c117a31e872036c8262dd2a153bf829f0",
+      "master_byte_equal": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+      "sha256": "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+      "bytes": 15721
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/ampinterp2d.py",
+      "sha256": "8c98b5d5175c3df3c7f08ab3977c6dd8a9d4abf46c8a8525403f1f8d9776ca7c",
+      "bytes": 32002
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/_spincache.py",
+      "sha256": "894cbcbecd1a94a11af1f510e0f13e8587eca866cad3afbeb9cb9a0ef05f8f71",
+      "bytes": 4080
+    }
+  ],
+  "reference": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/real_master_cpu_replay.npz",
+    "sha256": "1abee0d173a4e95c73ecfcddbc7f4d935e8bd0194ed108b0a9d1d5512c0dc291",
+    "bytes": 3058595
+  },
+  "gpu_before": null,
+  "memory_before": {
+    "smaps_rollup": {
+      "Rss": "411592 kB",
+      "Pss": "347005 kB",
+      "Private_Dirty": "221192 kB"
+    },
+    "io": {
+      "rchar": "30487699",
+      "read_bytes": "0"
+    },
+    "status": {
+      "VmHWM": "411592 kB",
+      "VmRSS": "411592 kB"
+    }
+  },
+  "verification_seconds": 6.980008038226515e-07,
+  "settings": {
+    "T": 0.003,
+    "dt": 15.0,
+    "Phi_phi0": 0.3,
+    "Phi_theta0": 0.4,
+    "Phi_r0": 0.5
+  },
+  "construction_seconds": 10.42204622799909,
+  "cache_at_construction": null,
+  "first_seconds": 9.87506235500041,
+  "construction_plus_first_seconds": 20.297114356999373,
+  "verified_setup_plus_first_seconds": 20.29711866300204,
+  "mapping_cases": [
+    {
+      "label": "prograde",
+      "z": [
+        0.5491077383313349,
+        0.5491077383313349,
+        0.5491077383313349
+      ],
+      "region_A": [
+        true,
+        false,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "canonical_retrograde",
+      "z": [
+        0.9223048409633683,
+        0.9223048409633683,
+        0.9223048409633683
+      ],
+      "region_A": [
+        true,
+        true,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "direct_retrograde",
+      "z": [
+        0.9223048409633683,
+        0.9223048409633683,
+        0.9223048409633683
+      ],
+      "region_A": [
+        true,
+        true,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "spin_edge",
+      "z": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "region_A": [
+        false,
+        false,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "negative_edge",
+      "z": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "region_A": [
+        true,
+        true,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "zero_spin",
+      "z": [
+        0.7760553950380649,
+        0.7760553950380649,
+        0.7760553950380649
+      ],
+      "region_A": [
+        true,
+        true,
+        false
+      ],
+      "cache": null
+    },
+    {
+      "label": "region_boundary",
+      "z": [
+        0.5491077383313349,
+        0.5491077383313349,
+        0.5491077383313349
+      ],
+      "region_A": [
+        true,
+        true,
+        false
+      ],
+      "cache": null
+    }
+  ],
+  "memory_final_live": {
+    "smaps_rollup": {
+      "Rss": "6190920 kB",
+      "Pss": "6090610 kB",
+      "Private_Dirty": "5995212 kB"
+    },
+    "io": {
+      "rchar": "10236925696",
+      "read_bytes": "0"
+    },
+    "status": {
+      "VmHWM": "6429908 kB",
+      "VmRSS": "6190920 kB"
+    }
+  },
+  "cache_final_live": null,
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+      "bytes": 82672
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+      "bytes": 70400
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+      "bytes": 9866272
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+      "bytes": 74240
+    }
+  ],
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/real_eager_cpu.npz",
+    "sha256": "1abee0d173a4e95c73ecfcddbc7f4d935e8bd0194ed108b0a9d1d5512c0dc291",
+    "bytes": 3058595
+  },
+  "gpu_after": null,
+  "memory_after_gc": {
+    "smaps_rollup": {
+      "Rss": "630288 kB",
+      "Pss": "529886 kB",
+      "Private_Dirty": "434580 kB"
+    },
+    "io": {
+      "rchar": "15349033114",
+      "read_bytes": "0"
+    },
+    "status": {
+      "VmHWM": "6429908 kB",
+      "VmRSS": "630288 kB"
+    }
+  }
+}

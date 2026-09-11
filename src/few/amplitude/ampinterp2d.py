@@ -4,6 +4,8 @@
 import os
 import pathlib
 from copy import deepcopy
+from functools import partial
+import operator
 from typing import List, Optional, Union
 
 import h5py
@@ -201,6 +203,11 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
 
     args:
         fp: The coefficients file name in `file_directory`.
+        spin_cache_size: Opt in to lazy FP64 coefficient loading, keeping this
+            many spin slices PER REGION (at least 2). None preserves eager
+            loading. Fixed spin uses at most two slices per visited region;
+            changing spins may require disk reads and host/device transfers.
+            The backing file must remain unchanged during the object's life.
         **kwargs: Optional keyword arguments for the base classes:
             :class:`few.utils.baseclasses.AmplitudeBase`,
             :class:`few.utils.baseclasses.KerrEccentricEquatorial`.
@@ -217,6 +224,7 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
         filename: Optional[str] = None,
         downsample_Z=1,
         force_backend: BackendLike = None,
+        spin_cache_size: Optional[int] = None,
         **kwargs,
     ):
         AmplitudeBase.__init__(self)
@@ -229,6 +237,23 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
         from few import get_file_manager
 
         file_path = get_file_manager().get_file(self.filename)
+
+        # 2026-09-11 15:42 CST (linux): Only opt-in storage changes. Retain the
+        # eager loader below and every mapping/interpolation arithmetic step.
+        self.spin_cache_size = spin_cache_size
+        if spin_cache_size is not None:
+            if isinstance(spin_cache_size, (bool, np.bool_)):
+                raise ValueError("spin_cache_size must be an integer >=2 or None")
+            try:
+                capacity = operator.index(spin_cache_size)
+                stride = operator.index(downsample_Z)
+            except TypeError as exc:
+                raise ValueError("Cache size and downsample_Z must be integers") from exc
+            if capacity < 2 or stride < 1 or isinstance(downsample_Z, (bool, np.bool_)):
+                raise ValueError("Require spin_cache_size>=2 and downsample_Z>=1")
+            self._spin_cache_device = self.xp.cuda.runtime.getDevice() if self.backend.uses_cuda else None
+            self._initialize_spin_cache(file_path, stride, capacity)
+            return
 
         with h5py.File(file_path, "r") as f:
             regionA = f["regionA"]
@@ -288,7 +313,76 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
 
         self.z_values = self.xp.asarray(z_knots)
 
+    def _initialize_spin_cache(self, file_path, stride, capacity):
+        from ._spincache import SpinSliceCache, file_identity
+
+        z_reference = None
+        # 2026-09-11 15:49 CST (linux): Bind BOTH regions and their metadata
+        # to one file version, including the initialization race window.
+        identity = file_identity(file_path)
+        with h5py.File(file_path, "r") as file:
+            for region in ("A", "B"):
+                if region == "B" and "regionB" not in file:
+                    continue
+                group = file[f"region{region}"]
+                dataset = group[f"CoeffsRegion{region}"]
+                w, u, z = (group[f"{axis}_knots"][()] for axis in ("w", "u", "z"))
+                for knots in (w, u):
+                    if knots.ndim != 1 or knots.dtype != np.float64 or len(knots) < 8 or not np.all(np.isfinite(knots)) or np.any(np.diff(knots) < 0) or knots[3] >= knots[-4]:
+                        raise ValueError("Native spline knots must be finite ordered FP64 vectors of length >=8")
+                expected_shape = (len(z), self.num_teuk_modes, 2, (len(w)-4)*(len(u)-4))
+                if dataset.shape != expected_shape or dataset.dtype != np.float64:
+                    raise ValueError("Unexpected FP64 coefficient table shape or dtype")
+                if z.ndim != 1 or not len(z) or not np.all(np.isfinite(z)) or np.any(np.diff(z) <= 0):
+                    raise ValueError("Spin knots must be a finite increasing vector")
+                if z_reference is not None and not np.array_equal(z, z_reference):
+                    raise ValueError("Regions must share the same spin grid")
+                z_reference = z
+                # A partial constructor holds arrays/backend, NOT a bound parent
+                # method. Deleting the amplitude object releases its caches.
+                factory = partial(AmpInterp2D, w, u, l_arr=self.l_arr,
+                                  m_arr=self.m_arr, k_arr=self.k_arr,
+                                  n_arr=self.n_arr, force_backend=self.backend_name)
+                holder = SpinSliceCache(file_path, dataset.name, range(0, len(z), stride), factory, capacity, identity)
+                setattr(self, f"spin_information_holder_{region}", holder)
+        if file_identity(file_path) != identity:
+            raise RuntimeError("Amplitude table changed during lazy initialization")
+        self.z_values = self.xp.asarray(z_reference[::stride])
+        if self.backend.uses_cuda:
+            self.xp.cuda.get_current_stream().synchronize()
+
+    def clear_spin_cache(self):
+        """Clear lazy resident slices; eager objects are unchanged.
+
+        This does not flush NumPy allocators or the shared CuPy memory pool.
+        File identity and cumulative cache statistics are retained.
+        """
+        if self.spin_cache_size is not None:
+            self.spin_information_holder_A.clear()
+            if hasattr(self, "spin_information_holder_B"):
+                self.spin_information_holder_B.clear()
+
+    def spin_cache_info(self):
+        """Return per-region lazy diagnostics, or None for eager loading."""
+        if self.spin_cache_size is None:
+            return None
+        return {region: getattr(self, f"spin_information_holder_{region}").cache_info()
+                for region in ("A", "B") if hasattr(self, f"spin_information_holder_{region}")}
+
     def _evaluate_interpolant_at_index(self, index, region_A_mask, w, u, mode_indexes):
+        # 2026-09-11 15:49 CST (linux): Native interpolation launches on null.
+        # Bridge opt-in nondefault callers without returning a null-pool object
+        # whose memory could be recycled while the caller still consumes it.
+        if self.spin_cache_size is not None and self.backend.uses_cuda:
+            caller = self.xp.cuda.get_current_stream()
+            if caller.ptr != 0:
+                caller.synchronize()
+                with self.xp.cuda.Stream.null:
+                    value = self._evaluate_interpolant_at_index(index, region_A_mask, w, u, mode_indexes)
+                    self.xp.cuda.Stream.null.synchronize()
+                result = value.copy()
+                caller.synchronize()
+                return result
         z_out = self.xp.zeros(
             (region_A_mask.size, self.num_modes_eval), dtype=self.xp.complex128
         )
@@ -325,6 +419,8 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
         Returns:
             An array of complex mode amplitudes.
         """
+        if self.spin_cache_size is not None and self.backend.uses_cuda and self.xp.cuda.runtime.getDevice() != self._spin_cache_device:
+            raise ValueError("Lazy amplitude object must be called on its construction CUDA device")
         if specific_modes is None:
             specific_modes = self.xp.arange(self.num_teuk_modes)
 
@@ -388,6 +484,11 @@ class AmpInterpKerrEccEq(AmplitudeBase, KerrEccentricEquatorial):
             ind_below = ind_above - 1
             assert ind_above < len(self.z_values)
             assert ind_below >= 0
+
+            if self.spin_cache_size is not None:
+                self.spin_information_holder_A.prepare((ind_above, ind_below))
+                if hasattr(self, "spin_information_holder_B"):
+                    self.spin_information_holder_B.prepare((ind_above, ind_below))
 
             z_above = self.z_values[ind_above]
             Amp_above = self._evaluate_interpolant_at_index(

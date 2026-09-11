@@ -1,0 +1,1065 @@
+{
+  "timestamp_cst": "2026-09-11T16:11:12.199950+08:00",
+  "passes": true,
+  "terminal": true,
+  "backend": "cpu",
+  "pairs": 7,
+  "verified_first": false,
+  "protocol": "Serial fresh processes, alternating master/lazy and lazy/master. Full H5 SHA256 pass before EVERY worker explicitly warms file cache. ONCE FEW integrity remains enabled. Process is statistical unit.",
+  "script_sha256": "a2c92bb3d3d2d46a96506a6bdedb8faef27939c9d3ef9126f0646dbcaacd60eb",
+  "worker_sha256": "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+  "runs": [
+    {
+      "pair": 0,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.json",
+        "--benchmark"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.json",
+        "sha256": "f15dd8633153a146820bcc66343c4d201c67e98f10cf56236bae2147ca9e7562"
+      }
+    },
+    {
+      "pair": 0,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_lazy.json",
+        "sha256": "7c80fa09d060fe4bfbf7cdaa0bb7e6e59d09d2981f6b54da632cdc6bdc76c40e"
+      }
+    },
+    {
+      "pair": 1,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair1_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair1_lazy.json",
+        "sha256": "c736f9cd73bc4e61f2e7f51ec03dc6d7856780cd5533c0c49b508897c2323f9f"
+      }
+    },
+    {
+      "pair": 1,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair1_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair1_master.json",
+        "sha256": "740ee421a212383fc2d8319ac205ffe3c7203c951d9f48173a590dacfb956acf"
+      }
+    },
+    {
+      "pair": 2,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair2_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair2_master.json",
+        "sha256": "298c896995125b9758efed7f08882863f9acc9f60480c69cdd80b6c3a93f5612"
+      }
+    },
+    {
+      "pair": 2,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair2_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair2_lazy.json",
+        "sha256": "2f9119093b4f7981d948a9972d212cdafc0bdb8e492d2c541314fdc525182e50"
+      }
+    },
+    {
+      "pair": 3,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair3_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair3_lazy.json",
+        "sha256": "14f9fc362d8f555846311334071bf2256363295727e48595b1a9efcb4f88f259"
+      }
+    },
+    {
+      "pair": 3,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair3_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair3_master.json",
+        "sha256": "0558cd6e7983446f4ec669d403901f52f0f8827980eb93d461ac6d2efe7b6303"
+      }
+    },
+    {
+      "pair": 4,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair4_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair4_master.json",
+        "sha256": "ec4651370437c8e41445a9c80aad6c510e25d2920eb420d88efab2e167ebd2c8"
+      }
+    },
+    {
+      "pair": 4,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair4_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair4_lazy.json",
+        "sha256": "ffff6b8b7801dab3d7721c56c14119f2d2f47f761687bf0b1c2d598cd37c2096"
+      }
+    },
+    {
+      "pair": 5,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair5_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair5_lazy.json",
+        "sha256": "ea795aeb6e8e5e0f53d41bf0310e637ff168a4eb33cbdb03b901061b10405ecc"
+      }
+    },
+    {
+      "pair": 5,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair5_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair5_master.json",
+        "sha256": "a08b3bcba1c54a79c6eb56a103a03b8d2a025603db692bd5a37401dfe3a314dd"
+      }
+    },
+    {
+      "pair": 6,
+      "policy": "master",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "master",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair6_master.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"master\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair6_master.json",
+        "sha256": "5ba047a295e19b2574412ea48e30ee2af2ed9de2c8694c80dd927738c5235a73"
+      }
+    },
+    {
+      "pair": 6,
+      "policy": "lazy",
+      "state": "terminal",
+      "warm_file_sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+        "--backend",
+        "cpu",
+        "--policy",
+        "lazy",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair6_lazy.json",
+        "--benchmark",
+        "--reference",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair0_master.npz"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passes\": true, \"arrays\": 14, \"policy\": \"lazy\", \"backend\": \"cpu\"}\n",
+      "stderr": "",
+      "report": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp12-benchmark-cpu/pair6_lazy.json",
+        "sha256": "fef01f26393a6f769351e1c6fa39d957f1e28bb2c6a2a2c4609be01e163190d9"
+      }
+    }
+  ],
+  "summary": {
+    "construction_seconds": {
+      "median_seconds": {
+        "master": 10.335389900999871,
+        "lazy": 9.569488727000135
+      },
+      "ratio_of_medians": 1.0800357465115937,
+      "paired_ratios": [
+        1.0843454029385973,
+        1.0724028110630393,
+        1.0787697215068288,
+        1.0888464001410805,
+        1.0651970511214712,
+        1.0774818115302685,
+        1.0800357465115937
+      ],
+      "paired_median": 1.0787697215068288,
+      "paired_min": 1.0651970511214712,
+      "paired_max": 1.0888464001410805
+    },
+    "first_seconds": {
+      "median_seconds": {
+        "master": 9.7637171139977,
+        "lazy": 9.762661410000874
+      },
+      "ratio_of_medians": 1.0001081369057565,
+      "paired_ratios": [
+        1.0022103106248224,
+        0.9967181524349032,
+        1.0071554072182698,
+        1.006154961078513,
+        1.0019577227447278,
+        0.9901858290324413,
+        1.0130189852640965
+      ],
+      "paired_median": 1.0022103106248224,
+      "paired_min": 0.9901858290324413,
+      "paired_max": 1.0130189852640965
+    },
+    "construction_plus_first_seconds": {
+      "median_seconds": {
+        "master": 20.104737597001076,
+        "lazy": 19.340275309998106
+      },
+      "ratio_of_medians": 1.0395269599191164,
+      "paired_ratios": [
+        1.0427473045715352,
+        1.034385986104467,
+        1.042811764649778,
+        1.0469496871934132,
+        1.0334991315987025,
+        1.0333046792570133,
+        1.046178175475133
+      ],
+      "paired_median": 1.0427473045715352,
+      "paired_min": 1.0333046792570133,
+      "paired_max": 1.0469496871934132
+    },
+    "verified_setup_plus_first_seconds": {
+      "median_seconds": {
+        "master": 20.104742037001415,
+        "lazy": 19.340278592000686
+      },
+      "ratio_of_medians": 1.039527013086405,
+      "paired_ratios": [
+        1.0427472944414113,
+        1.034385988330119,
+        1.0428117446137866,
+        1.0469497237223377,
+        1.033499166451682,
+        1.0333047114878924,
+        1.0461782311847576
+      ],
+      "paired_median": 1.0427472944414113,
+      "paired_min": 1.0333047114878924,
+      "paired_max": 1.0469497237223377
+    },
+    "call_first": {
+      "median_seconds": {
+        "master": 9.7637171139977,
+        "lazy": 9.762661410000874
+      },
+      "ratio_of_medians": 1.0001081369057565
+    },
+    "call_repeat1": {
+      "median_seconds": {
+        "master": 0.10632664600052522,
+        "lazy": 0.1047792040008062
+      },
+      "ratio_of_medians": 1.0147685985446797
+    },
+    "call_repeat2": {
+      "median_seconds": {
+        "master": 0.10805964799874346,
+        "lazy": 0.10874465099914232
+      },
+      "ratio_of_medians": 0.993700812002199
+    },
+    "call_near_spin": {
+      "median_seconds": {
+        "master": 0.10753801700047916,
+        "lazy": 0.10632436500236508
+      },
+      "ratio_of_medians": 1.0114146178826187
+    },
+    "call_far_spin": {
+      "median_seconds": {
+        "master": 0.6828868030024751,
+        "lazy": 0.69169407300069
+      },
+      "ratio_of_medians": 0.9872671021163917
+    },
+    "call_retrograde": {
+      "median_seconds": {
+        "master": 0.10834337800042704,
+        "lazy": 0.14766914099891437
+      },
+      "ratio_of_medians": 0.7336900402313815
+    },
+    "call_return": {
+      "median_seconds": {
+        "master": 0.10757498100065277,
+        "lazy": 0.14452240899845492
+      },
+      "ratio_of_medians": 0.7443481031498917
+    }
+  },
+  "expected_manifests": {
+    "master": {
+      "sources": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+          "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+          15721
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+          "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+          25866
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+          "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+          24996
+        ]
+      ],
+      "native": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+          "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+          82672
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+          "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+          70400
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+          "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+          9866272
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+          "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+          74240
+        ]
+      ],
+      "data": [
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+          "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+          9857632
+        ],
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+          "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+          5089095248
+        ]
+      ]
+    },
+    "lazy": {
+      "sources": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/collaboration/linux/spin_real_probe.py",
+          "629d2751f694957f9f1e2b4beef20fc50e6005ee0362acadf7276e3054cfc887",
+          15721
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/_spincache.py",
+          "894cbcbecd1a94a11af1f510e0f13e8587eca866cad3afbeb9cb9a0ef05f8f71",
+          4080
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/amplitude/ampinterp2d.py",
+          "8c98b5d5175c3df3c7f08ab3977c6dd8a9d4abf46c8a8525403f1f8d9776ca7c",
+          32002
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp12-spin-local-amplitudes/src/few/waveform/base.py",
+          "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+          24996
+        ]
+      ],
+      "native": [
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+          "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+          82672
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+          "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+          70400
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+          "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+          9866272
+        ],
+        [
+          "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+          "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+          74240
+        ]
+      ],
+      "data": [
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+          "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+          9857632
+        ],
+        [
+          "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+          "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+          5089095248
+        ]
+      ]
+    }
+  },
+  "expected_workload": {
+    "settings": {
+      "T": 0.003,
+      "dt": 15.0,
+      "Phi_phi0": 0.3,
+      "Phi_theta0": 0.4,
+      "Phi_r0": 0.5
+    },
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "xp": "numpy",
+    "calls": [
+      [
+        "first",
+        null,
+        [
+          [
+            "first",
+            [
+              6312
+            ],
+            "complex128",
+            "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d"
+          ],
+          [
+            "first_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "repeat1",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "repeat1",
+            [
+              6312
+            ],
+            "complex128",
+            "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d"
+          ],
+          [
+            "repeat1_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "repeat2",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "repeat2",
+            [
+              6312
+            ],
+            "complex128",
+            "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d"
+          ],
+          [
+            "repeat2_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ],
+      [
+        "near_spin",
+        [
+          0.61,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "near_spin",
+            [
+              6312
+            ],
+            "complex128",
+            "c112beedfa96c3be1040d5e6ce8054479a26f79ef234d0169efb051a5facc514"
+          ],
+          [
+            "near_spin_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "56ea123b90f796cdc3c604c73c467d9893211df671b3f46424c2e51041eb5f87"
+          ]
+        ]
+      ],
+      [
+        "far_spin",
+        [
+          0.9,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "far_spin",
+            [
+              6312
+            ],
+            "complex128",
+            "9a3b10ddc8c2067d6178e9a0844ead97491f4143cc483be36e60162452c3c190"
+          ],
+          [
+            "far_spin_modes",
+            [
+              4,
+              87
+            ],
+            "int32",
+            "5312ca800d8c2de4ccd7b06a1de06f883d3db344490b62986bec3e953459b2e6"
+          ]
+        ]
+      ],
+      [
+        "retrograde",
+        [
+          0.6,
+          12.0,
+          -1.0,
+          null
+        ],
+        [
+          [
+            "retrograde",
+            [
+              6312
+            ],
+            "complex128",
+            "463d13f920f2eb349ae528bb8c66f657eb046357ee9332af7c6cba086b6fb1e2"
+          ],
+          [
+            "retrograde_modes",
+            [
+              4,
+              99
+            ],
+            "int32",
+            "be5b3cbf31e52408c061d95deca5a820a931c9bc6e611110f5ef6359461c4fea"
+          ]
+        ]
+      ],
+      [
+        "return",
+        [
+          0.6,
+          12.0,
+          1.0,
+          null
+        ],
+        [
+          [
+            "return",
+            [
+              6312
+            ],
+            "complex128",
+            "d2c7a41e1b2a4cd39223186287ace130c7e59fc519c421fb2fe2b34e5d7e3a3d"
+          ],
+          [
+            "return_modes",
+            [
+              4,
+              89
+            ],
+            "int32",
+            "04a00101fa592a574352bae78df071f2f31cbfffb6805bb2ad71334bd9f2647a"
+          ]
+        ]
+      ]
+    ]
+  },
+  "first_memory_samples": {
+    "master": [
+      {
+        "smaps_rollup": {
+          "Rss": "6190744 kB",
+          "Pss": "6179189 kB",
+          "Private_Dirty": "5995244 kB"
+        },
+        "io": {
+          "rchar": "10224524045",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6333292 kB",
+          "VmRSS": "6190744 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6190948 kB",
+          "Pss": "6179366 kB",
+          "Private_Dirty": "5995416 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6333852 kB",
+          "VmRSS": "6190948 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6191152 kB",
+          "Pss": "6179526 kB",
+          "Private_Dirty": "5995464 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6334372 kB",
+          "VmRSS": "6191152 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6190692 kB",
+          "Pss": "6179378 kB",
+          "Private_Dirty": "5995112 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6333616 kB",
+          "VmRSS": "6190692 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6190932 kB",
+          "Pss": "6179632 kB",
+          "Private_Dirty": "5995444 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6334276 kB",
+          "VmRSS": "6190932 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6191100 kB",
+          "Pss": "6179800 kB",
+          "Private_Dirty": "5995360 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6334496 kB",
+          "VmRSS": "6191100 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "6190976 kB",
+          "Pss": "6179675 kB",
+          "Private_Dirty": "5995344 kB"
+        },
+        "io": {
+          "rchar": "10225530084",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "6334520 kB",
+          "VmRSS": "6190976 kB"
+        }
+      }
+    ],
+    "lazy": [
+      {
+        "smaps_rollup": {
+          "Rss": "1460432 kB",
+          "Pss": "1448860 kB",
+          "Private_Dirty": "1264744 kB"
+        },
+        "io": {
+          "rchar": "5381261484",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603496 kB",
+          "VmRSS": "1460432 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460360 kB",
+          "Pss": "1448792 kB",
+          "Private_Dirty": "1264584 kB"
+        },
+        "io": {
+          "rchar": "5381261484",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603672 kB",
+          "VmRSS": "1460360 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460456 kB",
+          "Pss": "1448830 kB",
+          "Private_Dirty": "1264572 kB"
+        },
+        "io": {
+          "rchar": "5381261483",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603616 kB",
+          "VmRSS": "1460456 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460164 kB",
+          "Pss": "1448661 kB",
+          "Private_Dirty": "1264632 kB"
+        },
+        "io": {
+          "rchar": "5381261484",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603620 kB",
+          "VmRSS": "1460164 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460468 kB",
+          "Pss": "1449128 kB",
+          "Private_Dirty": "1264664 kB"
+        },
+        "io": {
+          "rchar": "5381261484",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603240 kB",
+          "VmRSS": "1460468 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460136 kB",
+          "Pss": "1448837 kB",
+          "Private_Dirty": "1264612 kB"
+        },
+        "io": {
+          "rchar": "5381261483",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603620 kB",
+          "VmRSS": "1460136 kB"
+        }
+      },
+      {
+        "smaps_rollup": {
+          "Rss": "1460372 kB",
+          "Pss": "1449016 kB",
+          "Private_Dirty": "1264600 kB"
+        },
+        "io": {
+          "rchar": "5381261484",
+          "read_bytes": "0"
+        },
+        "status": {
+          "VmHWM": "1603728 kB",
+          "VmRSS": "1460372 kB"
+        }
+      }
+    ]
+  }
+}
