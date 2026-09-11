@@ -1,0 +1,3044 @@
+{
+  "timestamp_cst": "2026-09-11T13:15:29.883824+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "few_source": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few/__init__.py",
+  "few_version": "2.1.0.post1.dev91+g47e4fea4b",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "script_sha256": "6abe55607db3cb89b6b428a6bd393f6040e3b21c137b2403fc0b48846d5e9971",
+  "flux_file_sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+  "resolved_flux_file": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+  "scope": "Controlled 0PA p/e rate perturbation; no new physical model, waveform, PSD, or posterior gate",
+  "identity": "q_delta(t/c)=q_0(t); DeltaPhi_delta(t/c)=DeltaPhi_0(t)/c; c=1+delta",
+  "phase_columns": [
+    "phi",
+    "theta",
+    "r"
+  ],
+  "orbit_columns": [
+    "p",
+    "e",
+    "x"
+  ],
+  "horizon_policy": "90% of requested time, capped by both valid dense intervals",
+  "rhs_units": "internal tau=nu*t/M_time; first 3 physical rates multiply nu/M_time, last 3 divide M_time",
+  "points": 1001,
+  "duration_years": 1.0,
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 2.2479287730002397,
+      "candidate_run_seconds_diagnostic_only": 0.002890362000471214,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 45701273.51654677,
+      "candidate_end_seconds": 45701273.51654677,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        125006.4662533093,
+        121251.31896956264,
+        98275.1658175946
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 2.2479287730002397,
+      "candidate_run_seconds_diagnostic_only": 0.002908693000790663,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 45701273.51654677,
+      "candidate_end_seconds": 46669387.350540034,
+      "max_abs_orbit_invariant_residual": [
+        7.066347507134196e-12,
+        2.9676261448230434e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.8536957213655114e-06,
+        1.8394493963569403e-06,
+        1.4577526599168777e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.4096321900142357,
+        0.3878016901871888,
+        0.27618513215566054
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.4096321900142357,
+        -0.3878016901871888,
+        -0.27618513215566054
+      ],
+      "reference_phase_sweep_rad": [
+        125006.4662533093,
+        121251.31896956264,
+        98275.1658175946
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 2.2479287730002397,
+      "candidate_run_seconds_diagnostic_only": 0.002898937000281876,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 45701273.51654677,
+      "candidate_end_seconds": 42844863.90826138,
+      "max_abs_orbit_invariant_residual": [
+        2.1280754936015e-11,
+        8.3322237998118e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        4.5075430534780025e-06,
+        4.361019819043577e-06,
+        3.4885451896116138e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.4096333201014204,
+        0.38780270851566456,
+        0.2761852104013087
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.4096333201014204,
+        0.38780270851566456,
+        0.2761852104013087
+      ],
+      "reference_phase_sweep_rad": [
+        125006.4662533093,
+        121251.31896956264,
+        98275.1658175946
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 2.2479287730002397,
+      "candidate_run_seconds_diagnostic_only": 0.002844370999810053,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 45701273.51654677,
+      "candidate_end_seconds": 44318562.50058449,
+      "max_abs_orbit_invariant_residual": [
+        1.0533796057643485e-11,
+        4.563571742721706e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        2.709493855945766e-06,
+        2.409491571597755e-06,
+        1.921507646329701e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.004096097618457861,
+        0.003878020477714017,
+        0.002761919327895157
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.004096097618457861,
+        -0.003878020477714017,
+        -0.002761919327895157
+      ],
+      "reference_phase_sweep_rad": [
+        125006.4662533093,
+        121251.31896956264,
+        98275.1658175946
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 2.2479287730002397,
+      "candidate_run_seconds_diagnostic_only": 0.0029152280003472697,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 45701273.51654677,
+      "candidate_end_seconds": 42160156.158709705,
+      "max_abs_orbit_invariant_residual": [
+        2.6721735935097968e-11,
+        1.0352829704629585e-12,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        5.603826139122248e-06,
+        5.36590232513845e-06,
+        4.299785359762609e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.004091186769073829,
+        0.003873220077366568,
+        0.00275804077682551
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.004091186769073829,
+        0.003873220077366568,
+        0.00275804077682551
+      ],
+      "reference_phase_sweep_rad": [
+        125006.4662533093,
+        121251.31896956264,
+        98275.1658175946
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0031570610008202493,
+      "candidate_run_seconds_diagnostic_only": 0.0031597320012224372,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35549414.413933225,
+      "candidate_end_seconds": 35549414.413933225,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624131156,
+        121251.31895754724,
+        98275.16580798612
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.0031570610008202493,
+      "candidate_run_seconds_diagnostic_only": 0.0036784109997825,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35549414.413933225,
+      "candidate_end_seconds": 51986052.97378233,
+      "max_abs_orbit_invariant_residual": [
+        6.117772954894463e-12,
+        1.9906298831529057e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.0012154234573245e-06,
+        1.2399978004395962e-06,
+        9.369105100631714e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.4096301727986429,
+        0.38779976512887515,
+        0.27618370232812595
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.4096301727986429,
+        -0.38779976512887515,
+        -0.27618370232812595
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624131156,
+        121251.31895754724,
+        98275.16580798612
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0031570610008202493,
+      "candidate_run_seconds_diagnostic_only": 0.0030868200010445435,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35549414.413933225,
+      "candidate_end_seconds": 36861977.57225559,
+      "max_abs_orbit_invariant_residual": [
+        4.343192472333612e-12,
+        1.7891244041834398e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        6.955378921702504e-07,
+        4.391185939311981e-07,
+        3.179156919941306e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.40963528149586637,
+        0.3878055736713577,
+        0.2761875071155373
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.40963528149586637,
+        0.3878055736713577,
+        0.2761875071155373
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624131156,
+        121251.31895754724,
+        98275.16580798612
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0031570610008202493,
+      "candidate_run_seconds_diagnostic_only": 0.003364722000696929,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35549414.413933225,
+      "candidate_end_seconds": 32146720.622076873,
+      "max_abs_orbit_invariant_residual": [
+        4.0678571622265736e-12,
+        1.433297924791077e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        2.301516360603273e-06,
+        1.393622369505465e-06,
+        1.0512594599276781e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0040978462202474475,
+        0.0038785562646808103,
+        0.00276224865228869
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.0040978462202474475,
+        -0.0038785562646808103,
+        -0.00276224865228869
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624131156,
+        121251.31895754724,
+        98275.16580798612
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.0031570610008202493,
+      "candidate_run_seconds_diagnostic_only": 0.0034618350000528153,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35549414.413933225,
+      "candidate_end_seconds": 50898700.72224677,
+      "max_abs_orbit_invariant_residual": [
+        1.0739853451013914e-11,
+        3.123612479782878e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.309919753111899e-06,
+        1.2572563719004393e-06,
+        9.128125384449959e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0040970353002194315,
+        0.0038792854466009885,
+        0.0027627699600998312
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0040970353002194315,
+        0.0038792854466009885,
+        0.0027627699600998312
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624131156,
+        121251.31895754724,
+        98275.16580798612
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.0037789839989272878,
+      "candidate_run_seconds_diagnostic_only": 0.003817615999651025,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 44543855.01541793,
+      "candidate_end_seconds": 44543855.01541793,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624186986,
+        121251.31895863783,
+        98275.16580875659
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.0037789839989272878,
+      "candidate_run_seconds_diagnostic_only": 0.003826001999186701,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 44543855.01541793,
+      "candidate_end_seconds": 31987067.13106096,
+      "max_abs_orbit_invariant_residual": [
+        1.9024781749976682e-12,
+        5.5289106626332796e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        4.6315835788846016e-07,
+        3.1130912248045206e-07,
+        2.3677421268075705e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.40963077210471965,
+        0.3878004972211784,
+        0.27618422418890987
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.40963077210471965,
+        -0.3878004972211784,
+        -0.27618422418890987
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624186986,
+        121251.31895863783,
+        98275.16580875659
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.0037789839989272878,
+      "candidate_run_seconds_diagnostic_only": 0.003825210000286461,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 44543855.01541793,
+      "candidate_end_seconds": 33332290.171001084,
+      "max_abs_orbit_invariant_residual": [
+        1.9966250874858815e-12,
+        5.750955267558311e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        3.812165232375264e-07,
+        2.1459709387272596e-07,
+        1.6213743947446346e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.4096355977235362,
+        0.38780500274151564,
+        0.2761871052207425
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.4096355977235362,
+        0.38780500274151564,
+        0.2761871052207425
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624186986,
+        121251.31895863783,
+        98275.16580875659
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.0037789839989272878,
+      "candidate_run_seconds_diagnostic_only": 0.003790102000493789,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 44543855.01541793,
+      "candidate_end_seconds": 35542762.0440876,
+      "max_abs_orbit_invariant_residual": [
+        1.765698698363849e-12,
+        3.708144902248023e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        3.553141141310334e-07,
+        2.393935574218631e-07,
+        1.911394065245986e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.004096604272490367,
+        0.0038782670453656465,
+        0.002762047966825776
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.004096604272490367,
+        -0.0038782670453656465,
+        -0.002762047966825776
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624186986,
+        121251.31895863783,
+        98275.16580875659
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.7,
+        12.0,
+        0.3,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 11,
+      "reference_run_seconds_diagnostic_only": 0.0037789839989272878,
+      "candidate_run_seconds_diagnostic_only": 0.004112831999009359,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 44543855.01541793,
+      "candidate_end_seconds": 37464738.05286621,
+      "max_abs_orbit_invariant_residual": [
+        1.085354028873553e-12,
+        2.6978419498391304e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        3.9752922020852566e-07,
+        1.824519131332636e-07,
+        1.5125260688364506e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.004096469332580455,
+        0.0038782106421422213,
+        0.0027620083856163546
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.004096469332580455,
+        0.0038782106421422213,
+        0.0027620083856163546
+      ],
+      "reference_phase_sweep_rad": [
+        125006.46624186986,
+        121251.31895863783,
+        98275.16580875659
+      ],
+      "rhs_reference": [
+        -0.006613903289200409,
+        -0.0002554191043284814,
+        0.0,
+        0.021009879813868437,
+        0.02039360770110766,
+        0.016588993635837625
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0032930730012594722,
+      "candidate_run_seconds_diagnostic_only": 0.003347607998875901,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 52334021.7870421,
+      "candidate_end_seconds": 52334021.7870421,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928345094,
+        95968.62807711659,
+        62514.97464411819
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0032930730012594722,
+      "candidate_run_seconds_diagnostic_only": 0.003437019000557484,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 52334021.7870421,
+      "candidate_end_seconds": 47969448.54073352,
+      "max_abs_orbit_invariant_residual": [
+        6.0325078266032506e-12,
+        4.059530489541885e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        2.958171535283327e-06,
+        2.955785021185875e-06,
+        1.6723788576200604e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2097381205239799,
+        0.22389313574240077,
+        0.09037207334768027
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.2097381205239799,
+        -0.22389313574240077,
+        -0.09037207334768027
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928345094,
+        95968.62807711659,
+        62514.97464411819
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.0032930730012594722,
+      "candidate_run_seconds_diagnostic_only": 0.0027241019997745752,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 52334021.7870421,
+      "candidate_end_seconds": 36807286.705912754,
+      "max_abs_orbit_invariant_residual": [
+        3.115019353572279e-11,
+        9.00612917575927e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        4.8690271796658635e-06,
+        2.977321855723858e-06,
+        1.34114088723436e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.20973598727141507,
+        0.22389552966342308,
+        0.09037299094052287
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.20973598727141507,
+        0.22389552966342308,
+        0.09037299094052287
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928345094,
+        95968.62807711659,
+        62514.97464411819
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0032930730012594722,
+      "candidate_run_seconds_diagnostic_only": 0.003299359001175617,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 52334021.7870421,
+      "candidate_end_seconds": 54641729.992784955,
+      "max_abs_orbit_invariant_residual": [
+        2.3092638912203256e-12,
+        2.0194956817931597e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.635467924643308e-06,
+        1.0915828170254827e-06,
+        5.826150299981236e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.00209743290906772,
+        0.002237881300970912,
+        0.0009031577574205585
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.00209743290906772,
+        -0.002237881300970912,
+        -0.0009031577574205585
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928345094,
+        95968.62807711659,
+        62514.97464411819
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.0032930730012594722,
+      "candidate_run_seconds_diagnostic_only": 0.0031754840001667617,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 52334021.7870421,
+      "candidate_end_seconds": 48158960.84014936,
+      "max_abs_orbit_invariant_residual": [
+        4.490630090003833e-12,
+        1.4033774142774291e-12,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        9.296229109168053e-06,
+        9.007708285935223e-06,
+        4.9102818593382835e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.002106693820678629,
+        0.002247980854008347,
+        0.0009086507197935134
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.002106693820678629,
+        0.002247980854008347,
+        0.0009086507197935134
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928345094,
+        95968.62807711659,
+        62514.97464411819
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003914458999133785,
+      "candidate_run_seconds_diagnostic_only": 0.0037564279991784133,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 46390537.53285287,
+      "candidate_end_seconds": 46390537.53285287,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928128216,
+        95968.62807649527,
+        62514.97464377179
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.003914458999133785,
+      "candidate_run_seconds_diagnostic_only": 0.0033838020008261083,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 46390537.53285287,
+      "candidate_end_seconds": 40506866.58671838,
+      "max_abs_orbit_invariant_residual": [
+        5.579536832556187e-12,
+        2.0894397323445446e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        2.4982437025755644e-06,
+        1.243242877535522e-06,
+        6.608825060538948e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.20973615684488323,
+        0.22389517605188303,
+        0.09037327173427911
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.20973615684488323,
+        -0.22389517605188303,
+        -0.09037327173427911
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928128216,
+        95968.62807649527,
+        62514.97464377179
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.003914458999133785,
+      "candidate_run_seconds_diagnostic_only": 0.003397833999770228,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 46390537.53285287,
+      "candidate_end_seconds": 39877861.91756194,
+      "max_abs_orbit_invariant_residual": [
+        1.0391687510491465e-11,
+        2.8149704789370844e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.4478137018159032e-06,
+        1.4484539860859513e-06,
+        7.686830940656364e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.20974171310081147,
+        0.22389927266340237,
+        0.09037473233183846
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.20974171310081147,
+        0.22389927266340237,
+        0.09037473233183846
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928128216,
+        95968.62807649527,
+        62514.97464377179
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.003914458999133785,
+      "candidate_run_seconds_diagnostic_only": 0.0034069680004904512,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 46390537.53285287,
+      "candidate_end_seconds": 41988556.143653065,
+      "max_abs_orbit_invariant_residual": [
+        2.8954616482224083e-12,
+        1.0247358517290195e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        9.498180588707328e-07,
+        6.74932380206883e-07,
+        3.564273356460035e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0020978528482373804,
+        0.0022384248295566067,
+        0.0009034805334522389
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0020978528482373804,
+        -0.0022384248295566067,
+        -0.0009034805334522389
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928128216,
+        95968.62807649527,
+        62514.97464377179
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003914458999133785,
+      "candidate_run_seconds_diagnostic_only": 0.003693749000376556,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 46390537.53285287,
+      "candidate_end_seconds": 47709366.57528263,
+      "max_abs_orbit_invariant_residual": [
+        2.504663143554353e-13,
+        2.6145752229922437e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        8.216084097512066e-07,
+        2.5980989448726177e-07,
+        1.5793921193107963e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0020968104945495725,
+        0.002238713306724094,
+        0.0009035824768943712
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.0020968104945495725,
+        0.002238713306724094,
+        0.0009035824768943712
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.04928128216,
+        95968.62807649527,
+        62514.97464377179
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 14,
+      "candidate_knots": 14,
+      "reference_run_seconds_diagnostic_only": 0.0057728209994820645,
+      "candidate_run_seconds_diagnostic_only": 0.005230235001363326,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35691065.748412654,
+      "candidate_end_seconds": 35691065.748412654,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.0492818116,
+        95968.62807610618,
+        62514.974643554124
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 14,
+      "candidate_knots": 12,
+      "reference_run_seconds_diagnostic_only": 0.0057728209994820645,
+      "candidate_run_seconds_diagnostic_only": 0.004416956999193644,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35691065.748412654,
+      "candidate_end_seconds": 37585703.46243815,
+      "max_abs_orbit_invariant_residual": [
+        1.0800249583553523e-12,
+        7.93809462606987e-15,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        6.604532245546579e-07,
+        3.2255775295197964e-07,
+        1.9828439690172672e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.20973929231695365,
+        0.22389576690329704,
+        0.09037354640167905
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.20973929231695365,
+        -0.22389576690329704,
+        -0.09037354640167905
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.0492818116,
+        95968.62807610618,
+        62514.974643554124
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 14,
+      "candidate_knots": 13,
+      "reference_run_seconds_diagnostic_only": 0.0057728209994820645,
+      "candidate_run_seconds_diagnostic_only": 0.004905304000203614,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35691065.748412654,
+      "candidate_end_seconds": 44931992.98518679,
+      "max_abs_orbit_invariant_residual": [
+        4.5297099404706387e-13,
+        1.8096635301390052e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.5040277503430843e-06,
+        3.003224264830351e-07,
+        1.912267180159688e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.20974163844948635,
+        0.22389843162090983,
+        0.09037428078590892
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.20974163844948635,
+        0.22389843162090983,
+        0.09037428078590892
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.0492818116,
+        95968.62807610618,
+        62514.974643554124
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 14,
+      "candidate_knots": 12,
+      "reference_run_seconds_diagnostic_only": 0.0057728209994820645,
+      "candidate_run_seconds_diagnostic_only": 0.004850396000620094,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35691065.748412654,
+      "candidate_end_seconds": 38557700.00547898,
+      "max_abs_orbit_invariant_residual": [
+        9.130474154517287e-13,
+        9.992007221626409e-15,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        8.27174517326057e-07,
+        2.3900793166831136e-07,
+        1.5612022252753377e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0020982237037969753,
+        0.002238809611299075,
+        0.0009036479314090684
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0020982237037969753,
+        -0.002238809611299075,
+        -0.0009036479314090684
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.0492818116,
+        95968.62807610618,
+        62514.974643554124
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.9,
+        15.0,
+        0.3,
+        -1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 14,
+      "candidate_knots": 12,
+      "reference_run_seconds_diagnostic_only": 0.0057728209994820645,
+      "candidate_run_seconds_diagnostic_only": 0.004452885999853606,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 35691065.748412654,
+      "candidate_end_seconds": 47211644.81109919,
+      "max_abs_orbit_invariant_residual": [
+        7.265299473147024e-13,
+        2.4591439995447217e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        4.873145371675491e-07,
+        3.2667594496160746e-07,
+        1.7670390661805868e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0020969102333765477,
+        0.0022389446094166487,
+        0.0009037226991495118
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.0020969102333765477,
+        0.0022389446094166487,
+        0.0009037226991495118
+      ],
+      "reference_phase_sweep_rad": [
+        -92534.0492818116,
+        95968.62807610618,
+        62514.974643554124
+      ],
+      "rhs_reference": [
+        -0.005685602268097869,
+        -0.0001650643785455884,
+        0.0,
+        -0.015701512448586457,
+        0.01627412874144609,
+        0.010689524052001628
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.7942353620001086,
+      "candidate_run_seconds_diagnostic_only": 0.0028729759997077053,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 66208780.35970527,
+      "candidate_end_seconds": 66208780.35970527,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984777798905,
+        36217.61511284749,
+        28793.195445692712
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.7942353620001086,
+      "candidate_run_seconds_diagnostic_only": 0.0027534569999261294,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 66208780.35970527,
+      "candidate_end_seconds": 60746290.32482882,
+      "max_abs_orbit_invariant_residual": [
+        3.884892407768348e-12,
+        3.7758685067501574e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.327538484474644e-06,
+        1.241183781530708e-06,
+        1.0310541256330907e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2220736929011764,
+        0.21476049072225578,
+        0.16511503119181725
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.2220736929011764,
+        -0.21476049072225578,
+        -0.16511503119181725
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984777798905,
+        36217.61511284749,
+        28793.195445692712
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.7942353620001086,
+      "candidate_run_seconds_diagnostic_only": 0.0027698939993570093,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 66208780.35970527,
+      "candidate_end_seconds": 66953659.154494144,
+      "max_abs_orbit_invariant_residual": [
+        9.663381206337363e-13,
+        9.758860386455126e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        4.714311216957867e-07,
+        3.43636202160269e-07,
+        2.9226430342532694e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.22207611546036787,
+        0.21476285084645497,
+        0.16511673196873744
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.22207611546036787,
+        0.21476285084645497,
+        0.16511673196873744
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984777798905,
+        36217.61511284749,
+        28793.195445692712
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.7942353620001086,
+      "candidate_run_seconds_diagnostic_only": 0.0027354809990356443,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 66208780.35970527,
+      "candidate_end_seconds": 57770129.000769824,
+      "max_abs_orbit_invariant_residual": [
+        6.426859044950106e-12,
+        6.015188347419098e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.7669735825620592e-06,
+        1.8359132809564471e-06,
+        1.50698542711325e-06
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.002218982575868722,
+        0.002145780366845429,
+        0.001649651356274262
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.002218982575868722,
+        -0.002145780366845429,
+        -0.001649651356274262
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984777798905,
+        36217.61511284749,
+        28793.195445692712
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-10,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 7,
+      "candidate_knots": 7,
+      "reference_run_seconds_diagnostic_only": 0.7942353620001086,
+      "candidate_run_seconds_diagnostic_only": 0.0028078870000172174,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 66208780.35970527,
+      "candidate_end_seconds": 61412348.43038387,
+      "max_abs_orbit_invariant_residual": [
+        4.002131959168764e-12,
+        3.907985046680551e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.1400006769690663e-06,
+        1.1828851711470634e-06,
+        9.865107131190598e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.002220327398390509,
+        0.002147256185708102,
+        0.0016508390181115828
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.002220327398390509,
+        0.002147256185708102,
+        0.0016508390181115828
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984777798905,
+        36217.61511284749,
+        28793.195445692712
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.003105145999143133,
+      "candidate_run_seconds_diagnostic_only": 0.003209833999790135,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 47624344.56850303,
+      "candidate_end_seconds": 47624344.56850303,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        37259.98477721833,
+        36217.615112508436,
+        28793.195445390003
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.003105145999143133,
+      "candidate_run_seconds_diagnostic_only": 0.0031436259996553417,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 47624344.56850303,
+      "candidate_end_seconds": 50405549.48834022,
+      "max_abs_orbit_invariant_residual": [
+        2.3447910280083306e-12,
+        2.1449508835758024e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        6.012014637235552e-07,
+        6.449190550483763e-07,
+        5.19677996635437e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2220738593750866,
+        0.2147610028841882,
+        0.1651154186220083
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.2220738593750866,
+        -0.2147610028841882,
+        -0.1651154186220083
+      ],
+      "reference_phase_sweep_rad": [
+        37259.98477721833,
+        36217.615112508436,
+        28793.195445390003
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.003105145999143133,
+      "candidate_run_seconds_diagnostic_only": 0.0031007210000097984,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 47624344.56850303,
+      "candidate_end_seconds": 48417569.067471,
+      "max_abs_orbit_invariant_residual": [
+        7.620570841027074e-13,
+        7.16093850883226e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        2.978158590849489e-07,
+        2.7250644052401185e-07,
+        2.2341191652230918e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2220762141078012,
+        0.2147626459991443,
+        0.16511656124566798
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.2220762141078012,
+        0.2147626459991443,
+        0.16511656124566798
+      ],
+      "reference_phase_sweep_rad": [
+        37259.98477721833,
+        36217.615112508436,
+        28793.195445390003
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.003105145999143133,
+      "candidate_run_seconds_diagnostic_only": 0.003521373000694439,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 47624344.56850303,
+      "candidate_end_seconds": 44583569.503986984,
+      "max_abs_orbit_invariant_residual": [
+        2.6059154834001674e-12,
+        2.502442697505103e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        7.286216714419425e-07,
+        7.101116352714598e-07,
+        5.697438609786332e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.002220457543444354,
+        0.0021471444706548937,
+        0.0016507905238540843
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.002220457543444354,
+        -0.0021471444706548937,
+        -0.0016507905238540843
+      ],
+      "reference_phase_sweep_rad": [
+        37259.98477721833,
+        36217.615112508436,
+        28793.195445390003
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-11,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 8,
+      "candidate_knots": 8,
+      "reference_run_seconds_diagnostic_only": 0.003105145999143133,
+      "candidate_run_seconds_diagnostic_only": 0.0031787879997864366,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 47624344.56850303,
+      "candidate_end_seconds": 45443156.93892826,
+      "max_abs_orbit_invariant_residual": [
+        1.9380053117856733e-12,
+        1.8485213360008856e-13,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        5.738475010730326e-07,
+        4.6079367166385055e-07,
+        3.766472218558192e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0022210737952264026,
+        0.0021479628849192522,
+        0.0016514398193976376
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0022210737952264026,
+        0.0021479628849192522,
+        0.0016514398193976376
+      ],
+      "reference_phase_sweep_rad": [
+        37259.98477721833,
+        36217.615112508436,
+        28793.195445390003
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003877840001223376,
+      "candidate_run_seconds_diagnostic_only": 0.01520208199872286,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 42568679.592815734,
+      "candidate_end_seconds": 42568679.592815734,
+      "max_abs_orbit_invariant_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984776399055,
+        36217.615111637766,
+        28793.195444681794
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003877840001223376,
+      "candidate_run_seconds_diagnostic_only": 0.004161032999036252,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 42568679.592815734,
+      "candidate_end_seconds": 44236609.28408325,
+      "max_abs_orbit_invariant_residual": [
+        1.687538997430238e-13,
+        1.5654144647214707e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        1.4905890566296875e-07,
+        3.752575139515102e-08,
+        2.9327566153369844e-08
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2220737122988794,
+        0.21476039030676475,
+        0.16511492683639517
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.2220737122988794,
+        -0.21476039030676475,
+        -0.16511492683639517
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984776399055,
+        36217.615111637766,
+        28793.195444681794
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 0.0001,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003877840001223376,
+      "candidate_run_seconds_diagnostic_only": 0.003834225000900915,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 42568679.592815734,
+      "candidate_end_seconds": 43350503.38581373,
+      "max_abs_orbit_invariant_residual": [
+        6.750155989720952e-14,
+        6.328271240363392e-15,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        3.341083356644958e-07,
+        1.479420461691916e-07,
+        1.224325387738645e-07
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.2220760418131249,
+        0.21476277433976065,
+        0.1651166651827225
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.2220760418131249,
+        0.21476277433976065,
+        0.1651166651827225
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984776399055,
+        36217.615111637766,
+        28793.195444681794
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": -1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 10,
+      "reference_run_seconds_diagnostic_only": 0.003877840001223376,
+      "candidate_run_seconds_diagnostic_only": 0.00379759799943713,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 42568679.592815734,
+      "candidate_end_seconds": 42117400.12524008,
+      "max_abs_orbit_invariant_residual": [
+        4.618527782440651e-14,
+        4.6629367034256575e-15,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        8.181086741387844e-08,
+        2.6505404093768448e-08,
+        2.3603206500411034e-08
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.0022208110385690816,
+        0.002147623941709753,
+        0.0016511748835910112
+      ],
+      "end_same_time_phase_difference_rad": [
+        -0.0022208110385690816,
+        -0.002147623941709753,
+        -0.0016511748835910112
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984776399055,
+        36217.615111637766,
+        28793.195444681794
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0
+      ],
+      "delta": 1e-06,
+      "err": 1e-12,
+      "stock_zero_delta_bitwise_equal": true,
+      "stock_zero_delta_dense_coefficients_equal": true,
+      "reference_knots": 10,
+      "candidate_knots": 9,
+      "reference_run_seconds_diagnostic_only": 0.003877840001223376,
+      "candidate_run_seconds_diagnostic_only": 0.0036567560000548838,
+      "time_reparameterized_end_seconds": 28402334.787191037,
+      "same_time_end_seconds": 28402334.787191037,
+      "reference_end_seconds": 42568679.592815734,
+      "candidate_end_seconds": 37534121.552694365,
+      "max_abs_orbit_invariant_residual": [
+        3.4638958368304884e-13,
+        2.9753977059954195e-14,
+        0.0
+      ],
+      "max_abs_phase_invariant_residual_rad": [
+        3.0722731025889516e-07,
+        9.974610293284059e-08,
+        7.935159374028444e-08
+      ],
+      "max_abs_same_time_phase_difference_rad": [
+        0.002221030939836055,
+        0.002147562707250472,
+        0.0016511098583578132
+      ],
+      "end_same_time_phase_difference_rad": [
+        0.002221030939836055,
+        0.002147562707250472,
+        0.0016511098583578132
+      ],
+      "reference_phase_sweep_rad": [
+        37259.984776399055,
+        36217.615111637766,
+        28793.195444681794
+      ],
+      "rhs_reference": [
+        -0.0028762257842183383,
+        -0.000248563718951054,
+        0.0,
+        0.006098246571981886,
+        0.005929319374099853,
+        0.0047224085080367515
+      ],
+      "rhs_rate_residual": [
+        0.0,
+        0.0
+      ],
+      "rhs_frequency_residual": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rhs_rate_scaling_exact": true,
+      "rhs_frequencies_unchanged": true
+    }
+  ],
+  "status": "measurements_complete_not_scientific_acceptance"
+}
