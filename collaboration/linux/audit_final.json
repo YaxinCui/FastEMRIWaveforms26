@@ -1,0 +1,4350 @@
+{
+  "timestamp_cst": "2026-09-11T22:14:16.351054+08:00",
+  "terminal": true,
+  "passes": true,
+  "checks": [
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original_failure.json",
+      "passes": true
+    },
+    {
+      "label": "original_failure.json terminal and pass",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/reproduce_original.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "passes": true
+    },
+    {
+      "label": "three preserved original failures",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_first.json",
+      "passes": true
+    },
+    {
+      "label": "unit_first.json terminal and pass",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/test_explicit_links.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py",
+      "passes": true
+    },
+    {
+      "label": "unit_first.json test count / optimization",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_optimized.json",
+      "passes": true
+    },
+    {
+      "label": "unit_optimized.json terminal and pass",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/test_explicit_links.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py",
+      "passes": true
+    },
+    {
+      "label": "unit_optimized.json test count / optimization",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.json",
+      "passes": true
+    },
+    {
+      "label": "real_final.json terminal and pass",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/validate_real_links.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/utils/utility.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.json",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.npz",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/export_holdout.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.npz",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "passes": true
+    },
+    {
+      "label": "producer all checks",
+      "passes": true
+    },
+    {
+      "label": "36 distinct configurations",
+      "passes": true
+    },
+    {
+      "label": "archive exact array count",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_0_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_1_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "prograde_2_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_0_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_1_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_1_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZ B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_XYZ reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AETsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AET B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AET reported metrics",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEexplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEexplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEexplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEexplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEimplicit finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEimplicit exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEimplicit independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEimplicit zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEsecond finite FP64 shape",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEsecond exact bytes",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEsecond independent high-precision residual",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AEsecond zero crop margins",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AE B not stale A",
+      "passes": true
+    },
+    {
+      "label": "retrograde_2_2_AE reported metrics",
+      "passes": true
+    },
+    {
+      "label": "nonempty bounded stencil domain",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "lowest accepted cut native equality",
+      "passes": true
+    },
+    {
+      "label": "one sample below conservative bound rejected",
+      "passes": true
+    },
+    {
+      "label": "nonempty bounded stencil domain",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "lowest accepted cut native equality",
+      "passes": true
+    },
+    {
+      "label": "one sample below conservative bound rejected",
+      "passes": true
+    },
+    {
+      "label": "nonempty bounded stencil domain",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "lowest accepted cut native equality",
+      "passes": true
+    },
+    {
+      "label": "one sample below conservative bound rejected",
+      "passes": true
+    },
+    {
+      "label": "nonempty bounded stencil domain",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "lowest accepted cut native equality",
+      "passes": true
+    },
+    {
+      "label": "one sample below conservative bound rejected",
+      "passes": true
+    },
+    {
+      "label": "nonempty bounded stencil domain",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual finite positive light time",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "actual full native stencil inside input",
+      "passes": true
+    },
+    {
+      "label": "actual native A table accesses valid",
+      "passes": true
+    },
+    {
+      "label": "lowest accepted cut native equality",
+      "passes": true
+    },
+    {
+      "label": "one sample below conservative bound rejected",
+      "passes": true
+    },
+    {
+      "label": "tamper detection",
+      "passes": true
+    }
+  ],
+  "files": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original_failure.json": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original_failure.json",
+      "bytes": 1802,
+      "sha256": "952b7b23a5dfee0fa38f8647ab0cc4ef2578e3a24e4c31a48ea557730e7b1d87"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/reproduce_original.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/reproduce_original.py",
+      "bytes": 2317,
+      "sha256": "9b3d5968a51ed4d8bb106d8758b5b64123cfcdbcfdc79dd6b28b8ef98d59aca5"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "bytes": 1219,
+      "sha256": "c4f30f7d9710a52f5f5682f53c0a6b51a3ad9d1a0fbc31192a855001d33ae94c"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_first.json": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_first.json",
+      "bytes": 2429,
+      "sha256": "d25252402ebbd4f916ea8b778bfcf9bae9bb209e9f36d930b1a3fd9c229b754b"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/test_explicit_links.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/test_explicit_links.py",
+      "bytes": 13246,
+      "sha256": "2558440a0ea397ff1879251f0a489de33d5bd11a59b094e39079d9d3e1516b66"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py",
+      "bytes": 37363,
+      "sha256": "5a440660abe331fc1df72c5b7feb9b3b6ea5a6a0b89759ea8b9f0cc8ed142647"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_optimized.json": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/unit_optimized.json",
+      "bytes": 2428,
+      "sha256": "35c77ca8ddcfbdddd88a4cc77b46a7ad09d2fcee0b0756934e9ba35d31529861"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.json": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.json",
+      "bytes": 61586,
+      "sha256": "2b89441d451b575abdeb7fd6d4e897ef85b2901ad281adecd08abe99107bab4c"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/validate_real_links.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/validate_real_links.py",
+      "bytes": 7140,
+      "sha256": "bc5a59eb2b6d6f00b781f811d614fa2f336e1f9e71075253853553db1e9097d3"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "bytes": 26775,
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/utils/utility.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/utils/utility.py",
+      "bytes": 3267,
+      "sha256": "6edca6b5a109e8821f90f96e80b26892f5f758d20c8463a2ea5769dfe9477581"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 211104,
+      "sha256": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 287208,
+      "sha256": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.json": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.json",
+      "bytes": 15022,
+      "sha256": "063e16f5e6a580940acd7bb47d6238306e27a26872c4c0797332ac12c9515064"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.npz": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/holdout_final.npz",
+      "bytes": 581475,
+      "sha256": "01c1954a615f0f0eae10806d448e9f85e157c5f864aac494274efea38f953404"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/export_holdout.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/export_holdout.py",
+      "bytes": 4973,
+      "sha256": "4b24084d70fb186e6068fe7dc40f4df7012cdf47856cb6af644cdeed93167265"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py",
+      "bytes": 583,
+      "sha256": "1976d9df020dd9fd521324444b497296bee88342d511087e503237268166e735"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "bytes": 310,
+      "sha256": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "bytes": 297,
+      "sha256": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "bytes": 2554,
+      "sha256": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "bytes": 23421,
+      "sha256": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "bytes": 28206,
+      "sha256": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "bytes": 6337,
+      "sha256": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "bytes": 19709,
+      "sha256": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "bytes": 111,
+      "sha256": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "bytes": 246,
+      "sha256": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "bytes": 248,
+      "sha256": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "bytes": 11391,
+      "sha256": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "bytes": 15148,
+      "sha256": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "bytes": 165,
+      "sha256": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "bytes": 447,
+      "sha256": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "bytes": 8039,
+      "sha256": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "bytes": 18553,
+      "sha256": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "bytes": 43561,
+      "sha256": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "bytes": 16723,
+      "sha256": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "bytes": 29143,
+      "sha256": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "bytes": 748,
+      "sha256": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "bytes": 6194,
+      "sha256": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "bytes": 25866,
+      "sha256": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "bytes": 12532,
+      "sha256": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "bytes": 5350,
+      "sha256": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "bytes": 6205,
+      "sha256": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "bytes": 4543,
+      "sha256": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "bytes": 13413,
+      "sha256": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "bytes": 20634,
+      "sha256": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "bytes": 8202,
+      "sha256": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "bytes": 6803,
+      "sha256": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "bytes": 25343,
+      "sha256": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "bytes": 3882,
+      "sha256": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "bytes": 13839,
+      "sha256": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "bytes": 27412,
+      "sha256": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "bytes": 125903,
+      "sha256": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "bytes": 383,
+      "sha256": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "bytes": 26633,
+      "sha256": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "bytes": 15633,
+      "sha256": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "bytes": 34869,
+      "sha256": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "bytes": 26456,
+      "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "bytes": 24996,
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "bytes": 34884,
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "bytes": 596,
+      "sha256": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/__init__.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/__init__.py",
+      "bytes": 1288,
+      "sha256": "4625a2f05ad5e2331902cc33a08c70add2e4d4c7582b0f868059ddf4083a3555"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "bytes": 2298,
+      "sha256": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 82672,
+      "sha256": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 70400,
+      "sha256": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 9866272,
+      "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "bytes": 74240,
+      "sha256": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "bytes": 1212152,
+      "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe"
+    },
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.npz": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/real_final.npz",
+      "bytes": 13599770,
+      "sha256": "53345b89c124450f69ae51bdd04eaa1c87089e6e1aa511d9eb1ecd0546ca4740"
+    }
+  },
+  "stencil_cases": [
+    {
+      "dt": 0.1,
+      "n": 1501,
+      "order": 15,
+      "max_delays": 7,
+      "cut": 601,
+      "units": 48,
+      "min_read": 13,
+      "max_read": 906
+    },
+    {
+      "dt": 1.0,
+      "n": 513,
+      "order": 25,
+      "max_delays": 7,
+      "cut": 75,
+      "units": 48,
+      "min_read": 4,
+      "max_read": 449
+    },
+    {
+      "dt": 15.0,
+      "n": 257,
+      "order": 35,
+      "max_delays": 3,
+      "cut": 22,
+      "units": 24,
+      "min_read": 3,
+      "max_read": 251
+    },
+    {
+      "dt": 40.0,
+      "n": 257,
+      "order": 40,
+      "max_delays": 7,
+      "cut": 24,
+      "units": 48,
+      "min_read": 3,
+      "max_read": 251
+    },
+    {
+      "dt": 1.0,
+      "n": 2049,
+      "order": 25,
+      "max_delays": 64,
+      "cut": 555,
+      "units": 3,
+      "min_read": 10,
+      "max_read": 983
+    }
+  ],
+  "source": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/audit_contract.py",
+    "bytes": 8085,
+    "sha256": "0466edbf7a13bef6f1c1d82142bacf5a0bda18dbf671ac19719298ef343c1ef4"
+  },
+  "check_count": 983,
+  "file_count": 70
+}

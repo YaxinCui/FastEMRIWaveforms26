@@ -1,0 +1,30 @@
+{
+  "timestamp_cst": "2026-09-11T22:10:15.672843+08:00",
+  "terminal": true,
+  "passes": true,
+  "tests": 10,
+  "optimized_python": false,
+  "log": "test_channels_orders_topologies_against_original (__main__.Tests.test_channels_orders_topologies_against_original) ... ok\ntest_fresh_initialization_and_crop (__main__.Tests.test_fresh_initialization_and_crop) ... ok\ntest_independent_single_link_order (__main__.Tests.test_independent_single_link_order) ... ok\ntest_invalid_input_before_native_and_state_unchanged (__main__.Tests.test_invalid_input_before_native_and_state_unchanged) ... ok\ntest_orbit_endpoint_and_failed_projection (__main__.Tests.test_orbit_endpoint_and_failed_projection) ... ok\ntest_owned_strided_readonly_inputs_and_output_lifetime (__main__.Tests.test_owned_strided_readonly_inputs_and_output_lifetime) ... ok\ntest_projection_and_replacement_not_ignored (__main__.Tests.test_projection_and_replacement_not_ignored) ... ok\ntest_python_native_and_conversion_failure_do_not_commit (__main__.Tests.test_python_native_and_conversion_failure_do_not_commit) ... ok\ntest_scalar_normalization_and_topology_gates (__main__.Tests.test_scalar_normalization_and_topology_gates) ... ok\ntest_single_method_patch_scope (__main__.Tests.test_single_method_patch_scope) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 4.689s\n\nOK\n",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/test_explicit_links.py",
+      "bytes": 13246,
+      "sha256": "2558440a0ea397ff1879251f0a489de33d5bd11a59b094e39079d9d3e1516b66"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "bytes": 1219,
+      "sha256": "c4f30f7d9710a52f5f5682f53c0a6b51a3ad9d1a0fbc31192a855001d33ae94c"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/candidate/response.py",
+      "bytes": 37363,
+      "sha256": "5a440660abe331fc1df72c5b7feb9b3b6ea5a6a0b89759ea8b9f0cc8ed142647"
+    }
+  ]
+}

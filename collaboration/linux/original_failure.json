@@ -1,0 +1,48 @@
+{
+  "timestamp_cst": "2026-09-11T21:47:55.315457+08:00",
+  "terminal": true,
+  "passes": true,
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/reproduce_original.py",
+      "bytes": 2317,
+      "sha256": "9b3d5968a51ed4d8bb106d8758b5b64123cfcdbcfdc79dd6b28b8ef98d59aca5"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/contract_support.py",
+      "bytes": 1219,
+      "sha256": "c4f30f7d9710a52f5f5682f53c0a6b51a3ad9d1a0fbc31192a855001d33ae94c"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/original/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "bytes": 31058,
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a"
+    }
+  ],
+  "cases": [
+    {
+      "initialized": false,
+      "explicit": true,
+      "exception": "AttributeError",
+      "message": "'pyResponseTDI' object has no attribute 'link_space_craft_0_in'"
+    },
+    {
+      "initialized": true,
+      "explicit": true,
+      "exception": "AttributeError",
+      "message": "'pyResponseTDI' object has no attribute 'link_space_craft_0_in'"
+    },
+    {
+      "initialized": false,
+      "explicit": false,
+      "exception": "AttributeError",
+      "message": "'pyResponseTDI' object has no attribute 'y_gw_flat'"
+    }
+  ],
+  "healthy_implicit_sha256": "81ef208ca4775d82a3d28927932d097d6538581dbe797b9b30572cb72030f174"
+}
