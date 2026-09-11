@@ -1,0 +1,12 @@
+{
+  "timestamp_cst": "2026-09-11T17:18:30.350598+08:00",
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/test_phase_likelihood.py"
+  ],
+  "passes": true,
+  "returncode": 0,
+  "log": "test_aliasing_negative_control (__main__.Tests.test_aliasing_negative_control) ... ok\ntest_compact_storage (__main__.Tests.test_compact_storage) ... ok\ntest_cross_terms_necessary (__main__.Tests.test_cross_terms_necessary) ... ok\ntest_independent_longdouble_series (__main__.Tests.test_independent_longdouble_series) ... ok\ntest_invalid_and_ownership (__main__.Tests.test_invalid_and_ownership) ... ok\ntest_sine_sign_and_tiny_phase (__main__.Tests.test_sine_sign_and_tiny_phase) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.028s\n\nOK\n",
+  "test_sha256": "551c70754522a52b2682df62c28b6f3131cc73c83266a7ad5e12cb2a3b0cb5f3",
+  "implementation_sha256": "7e860be832872b96fe2335a99dd1518df29a19d51865d55d6a5b6924d36c879e"
+}

@@ -1,0 +1,2553 @@
+{
+  "timestamp_cst": "2026-09-11T17:18:30.350874+08:00",
+  "passes": true,
+  "checks": [
+    {
+      "label": "prograde terminal",
+      "passes": true
+    },
+    {
+      "label": "prograde anchor",
+      "passes": true
+    },
+    {
+      "label": "prograde CPU single thread",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_prograde_final.npz",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_real_probe.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "top-level source",
+      "passes": true
+    },
+    {
+      "label": "grid finite",
+      "passes": true
+    },
+    {
+      "label": "samples_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "phases finite",
+      "passes": true
+    },
+    {
+      "label": "regenerated_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "reference_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "noise finite",
+      "passes": true
+    },
+    {
+      "label": "modes finite",
+      "passes": true
+    },
+    {
+      "label": "fourier_cos finite",
+      "passes": true
+    },
+    {
+      "label": "fourier_sin finite",
+      "passes": true
+    },
+    {
+      "label": "phase nodes",
+      "passes": true
+    },
+    {
+      "label": "coefficients",
+      "passes": true
+    },
+    {
+      "label": "compact bytes",
+      "passes": true
+    },
+    {
+      "label": "reference content",
+      "passes": true
+    },
+    {
+      "label": "full phase count",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "saved compact coefficients",
+      "passes": true
+    },
+    {
+      "label": "three authenticated repetitions",
+      "passes": true
+    },
+    {
+      "label": "positive durations",
+      "passes": true
+    },
+    {
+      "label": "timing arithmetic",
+      "passes": true
+    },
+    {
+      "label": "three authenticated repetitions",
+      "passes": true
+    },
+    {
+      "label": "positive durations",
+      "passes": true
+    },
+    {
+      "label": "timing arithmetic",
+      "passes": true
+    },
+    {
+      "label": "three authenticated repetitions",
+      "passes": true
+    },
+    {
+      "label": "positive durations",
+      "passes": true
+    },
+    {
+      "label": "timing arithmetic",
+      "passes": true
+    },
+    {
+      "label": "three authenticated repetitions",
+      "passes": true
+    },
+    {
+      "label": "positive durations",
+      "passes": true
+    },
+    {
+      "label": "timing arithmetic",
+      "passes": true
+    },
+    {
+      "label": "retrograde terminal",
+      "passes": true
+    },
+    {
+      "label": "retrograde anchor",
+      "passes": true
+    },
+    {
+      "label": "retrograde CPU single thread",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_retrograde_final.npz",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_real_probe.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "top-level source",
+      "passes": true
+    },
+    {
+      "label": "grid finite",
+      "passes": true
+    },
+    {
+      "label": "samples_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "phases finite",
+      "passes": true
+    },
+    {
+      "label": "regenerated_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "reference_unit_snr finite",
+      "passes": true
+    },
+    {
+      "label": "noise finite",
+      "passes": true
+    },
+    {
+      "label": "modes finite",
+      "passes": true
+    },
+    {
+      "label": "fourier_cos finite",
+      "passes": true
+    },
+    {
+      "label": "fourier_sin finite",
+      "passes": true
+    },
+    {
+      "label": "phase nodes",
+      "passes": true
+    },
+    {
+      "label": "coefficients",
+      "passes": true
+    },
+    {
+      "label": "compact bytes",
+      "passes": true
+    },
+    {
+      "label": "reference content",
+      "passes": true
+    },
+    {
+      "label": "full phase count",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "independent residual replay",
+      "passes": true
+    },
+    {
+      "label": "Fourier replay",
+      "passes": true
+    },
+    {
+      "label": "recorded accuracy",
+      "passes": true
+    },
+    {
+      "label": "saved compact coefficients",
+      "passes": true
+    },
+    {
+      "label": "preserved pilot source",
+      "passes": true
+    },
+    {
+      "label": "preserved pilot source",
+      "passes": true
+    },
+    {
+      "label": "math main",
+      "passes": true
+    },
+    {
+      "label": "math response",
+      "passes": true
+    }
+  ],
+  "files": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_prograde_final.json": "e96f87c29546e53b080107e7d90c3b5405260145c61b5e733e0d0a81a156ad11",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_prograde_final.npz": "771daeee687bde43bd54f0ac73ec47be026af0be29cc740c34d821039f32c91d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_real_probe.py": "0af4918c426579bc33c78d0ad80ba0984ac956953070557a268610d1734e750f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_likelihood.py": "7e860be832872b96fe2335a99dd1518df29a19d51865d55d6a5b6924d36c879e",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py": "70279498fcba7d579475b020930c652205a887736f2c0aff8b9a519708665231",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py": "1976d9df020dd9fd521324444b497296bee88342d511087e503237268166e735",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/__init__.py": "4625a2f05ad5e2331902cc33a08c70add2e4d4c7582b0f868059ddf4083a3555",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_retrograde_final.json": "5bfd4100184630f334076714f99d111a1bdee1db038ff170e647319c290f8e78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_retrograde_final.npz": "936258f504a36f804b848ff3b052031391bb9cadea0593ac92b1bae113a8f8f7",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/pilot_sources/phase_real_probe.py": "33edbea1e85eb8c8c53a3731c44bdfc69798e1f8d5d75e39d1de5cc77531daf4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/pilot_sources/phase_likelihood.py": "fc19c90be87ea1964385693aef68f11c11a869b26c5429081808108d00368b1c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/math_main_final.json": "1bdde42d6df63ba1728b52194a9870f9db15502316cf6daf226159963cb30f5c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/math_response_final.json": "2ccfe54ca5e8edc8ba4ccf2cba7d2d09104e14393b7ed9777bf5552551b90325"
+  },
+  "summaries": [
+    {
+      "case": "prograde",
+      "m": 6,
+      "compact_bytes": 192,
+      "relative_l2_max": 1.265056302253997e-12,
+      "max_delta_logl_error": 4.20550350099802e-08,
+      "timings": [
+        {
+          "count": 1,
+          "seconds": {
+            "full_direct": [
+              0.13059712500034948,
+              0.12590488299974822,
+              0.12592689999655704
+            ],
+            "full_prepared": [
+              1.5583077500014042,
+              1.5814489409967791,
+              1.5764570809988072
+            ]
+          },
+          "speed_ratio": 0.0798796881401761,
+          "max_delta_logl_error": 4.638422979041934e-11,
+          "repeat_max_delta_logl_errors": [
+            4.638422979041934e-11,
+            4.638422979041934e-11,
+            4.638422979041934e-11
+          ]
+        },
+        {
+          "count": 16,
+          "seconds": {
+            "full_direct": [
+              1.9319927569995343,
+              1.9368032599995786,
+              1.9464639459984028
+            ],
+            "full_prepared": [
+              1.5700595820017043,
+              1.5598169030017743,
+              1.5824715529997775
+            ]
+          },
+          "speed_ratio": 1.2335858347046325,
+          "max_delta_logl_error": 4.3928594095632434e-10,
+          "repeat_max_delta_logl_errors": [
+            4.3928594095632434e-10,
+            4.3928594095632434e-10,
+            4.3928594095632434e-10
+          ]
+        },
+        {
+          "count": 64,
+          "seconds": {
+            "full_direct": [
+              7.828753665002296,
+              7.937274353000248,
+              7.942290377999598
+            ],
+            "full_prepared": [
+              1.6213842759971158,
+              1.5899064229997748,
+              1.5780107240025245
+            ]
+          },
+          "speed_ratio": 4.992290261979382,
+          "max_delta_logl_error": 8.967617759481072e-10,
+          "repeat_max_delta_logl_errors": [
+            8.967617759481072e-10,
+            8.967617759481072e-10,
+            8.967617759481072e-10
+          ]
+        },
+        {
+          "count": 256,
+          "seconds": {
+            "full_direct": [
+              31.369352621997677,
+              31.85778064799888,
+              31.36638829200092
+            ],
+            "full_prepared": [
+              1.578084206998028,
+              1.6149480970016157,
+              1.5822804349991202
+            ]
+          },
+          "speed_ratio": 19.825406374322718,
+          "max_delta_logl_error": 1.1386873666197062e-09,
+          "repeat_max_delta_logl_errors": [
+            1.1386873666197062e-09,
+            1.1386873666197062e-09,
+            1.1386873666197062e-09
+          ]
+        }
+      ],
+      "cached_timings": [
+        {
+          "count": 1,
+          "seconds": {
+            "direct": [
+              0.0012402400025166571,
+              0.0009544780004944187,
+              0.0009433159975742456,
+              0.0009495399972365703,
+              0.0009447109987377189,
+              0.0010245439989375882,
+              0.0015417360009450931
+            ],
+            "fourier": [
+              0.0013328120003279764,
+              0.0012571659972309135,
+              0.0012636390019906685,
+              0.0012595389998750761,
+              0.0012596329979714938,
+              0.0012274200016690884,
+              0.0013230300028226338
+            ]
+          },
+          "speed_ratio": 0.7577429314979085
+        },
+        {
+          "count": 16,
+          "seconds": {
+            "direct": [
+              0.0014850250008748844,
+              0.001269461998163024,
+              0.0012316809988988098,
+              0.0012837329995818436,
+              0.0012502719982876442,
+              0.001257754000107525,
+              0.0012193459988338873
+            ],
+            "fourier": [
+              0.001297028000408318,
+              0.0012704250002570916,
+              0.001278258001548238,
+              0.0012859529997513164,
+              0.0012575100008689333,
+              0.0012441840008250438,
+              0.001247948999662185
+            ]
+          },
+          "speed_ratio": 0.9900261722281893
+        },
+        {
+          "count": 64,
+          "seconds": {
+            "direct": [
+              0.0030634120012109634,
+              0.0021348289992602076,
+              0.002253930000733817,
+              0.0021206229976087343,
+              0.0020361850001791026,
+              0.0020710710014100187,
+              0.002028896000410896
+            ],
+            "fourier": [
+              0.0012764130005962215,
+              0.0012273329994059168,
+              0.0013215530016168486,
+              0.0012662090011872351,
+              0.0012248909988556989,
+              0.0012081599998055026,
+              0.001264391998120118
+            ]
+          },
+          "speed_ratio": 1.6771879296623593
+        },
+        {
+          "count": 256,
+          "seconds": {
+            "direct": [
+              0.005723624999518506,
+              0.005802323001262266,
+              0.005596773000434041,
+              0.005879544998606434,
+              0.005635978002828779,
+              0.00562427900149487,
+              0.005633331998978974
+            ],
+            "fourier": [
+              0.0013990680017741397,
+              0.001347429999441374,
+              0.001336102002824191,
+              0.0012860799979534931,
+              0.0014168830020935275,
+              0.0012819800031138584,
+              0.0013411219988483936
+            ]
+          },
+          "speed_ratio": 4.202434981805033
+        }
+      ]
+    },
+    {
+      "case": "retrograde",
+      "m": 6,
+      "compact_bytes": 192,
+      "relative_l2_max": 2.7396819418529546e-12,
+      "max_delta_logl_error": 7.229391485452652e-08,
+      "timings": [],
+      "cached_timings": []
+    }
+  ],
+  "audit_sha256": "57cdbd2e40a63df83fdea7c913e12c7c692fb0270e93c7b2056a1701b901d8db"
+}

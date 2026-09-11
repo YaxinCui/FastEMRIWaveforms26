@@ -1,0 +1,1514 @@
+{
+  "timestamp_cst": "2026-09-11T17:14:36.772113+08:00",
+  "terminal": true,
+  "passes": true,
+  "case": "prograde",
+  "benchmark": true,
+  "command": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+    "--case",
+    "prograde",
+    "--data-dir",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download"
+  ],
+  "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_real_probe.py",
+      "sha256": "0af4918c426579bc33c78d0ad80ba0984ac956953070557a268610d1734e750f",
+      "bytes": 18215
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/phase_likelihood.py",
+      "sha256": "7e860be832872b96fe2335a99dd1518df29a19d51865d55d6a5b6924d36c879e",
+      "bytes": 4506
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "sha256": "70279498fcba7d579475b020930c652205a887736f2c0aff8b9a519708665231",
+      "bytes": 4314
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a",
+      "bytes": 31058
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03",
+      "bytes": 26775
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119",
+      "bytes": 287208
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5",
+      "bytes": 211104
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "h5py": "3.14.0",
+    "fastlisaresponse": "1.1.17",
+    "lisaanalysistools": "1.2.8"
+  },
+  "environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "metric": "Synthetic fixed diagonal one-sided A/E/T PSD, not physical ESA noise covariance or posterior validation",
+  "accuracy": [
+    {
+      "rho": 20.0,
+      "phase": 1.2905827066526996,
+      "direct_delta_logl": -666.5154162571139,
+      "fourier_delta_logl": -666.515416257172,
+      "absolute_error": 5.809397407574579e-11,
+      "limit": 1.0133303083251424e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 9.730143311694647,
+      "direct_delta_logl": -316.25850466708647,
+      "fourier_delta_logl": -316.2585046671181,
+      "absolute_error": 3.1604940886609256e-11,
+      "limit": 1.0063251700933418e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 6.183578595356138,
+      "direct_delta_logl": -21.35969089158868,
+      "fourier_delta_logl": -21.359690891597168,
+      "absolute_error": 8.487432978654397e-12,
+      "limit": 1.0004271938178318e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": -4.739476950223635,
+      "direct_delta_logl": -610.5696266080922,
+      "fourier_delta_logl": -610.5696266081369,
+      "absolute_error": 4.46789272245951e-11,
+      "limit": 1.0122113925321619e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": -5.7129528856485425,
+      "direct_delta_logl": -352.1386319380331,
+      "fourier_delta_logl": -352.1386319380094,
+      "absolute_error": 2.3703705664956942e-11,
+      "limit": 1.0070427726387607e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 12.107528282335842,
+      "direct_delta_logl": -300.3295216211104,
+      "fourier_delta_logl": -300.3295216211226,
+      "absolute_error": 1.2164491636212915e-11,
+      "limit": 1.0060065904324223e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": -4.531668357062388,
+      "direct_delta_logl": -544.1554009186352,
+      "fourier_delta_logl": -544.1554009186259,
+      "absolute_error": 9.322320693172514e-12,
+      "limit": 1.0108831080183727e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 11.965072734484863,
+      "direct_delta_logl": -445.2610869113639,
+      "fourier_delta_logl": -445.2610869113422,
+      "absolute_error": 2.1714186004828662e-11,
+      "limit": 1.0089052217382273e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 7.843534323244583,
+      "direct_delta_logl": -605.6179648143473,
+      "fourier_delta_logl": -605.6179648143302,
+      "absolute_error": 1.7053025658242404e-11,
+      "limit": 1.012112359296287e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 1.4051288209251185,
+      "direct_delta_logl": -646.8090857855603,
+      "fourier_delta_logl": -646.8090857855752,
+      "absolute_error": 1.48929757415317e-11,
+      "limit": 1.0129361817157113e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 2.0383893270456905,
+      "direct_delta_logl": -449.59430685471386,
+      "fourier_delta_logl": -449.59430685470613,
+      "absolute_error": 7.73070496506989e-12,
+      "limit": 1.0089918861370944e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 7.777326849303378,
+      "direct_delta_logl": -624.6745872619653,
+      "fourier_delta_logl": -624.6745872619528,
+      "absolute_error": 1.2505552149377763e-11,
+      "limit": 1.0124934917452393e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 6.048335691720711,
+      "direct_delta_logl": -96.21918667329251,
+      "fourier_delta_logl": -96.21918667332373,
+      "absolute_error": 3.12212478092988e-11,
+      "limit": 1.0019243837334659e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": -4.321775679106988,
+      "direct_delta_logl": -474.36349111162804,
+      "fourier_delta_logl": -474.36349111161246,
+      "absolute_error": 1.5575096767861396e-11,
+      "limit": 1.0094872698222327e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 11.28981115228867,
+      "direct_delta_logl": -682.7089722085182,
+      "fourier_delta_logl": -682.7089722085198,
+      "absolute_error": 1.5916157281026244e-12,
+      "limit": 1.0136541794441704e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 9.359328316863051,
+      "direct_delta_logl": -299.64539965808433,
+      "fourier_delta_logl": -299.64539965811946,
+      "absolute_error": 3.512923285597935e-11,
+      "limit": 1.0059929079931617e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 0.0,
+      "direct_delta_logl": -0.0,
+      "fourier_delta_logl": 0.0,
+      "absolute_error": 0.0,
+      "limit": 1e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 1e-12,
+      "direct_delta_logl": 1.0379632013970794e-10,
+      "fourier_delta_logl": 6.00123430892667e-11,
+      "absolute_error": 4.378397705044123e-11,
+      "limit": 1.0000000000000021e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 1e-08,
+      "direct_delta_logl": 6.001589701770038e-07,
+      "fourier_delta_logl": 6.001232744777652e-07,
+      "absolute_error": 3.569569923850256e-11,
+      "limit": 1.0000000000120032e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 0.0001,
+      "direct_delta_logl": 0.005985591241471841,
+      "fourier_delta_logl": 0.005985591251862326,
+      "absolute_error": 1.0390485347122613e-11,
+      "limit": 1.0000001197118248e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 6.283185297179586,
+      "direct_delta_logl": -6.000850943908342e-07,
+      "fourier_delta_logl": -6.001235812490177e-07,
+      "absolute_error": 3.8486858183453897e-11,
+      "limit": 1.0000000000120019e-05,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "phase": 6.283185317179586,
+      "direct_delta_logl": 6.001477546995214e-07,
+      "fourier_delta_logl": 6.001232389903692e-07,
+      "absolute_error": 2.4515709152172496e-11,
+      "limit": 1.000000000012003e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 1.2905827066526996,
+      "direct_delta_logl": -15653.253621736185,
+      "fourier_delta_logl": -15653.25362173679,
+      "absolute_error": 6.057234713807702e-10,
+      "limit": 1.3130650724347238e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 9.730143311694647,
+      "direct_delta_logl": -7302.07097832687,
+      "fourier_delta_logl": -7302.070978327102,
+      "absolute_error": 2.319211489520967e-10,
+      "limit": 1.1460414195665374e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 6.183578595356138,
+      "direct_delta_logl": -410.8806264636934,
+      "fourier_delta_logl": -410.880626463771,
+      "absolute_error": 7.764811016386375e-11,
+      "limit": 1.008217612529274e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": -4.739476950223635,
+      "direct_delta_logl": -14267.614563981138,
+      "fourier_delta_logl": -14267.614563981315,
+      "absolute_error": 1.7644197214394808e-10,
+      "limit": 1.2853522912796228e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": -5.7129528856485425,
+      "direct_delta_logl": -8885.178794980493,
+      "fourier_delta_logl": -8885.178794980071,
+      "absolute_error": 4.220055416226387e-10,
+      "limit": 1.17770357589961e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 12.107528282335842,
+      "direct_delta_logl": -6974.978120939031,
+      "fourier_delta_logl": -6974.978120939344,
+      "absolute_error": 3.128661774098873e-10,
+      "limit": 1.1394995624187806e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": -4.531668357062388,
+      "direct_delta_logl": -12755.284748752052,
+      "fourier_delta_logl": -12755.284748751732,
+      "absolute_error": 3.2014213502407074e-10,
+      "limit": 1.2551056949750412e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 11.965072734484863,
+      "direct_delta_logl": -10465.64349674481,
+      "fourier_delta_logl": -10465.643496744695,
+      "absolute_error": 1.1459633242338896e-10,
+      "limit": 1.2093128699348963e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 7.843534323244583,
+      "direct_delta_logl": -14151.843408127363,
+      "fourier_delta_logl": -14151.843408127183,
+      "absolute_error": 1.800799509510398e-10,
+      "limit": 1.2830368681625474e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 1.4051288209251185,
+      "direct_delta_logl": -15138.543451331838,
+      "fourier_delta_logl": -15138.543451332023,
+      "absolute_error": 1.8553691916167736e-10,
+      "limit": 1.3027708690266369e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 2.0383893270456905,
+      "direct_delta_logl": -10734.967139297485,
+      "fourier_delta_logl": -10734.967139297325,
+      "absolute_error": 1.6007106751203537e-10,
+      "limit": 1.2146993427859498e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 7.777326849303378,
+      "direct_delta_logl": -14600.903770707866,
+      "fourier_delta_logl": -14600.903770707875,
+      "absolute_error": 9.094947017729282e-12,
+      "limit": 1.2920180754141574e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 6.048335691720711,
+      "direct_delta_logl": -2116.1482456270437,
+      "fourier_delta_logl": -2116.1482456275285,
+      "absolute_error": 4.847606760449708e-10,
+      "limit": 1.042322964912541e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": -4.321775679106988,
+      "direct_delta_logl": -11249.615908853302,
+      "fourier_delta_logl": -11249.61590885298,
+      "absolute_error": 3.219611244276166e-10,
+      "limit": 1.224992318177066e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 11.28981115228867,
+      "direct_delta_logl": -16326.54175159094,
+      "fourier_delta_logl": -16326.54175159128,
+      "absolute_error": 3.4015101846307516e-10,
+      "limit": 1.3265308350318189e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 9.359328316863051,
+      "direct_delta_logl": -7126.015931088518,
+      "fourier_delta_logl": -7126.015931088493,
+      "absolute_error": 2.546585164964199e-11,
+      "limit": 1.1425203186217705e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 0.0,
+      "direct_delta_logl": -0.0,
+      "fourier_delta_logl": 0.0,
+      "absolute_error": 0.0,
+      "limit": 1e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 1e-12,
+      "direct_delta_logl": 5.189816320426383e-10,
+      "fourier_delta_logl": 3.0006171541563157e-10,
+      "absolute_error": 2.189199166270067e-10,
+      "limit": 1.0000000000000104e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 1e-08,
+      "direct_delta_logl": 3.0007917791290904e-06,
+      "fourier_delta_logl": 3.0006133005990853e-06,
+      "absolute_error": 1.7847853000511513e-10,
+      "limit": 1.000000000060016e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 0.0001,
+      "direct_delta_logl": 0.029620779431485597,
+      "fourier_delta_logl": 0.02962077948331194,
+      "absolute_error": 5.1826341829208644e-11,
+      "limit": 1.0000005924155888e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 6.283185297179586,
+      "direct_delta_logl": -3.00042854373382e-06,
+      "fourier_delta_logl": -3.000620904812226e-06,
+      "absolute_error": 1.9236107840575557e-10,
+      "limit": 1.0000000000600086e-05,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "phase": 6.283185317179586,
+      "direct_delta_logl": 3.000735701731228e-06,
+      "fourier_delta_logl": 3.0006130499393827e-06,
+      "absolute_error": 1.226517918452684e-10,
+      "limit": 1.0000000000600147e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 1.2905827066526996,
+      "direct_delta_logl": -1542608.647018056,
+      "fourier_delta_logl": -1542608.6470180973,
+      "absolute_error": 4.1443854570388794e-08,
+      "limit": 0.00031852172940361124,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 9.730143311694647,
+      "direct_delta_logl": -716608.2859698054,
+      "fourier_delta_logl": -716608.2859698163,
+      "absolute_error": 1.0826624929904938e-08,
+      "limit": 0.00015332165719396108,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 6.183578595356138,
+      "direct_delta_logl": -38318.050615283806,
+      "fourier_delta_logl": -38318.050615288936,
+      "absolute_error": 5.129550117999315e-09,
+      "limit": 1.7663610123056762e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": -4.739476950223635,
+      "direct_delta_logl": -1404337.3691206377,
+      "fourier_delta_logl": -1404337.3691206342,
+      "absolute_error": 3.4924596548080444e-09,
+      "limit": 0.00029086747382412755,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": -5.7129528856485425,
+      "direct_delta_logl": -890356.4219199668,
+      "fourier_delta_logl": -890356.4219199276,
+      "absolute_error": 3.923196345567703e-08,
+      "limit": 0.00018807128438399337,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 12.107528282335842,
+      "direct_delta_logl": -685499.4639031567,
+      "fourier_delta_logl": -685499.4639031882,
+      "absolute_error": 3.1548552215099335e-08,
+      "limit": 0.00014709989278063133,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": -4.531668357062388,
+      "direct_delta_logl": -1256434.968705394,
+      "fourier_delta_logl": -1256434.9687053598,
+      "absolute_error": 3.4226104617118835e-08,
+      "limit": 0.00026128699374107885,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 11.965072734484863,
+      "direct_delta_logl": -1031581.966963597,
+      "fourier_delta_logl": -1031581.9669635955,
+      "absolute_error": 1.5133991837501526e-09,
+      "limit": 0.0002163163933927194,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 7.843534323244583,
+      "direct_delta_logl": -1392940.7122875317,
+      "fourier_delta_logl": -1392940.7122875208,
+      "absolute_error": 1.0943040251731873e-08,
+      "limit": 0.0002885881424575064,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 1.4051288209251185,
+      "direct_delta_logl": -1490641.4620337724,
+      "fourier_delta_logl": -1490641.4620337863,
+      "absolute_error": 1.3969838619232178e-08,
+      "limit": 0.00030812829240675453,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 2.0383893270456905,
+      "direct_delta_logl": -1062136.6769581654,
+      "fourier_delta_logl": -1062136.676958149,
+      "absolute_error": 1.6298145055770874e-08,
+      "limit": 0.0002224273353916331,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 7.777326849303378,
+      "direct_delta_logl": -1437231.2565768582,
+      "fourier_delta_logl": -1437231.2565768666,
+      "absolute_error": 8.381903171539307e-09,
+      "limit": 0.0002974462513153717,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 6.048335691720711,
+      "direct_delta_logl": -205104.86758558583,
+      "fourier_delta_logl": -205104.8675856279,
+      "absolute_error": 4.20550350099802e-08,
+      "limit": 5.102097351711717e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": -4.321775679106988,
+      "direct_delta_logl": -1111248.4850842387,
+      "fourier_delta_logl": -1111248.485084207,
+      "absolute_error": 3.166496753692627e-08,
+      "limit": 0.00023224969701684774,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 11.28981115228867,
+      "direct_delta_logl": -1615977.5677025986,
+      "fourier_delta_logl": -1615977.5677026382,
+      "absolute_error": 3.958120942115784e-08,
+      "limit": 0.0003331955135405198,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 9.359328316863051,
+      "direct_delta_logl": -704386.414250671,
+      "fourier_delta_logl": -704386.4142506487,
+      "absolute_error": 2.2351741790771484e-08,
+      "limit": 0.0001508772828501342,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 0.0,
+      "direct_delta_logl": -0.0,
+      "fourier_delta_logl": 0.0,
+      "absolute_error": 0.0,
+      "limit": 1e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 1e-12,
+      "direct_delta_logl": 5.1898163146581945e-09,
+      "fourier_delta_logl": 3.0006171507069344e-09,
+      "absolute_error": 2.18919916395126e-09,
+      "limit": 1.000000000000104e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 1e-08,
+      "direct_delta_logl": 3.000757221502164e-05,
+      "fourier_delta_logl": 3.000578742969102e-05,
+      "absolute_error": 1.7847853306188763e-09,
+      "limit": 1.0000000006001516e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 0.0001,
+      "direct_delta_logl": 0.2616504070290749,
+      "fourier_delta_logl": 0.2616504075336154,
+      "absolute_error": 5.04540520473995e-10,
+      "limit": 1.0000052330081407e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 6.283185297179586,
+      "direct_delta_logl": -3.0004631015770187e-05,
+      "fourier_delta_logl": -3.0006546386971024e-05,
+      "absolute_error": 1.915371200837332e-09,
+      "limit": 1.0000000006000928e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "phase": 6.283185317179586,
+      "direct_delta_logl": 3.0007011442024075e-05,
+      "fourier_delta_logl": 3.000577668553741e-05,
+      "absolute_error": 1.2347564866657039e-09,
+      "limit": 1.0000000006001404e-05,
+      "passes": true
+    }
+  ],
+  "full_chain_timings": [
+    {
+      "count": 1,
+      "seconds": {
+        "full_direct": [
+          0.13059712500034948,
+          0.12590488299974822,
+          0.12592689999655704
+        ],
+        "full_prepared": [
+          1.5583077500014042,
+          1.5814489409967791,
+          1.5764570809988072
+        ]
+      },
+      "speed_ratio": 0.0798796881401761,
+      "max_delta_logl_error": 4.638422979041934e-11,
+      "repeat_max_delta_logl_errors": [
+        4.638422979041934e-11,
+        4.638422979041934e-11,
+        4.638422979041934e-11
+      ]
+    },
+    {
+      "count": 16,
+      "seconds": {
+        "full_direct": [
+          1.9319927569995343,
+          1.9368032599995786,
+          1.9464639459984028
+        ],
+        "full_prepared": [
+          1.5700595820017043,
+          1.5598169030017743,
+          1.5824715529997775
+        ]
+      },
+      "speed_ratio": 1.2335858347046325,
+      "max_delta_logl_error": 4.3928594095632434e-10,
+      "repeat_max_delta_logl_errors": [
+        4.3928594095632434e-10,
+        4.3928594095632434e-10,
+        4.3928594095632434e-10
+      ]
+    },
+    {
+      "count": 64,
+      "seconds": {
+        "full_direct": [
+          7.828753665002296,
+          7.937274353000248,
+          7.942290377999598
+        ],
+        "full_prepared": [
+          1.6213842759971158,
+          1.5899064229997748,
+          1.5780107240025245
+        ]
+      },
+      "speed_ratio": 4.992290261979382,
+      "max_delta_logl_error": 8.967617759481072e-10,
+      "repeat_max_delta_logl_errors": [
+        8.967617759481072e-10,
+        8.967617759481072e-10,
+        8.967617759481072e-10
+      ]
+    },
+    {
+      "count": 256,
+      "seconds": {
+        "full_direct": [
+          31.369352621997677,
+          31.85778064799888,
+          31.36638829200092
+        ],
+        "full_prepared": [
+          1.578084206998028,
+          1.6149480970016157,
+          1.5822804349991202
+        ]
+      },
+      "speed_ratio": 19.825406374322718,
+      "max_delta_logl_error": 1.1386873666197062e-09,
+      "repeat_max_delta_logl_errors": [
+        1.1386873666197062e-09,
+        1.1386873666197062e-09,
+        1.1386873666197062e-09
+      ]
+    }
+  ],
+  "cached_basis_timings": [
+    {
+      "count": 1,
+      "seconds": {
+        "direct": [
+          0.0012402400025166571,
+          0.0009544780004944187,
+          0.0009433159975742456,
+          0.0009495399972365703,
+          0.0009447109987377189,
+          0.0010245439989375882,
+          0.0015417360009450931
+        ],
+        "fourier": [
+          0.0013328120003279764,
+          0.0012571659972309135,
+          0.0012636390019906685,
+          0.0012595389998750761,
+          0.0012596329979714938,
+          0.0012274200016690884,
+          0.0013230300028226338
+        ]
+      },
+      "speed_ratio": 0.7577429314979085
+    },
+    {
+      "count": 16,
+      "seconds": {
+        "direct": [
+          0.0014850250008748844,
+          0.001269461998163024,
+          0.0012316809988988098,
+          0.0012837329995818436,
+          0.0012502719982876442,
+          0.001257754000107525,
+          0.0012193459988338873
+        ],
+        "fourier": [
+          0.001297028000408318,
+          0.0012704250002570916,
+          0.001278258001548238,
+          0.0012859529997513164,
+          0.0012575100008689333,
+          0.0012441840008250438,
+          0.001247948999662185
+        ]
+      },
+      "speed_ratio": 0.9900261722281893
+    },
+    {
+      "count": 64,
+      "seconds": {
+        "direct": [
+          0.0030634120012109634,
+          0.0021348289992602076,
+          0.002253930000733817,
+          0.0021206229976087343,
+          0.0020361850001791026,
+          0.0020710710014100187,
+          0.002028896000410896
+        ],
+        "fourier": [
+          0.0012764130005962215,
+          0.0012273329994059168,
+          0.0013215530016168486,
+          0.0012662090011872351,
+          0.0012248909988556989,
+          0.0012081599998055026,
+          0.001264391998120118
+        ]
+      },
+      "speed_ratio": 1.6771879296623593
+    },
+    {
+      "count": 256,
+      "seconds": {
+        "direct": [
+          0.005723624999518506,
+          0.005802323001262266,
+          0.005596773000434041,
+          0.005879544998606434,
+          0.005635978002828779,
+          0.00562427900149487,
+          0.005633331998978974
+        ],
+        "fourier": [
+          0.0013990680017741397,
+          0.001347429999441374,
+          0.001336102002824191,
+          0.0012860799979534931,
+          0.0014168830020935275,
+          0.0012819800031138584,
+          0.0013411219988483936
+        ]
+      },
+      "speed_ratio": 4.202434981805033
+    }
+  ],
+  "few": {
+    "case": "prograde",
+    "parameters": [
+      1000000.0,
+      10.0,
+      0.6,
+      8.0,
+      0.3,
+      1.0,
+      1.0,
+      1.1,
+      0.7,
+      0.8,
+      1.5,
+      0.0,
+      0.4,
+      0.5
+    ],
+    "settings": {
+      "T": 0.003,
+      "dt": 15.0
+    },
+    "modes": [
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -1,
+        1,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0,
+        1,
+        2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        -3,
+        -2,
+        -1,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "m": 6,
+    "samples": 6312,
+    "setup_seconds": 20.374439451999933,
+    "source_root": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference",
+    "sources": {
+      "src/few/_version.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_version.py",
+        "sha256": "1976d9df020dd9fd521324444b497296bee88342d511087e503237268166e735",
+        "bytes": 583
+      },
+      "src/few/_editable.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/_editable.py",
+        "sha256": "9fe05add70d95dbbc4c6f7d6b3e5adb4b57d0b292b5ecb3ab7764652c743c8fb",
+        "bytes": 310
+      },
+      "src/few/amplitude/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/__init__.py",
+        "sha256": "2135444a122fd9365efbbb914c374870140b6307a8b956ac76986637edf3a300",
+        "bytes": 297
+      },
+      "src/few/utils/exceptions.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/exceptions.py",
+        "sha256": "a4c1523166074d65ac44e54614ca480d31d8f5762a7537396cefb12669a42c15",
+        "bytes": 2554
+      },
+      "src/few/cutils/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/__init__.py",
+        "sha256": "8594da5a407b93f41e66d20a26fedb17e229cf0728d31ecf858e331d7884a461",
+        "bytes": 23421
+      },
+      "src/few/utils/config.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/config.py",
+        "sha256": "aba380ce36cf93a7f2faf75764d0c5cb7752dc650c7b862447744d2e6f0545a1",
+        "bytes": 28206
+      },
+      "src/few/files/registry.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/registry.py",
+        "sha256": "cb3c8ceee901994b6542a85e88a08c041e2659a7289d6f571f177cf5b3129cd2",
+        "bytes": 6337
+      },
+      "src/few/files/manager.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/manager.py",
+        "sha256": "56eb74d896505a0305fb745a1f9581f2e862bc43df83b172abac0be49a4e9a3f",
+        "bytes": 19709
+      },
+      "src/few/files/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/files/__init__.py",
+        "sha256": "65c01a141af79e371037e9baa275367d3357ddc6a3178ee7de8a8218cbedb1b4",
+        "bytes": 111
+      },
+      "src/few/summation/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/__init__.py",
+        "sha256": "3e651ab13b220dc4b6f07b675c9dfae150e87ee3cb7937dc52127275a9fe617c",
+        "bytes": 246
+      },
+      "src/few/trajectory/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/__init__.py",
+        "sha256": "597702f32f16fd8d84eaed908745991ecb1cb4e01278daa74d8eac318a3fd440",
+        "bytes": 248
+      },
+      "src/few/utils/citations.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/citations.py",
+        "sha256": "80bbba05f49ac2def1d8648545d762456ad68980c0041d71df61e55bf0653931",
+        "bytes": 11391
+      },
+      "src/few/utils/globals.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/globals.py",
+        "sha256": "31ac5fae7be92378aa076c87d0be826868112171e696e6591c4bd8c2975c26c8",
+        "bytes": 15148
+      },
+      "src/few/utils/mappings/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/__init__.py",
+        "sha256": "b2996243016bd744451dd9d1357991a0f30de0649a74dd10d619c8d17b56585b",
+        "bytes": 165
+      },
+      "src/few/utils/constants.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/constants.py",
+        "sha256": "7d109c163f2c3148fc260437935bf5699ab6263755506b6e97ba0297f18e1e81",
+        "bytes": 447
+      },
+      "src/few/utils/elliptic.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/elliptic.py",
+        "sha256": "8e432b82f884ae3cb73d2a96db448e80217d06ea6461084b2bc02979d553358d",
+        "bytes": 8039
+      },
+      "src/few/utils/utility.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/utility.py",
+        "sha256": "80f6d560ae7019ffbf754ef5176102088d0930e4c4cbc36b83a1cf0483a72708",
+        "bytes": 18553
+      },
+      "src/few/utils/geodesic.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/geodesic.py",
+        "sha256": "0901e211b16fc3937cfe80ef3e5f43c41144c42665d9f6d7d37df6acef28f290",
+        "bytes": 43561
+      },
+      "src/few/utils/mappings/kerrecceq.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/kerrecceq.py",
+        "sha256": "59d3550287cce12f380434695319a3956616a8ea21538f838d8713d68f09fbdf",
+        "bytes": 16723
+      },
+      "src/few/utils/baseclasses.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+        "sha256": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+        "bytes": 29143
+      },
+      "src/few/utils/mappings/schwarzecc.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/schwarzecc.py",
+        "sha256": "6f8d8ab95b893c9f6833fd5950973c18f3f55bf27f35791157ccd74824f5a4d9",
+        "bytes": 748
+      },
+      "src/few/amplitude/base.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+        "sha256": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+        "bytes": 6194
+      },
+      "src/few/amplitude/ampinterp2d.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+        "sha256": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+        "bytes": 25866
+      },
+      "src/few/amplitude/romannet.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/romannet.py",
+        "sha256": "0af6cae2808289c1736a135d703cf1b5d9269e46518fa9b1254aaef8390a536a",
+        "bytes": 12532
+      },
+      "src/few/summation/base.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/base.py",
+        "sha256": "326a31f69c832dcb9dbc255570839cdabf24f58087198ca586174cce3d35c971",
+        "bytes": 5350
+      },
+      "src/few/summation/aakwave.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/aakwave.py",
+        "sha256": "9e930c1977d66b3f12ed5d490bcb16b6d87599e5e5ac7715fb7c9e70386c83d3",
+        "bytes": 6205
+      },
+      "src/few/summation/directmodesum.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/directmodesum.py",
+        "sha256": "00a1bd0805d0f2cabf9a35a3e48c192eca387cb29d63bd1c3ed034275ade6fb1",
+        "bytes": 4543
+      },
+      "src/few/summation/interpolatedmodesum.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/interpolatedmodesum.py",
+        "sha256": "5faaa3d5a2b0e4bd5d14fdd98c0fd43eb972cdc3bef8a64d47cd998e3e5da35f",
+        "bytes": 13413
+      },
+      "src/few/summation/fdinterp.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/summation/fdinterp.py",
+        "sha256": "1336d2b6f1bfd717142b5c03ef1bf3155627d1fc043b20be47772dbd5410edcd",
+        "bytes": 20634
+      },
+      "src/few/utils/mappings/pn.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/pn.py",
+        "sha256": "85732f932da0f38995f6519b131a6703166fe4da2acf4a4d1bef521ef2187a1d",
+        "bytes": 8202
+      },
+      "src/few/trajectory/base.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/base.py",
+        "sha256": "3c42b2cc2682a037f722a474c227a1ecf2b63f4b16bfd1de49330a67f270cca5",
+        "bytes": 6803
+      },
+      "src/few/trajectory/dopr853.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/dopr853.py",
+        "sha256": "d0229fd3ca4d37d250ab2b4779665a23c7f5f3b672408f9892547811a2d04bd2",
+        "bytes": 25343
+      },
+      "src/few/utils/mappings/jacobian.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/mappings/jacobian.py",
+        "sha256": "8dd35bb9e0a43d3f16d1fa3d350380b4647dabf685285c55b10ee2ba92bf5a8f",
+        "bytes": 3882
+      },
+      "src/few/trajectory/ode/base.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/base.py",
+        "sha256": "88ec03f41e08e7c210c64eef9522aad1a984a4ad588cc77306c03d5b15e05f44",
+        "bytes": 13839
+      },
+      "src/few/trajectory/ode/flux.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/flux.py",
+        "sha256": "1f915406bfaa506380e4ce40a638a19fa09a966b2f67defb66165f9fd41e11fe",
+        "bytes": 27412
+      },
+      "src/few/trajectory/ode/pn5.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/pn5.py",
+        "sha256": "532547ea788d22aa1c3d1b1315fbfcc25ec1f450d6027d3b1e0e57cd6e07a6a0",
+        "bytes": 125903
+      },
+      "src/few/trajectory/ode/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/ode/__init__.py",
+        "sha256": "58f30779029ff481024ba147a5559ef4e534668327551795619a0001567b0183",
+        "bytes": 383
+      },
+      "src/few/trajectory/integrate.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/integrate.py",
+        "sha256": "4a28f6aaadd42b9ad302801513aa7a0b3c7e47766a6800a724925345700703d1",
+        "bytes": 26633
+      },
+      "src/few/trajectory/inspiral.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/trajectory/inspiral.py",
+        "sha256": "ebe30aa00b656b4529ba5a0c96377bf2959600d1463952f4cf710350f9678df9",
+        "bytes": 15633
+      },
+      "src/few/utils/ylm.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/ylm.py",
+        "sha256": "a65337f57faa53e1b07ecfa6bde8cd61e584adfd1fa52a89ed22c1e1607e157d",
+        "bytes": 34869
+      },
+      "src/few/utils/modeselector.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+        "sha256": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+        "bytes": 26456
+      },
+      "src/few/waveform/base.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+        "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+        "bytes": 24996
+      },
+      "src/few/waveform/waveform.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+        "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+        "bytes": 34884
+      },
+      "src/few/waveform/__init__.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/__init__.py",
+        "sha256": "f4434ab4f3d55448175a8c56f064bafc645fa74d2a0935aaea41876c1a7c12f4",
+        "bytes": 596
+      },
+      "src/few/cutils/wrappers.py": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/cutils/wrappers.py",
+        "sha256": "30391125ad05f6ffd955f22e64ffc05d06e13dd37bef085b26ca282033a9bf33",
+        "bytes": 2298
+      }
+    },
+    "producer": {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/few_phase_server.py",
+      "sha256": "70279498fcba7d579475b020930c652205a887736f2c0aff8b9a519708665231",
+      "bytes": 4314
+    },
+    "native": [
+      {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+        "bytes": 82672
+      },
+      {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+        "bytes": 70400
+      },
+      {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+        "bytes": 9866272
+      },
+      {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+        "bytes": 74240
+      }
+    ],
+    "data": [
+      {
+        "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+        "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+        "bytes": 5089095248
+      },
+      {
+        "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+        "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+        "bytes": 9857632
+      }
+    ]
+  },
+  "orbit": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+    "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe",
+    "bytes": 1212152
+  },
+  "response_setup_seconds": 0.36877481899864506,
+  "crop": {
+    "samples_each_end": 1333,
+    "first_time_seconds": 19995.0,
+    "samples": 3646
+  },
+  "first_basis_generation_seconds": 1.60810149900135,
+  "reference_anchor_byte_equal": true,
+  "waveform_whitened_relative_l2_max": 1.265056302253997e-12,
+  "noise_vs_rounded_residual_max_difference": 2.3314683517128287e-15,
+  "compact_payload_bytes": 192,
+  "retained_preparation_payload_bytes_for_diagnostics": 1227376,
+  "diagonal_gram_negative_control_abs_error": 14.757119343894374,
+  "timing_scope": "Warm loaded FEW model and real response, fixed data/weights shared. Full chain includes FEW generation, pipe, response, FFT and preparation+scan measured jointly. Excludes process/model/orbit setup and initial JIT on BOTH sides. No shared trajectory/FEW-mode-basis baseline yet. Cached basis comparison starts with identical real whitened basis samples.",
+  "archive": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/collaboration/linux/real_prograde_final.npz",
+    "sha256": "771daeee687bde43bd54f0ac73ec47be026af0be29cc740c34d821039f32c91d",
+    "bytes": 3108484
+  },
+  "full_signal_calls": 1203,
+  "basis_shape": [
+    13,
+    10944
+  ],
+  "fourier_real_coefficients_including_constant": 25,
+  "worker_returncode": 0
+}
