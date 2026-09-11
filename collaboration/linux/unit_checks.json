@@ -1,0 +1,38 @@
+{
+  "timestamp_cst": "2026-09-11T13:45:35.866335+08:00",
+  "sources": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/tests/test_prepared_observer.py": "ce747d5f22400d094920443f84988d5b89c638904478bb0319845dc733e77f97",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/unit_checks.py": "529ad1f652d2ee6844a5c4921a02436df5fa4e88d0225f685afd46ab32755651"
+  },
+  "runs": [
+    {
+      "backend": "cpu",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_prepared_observer",
+        "-v"
+      ],
+      "returncode": 0,
+      "passes": true,
+      "log": "test_mock_device_and_stream_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_mock_device_and_stream_guard) ... ok\ntest_threshold_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_threshold_guard) ... ok\ntest_mixed_host_device_conversion (tests.test_prepared_observer.PreparedProbeGuardTest.test_mixed_host_device_conversion) ... ok\ntest_waveform_comparison_guards (tests.test_prepared_observer.PreparedProbeGuardTest.test_waveform_comparison_guards) ... ok\nTest 'Prepared observer snapshot' is starting.\n  Test 'Prepared observer snapshot': running with backend 'cpu'\ntest_frozen_sensitivity (tests.test_prepared_observer.PreparedSnapshotTest.test_frozen_sensitivity) ... ok\ntest_invalid_topology (tests.test_prepared_observer.PreparedSnapshotTest.test_invalid_topology) ... ok\ntest_owning_offset_and_strided_arrays (tests.test_prepared_observer.PreparedSnapshotTest.test_owning_offset_and_strided_arrays) ... ok\ntest_signed_modes_and_selector_match (tests.test_prepared_observer.PreparedSnapshotTest.test_signed_modes_and_selector_match) ... ok\n\n  Test 'Prepared observer snapshot': done.\n\n----------------------------------------------------------------------\nRan 8 tests in 7.272s\n\nOK\n"
+    },
+    {
+      "backend": "cuda12x",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_prepared_observer",
+        "-v"
+      ],
+      "returncode": 0,
+      "passes": true,
+      "log": "test_mock_device_and_stream_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_mock_device_and_stream_guard) ... ok\ntest_threshold_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_threshold_guard) ... ok\ntest_mixed_host_device_conversion (tests.test_prepared_observer.PreparedProbeGuardTest.test_mixed_host_device_conversion) ... ok\ntest_waveform_comparison_guards (tests.test_prepared_observer.PreparedProbeGuardTest.test_waveform_comparison_guards) ... ok\nTest 'Prepared observer snapshot' is starting.\n  Test 'Prepared observer snapshot': running with backend 'cuda12x'\ntest_frozen_sensitivity (tests.test_prepared_observer.PreparedSnapshotTest.test_frozen_sensitivity) ... ok\ntest_invalid_topology (tests.test_prepared_observer.PreparedSnapshotTest.test_invalid_topology) ... ok\ntest_owning_offset_and_strided_arrays (tests.test_prepared_observer.PreparedSnapshotTest.test_owning_offset_and_strided_arrays) ... ok\ntest_signed_modes_and_selector_match (tests.test_prepared_observer.PreparedSnapshotTest.test_signed_modes_and_selector_match) ... ok\n\n  Test 'Prepared observer snapshot': done.\n\n----------------------------------------------------------------------\nRan 8 tests in 7.538s\n\nOK\n"
+    }
+  ],
+  "passes": true
+}

@@ -1,0 +1,239 @@
+{
+  "timestamp_cst": "2026-09-11T13:51:41.812107+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "source": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/__init__.py",
+  "backend": "cuda12x",
+  "argv": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+    "--data-dir",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+    "--output",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_fixed_final.json",
+    "--repetitions",
+    "5",
+    "--backend",
+    "cuda12x",
+    "--reference-host-adapter",
+    "--selection",
+    "fixed",
+    "--cases",
+    "nominal"
+  ],
+  "numpy": "2.5.2",
+  "reference_host_adapter": true,
+  "script_sha256": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+  "scope": "Source strain only; no TDI/likelihood. Model construction and first preparation separate; warm prepare measured. No cold-to-cold claim.",
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0
+      ],
+      "settings": {
+        "T": 0.001,
+        "dt": 15.0,
+        "Phi_phi0": 0.3,
+        "Phi_theta0": 0.4,
+        "Phi_r0": 0.5,
+        "inspiral_kwargs": {
+          "integrate_backwards": false
+        }
+      },
+      "preparation_seconds": 3.0561410919999616,
+      "metadata": {
+        "parameters": [
+          1000000.0,
+          10.0,
+          0.6,
+          8.0,
+          0.3,
+          1.0,
+          0.3,
+          0.4,
+          0.5,
+          0.001,
+          15.0
+        ],
+        "canonical_spin": 0.6,
+        "backwards": false,
+        "T_years": 0.001,
+        "dt_seconds": 15.0,
+        "sparse_nodes": 4,
+        "full_modes": 6993,
+        "amplitude_bytes": 447552,
+        "backend": "cuda12x",
+        "device_id": 0,
+        "ode_class": "few.trajectory.ode.flux.KerrEccEqFlux",
+        "inspiral_kwargs": {
+          "integrate_backwards": false,
+          "err": 1e-11
+        },
+        "frozen_sensitivity": false,
+        "scope": "fixed intrinsic source strain, not TDI or inference acceptance"
+      },
+      "observers": [
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 3,
+          "mode_hash": "7c0ac2c9051f82f9ea3433ef183a27573d056be913ec8a3152b3c5a1e9e56c5c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 0.02,
+          "phi": 1.8,
+          "dist": 2.0,
+          "modes": 3,
+          "mode_hash": "7c0ac2c9051f82f9ea3433ef183a27573d056be913ec8a3152b3c5a1e9e56c5c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.5707963267948966,
+          "phi": -0.4,
+          "dist": null,
+          "modes": 3,
+          "mode_hash": "7c0ac2c9051f82f9ea3433ef183a27573d056be913ec8a3152b3c5a1e9e56c5c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 2.7,
+          "phi": 0.3,
+          "dist": 0.5,
+          "modes": 3,
+          "mode_hash": "7c0ac2c9051f82f9ea3433ef183a27573d056be913ec8a3152b3c5a1e9e56c5c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 3,
+          "mode_hash": "7c0ac2c9051f82f9ea3433ef183a27573d056be913ec8a3152b3c5a1e9e56c5c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "samples_seconds": {
+        "fresh": [
+          0.028518494000309147,
+          0.03092927399848122,
+          0.02845023299960303,
+          0.02965480900093098,
+          0.02717932199993811
+        ],
+        "prepared": [
+          0.008209780999095528,
+          0.008056214999669464,
+          0.00797249099923647,
+          0.007910222000646172,
+          0.00809696500073187
+        ],
+        "prepare_and_scan": [
+          0.022736707998774364,
+          0.019265114000518224,
+          0.023605361000591074,
+          0.0189717479988758,
+          0.023437097999703838
+        ],
+        "warm_preparation": [
+          0.01003374799984158,
+          0.011674160999973537,
+          0.011138800000480842,
+          0.009964485001546564,
+          0.01193145899924275
+        ]
+      },
+      "snapshot_sha256": "cd11e664fd2e111afc95c57a8d1dd846b10a52e80557b629f3f60292bf62f063",
+      "fresh_scan_seconds": 0.028518494000309147,
+      "prepared_scan_seconds": 0.008056214999669464,
+      "warm_scan_speedup": 3.5399370549916087,
+      "warm_preparation_seconds": 0.011138800000480842,
+      "first_prepare_plus_warm_scan_vs_warm_fresh_ratio": 0.009307003153864655,
+      "warm_prepare_plus_scan_speedup": 1.4857239757346288,
+      "measured_prepare_and_scan_speedup": 1.2542930138279673,
+      "estimated_first_prepare_break_even_scans": 150,
+      "amortized_warm_estimates": {
+        "1": 1.4857239757346288,
+        "4": 2.630635329293001,
+        "16": 3.258366457766191,
+        "64": 3.465078664923924
+      }
+    }
+  ],
+  "passes": true,
+  "source_identities": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/waveform.py",
+      "sha256": "a5ea543111a12bfef0c59420156861958bcb44adc44326c6de6e99ef6ec24fbb",
+      "bytes": 35586
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py",
+      "sha256": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+      "bytes": 15440
+    }
+  ],
+  "native_interpolation": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "sha256": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+    "bytes": 398504
+  },
+  "data": {
+    "ZNAmps_l10_m10_n55_DS2Outer.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    "KerrEccEqFluxData.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  },
+  "telemetry_before": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 2080 Ti, 1350 MHz, 6800 MHz, 60, 99.41 W"
+  },
+  "cuda": {
+    "cupy": "14.2.0",
+    "runtime": 12090,
+    "driver": 13020
+  },
+  "construction_seconds": 10.054018681999878,
+  "owner_released": true,
+  "amplitude_provider_released": true,
+  "post_owner_release": {
+    "relative_l2": 0.0,
+    "normalized_max": 0.0,
+    "raw_bytes_equal": true
+  },
+  "telemetry_after": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 2080 Ti, 1350 MHz, 6800 MHz, 60, 99.61 W"
+  }
+}

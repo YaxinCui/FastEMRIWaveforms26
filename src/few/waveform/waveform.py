@@ -452,6 +452,19 @@ class FastKerrEccentricEquatorialFlux(
             force_backend=force_backend,
         )
 
+    # 2026-09-11 13:29 CST (linux): Explicit snapshot API; ordinary calls and
+    # default numerical behavior are untouched by this independent experiment.
+    def prepare_observer_scan(self, m1, m2, a, p0, e0, xI0, *ode_args, **kwargs):
+        """Prepare fixed intrinsic TD data, then call the result with theta/phi.
+
+        ``prepared(theta, phi, dist=...)`` recomputes angular weights and mode
+        selection while reusing a complete, independently owned intrinsic
+        snapshot. T/dt/initial phases are preparation-time parameters only.
+        """
+        from .prepared import PreparedKerrWaveform
+
+        return PreparedKerrWaveform(self, m1, m2, a, p0, e0, xI0, *ode_args, **kwargs)
+
     @classmethod
     def supported_backends(cls):
         return cls.GPU_RECOMMENDED()

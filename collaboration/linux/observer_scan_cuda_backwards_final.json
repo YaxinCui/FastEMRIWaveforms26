@@ -1,0 +1,571 @@
+{
+  "timestamp_cst": "2026-09-11T13:50:36.912117+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "source": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/__init__.py",
+  "backend": "cuda12x",
+  "argv": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+    "--data-dir",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+    "--output",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_backwards_final.json",
+    "--repetitions",
+    "5",
+    "--backend",
+    "cuda12x",
+    "--reference-host-adapter",
+    "--backwards",
+    "--extended",
+    "--cases",
+    "nominal",
+    "retrograde"
+  ],
+  "numpy": "2.5.2",
+  "reference_host_adapter": true,
+  "script_sha256": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+  "scope": "Source strain only; no TDI/likelihood. Model construction and first preparation separate; warm prepare measured. No cold-to-cold claim.",
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0
+      ],
+      "settings": {
+        "T": 0.001,
+        "dt": 15.0,
+        "Phi_phi0": 0.3,
+        "Phi_theta0": 0.4,
+        "Phi_r0": 0.5,
+        "inspiral_kwargs": {
+          "integrate_backwards": true
+        }
+      },
+      "preparation_seconds": 6.183831375999944,
+      "metadata": {
+        "parameters": [
+          1000000.0,
+          10.0,
+          0.6,
+          8.0,
+          0.3,
+          1.0,
+          0.3,
+          0.4,
+          0.5,
+          0.001,
+          15.0
+        ],
+        "canonical_spin": 0.6,
+        "backwards": true,
+        "T_years": 0.001,
+        "dt_seconds": 15.0,
+        "sparse_nodes": 4,
+        "full_modes": 6993,
+        "amplitude_bytes": 447552,
+        "backend": "cuda12x",
+        "device_id": 0,
+        "ode_class": "few.trajectory.ode.flux.KerrEccEqFlux",
+        "inspiral_kwargs": {
+          "integrate_backwards": true,
+          "err": 1e-11
+        },
+        "frozen_sensitivity": false,
+        "scope": "fixed intrinsic source strain, not TDI or inference acceptance"
+      },
+      "observers": [
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 113,
+          "mode_hash": "3dc9496e9e0d0f0d4b559fd8b501309b8ca35252ee30e21f90f3ca45bd3879a2",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 0.02,
+          "phi": 1.8,
+          "dist": 2.0,
+          "modes": 23,
+          "mode_hash": "b82347c784305e8a36c35e96e46e5e15b48638e8da5be5d7548649c1a71133b8",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.5707963267948966,
+          "phi": -0.4,
+          "dist": null,
+          "modes": 151,
+          "mode_hash": "96d5631f1c5e8dd64021adcc583127afb3efc1a2953f0587cc653ef7306707bd",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 2.7,
+          "phi": 0.3,
+          "dist": 0.5,
+          "modes": 66,
+          "mode_hash": "da9d20a083a7dbfa07e21b5717bddca57ecbea5ad46720b5f4854e01ef8c9e6d",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 113,
+          "mode_hash": "3dc9496e9e0d0f0d4b559fd8b501309b8ca35252ee30e21f90f3ca45bd3879a2",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "samples_seconds": {
+        "fresh": [
+          0.060153016000185744,
+          0.06081265000102576,
+          0.06332119699982286,
+          0.061376190000373754,
+          0.06228502100020705
+        ],
+        "prepared": [
+          0.026826944000276853,
+          0.02573853799913195,
+          0.026374244000180624,
+          0.025782112001252244,
+          0.024083143000098062
+        ],
+        "prepare_and_scan": [
+          0.03535238400036178,
+          0.03555223900002602,
+          0.035337762001290685,
+          0.03475098899980367,
+          0.03645510299975285
+        ],
+        "warm_preparation": [
+          0.009065072999874246,
+          0.010425083999507478,
+          0.008675576000314322,
+          0.009313900998677127,
+          0.009912045999953989
+        ]
+      },
+      "extra_selection": [
+        {
+          "options": {
+            "mode_selection": "all"
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": "threshold",
+            "mode_selection_threshold": 0.001
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                2,
+                0,
+                0,
+                1
+              ],
+              [
+                3,
+                2,
+                0,
+                -1
+              ]
+            ]
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                3,
+                -2,
+                0,
+                1
+              ],
+              [
+                2,
+                1,
+                0,
+                -2
+              ]
+            ],
+            "include_minus_mkn": false
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "phi_periodicity": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "distance_scaling": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "owner_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "prepare_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "mutated_return_replay": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "rejected_invalid_inputs": true,
+      "snapshot_sha256": "cc98f8ff129699312da22f8068274435cff40fd87a2f6c6a63392e23da0b5584",
+      "fresh_scan_seconds": 0.061376190000373754,
+      "prepared_scan_seconds": 0.025782112001252244,
+      "warm_scan_speedup": 2.3805726232743343,
+      "warm_preparation_seconds": 0.009313900998677127,
+      "first_prepare_plus_warm_scan_vs_warm_fresh_ratio": 0.009884059630920773,
+      "warm_prepare_plus_scan_speedup": 1.7488080483813722,
+      "measured_prepare_and_scan_speedup": 1.7361259144431578,
+      "estimated_first_prepare_break_even_scans": 174,
+      "amortized_warm_estimates": {
+        "1": 1.7488080483813722,
+        "4": 2.1833834153842413,
+        "16": 2.3280098871138266,
+        "64": 2.367210666524323
+      }
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.3,
+        -1.0
+      ],
+      "settings": {
+        "T": 0.001,
+        "dt": 15.0,
+        "Phi_phi0": 0.3,
+        "Phi_theta0": 0.4,
+        "Phi_r0": 0.5,
+        "inspiral_kwargs": {
+          "integrate_backwards": true
+        }
+      },
+      "preparation_seconds": 0.008964986000137287,
+      "metadata": {
+        "parameters": [
+          1000000.0,
+          10.0,
+          0.6,
+          12.0,
+          0.3,
+          -1.0,
+          0.3,
+          0.4,
+          0.5,
+          0.001,
+          15.0
+        ],
+        "canonical_spin": -0.6,
+        "backwards": true,
+        "T_years": 0.001,
+        "dt_seconds": 15.0,
+        "sparse_nodes": 4,
+        "full_modes": 6993,
+        "amplitude_bytes": 447552,
+        "backend": "cuda12x",
+        "device_id": 0,
+        "ode_class": "few.trajectory.ode.flux.KerrEccEqFlux",
+        "inspiral_kwargs": {
+          "integrate_backwards": true,
+          "err": 1e-11
+        },
+        "frozen_sensitivity": false,
+        "scope": "fixed intrinsic source strain, not TDI or inference acceptance"
+      },
+      "observers": [
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 94,
+          "mode_hash": "0e463e3d8839b3d6b86bbfc295d9f42b86454abdd0a595ea388daf8d8e01e9fe",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 0.02,
+          "phi": 1.8,
+          "dist": 2.0,
+          "modes": 24,
+          "mode_hash": "62717e23c84715b52fa1e72ceef28d8e1a66b7aa8a871670436098bc70dd2818",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.5707963267948966,
+          "phi": -0.4,
+          "dist": null,
+          "modes": 127,
+          "mode_hash": "2e1fde5aaba1276b39c95355757a1baf0727ea208c013a21182aae6a7d844c17",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 2.7,
+          "phi": 0.3,
+          "dist": 0.5,
+          "modes": 58,
+          "mode_hash": "a1accfaefab2ed19be2249fe03b1e075a0fd9c9d29e26fff27869dad9d2c684c",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 94,
+          "mode_hash": "0e463e3d8839b3d6b86bbfc295d9f42b86454abdd0a595ea388daf8d8e01e9fe",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "samples_seconds": {
+        "fresh": [
+          0.06044066600043152,
+          0.05826721699850168,
+          0.06060244599939324,
+          0.06115735300045344,
+          0.05909346299995377
+        ],
+        "prepared": [
+          0.02287552699999651,
+          0.02486246599983133,
+          0.024257936000140035,
+          0.028327174999503768,
+          0.02522912200038263
+        ],
+        "prepare_and_scan": [
+          0.03297752500111528,
+          0.032618766999803483,
+          0.03408963800029596,
+          0.035543256999517325,
+          0.03391084500071884
+        ],
+        "warm_preparation": [
+          0.009355939999295515,
+          0.00893599700066261,
+          0.009096682999370387,
+          0.009746928999447846,
+          0.008893575999536552
+        ]
+      },
+      "extra_selection": [
+        {
+          "options": {
+            "mode_selection": "all"
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": "threshold",
+            "mode_selection_threshold": 0.001
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                2,
+                0,
+                0,
+                1
+              ],
+              [
+                3,
+                2,
+                0,
+                -1
+              ]
+            ]
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                3,
+                -2,
+                0,
+                1
+              ],
+              [
+                2,
+                1,
+                0,
+                -2
+              ]
+            ],
+            "include_minus_mkn": false
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "phi_periodicity": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "distance_scaling": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "owner_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "prepare_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "mutated_return_replay": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "rejected_invalid_inputs": true,
+      "snapshot_sha256": "45444e357adcab4bda56fed21533bada702d5b7fabf15953e793009b79fd8083",
+      "fresh_scan_seconds": 0.06044066600043152,
+      "prepared_scan_seconds": 0.02486246599983133,
+      "warm_scan_speedup": 2.431000448661913,
+      "warm_preparation_seconds": 0.009096682999370387,
+      "first_prepare_plus_warm_scan_vs_warm_fresh_ratio": 1.786734218128152,
+      "warm_prepare_plus_scan_speedup": 1.7798050829204322,
+      "measured_prepare_and_scan_speedup": 1.782340310279803,
+      "estimated_first_prepare_break_even_scans": 1,
+      "amortized_warm_estimates": {
+        "1": 1.7798050829204322,
+        "4": 2.2272718081454133,
+        "16": 2.3766523280153677,
+        "64": 2.417181716949574
+      }
+    }
+  ],
+  "passes": true,
+  "source_identities": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/waveform.py",
+      "sha256": "a5ea543111a12bfef0c59420156861958bcb44adc44326c6de6e99ef6ec24fbb",
+      "bytes": 35586
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py",
+      "sha256": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+      "bytes": 15440
+    }
+  ],
+  "native_interpolation": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "sha256": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+    "bytes": 398504
+  },
+  "data": {
+    "ZNAmps_l10_m10_n55_DS2Outer.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    "KerrEccEqFluxData.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  },
+  "telemetry_before": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 2080 Ti, 1350 MHz, 6800 MHz, 61, 100.07 W"
+  },
+  "cuda": {
+    "cupy": "14.2.0",
+    "runtime": 12090,
+    "driver": 13020
+  },
+  "construction_seconds": 10.37400575799984,
+  "owner_released": true,
+  "amplitude_provider_released": true,
+  "post_owner_release": {
+    "relative_l2": 0.0,
+    "normalized_max": 0.0,
+    "raw_bytes_equal": true
+  },
+  "telemetry_after": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 2080 Ti, 1845 MHz, 6800 MHz, 64, 145.83 W"
+  }
+}

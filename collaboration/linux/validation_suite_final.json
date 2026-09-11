@@ -1,0 +1,328 @@
+{
+  "timestamp_cst": "2026-09-11T13:46:58.810752+08:00",
+  "script_sha256": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+  "jobs": [
+    {
+      "name": "cpu_short",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_short_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cpu",
+        "--extended"
+      ],
+      "pid": 136795,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_short_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_short_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 14.962956353028593,
+          "prepare_and_scan": 3.3201855633268824
+        },
+        {
+          "case": "high_e",
+          "warm_reuse": 4.805191748970011,
+          "prepare_and_scan": 2.4596727420390954
+        },
+        {
+          "case": "retrograde",
+          "warm_reuse": 17.175256381360366,
+          "prepare_and_scan": 3.4006284906111723
+        }
+      ]
+    },
+    {
+      "name": "cuda_short",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_short_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cuda12x",
+        "--reference-host-adapter",
+        "--extended"
+      ],
+      "pid": 137069,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_short_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_short_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 2.333922179738452,
+          "prepare_and_scan": 1.7361491174609032
+        },
+        {
+          "case": "high_e",
+          "warm_reuse": 1.489063025229452,
+          "prepare_and_scan": 1.3164290554864495
+        },
+        {
+          "case": "retrograde",
+          "warm_reuse": 2.439763640023501,
+          "prepare_and_scan": 1.7521626934699355
+        }
+      ]
+    },
+    {
+      "name": "cuda_year",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_year_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cuda12x",
+        "--reference-host-adapter",
+        "--duration",
+        "1"
+      ],
+      "pid": 137290,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_year_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_year_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 1.1977453132732674,
+          "prepare_and_scan": 1.1389223922403113
+        },
+        {
+          "case": "high_e",
+          "warm_reuse": 1.0220511658147986,
+          "prepare_and_scan": 1.016385856428444
+        },
+        {
+          "case": "retrograde",
+          "warm_reuse": 1.1156151331570123,
+          "prepare_and_scan": 1.0835293089076752
+        }
+      ]
+    },
+    {
+      "name": "cpu_backwards",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_backwards_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cpu",
+        "--backwards",
+        "--extended",
+        "--cases",
+        "nominal",
+        "retrograde"
+      ],
+      "pid": 137522,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_backwards_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_backwards_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 14.973249257681115,
+          "prepare_and_scan": 3.3188232623282565
+        },
+        {
+          "case": "retrograde",
+          "warm_reuse": 17.03214585225546,
+          "prepare_and_scan": 3.388389739992631
+        }
+      ]
+    },
+    {
+      "name": "cuda_backwards",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_backwards_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cuda12x",
+        "--reference-host-adapter",
+        "--backwards",
+        "--extended",
+        "--cases",
+        "nominal",
+        "retrograde"
+      ],
+      "pid": 137771,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_backwards_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_backwards_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 2.3805726232743343,
+          "prepare_and_scan": 1.7361259144431578
+        },
+        {
+          "case": "retrograde",
+          "warm_reuse": 2.431000448661913,
+          "prepare_and_scan": 1.782340310279803
+        }
+      ]
+    },
+    {
+      "name": "cpu_fixed",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_fixed_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cpu",
+        "--selection",
+        "fixed",
+        "--cases",
+        "nominal"
+      ],
+      "pid": 138275,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_fixed_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_fixed_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 7.483331499556418,
+          "prepare_and_scan": 0.09963331874455462
+        }
+      ]
+    },
+    {
+      "name": "cuda_fixed",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_fixed_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cuda12x",
+        "--reference-host-adapter",
+        "--selection",
+        "fixed",
+        "--cases",
+        "nominal"
+      ],
+      "pid": 138549,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_fixed_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_fixed_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 3.5399370549916087,
+          "prepare_and_scan": 1.2542930138279673
+        }
+      ]
+    },
+    {
+      "name": "cpu_psd",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_psd_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cpu",
+        "--sensitivity",
+        "--extended",
+        "--cases",
+        "nominal"
+      ],
+      "pid": 138751,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_psd_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_psd_final.log",
+      "returncode": 0,
+      "passes": true,
+      "summary": [
+        {
+          "case": "nominal",
+          "warm_reuse": 15.282722824977437,
+          "prepare_and_scan": 3.325503805711156
+        }
+      ]
+    },
+    {
+      "name": "cuda_psd",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+        "--data-dir",
+        "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+        "--output",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_psd_final.json",
+        "--repetitions",
+        "5",
+        "--backend",
+        "cuda12x",
+        "--reference-host-adapter",
+        "--sensitivity",
+        "--extended",
+        "--cases",
+        "nominal"
+      ],
+      "pid": 138849,
+      "state": "terminal",
+      "output": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_psd_final.json",
+      "log": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cuda_psd_final.log",
+      "returncode": 1,
+      "passes": false,
+      "summary": []
+    }
+  ],
+  "passes": false
+}

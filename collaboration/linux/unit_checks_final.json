@@ -1,0 +1,41 @@
+{
+  "timestamp_cst": "2026-09-11T13:55:07.038430+08:00",
+  "sources": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/tests/test_prepared_observer.py": "41d0b8f3e315ff206abcd4649c53d5bfa8f5e4721abba15c185d3de5df44b0bc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/test_observer_probe.py": "2354fd34ed6236e59b8cf48b0b4de110ae2b91489d5214e885c54c347d9e23b6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/unit_checks.py": "97b79b50d8f0d332892e5f2c63e9f90c6b2b72619f256642c7e39e1417d02380"
+  },
+  "runs": [
+    {
+      "backend": "cpu",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_prepared_observer",
+        "collaboration.linux.test_observer_probe",
+        "-v"
+      ],
+      "returncode": 0,
+      "passes": true,
+      "log": "test_mock_device_and_stream_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_mock_device_and_stream_guard) ... ok\ntest_threshold_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_threshold_guard) ... ok\nTest 'Prepared observer snapshot' is starting.\n  Test 'Prepared observer snapshot': running with backend 'cpu'\ntest_frozen_sensitivity (tests.test_prepared_observer.PreparedSnapshotTest.test_frozen_sensitivity) ... ok\ntest_invalid_topology (tests.test_prepared_observer.PreparedSnapshotTest.test_invalid_topology) ... ok\ntest_owning_offset_and_strided_arrays (tests.test_prepared_observer.PreparedSnapshotTest.test_owning_offset_and_strided_arrays) ... ok\ntest_signed_modes_and_selector_match (tests.test_prepared_observer.PreparedSnapshotTest.test_signed_modes_and_selector_match) ... ok\n\n  Test 'Prepared observer snapshot': done.\ntest_mixed_host_device_conversion (collaboration.linux.test_observer_probe.PreparedProbeGuardTest.test_mixed_host_device_conversion) ... ok\ntest_waveform_comparison_guards (collaboration.linux.test_observer_probe.PreparedProbeGuardTest.test_waveform_comparison_guards) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 7.318s\n\nOK\n"
+    },
+    {
+      "backend": "cuda12x",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_prepared_observer",
+        "collaboration.linux.test_observer_probe",
+        "-v"
+      ],
+      "returncode": 0,
+      "passes": true,
+      "log": "test_mock_device_and_stream_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_mock_device_and_stream_guard) ... ok\ntest_threshold_guard (tests.test_prepared_observer.PreparedDeviceGuardTest.test_threshold_guard) ... ok\nTest 'Prepared observer snapshot' is starting.\n  Test 'Prepared observer snapshot': running with backend 'cuda12x'\ntest_frozen_sensitivity (tests.test_prepared_observer.PreparedSnapshotTest.test_frozen_sensitivity) ... ok\ntest_invalid_topology (tests.test_prepared_observer.PreparedSnapshotTest.test_invalid_topology) ... ok\ntest_owning_offset_and_strided_arrays (tests.test_prepared_observer.PreparedSnapshotTest.test_owning_offset_and_strided_arrays) ... ok\ntest_signed_modes_and_selector_match (tests.test_prepared_observer.PreparedSnapshotTest.test_signed_modes_and_selector_match) ... ok\n\n  Test 'Prepared observer snapshot': done.\ntest_mixed_host_device_conversion (collaboration.linux.test_observer_probe.PreparedProbeGuardTest.test_mixed_host_device_conversion) ... ok\ntest_waveform_comparison_guards (collaboration.linux.test_observer_probe.PreparedProbeGuardTest.test_waveform_comparison_guards) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 7.617s\n\nOK\n"
+    }
+  ],
+  "passes": true
+}

@@ -1,0 +1,209 @@
+{
+  "timestamp_cst": "2026-09-11T14:03:47.074448+08:00",
+  "host": "linux",
+  "reference": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/collaboration/linux/psd_waveform_reference.json",
+    "sha256": "a83e9be546a71330777732551e35f5f8e272c624348626b044d2103f9ba1bfcd",
+    "bytes": 9702
+  },
+  "artifact": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/collaboration/linux/psd_waveform_reference.npz",
+    "sha256": "3ed5fa6ac1873290d9029655df801ea89d4b55167515fe4ccfb435e45bfed952",
+    "bytes": 733966
+  },
+  "script": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/replay_psd_reference.py",
+    "sha256": "8ce30732c63b211b84d6d3b57c84817ac369896fe61d62d2006de80a305f84fa",
+    "bytes": 5809
+  },
+  "prepared_source": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py",
+    "sha256": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+    "bytes": 15440
+  },
+  "adapter": false,
+  "scope": "Source strain + synthetic PSD selection; no timing/TDI inference claim",
+  "comparisons": [
+    {
+      "case": "nominal",
+      "view": 0,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 3.0166864115541437e-16,
+        "normalized_max": 6.003291580301489e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "ffc53a80489ae5cf8aa6b571610ba38ab1de532da0912cdd82a93ab582a58773"
+    },
+    {
+      "case": "nominal",
+      "view": 1,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.287354762388382e-16,
+        "normalized_max": 6.317137381405734e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "b82347c784305e8a36c35e96e46e5e15b48638e8da5be5d7548649c1a71133b8"
+    },
+    {
+      "case": "nominal",
+      "view": 2,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 3.468079222474792e-16,
+        "normalized_max": 5.852655571316954e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "d2a1f6a92a0a5cad4d4c690fe12d96af4851f55a2c7e89cd1d820b52e0dac4ff"
+    },
+    {
+      "case": "nominal",
+      "view": 3,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.5428548393627615e-16,
+        "normalized_max": 6.748619683407646e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "49fc290c083cb793c1d32e6c84d627ac75492b2f467afc6f13c160a72178b602"
+    },
+    {
+      "case": "high_e",
+      "view": 0,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 7.045272311940278e-16,
+        "normalized_max": 1.1498842308142033e-15,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "7a5175f61db764ab8b3e5f98b3d8add6638f5a3ae59d50fd2fdf89f26c994dbf"
+    },
+    {
+      "case": "high_e",
+      "view": 1,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.828344781248058e-16,
+        "normalized_max": 2.980652035396711e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "cbd411516fdb98f2267ba6f1fe9d816d9d6905e35fdb3d2b91dd7991bcffa1e7"
+    },
+    {
+      "case": "high_e",
+      "view": 2,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 1.4059278515559798e-15,
+        "normalized_max": 2.7542565310366083e-15,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "601a71fe5d8c0f8df4ccc9d4eaa673e03181b61fac078e40e0a3bb69e9e2917b"
+    },
+    {
+      "case": "high_e",
+      "view": 3,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 3.051050201617947e-16,
+        "normalized_max": 4.1390214837353496e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "08ec8d1de2b1d32a9ee2efd9e0f72b5a43c4b1a4c4f062ab70d1360e7921e878"
+    },
+    {
+      "case": "retrograde",
+      "view": 0,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.9568104774946633e-16,
+        "normalized_max": 5.312710220895028e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "3821ef9033d9dffbdb4788630e9e27572f34238ebb52f1bddace14b883ca9bdf"
+    },
+    {
+      "case": "retrograde",
+      "view": 1,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.437128162576074e-16,
+        "normalized_max": 5.708645082857957e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "62717e23c84715b52fa1e72ceef28d8e1a66b7aa8a871670436098bc70dd2818"
+    },
+    {
+      "case": "retrograde",
+      "view": 2,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 3.2694824628006008e-16,
+        "normalized_max": 8.748706590471135e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "953d2bc701fa8a1cd19d79486968b2efce6df5decd1e3801a18d57d71eb3695a"
+    },
+    {
+      "case": "retrograde",
+      "view": 3,
+      "cuda_reference": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "cpu_reference": {
+        "relative_l2": 2.645974621520874e-16,
+        "normalized_max": 6.472568993203627e-16,
+        "raw_bytes_equal": false
+      },
+      "mode_hash": "a1accfaefab2ed19be2249fe03b1e075a0fd9c9d29e26fff27869dad9d2c684c"
+    }
+  ],
+  "passes": true
+}

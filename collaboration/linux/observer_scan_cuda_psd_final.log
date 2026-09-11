@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py", line 513, in <module>
+    main()
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py", line 268, in main
+    reference = model(*parameters, theta, phi, dist=dist, **settings)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/waveform.py", line 508, in __call__
+    return self._generate_waveform(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/base.py", line 310, in _generate_waveform
+    ) = self.mode_selector(
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/utils/modeselector.py", line 398, in __call__
+    get_mode_frequencies(
+  File "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/utils/modeselector.py", line 14, in get_mode_frequencies
+    return f_phi[:,None] * m[None,:] + f_theta[:,None] * k[None,:] + f_r[:,None] * n[None,:]
+           ~~~~~~~~~~~~~~^~~~~~~~~~~
+  File "cupy/_core/core.pyx", line 2024, in cupy._core.core._ndarray_base.__array_ufunc__
+  File "cupy/_core/_kernel.pyx", line 1308, in cupy._core._kernel.ufunc.__call__
+  File "cupy/_core/_kernel.pyx", line 167, in cupy._core._kernel._preprocess_args
+  File "cupy/_core/_kernel.pyx", line 154, in cupy._core._kernel._preprocess_arg
+  File "cupy/_core/_scalar.pyx", line 344, in cupy._core._scalar.CScalar.__init__
+TypeError: Unsupported type <class 'numpy.ndarray'>

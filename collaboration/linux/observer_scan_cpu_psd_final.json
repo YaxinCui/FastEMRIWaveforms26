@@ -1,0 +1,318 @@
+{
+  "timestamp_cst": "2026-09-11T13:52:11.890443+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "source": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/__init__.py",
+  "backend": "cpu",
+  "argv": [
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_probe.py",
+    "--data-dir",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download",
+    "--output",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/collaboration/linux/observer_scan_cpu_psd_final.json",
+    "--repetitions",
+    "5",
+    "--backend",
+    "cpu",
+    "--sensitivity",
+    "--extended",
+    "--cases",
+    "nominal"
+  ],
+  "numpy": "2.5.2",
+  "reference_host_adapter": false,
+  "script_sha256": "ea94eedc83431a65fbba59ff7bdb6109b64b2b4242ccec3a499a29e1b29258e8",
+  "scope": "Source strain only; no TDI/likelihood. Model construction and first preparation separate; warm prepare measured. No cold-to-cold claim.",
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0
+      ],
+      "settings": {
+        "T": 0.001,
+        "dt": 15.0,
+        "Phi_phi0": 0.3,
+        "Phi_theta0": 0.4,
+        "Phi_r0": 0.5,
+        "inspiral_kwargs": {
+          "integrate_backwards": false
+        }
+      },
+      "preparation_seconds": 3.220142660999045,
+      "metadata": {
+        "parameters": [
+          1000000.0,
+          10.0,
+          0.6,
+          8.0,
+          0.3,
+          1.0,
+          0.3,
+          0.4,
+          0.5,
+          0.001,
+          15.0
+        ],
+        "canonical_spin": 0.6,
+        "backwards": false,
+        "T_years": 0.001,
+        "dt_seconds": 15.0,
+        "sparse_nodes": 4,
+        "full_modes": 6993,
+        "amplitude_bytes": 447552,
+        "backend": "cpu",
+        "device_id": null,
+        "ode_class": "few.trajectory.ode.flux.KerrEccEqFlux",
+        "inspiral_kwargs": {
+          "integrate_backwards": false,
+          "err": 1e-11
+        },
+        "frozen_sensitivity": true,
+        "scope": "fixed intrinsic source strain, not TDI or inference acceptance"
+      },
+      "observers": [
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 110,
+          "mode_hash": "ffc53a80489ae5cf8aa6b571610ba38ab1de532da0912cdd82a93ab582a58773",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 0.02,
+          "phi": 1.8,
+          "dist": 2.0,
+          "modes": 23,
+          "mode_hash": "b82347c784305e8a36c35e96e46e5e15b48638e8da5be5d7548649c1a71133b8",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.5707963267948966,
+          "phi": -0.4,
+          "dist": null,
+          "modes": 148,
+          "mode_hash": "d2a1f6a92a0a5cad4d4c690fe12d96af4851f55a2c7e89cd1d820b52e0dac4ff",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 2.7,
+          "phi": 0.3,
+          "dist": 0.5,
+          "modes": 65,
+          "mode_hash": "49fc290c083cb793c1d32e6c84d627ac75492b2f467afc6f13c160a72178b602",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "theta": 1.0471975511965976,
+          "phi": 0.7853981633974483,
+          "dist": 1.0,
+          "modes": 110,
+          "mode_hash": "ffc53a80489ae5cf8aa6b571610ba38ab1de532da0912cdd82a93ab582a58773",
+          "samples": 2105,
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "samples_seconds": {
+        "fresh": [
+          0.38570839099884324,
+          0.38525985199885326,
+          0.3875307010002871,
+          0.38496623299943167,
+          0.3847063409994007
+        ],
+        "prepared": [
+          0.025208848999682232,
+          0.025483682999038137,
+          0.025244396001653513,
+          0.025105111999437213,
+          0.024969928001155495
+        ],
+        "prepare_and_scan": [
+          0.11585007099893119,
+          0.11566683599994576,
+          0.11594560900084616,
+          0.11626204700041853,
+          0.11576743500154407
+        ],
+        "warm_preparation": [
+          0.09024818999932904,
+          0.0916795560005994,
+          0.09030504699876474,
+          0.09030112700020254,
+          0.09071982000023127
+        ]
+      },
+      "extra_selection": [
+        {
+          "options": {
+            "mode_selection": "all"
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": "threshold",
+            "mode_selection_threshold": 0.001
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                2,
+                0,
+                0,
+                1
+              ],
+              [
+                3,
+                2,
+                0,
+                -1
+              ]
+            ]
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        },
+        {
+          "options": {
+            "mode_selection": [
+              [
+                3,
+                -2,
+                0,
+                1
+              ],
+              [
+                2,
+                1,
+                0,
+                -2
+              ]
+            ],
+            "include_minus_mkn": false
+          },
+          "relative_l2": 0.0,
+          "normalized_max": 0.0,
+          "raw_bytes_equal": true
+        }
+      ],
+      "phi_periodicity": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "distance_scaling": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "owner_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "prepare_A_B_A": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "mutated_return_replay": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "mutated_psd_replay": {
+        "relative_l2": 0.0,
+        "normalized_max": 0.0,
+        "raw_bytes_equal": true
+      },
+      "rejected_invalid_inputs": true,
+      "snapshot_sha256": "60ceb8f458e075a199d01e46da65d6b11d9d00b455f12d296703f183bfd33ab2",
+      "fresh_scan_seconds": 0.38525985199885326,
+      "prepared_scan_seconds": 0.025208848999682232,
+      "warm_scan_speedup": 15.282722824977437,
+      "warm_preparation_seconds": 0.09030504699876474,
+      "first_prepare_plus_warm_scan_vs_warm_fresh_ratio": 0.11871128622335408,
+      "warm_prepare_plus_scan_speedup": 3.3351818728720994,
+      "measured_prepare_and_scan_speedup": 3.325503805711156,
+      "estimated_first_prepare_break_even_scans": 9,
+      "amortized_warm_estimates": {
+        "1": 3.3351818728720994,
+        "4": 8.06234088311504,
+        "16": 12.486984099483431,
+        "64": 14.47264465100123
+      }
+    }
+  ],
+  "passes": true,
+  "source_identities": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/waveform.py",
+      "sha256": "a5ea543111a12bfef0c59420156861958bcb44adc44326c6de6e99ef6ec24fbb",
+      "bytes": 35586
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp06-prepared-observer-scan/src/few/waveform/prepared.py",
+      "sha256": "fc8eda7352b35d4e77132a07a4196a67026fe08d6d4b6981b0736b0b60fe3be3",
+      "bytes": 15440
+    }
+  ],
+  "native_interpolation": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "bytes": 9866272
+  },
+  "data": {
+    "ZNAmps_l10_m10_n55_DS2Outer.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    "KerrEccEqFluxData.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  },
+  "construction_seconds": 7.655061072000535,
+  "owner_released": true,
+  "amplitude_provider_released": true,
+  "post_owner_release": {
+    "relative_l2": 0.0,
+    "normalized_max": 0.0,
+    "raw_bytes_equal": true
+  }
+}
