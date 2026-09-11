@@ -214,11 +214,29 @@ class DOPR853:
     def __init__(
         self,
         ode,
+        *,
+        reuse_stage_workspace=False,
     ):
         self.ode = ode
 
         self.fix_step = False
         self.abstol = 1e-10
+        # 2026-09-11 12:07 CST (linux): Opt-in allocation experiment. Workspace
+        # lives through prep_evaluate and is reset only at the next step entry.
+        self.reuse_stage_workspace = bool(reuse_stage_workspace)
+        self._stage_workspace = None
+        self._stage_views = None
+
+    def _get_stage_workspace(self, n_ode, n_systems):
+        shape = (10, n_ode, n_systems)
+        if self._stage_workspace is None or self._stage_workspace.shape != shape:
+            self._stage_workspace = self.xp.zeros(shape, dtype=self.xp.float64)
+            self._stage_views = tuple(self._stage_workspace[i] for i in range(10))
+        else:
+            # Preserve the previous zero-initialized callback contract, including
+            # custom RHS callbacks which only write a subset of output rows.
+            self._stage_workspace.fill(0.0)
+        return self._stage_views
 
     @property
     def xp(self):
@@ -507,7 +525,11 @@ class DOPR853:
             k8,
             k9,
             k10,
-        ) = [self.xp.zeros((nODE, numSysTemp)) for _ in range(10)]
+        ) = (
+            self._get_stage_workspace(nODE, numSysTemp)
+            if self.reuse_stage_workspace
+            else [self.xp.zeros((nODE, numSysTemp)) for _ in range(10)]
+        )
 
         self.dormandPrinceSteps(
             xTemp,
