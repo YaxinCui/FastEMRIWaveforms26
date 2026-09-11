@@ -1,5 +1,83 @@
 # Apple Silicon and FEW knowledge index
 
+<!-- 2026-09-11 22:27 CST (linux): Publish previously local independent
+experiments without changing their scientific/performance acceptance scope. -->
+
+最新同步状态：17 个实验已分别提交、推送并核对远端 commit。
+见 [GitHub 同步清单](../collaboration/linux/GIT_SYNC_2026-09-11.md)。
+下文 LOCAL/UNCOMMITTED 为历史记录；外部大数据和运行环境不随 Git 自动迁移。
+
+<!-- 2026-09-11 11:20 CST (linux): Index the evidence-tiered, 14-layer/34-item
+optimization roadmap and clarify that this branch's copied historical reports
+are not evidence that the corresponding implementations are merged here. -->
+
+## Current deep-optimization research
+
+<!-- 2026-09-11 13:13 CST (linux): Link independently master-based execution
+evidence without claiming the implementation lives on this research branch. -->
+
+[Independent branch experiment index](../collaboration/linux/EXPERIMENTS_2026-09-11.md)
+tracks FP64 common-phase grouping, trajectory workspace reuse, Kerr reference
+provenance, the CPU/CUDA boundary repair and controlled flux/phase error tests.
+It includes low-yield and failing results, not only successful timings.
+
+<!-- 2026-09-11 13:52 CST (linux): Add measured workload-dependency reuse and
+its fixed-mode counterexample; these implementations remain on separate branches. -->
+
+The index now also tracks explicit prepared observer scans: reusing a fixed
+trajectory/full-amplitude snapshot helps some repeated-view workloads, but
+precomputing all modes can lose badly against a small fixed-mode request.
+Preparation-inclusive timings and long-waveform tests bound the cached-only
+speedups.
+
+<!-- 2026-09-11 14:47 CST (linux): Replace the now-stale distance proposal
+status with measured independent-exp09 evidence and explicit negative cases. -->
+
+Exact fixed-response distance likelihood reuse is now implemented as an isolated
+exp09 script experiment, with actual ESA-orbit second-generation A/E/T signals.
+Preparation-inclusive 256-distance batch scans are about 14.74x faster in this
+short CPU pilot, while one-distance evaluation is slower and scalar dispatch
+largely erases the gain. The metric remains synthetic fixed Gaussian noise;
+this is not full FEW acceleration or full posterior acceptance. Exp08 separately
+fixes effective call-time mode-selection semantics with real Kerr regressions.
+
+<!-- 2026-09-11 15:32 CST (linux): Add actual domain and dependency evidence;
+these correctness changes are not performance measurements. -->
+
+Exp10 now rejects mode-coordinate aliases before amplitude lookup. CPU/CUDA
+independent label tests and actual 5 GB Kerr master A/B pass; legal signed modes
+remain supported. Exp11 removes an unrelated portfolio distribution that shares
+the LISA package's Python import path; built-wheel metadata and isolated dry-run
+resolution are verified, not a full sampling installation or inference workflow.
+Both are described in the experiment index, with failures and future checks.
+
+<!-- 2026-09-11 16:30 CST (linux): Index actual storage-policy measurements
+and a reproducible physical-mode API discrepancy; neither is a blanket speedup. -->
+
+Exp12 now measures the spin-local FP64 policy rather than just estimating its
+coefficient payload. CPU/CUDA first-result joint latency improves only about
+1.04/1.05x; CUDA active allocations after visiting both regions fall from about
+4854 to 296 MiB, but a cache-missing reverse-orbit request takes about 5x longer.
+The default eager path remains available. Eight small native methods per
+backend and actual 39-array master regressions pass; details, reserved memory,
+physical coverage and the retained full-file integrity check are in the index.
+
+Exp13 independently reproduces a direct-retrograde amplitude API inconsistency
+in both CPU/CUDA saved master outputs. Signed-spin table lookup is intentional;
+tuple/raw/all mode-selection routes disagree. This is not proof that high-level
+retrograde source waveforms are wrong, and the production repair is still open.
+
+[FEW 多层优化路线图](FEW_MULTILAYER_OPTIMIZATION_ROADMAP.md) covers 14 layers
+and 34 opportunities, including expected effects, Amdahl bounds, HDF5 memory
+arithmetic, shared-phase algebra, scientific acceptance and experiment priority.
+It separates committed measurements on other branches from untested proposals,
+and corrects overstrong statements in the earlier next-generation blueprint and
+signal-processing guide.
+
+Branch awareness: at this research snapshot, `deep-optimization` production
+`src/` matches `47e4fea4`; copied Mac/CUDA reports below are historical evidence,
+not a statement that those backends or optimizations are present on this branch.
+
 <!-- 2026-09-01 18:38 CST (mac): Expand the source-backed index after the pre-implementation Apple Silicon research pass. -->
 
 <!-- 2026-09-01 23:15 CST (linux): Index the user-requested mixed-precision research plan while preserving FP64 as the accepted production baseline. -->
@@ -151,6 +229,45 @@ To guide subsequent algorithm optimization and GPU mixed-precision acceleration,
    - All 36 primary literature papers (74.05 MB) downloaded and verified with exact SHA-256 digests in [`library/MANIFEST.tsv`](library/MANIFEST.tsv) under `library/downloads/`.
 
 ## Classical Textbooks, Comprehensive Monographs, and Official Manuals
+
+<!-- 2026-09-11 17:20 CST (linux): Add the new source-grounded phase-structure
+experiment as a LOCAL worktree link; this is not a remote-synchronized artifact. -->
+
+New bounded experiment: [phase-structured conditional likelihood derivation](../../FastEMRIWaveforms-experiments/exp14-phase-likelihood-fourier/knowledge/PHASE_STRUCTURED_LIKELIHOOD.md).
+It uses FP64 harmonic structure and real TDI; fixed-parameter 256-phase warm
+scans measured 19.825x versus repeated full generation, or 4.202x against the
+same-cached-sample direct competitor. These are conditional workload results,
+not generic FEW/GPU acceleration or physical posterior acceptance. The linked
+independent branch remains local/uncommitted until explicitly synchronized.
+
+<!-- 2026-09-11 17:46 CST (linux): Index exp15's completed single-intrinsic
+phase basis and carefully distinguish its freshly measured baseline. -->
+
+Follow-up: [一次轨道计算，生成整组初相位基](../../FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/knowledge/SINGLE_PASS_PHASE_BASIS.md).
+The CPU prototype reduces observed trajectory/amplitude calls 13->1 at FP64,
+while keeping all 13 real-response calls. Fresh same-session preparation drops
+1.575->0.325 seconds (4.842x); short prograde/retrograde numerical gates pass.
+This is incremental phase-basis preparation, not a universal FEW/GPU ratio;
+do not multiply by exp14's historical speedup. The independent worktree remains
+local/uncommitted; production source and Mac-owned files are unchanged.
+
+<!-- 2026-09-11 21:34 CST (linux): Index independently measured response
+operator/lifecycle experiment; preserve narrow scope and negative cases. -->
+
+Next layer: [可复用 FP64 TDI 算子](../../FastEMRIWaveforms-experiments/exp16-prepared-detector-response/knowledge/PREPARED_TDI.md).
+13-input CPU response/FFT/whitening is 1.402x with new plan on an already frozen
+response, 2.725x with cached plan, but only 1.034x including response creation
+from a configured orbit. One-off single input loses. The 447-check audit binds
+actual native/FEW holdouts and preserves the initial negative performance result.
+This is not full-FEW/GPU acceleration; independent work remains local/uncommitted.
+
+<!-- 2026-09-11 22:17 CST (linux): Index completed exp17 contract repair;
+keep unrelated textbook/library content and Mac-owned areas unchanged. -->
+
+接口层验证：[六链路输入与安全缓冲](../../FastEMRIWaveforms-experiments/exp17-explicit-link-input/knowledge/EXPLICIT_LINK_CONTRACT.md)。
+旧版依赖显式入口的 AttributeError 已复现并在隔离 CPU 副本中修复；两组物理内参
+的六条 FEW 波形、36 种配置保持原生字节一致，983 项审计通过。该结果是可靠性
+改进，不是加速比，也不代表 GPU 或完整物理模型认证；尚未安装或提交同步。
 
 To provide foundational theoretical depth beyond research papers, a dedicated archive of **18 classical graduate-level textbooks, comprehensive monographs, and official hardware/library manuals** has been downloaded, verified, and integrated locally:
 

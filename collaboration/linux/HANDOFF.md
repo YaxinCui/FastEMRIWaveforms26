@@ -1097,3 +1097,378 @@ results, and regression scope before releasing the branch lock. -->
 format, Python bytecode, JSON schema/result, source-hash, ownership, and Git
 whitespace audits passed. The experiment remains an uncommitted Ubuntu change
 on codex/cuda-mixed-precision pending review or an explicit commit/push. -->
+
+<!-- 2026-09-11 11:20 CST (linux): Record the user-requested multilayer research
+expansion on deep-optimization. This is a documentation checkpoint, not a host
+switch, implementation acceptance, new performance run or synchronization. -->
+
+## 2026-09-11 11:20 CST — multilayer optimization research checkpoint
+
+- Current branch: `deep-optimization`, starting HEAD `23eef90c`.
+  Its production `src/` matches `47e4fea4`; historical copied reports are not
+  proof that Mac or mixed-CUDA implementations are merged on this branch.
+- Added [the 14-layer/34-opportunity roadmap](../../knowledge/FEW_MULTILAYER_OPTIMIZATION_ROADMAP.md),
+  with primary-paper/code citations, measured vs analytical vs proposed effects,
+  acceptance tests, priorities and corrections to two historical guides.
+- Reused immutable evidence from `codex/cuda-mixed-precision-5x` commit
+  `b28696b424043a12b49382a20c03c54b11c03cd2`; did not cherry-pick or switch branches.
+  Its warm one-year speedup remains 5.8244x, not a new result here.
+  Correct memory units: 4950.059 -> 2523.915 MiB of CuPy pool used
+  (4.834 -> 2.465 GiB), not total/peak process VRAM.
+- Read HDF5 metadata: 33 spin planes, 6993 modes; raw coefficients total
+  5,087,994,912 bytes. Two planes across both regions are 294.078 MiB FP64;
+  four are 588.156 MiB. Existing contiguous, uncompressed layout supports
+  spin-slab reads. These are payload calculations, not measured lazy peaks.
+- Most promising same-model directions: FP64 trajectory workspace/compiler,
+  fixed-parameter reuse, shared spline factorization, spin-aware data policy,
+  and post-selection aggregation of equal-phase modes with separate +/-
+  branches. Full preblending of spin coefficients adds at least 441.12 MiB
+  traffic per new spin; shared-basis kernel fusion may be the better experiment.
+- After the existing mixed optimization, diagnostic trajectory fraction is
+  51.4%; 2x faster trajectory implies only about 1.35x whole-waveform speedup.
+  Even a free dense sum kernel implies only about 1.27x. Those are Amdahl
+  estimates using the 30.116 ms instrumented case, not the 26.181 ms hot total.
+- Longer-range research: device-resident TDI/likelihood, sparse FD consumption,
+  local mode-wise relative binning, delayed acceptance, reliable derivatives
+  and SBI proposals. Evaluate full runtime, ESS/s and scientific coverage;
+  literature gains do not transfer automatically to Kerr/2080 Ti/Metal.
+- Three research agents were read-only; Linux root was the only editor.
+  Small read-only algebra sanity checks informed hypotheses but are not
+  end-to-end FEW acceptance or performance evidence. No new benchmark artifact,
+  production source, Mac-owned file, dependency or data payload was changed.
+- Preserved the five pre-existing untracked root scripts:
+  `deep_verify_lazy_loading.py`, `roman_fusion_probe.py`, `roman_graph_probe.py`,
+  `roman_mismatch_test.py`, `roman_mixed_precision_probe.py`.
+- No commit or push was requested/performed. Before future implementation,
+  acquire the project lock and select a bounded experiment from section 8.
+  Mac can read these notes; this checkpoint does not instruct a host switch.
+
+<!-- 2026-09-11 11:22 CST (linux): Record completed documentation validation and
+release the task lock; all production implementations remain outside scope. -->
+
+- Final checks passed: 19 relative source links, 34 footnote definitions with
+  no missing/unused references, six immutable Git evidence objects, all O01–O34
+  identifiers, memory/Amdahl arithmetic and `git diff --check`.
+  Read-only peer review corrected waveform-only FD timing scope, noise/accuracy
+  assumptions, a source class name and interference terminology.
+- Documentation lock released at 11:22 CST. No end-to-end numerical tests were
+  run for this documentation-only change; no new acceleration is claimed.
+
+<!-- 2026-09-11 13:13 CST (linux): The user subsequently authorized persistent,
+independent master-based experiments; this supersedes the doc-only scope above. -->
+
+## 2026-09-11 13:13 CST — independent experiment checkpoint, not host transfer
+
+See [the experiment index](EXPERIMENTS_2026-09-11.md) and each experiment's
+Linux handoff. Five separate `codex/exp0*` branches were created from pinned
+master using sibling worktrees. Root remains `deep-optimization`; root source,
+Mac files and the five pre-existing user scripts are unchanged.
+
+New evidence includes common-phase FP64 pilot gains, small trajectory workspace
+gains, a previously unchecked failing Kerr fixture traced against published raw
+data, an independently reproduced CPU/CUDA interface fix, and 45 controlled
+flux-rate/phase-error comparisons. Failing/neutral evidence is preserved.
+
+Linux retains editing; research agents are read-only. No commit, push or host
+switch was performed. Uncommitted experiment work is not transferred by pushing
+the root branch alone. The persistent exploration goal remains active.
+
+<!-- 2026-09-11 14:04 CST (linux): Record two more independent attempts and
+the meaningful counterexamples; retain Linux editing for continued exploration. -->
+
+## 2026-09-11 14:04 CST — workload reuse and a new interface defect
+
+Seven master-based experiment branches now exist. Exp06 adds an opt-in fixed
+intrinsic observer snapshot: preparation-inclusive four-view CPU short tasks
+are 2.46–3.40x faster in the warmed pilot, but a three-fixed-mode CPU task is
+about ten times slower. CUDA one-year gains are only 1.02–1.14x. These workload
+boundaries rule out treating cached-only gains as universal FEW acceleration.
+
+The last original exp06 CUDA+PSD job exposed an additional NumPy/CuPy frequency
+consumer failure. It remains failed in its original manifest. New independent
+exp07 reproduces the two interface failures, repairs host-time and frequency
+placement, and passes small backend-authenticated tests plus 24 adapter-free
+real CPU/CUDA source-strain runs. Exp06 is replaying the small authenticated
+exp07 references without importing any production changes.
+
+See the experiment index and per-branch handoffs for commands, exact hashes,
+scope and remaining failures. All edits remain uncommitted; no host switch.
+
+<!-- 2026-09-11 14:07 CST (linux): Finalize current numerical replay evidence
+while keeping the persistent, independently branched exploration active. -->
+
+The independent exp06 PSD replay passed all 12 CUDA cases with exact bytes
+against exp07 CUDA references; CPU/CUDA reference differences are <=1.41e-15
+relative L2. The original failing ninth matrix entry is preserved, not rewritten.
+Current source/test/artifact hashes and focused static checks have been verified;
+all observed processes are terminal. Broader acceptance and further experiments
+remain open. Root checkout still `deep-optimization`; Linux retains the lock.
+
+<!-- 2026-09-11 14:47 CST (linux): Record exp08/09 checkpoint, not completion
+or host transfer. All nine experiment branches remain independent from master. -->
+
+## 2026-09-11 14:47 CST — configuration repair and distance reuse
+
+Exp08 repairs constructor/call-time mode-selection disagreement. Six CPU tests
+and 15 short actual Kerr waveforms pass; configuration references are byte
+identical. No CUDA boundary patch is folded into this branch.
+
+Exp09 preserves FEW source and uses the real ESA-orbit second-generation TDI
+response in an isolated environment. A published dependency wheel's unsupported
+AVX-512 instruction was diagnosed with direct SIGILL returncodes and GDB, then
+fixed by rebuilding that dependency for x86-64. Main FEW Python is untouched.
+
+The fixed-distance Gaussian identity passes seven mathematical test methods on
+both numerical stacks, 99 longdouble TDI-algebra checks and 45 regenerated-chain
+comparisons. Actual A/E/T distance-scaling discrepancies are <=2.83e-13 relative
+L2. The Gaussian noise metric is a synthetic fixed fixture, not physical ESA
+noise covariance. Scientific acceptance remains narrower than full inference.
+
+Fair preparation-inclusive batch-distance timings: 1/4/16/256 evaluations give
+0.265/0.503/1.16/14.74x. This applies only to conditional likelihood from cached
+frequency-domain TDI; it is NOT waveform/TDI/FFT/full-FEW acceleration. Scalar
+calling offers essentially no gain on this short dataset. Optimistic first
+pilots and their corrected assumptions remain in the per-branch handoff.
+
+See [the updated index](EXPERIMENTS_2026-09-11.md) and exp08/09 handoffs for exact
+commands, hashes, limitations and next candidates. No commits, pushes, data
+transfer or edits to Mac-owned files occurred; Linux keeps the lock and the
+open-ended exploration goal remains active.
+
+<!-- 2026-09-11 15:32 CST (linux): Add two independent correctness experiments;
+this checkpoint retains Linux editing and does not synchronize the worktrees. -->
+
+## 2026-09-11 15:32 CST — mode domain and dependency collision
+
+Eleven independent master-based experiment branches now exist. Exp10 closes a
+silent wrong-mode path: actual Kerr request n=56 aliases n=-55 in master, on
+both CPU and CUDA. Shared physical/truncation and raw-ID checks now reject it.
+Nine small test methods pass per backend, while actual valid-output arrays are
+byte-identical to each entry's master reference: CPU 43 and CUDA 27 arrays,
+including 8 short CPU source waves plus their mode indices. Extra host/device
+array interfaces and constructor defaults also match their legacy references.
+This does not establish full CUDA frontend or generic-Kerr physical acceptance.
+
+Exp11 removes only the unrelated PyPI `lisatools` portfolio distribution from
+the sampling extra. It conflicts with `lisaanalysistools` at the same Python
+initialization file. Built BARE wheel metadata, official archive hashes and
+isolated pip dry-run resolution pass; the resolver env still contains only pip.
+No runnable FEW wheel or full sampling workflow was certified. Earlier runner
+path mistakes and a transient SSL failure are preserved in the branch notes.
+
+Next candidates include auditing direct-retrograde amplitude conventions,
+reducing repeated explicit-mode validation overhead under unchanged safety,
+and a real native sampling installation/ABI smoke test. These remain separate
+from scientific phase-error and performance claims. No source changes were
+merged into this root worktree, no commits/pushes were performed, and no host
+transfer is requested. The broad persistent exploration goal remains active.
+
+<!-- 2026-09-11 16:30 CST (linux): Preserve storage-policy results and new
+interface evidence. No synchronization or ownership transfer is requested. -->
+
+## 2026-09-11 16:30 CST — bounded spin residency and reverse-orbit API finding
+
+Thirteen independent master-based local branches now exist. Exp12 implements
+opt-in spin-local FP64 loading, leaving default eager behavior, native binaries
+and the 5 GB table unchanged. All current source-bound small and actual-table
+numerical gates pass: eight CPU/CUDA methods each and 39 arrays per real policy
+and backend. The final audit passes 4278 checks over 91 authenticated files.
+
+Seven fresh-process AB/BA pairs per backend, run serially with explicit warm
+OS file cache and retained ONCE integrity checks, give construction-through-
+first-waveform ratios of 1.0395x CPU and 1.0510x CUDA. CPU first-result RSS drops
+6045.85→1426.14 MiB. CUDA active pool after A/B use drops 4853.94→295.65 MiB;
+reserved pool is 5202.91→582.96 MiB. These are snapshots, not total GPU memory
+or measured peaks. Warm repeated waveforms are nearly unchanged; changing to
+an uncached retrograde bracket costs 17.53→88.45 ms on CUDA. Keep the negative
+result visible: eager loading can be preferable for many changing spins.
+
+Exp13 has only a diagnostic and notes so far; its production source is master.
+It authenticates five modes × three p/e points from each exp12 CPU/CUDA master
+archive and reproduces direct-retrograde tuple/raw/all disagreement. The status
+is explicitly `evidence_valid=true, contract_passes=false`, not a numerical
+acceptance pass. Full waveform generation usually canonicalizes xI first, so
+this finding must not be generalized to all existing reverse-orbit waveforms.
+
+Next concrete action: independently test the finite-mode coordinate rotation,
+repair the direct selection paths on exp13, then verify canonical/prograde and
+high-level source outputs remain unchanged. Other multilayer experiments and
+scientific acceptance gates remain open. Root stays deep-optimization; no
+commit, push, merge, Mac-owned-file edit or host switch has occurred.
+
+<!-- 2026-09-11 17:20 CST (linux): Record the user-requested next bounded
+exploration round, completed tests and scope. Root production remains untouched. -->
+
+## 2026-09-11 17:20 CST — phase structure and completed reverse-orbit contract
+
+Exp13 now has its minimal Kerr-equatorial raw/all repair and fresh actual-table
+CPU/CUDA acceptance: each backend passes 15 coordinate-contract checks, changes
+only ten intended direct raw/all arrays, and retains 24 byte-identical arrays
+including seven high-level source waves. Eight small methods per backend also
+pass. Its source/archive audit passes 612 checks across 107 files; this is not
+an independent Teukolsky solver, all waveform options, or generic-inclination
+certificate. The initial provenance failure remains preserved.
+
+New independent `codex/exp14-phase-likelihood-fourier` starts from pinned master.
+No production file changed. It exploits initial-azimuthal-phase harmonic structure
+with full real ESA TDI and FP64 Gaussian sufficient statistics. Both short sources
+have max |m|=6: 13 samples prepare a 24-FP64-coefficient Delta-logL object (192
+numeric bytes, not process memory). Independent complete-chain phase checks at
+SNR 20/100/1000 give maximum weighted waveform L2 2.74e-12 and absolute Delta-logL
+error 7.23e-8 in a synthetic fixed noise metric. Neither physical noise covariance,
+phase marginalization nor full parameter inference has been validated.
+
+Prograde CPU warm-service prepare+scan timings include FEW, pipe transfer,
+response, FFT and coefficient construction. For 1/16/64/256 phases, ratios are
+0.0799/1.2336/4.9923/19.8254x. At 256 the batch drops 31.369→1.582 seconds.
+Against the stronger same-cached-detector-sample vectorized direct baseline,
+256 points give 4.202x, not 19.8x. Cold setup, GPU, annual data and an optimized
+shared-trajectory baseline remain outside these results. Three full-chain
+repeats are individually checked. Retrograde is accuracy-only.
+
+Exp14 audit passes 568 checks / 66 authenticated files; six math methods pass
+on both isolated numerical stacks. Exact old pilot producer sources are retained.
+No environment dependencies or H5 data changed. Detailed hypotheses, equations,
+citations, negative cases, raw times and replay commands live in the exp14
+Linux handoff and `knowledge/PHASE_STRUCTURED_LIKELIHOOD.md`.
+
+All currently started processes are terminal. Root stays `deep-optimization`;
+fourteen attempts have independent local worktrees. No commit, push, merge,
+Mac-owned edit or host transfer. Branch names alone do not synchronize uncommitted
+work. Linux retains the lock. Next useful decision: derive phase bases from a
+single trajectory/amplitude evaluation before expanding to two initial phases.
+
+<!-- 2026-09-11 17:46 CST (linux): Record completed exp15 continuation and
+read-only source/result/peer audits. No collaborator switch or synchronization. -->
+
+## 2026-09-11 17:46 CST — single-pass phase basis
+
+The next independent master-based `codex/exp15-single-pass-phase-basis` now
+constructs the phase basis with one trajectory/amplitude evaluation, compared
+with 13 observed on a freshly reproduced exp14-style black-box path. All
+arithmetic stays FP64, existing selected modes and native interpolation remain,
+and both paths execute 13 real ESA TDI/FFT responses. No production file changed.
+
+Five serial alternating prograde CPU A/B preparation pairs give medians
+1.574754->0.325235 seconds, 4.84189x. Preparation+256-phase scan, separately
+timed outside the function including return/cleanup, gives 4.80291x. This is
+incremental against old phase-basis preparation, not ordinary single-waveform
+generation; do not multiply it by exp14's historical 19.825x. A stronger cached
+detector-basis comparison gives 8.4789x for statistics-preparation+256 points,
+but loses at 1/16 points. Common model/data/orbit/JIT setup is outside timings.
+
+Both actual 5 GB prograde/retrograde short cases pass: maximum weighted TDI
+global L2 2.702e-12 and absolute Delta-logL error 4.122e-8 across 132 checks at
+SNR 20/100/1000. Noise is synthetic fixed diagonal PSD, not physical covariance.
+Five pair/guard methods and six likelihood methods pass on both Python stacks;
+the final audit passes 680 checks over 68 authenticated files. Actual worker
+basis ownership and Python-exception callable restoration also pass. Nonzero
+reference phase is additionally checked at SSB only. Retrograde has no timing
+matrix; long observations, GPU and full posterior accuracy remain open.
+
+Detailed derivation and reproduction live in the [exp15 handoff](../../../FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/collaboration/linux/HANDOFF.md)
+and [Chinese knowledge note](../../../FastEMRIWaveforms-experiments/exp15-single-pass-phase-basis/knowledge/SINGLE_PASS_PHASE_BASIS.md).
+The initial pilot and exact producer bytes are preserved, not mixed into final
+timings. The response/FFT/whitening stage now costs ~0.190 s, ~58% of preparation;
+next investigate its existing cache and real-basis batching before enlarging
+the parameter space. Every started performance process is terminal. Root stays
+deep-optimization, all fifteen local worktrees remain uncommitted, Linux owns
+the lock. No commit, push, merge, environment/data change or Mac-owned edit.
+
+<!-- 2026-09-11 21:34 CST (linux): Continue the unchanged open goal with
+exp16, recording bounded progress and both positive/negative lifecycle results. -->
+
+## 2026-09-11 21:34 CST — reusable FP64 detector operator
+
+New independent master branch `codex/exp16-prepared-detector-response` keeps
+native projections and converts the existing GW-TDI interpolation/combination
+into a bounded sparse real operator. No FEW production, installed package,
+native binary, H5 or Mac-owned file changed. The former exp15 bottleneck was
+confirmed by profiling: native TDI ~9.8 of ~14.4 ms per basis.
+
+Five-pair prograde CPU medians for 13 inputs: already frozen response + new
+plan + batch, 0.186309->0.132883 s (1.4021x); already cached plan, 0.186007->
+0.068269 s (2.7246x). Charging response creation/geometry freezing too, from a
+common configured orbit, gives only 0.261578->0.253039 s (1.0337x). Do not infer
+a robust large one-shot/cold-start gain; one waveform is slower (0.4772x).
+These are response/FFT/whitening workloads, not full FEW or GPU measurements.
+Original slower 0.9232x fresh-plan result is preserved with exact source bytes.
+
+Final validation covers two actual-table basis sets and six newly generated
+master FEW phase holdouts, 32 response comparisons / 96 likelihood comparisons,
+plus six synthetic changed-sky/dt/order inputs. Maximum default weighted L2
+5.668e-14, per-channel L2 5.577e-12, absolute Delta-logL discrepancy 3.493e-10.
+Noise is fixed synthetic PSD; no model/full-inference/annual-data certificate.
+The immutable factory matches plain native projection and TDI byte-for-byte.
+Seven methods pass; post-run audit passes 447 checks across 78 files.
+
+See [exp16 handoff](../../../FastEMRIWaveforms-experiments/exp16-prepared-detector-response/collaboration/linux/HANDOFF.md)
+and [Chinese explanation](../../../FastEMRIWaveforms-experiments/exp16-prepared-detector-response/knowledge/PREPARED_TDI.md).
+The installed 1.1.17 differs from newer knowledge-source API/ABI; same-time
+summed delays are an intentional GW response approximation, not a newly fixed
+physics bug. A separate direct-y API AttributeError was reproduced and left
+for an independent repair. Reuse service lifecycle and blocked-memory plans
+remain useful next directions. All jobs terminal; root stays deep-optimization,
+sixteen local worktrees uncommitted, Linux retains the lock. No host transfer.
+
+<!-- 2026-09-11 22:17 CST (linux): User continuation completes independent
+exp17 after status interruption. Inspect source, reports, process state,
+official paper and worktrees; root-only changes under Linux ownership. -->
+
+## 2026-09-11 22:17 CST — explicit link input repair validated
+
+New master-based `codex/exp17-explicit-link-input` fixes the reproducible old
+fastlisaresponse explicit-y missing-attribute failure in a local source copy.
+Optional t0 initializes old-API two-ended BUFFER seconds on a fresh object;
+full (6,N) FP64 input, actual link order, finite/native-pointer/crop/topology
+gates and owned local output prevent invalid calls from committing new state.
+The sole changed method preserves supported CPU arithmetic and XYZ views.
+It explicitly rejects GPU: no CUDA shared-prefetch or stream validation claim.
+
+Two CPU test invocations, ordinary and python -O, each pass 10 methods. Six
+authenticated exp16 FEW source holdouts (two intrinsic systems, three phases)
+across two TDI generations and XYZ/AET/AE give 36 byte-identical configurations.
+Different replacement B and independent undelayed single-link routing prevent
+obvious false positives. Real producer has 351 checks; independent audit passes
+983 checks / 70 files, replays 180 saved arrays and five actual-native stencil
+boundary configurations. The real "input unchanged" label only checks stored
+input equality; unit tests separately verify true before/after immutability.
+
+This is an interface reliability result, NOT measured acceleration, new H5
+validation or a physical/GPU model certificate. No installed source/native,
+dependency installation, big data, root production or Mac-owned edits. Local
+uncommitted work stays in separate sibling worktree; root deep-optimization
+HEAD 23eef90c unchanged. No commit/push/merge or host switch. All jobs terminal.
+
+See [exp17 handoff](../../../FastEMRIWaveforms-experiments/exp17-explicit-link-input/collaboration/linux/HANDOFF.md)
+and [Chinese explanation](../../../FastEMRIWaveforms-experiments/exp17-explicit-link-input/knowledge/EXPLICIT_LINK_CONTRACT.md).
+Next useful performance direction remains preparation amortization and batched
+operator application with an equally reused native baseline; charge actual
+construction/cleanup costs, and never multiply historical speed ratios.
+
+<!-- 2026-09-11 22:27 CST (linux): User explicitly requested git add commit
+push. Root inspected/staged/committed each experiment separately and published
+17 exact branch refs via non-force atomic push; ls-remote verified all hashes.
+Stage this coordinator checkpoint separately; no source merge or host switch. -->
+
+## 2026-09-11 22:27 CST — Git publication checkpoint
+
+All 17 independent experiment branches are now committed and published to
+YaxinCui/FastEMRIWaveforms, with remote SHA independently matching local HEAD.
+The [sync record](GIT_SYNC_2026-09-11.md) gives exact commits, file scopes and
+omitted external artifacts. This coordinator commit preserves the root index,
+roadmap corrections and earlier audit scripts/results; it does not merge any
+experimental production change into deep-optimization or master.
+
+Unrelated root probe scripts remain untracked and unmodified. No H5/venv/native
+build is uploaded, no branch is deleted or force-pushed, no Mac-owned file is
+edited. Ordinary caches stay ignored; nine specifically referenced exp06 final
+logs are committed. Small NPZ evidence is included on its owning branch, while
+external exp01/exp04 NPY and exp12 pair0 benchmark archives remain local as
+explicitly documented. Source-byte preservation explains upstream whitespace
+warnings in copied references; numerical acceptance claims are unchanged.
+
+Earlier LOCAL/UNCOMMITTED status is superseded by this publication checkpoint.
+Linux keeps its edit lock; publishing is not a Mac host handover. Current root
+branch remains deep-optimization. Full code/runtime/data reproducibility on Mac
+requires its own environment and path relocation, not simply pulling one branch.

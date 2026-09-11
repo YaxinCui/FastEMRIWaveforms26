@@ -2,6 +2,16 @@
 
 <!-- 2026-09-03 CST: Guide covering frequency-domain methods, NUFFT, and fast likelihood algorithms -->
 
+<!-- 2026-09-11 11:20 CST (linux): Add a source-backed scope correction without
+rewriting the historical guide; original performance guarantees and simplifying
+assumptions below must not be used as FEW validation or implementation contracts. -->
+
+> 修订提示：下文是早期概念草稿。模式频率并非总单调；常时延的傅里叶相因子不能直接
+> 替代真实 LISA 时变响应；ROQ 并不保证固定百节点或无误差重构；外差/ROQ 的文献倍数
+> 不是 FEW 实测。请先阅读
+> [多层优化路线图](../FEW_MULTILAYER_OPTIMIZATION_ROADMAP.md) 第 5–7 节的适用条件、
+> 一手文献与验证方案。其余示意公式也应核对约定后再用于代码。
+
 ## 1. 引力波信号处理与匹配滤波基础
 
 ### 1.1 时域与频域数据分析的权衡

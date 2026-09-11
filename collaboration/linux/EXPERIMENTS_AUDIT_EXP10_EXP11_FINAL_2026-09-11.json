@@ -1,0 +1,1054 @@
+{
+  "timestamp_cst": "2026-09-11T15:36:53.648977+08:00",
+  "passes": true,
+  "terminal": true,
+  "scope": "Current exp10/11 source-boundary, recorded-test and actual-artifact audit; not whole-goal or scientific acceptance",
+  "checks": [
+    {
+      "name": "root branch untouched",
+      "passes": true
+    },
+    {
+      "name": "root production untouched",
+      "passes": true
+    },
+    {
+      "name": "codex/exp10-mode-index-domain independent base",
+      "passes": true
+    },
+    {
+      "name": "codex/exp10-mode-index-domain whitespace",
+      "passes": true
+    },
+    {
+      "name": "codex/exp11-sampling-dependency independent base",
+      "passes": true
+    },
+    {
+      "name": "codex/exp11-sampling-dependency whitespace",
+      "passes": true
+    },
+    {
+      "name": "exp10 tracked source scope",
+      "passes": true
+    },
+    {
+      "name": "exp11 tracked source scope",
+      "passes": true
+    },
+    {
+      "name": "domain_cpu terminal test outcome",
+      "passes": true
+    },
+    {
+      "name": "domain_cpu real backend",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "master_domain_cpu terminal test outcome",
+      "passes": true
+    },
+    {
+      "name": "master_domain_cpu real backend",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "cpubefore actual successful terminal",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cpu_replay.npz",
+      "passes": true
+    },
+    {
+      "name": "cpubefore output inventory",
+      "passes": true
+    },
+    {
+      "name": "cpubefore invalid request behavior",
+      "passes": true
+    },
+    {
+      "name": "cpu master alias recorded",
+      "passes": true
+    },
+    {
+      "name": "cpuafter actual successful terminal",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cpu.npz",
+      "passes": true
+    },
+    {
+      "name": "cpuafter output inventory",
+      "passes": true
+    },
+    {
+      "name": "cpuafter invalid request behavior",
+      "passes": true
+    },
+    {
+      "name": "cpu exact shared baseline inputs",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cpu_replay.npz",
+      "passes": true
+    },
+    {
+      "name": "cpu reference bound",
+      "passes": true
+    },
+    {
+      "name": "cpu archive inventory",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_all",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cpu:prograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_all",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cpu:canonical_retrograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_all",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cpu:direct_retrograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_threshold",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_threshold_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_all",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_all_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_positive",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_positive_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_signed",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_prograde_signed_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_threshold",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_threshold_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_all",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_all_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_positive",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_positive_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_signed",
+      "passes": true
+    },
+    {
+      "name": "cpu:wave_retrograde_signed_modes",
+      "passes": true
+    },
+    {
+      "name": "cpu new API compatibility",
+      "passes": true
+    },
+    {
+      "name": "cpu stock regression scope",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_checks.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_amplitudes.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_selector.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "domain_cuda terminal test outcome",
+      "passes": true
+    },
+    {
+      "name": "domain_cuda real backend",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "master_domain_cuda terminal test outcome",
+      "passes": true
+    },
+    {
+      "name": "master_domain_cuda real backend",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "imported:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py",
+      "passes": true
+    },
+    {
+      "name": "harness:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "cudabefore actual successful terminal",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cuda_replay.npz",
+      "passes": true
+    },
+    {
+      "name": "cudabefore output inventory",
+      "passes": true
+    },
+    {
+      "name": "cudabefore invalid request behavior",
+      "passes": true
+    },
+    {
+      "name": "cuda master alias recorded",
+      "passes": true
+    },
+    {
+      "name": "cudaafter actual successful terminal",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/ampinterp2d.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cuda.npz",
+      "passes": true
+    },
+    {
+      "name": "cudaafter output inventory",
+      "passes": true
+    },
+    {
+      "name": "cudaafter invalid request behavior",
+      "passes": true
+    },
+    {
+      "name": "cuda exact shared baseline inputs",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cuda_replay.npz",
+      "passes": true
+    },
+    {
+      "name": "cuda reference bound",
+      "passes": true
+    },
+    {
+      "name": "cuda archive inventory",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_all",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cuda:prograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_all",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cuda:canonical_retrograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_all",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_tuples",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_raw_ids",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_0",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_1",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_2",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_3",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_4",
+      "passes": true
+    },
+    {
+      "name": "cuda:direct_retrograde_selector_5",
+      "passes": true
+    },
+    {
+      "name": "cuda new API compatibility",
+      "passes": true
+    },
+    {
+      "name": "cuda stock regression scope",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_checks.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_amplitudes.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py",
+      "passes": true
+    },
+    {
+      "name": "stock-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "name": "candidate metadata test and build terminal",
+      "passes": true
+    },
+    {
+      "name": "build-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/build_checks.py",
+      "passes": true
+    },
+    {
+      "name": "build-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/pyproject.toml",
+      "passes": true
+    },
+    {
+      "name": "build-source:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py",
+      "passes": true
+    },
+    {
+      "name": "expected metadata regression preserved",
+      "passes": true
+    },
+    {
+      "name": "packaging final terminal",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/packaging_probe.py",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-master-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b-cp312-cp312-linux_x86_64.whl",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/before_resolution.json",
+      "passes": true
+    },
+    {
+      "name": "before BARE only",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/after_resolution.json",
+      "passes": true
+    },
+    {
+      "name": "after BARE only",
+      "passes": true
+    },
+    {
+      "name": "expected sampling dependency boundary",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisatools-0.5.1-py3-none-any.whl",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisatools-0.5.1-py3-none-any.whl",
+      "passes": true
+    },
+    {
+      "name": "pypi-json:lisatools",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "passes": true
+    },
+    {
+      "name": "identity:/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "passes": true
+    },
+    {
+      "name": "pypi-json:lisaanalysistools",
+      "passes": true
+    },
+    {
+      "name": "namespace collision recorded",
+      "passes": true
+    },
+    {
+      "name": "environment inventory unchanged",
+      "passes": true
+    },
+    {
+      "name": "actual isolated interpreter",
+      "passes": true
+    },
+    {
+      "name": "eleven handoff links",
+      "passes": true
+    }
+  ],
+  "file_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/collaboration/linux/audit_exp10_exp11.py": "3a5ff35602bf5285821a90e85f2d49b885781c9f01819c72fee887fdd3df93e5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/HANDOFF.md": "7e6c72f007b9dc5930284426af00b32dfc58490f9f28a36ff4f7128fc40c4962",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/HANDOFF.md": "317727190f03a8f8776bd0f4704ae82d5be743b1e72a736673fd2957879c2d0c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_cpu_extended.json": "80cc47b9aa9dc497adccac6f01bb25a9c3e9e463dcaeb786b1cfc93b4c7beb47",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_domain.py": "89903b78688f5ae89cd8924fb87b01bdc014e5415d87b9a18f7bc5784fac8882",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/base.py": "ac4d3f099b1d863ea603bec0d9eb39d96f67bdfda066d8d8202131c5e715273a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/baseclasses.py": "1588577436aa7b4c958ea27b59ce766ad1b2eb8617413ded63caea51cd462d41",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeselector.py": "2f0e33ab824debee6b360050f81ea182426173d23a761586d3b59f1ee07e70b9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/utils/modeindices.py": "1c5fbcfb3f64fb896ae23c56f70b4b76a13f39f0cc12e5ad2c0384581d02d8cd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_checks.py": "2784a53a06f4a5fbae0dea34c3043dd2e2160b3cae264a3db8c31f6317249384",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/master_domain_cpu_extended.json": "e8d6cf4ab89d01e324955a76f8c9afc558a98d9de8462b825dc2217fe9b7b128",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/base.py": "d41bed3ddc096f9dfbd08a4e46f73e10dcca2b9c16b8d0fb1d34dac7762d8a17",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/baseclasses.py": "026c43ba7d1b006198a1675e698cbf1621c27a83567082c72d55e7df24249ed4",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/utils/modeselector.py": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cpu_replay.json": "b0d352c6c6c8f9868f1a225460f88ddb0f58b1906490fa3445a07d1e86e5ea27",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cpu.json": "4200e77d5a89ae993a1235c527f9afe16976c018fb71fa209476fadc68949f7e",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_domain_probe.py": "5ee31ca5910639ce4fdb1a61792c84eebf1a90be31d171df275980c23c82dc2d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/master-reference/src/few/amplitude/ampinterp2d.py": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAAK.cpython-312-x86_64-linux-gnu.so": "7e1eaf690ff325e5847e23359822da3c09148b4d90efd6c268837d92c874d2fe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "4c2671966b0412f67ecbe9510c843c18568e6792d3a0a6ec3f4bb5cd026b47cc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pymatmul.cpython-312-x86_64-linux-gnu.so": "83305fcae3a98b9f0ecf67266338f1789a67debc436f6194f505f43541ddc780",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cpu_replay.npz": "b874256d91be34bf134c5db5cce5f5ed72f57430050c66bc75350f0d18c0e0b9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/src/few/amplitude/ampinterp2d.py": "8997e9d29abb026cdc0abc6fabbf07eaa0f244bdd3cd414c3f6b98c463655d78",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cpu.npz": "b874256d91be34bf134c5db5cce5f5ed72f57430050c66bc75350f0d18c0e0b9",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_cpu.json": "28f89efc6850282dcb56ca28e5d3236273c930278438ab5fdb254dcf98fdf795",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_checks.py": "9ab46941219acbc1e8d861f9cf2a5ac2ac054c0a3500563cae7486c02bbeae2d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_amplitudes.py": "3a02223c2920f58ad406ad3c75b487e943d567d6b2163d04ac158239a1803173",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/tests/test_mode_selector.py": "4831d9be5a64fcfcd06651bcf5cfb5734570fd133d310f071bc50de28b1c64c1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/domain_cuda_extended.json": "d354e72defdce7b7adfb70464f0e3a2e3e0ed102482502cf1bd29b4a683dcf03",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/master_domain_cuda_extended.json": "5918d751dc912a9096d37d738db18a50944ae0b3e1583af41c49ecfe6fb999b6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cuda_replay.json": "b51edc86aba6f30d4efae02971aef74cedd4e38c11cac6f72b81ea811d8e145e",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cuda.json": "56f3e5112d0b23215b940180f87bb3dbf63de1e682be87c4201cb057a55c0117",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAAK.cpython-312-x86_64-linux-gnu.so": "05d2e2fe5f83e7a6d7a40c8d8f49643f25fea6f33941d00ecc8c4ddf2ddbb595",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyAmpInterp2D.cpython-312-x86_64-linux-gnu.so": "637db1e6cd7fb5a02029c626d6ff91d433c889dbbc959839badaa81c98439677",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pymatmul.cpython-312-x86_64-linux-gnu.so": "9c310b90e751b465ab080d3c792aba2e61794defd6d820f047fbebaca104e33e",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_master_cuda_replay.npz": "40603109335cb1a3363051bd7829ab7f10530173b46fa5b8c5061194f705cfc6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/real_fixed_cuda.npz": "40603109335cb1a3363051bd7829ab7f10530173b46fa5b8c5061194f705cfc6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp10-mode-index-domain/collaboration/linux/stock_cuda.json": "486f1673ef85c850a198c09336ad2e47073322827ba1781b7db54b3545de5755",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/fixed_sampling_build.json": "874b573e4c3c001dce0527adf50240e5cf7ce6c9251f4a44b13686b0c772a954",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/build_checks.py": "6cd277b878b165d40b626a11ac2d1808592d11f7cd6781105f3bf708fc800850",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/pyproject.toml": "464c5a679839fcdd9068d4001c7059115c2bf8ad172f94c5c03ab22f1885573c",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/tests/test_sampling_dependencies.py": "561d8a436c7225b4fd73fbda1f82417cfefe0e977a169549a8982e106ba28ae2",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/master_sampling_failure.json": "dd90196772456a1b1d4af487a5fc45052c37dd576e801950e3d078861a188edc",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/packaging_final.json": "7ca8bdf45285c47d329348c50f421c5c1fe05ec8c2a69586327840ea087bc2de",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp11-sampling-dependency/collaboration/linux/packaging_probe.py": "b5a99eee242c52dfc7629844f5964ffead1d7298501edeff9fa11ff315e8bdc7",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-master-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b-cp312-cp312-linux_x86_64.whl": "24e1b625868802408b2673a950cfb1edb7bdbdfcd1faf1efce1b424d2c8d581d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/before_resolution.json": "c52d1588faa63b99e27e867a08a17852af8125519f7a38fee2bc3dca760610f0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-fixed-bare/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl": "d14c3f4b9044e2c3fe1271b109e43ddbd02661fcc973f60cf06de7d0b4052cb0",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/after_resolution.json": "aaf6d8d14bb74e3709ec433dab0e5ce7f3b218aca91d1d320855c0d92d9440fd",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisatools-0.5.1-py3-none-any.whl": "3208dbd1b1987f5bdc2fda59d3e5318a86d7317bcf4d7c71fbc9a69a0fdd15e6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisatools-0.5.1-py3-none-any.whl": "3208dbd1b1987f5bdc2fda59d3e5318a86d7317bcf4d7c71fbc9a69a0fdd15e6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisatools-0.5.1-pypi.json": "da7e6571e836711f14b33a7be1b8cdf9dd584b3a861944b8faabbf1ec850eab6",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "3cee8d2c0364a078ed18987e736d0cbf06af95ca9d95ac4b1983c6ec6675f9f5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-evidence/lisaanalysistools-1.2.8-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": "3cee8d2c0364a078ed18987e736d0cbf06af95ca9d95ac4b1983c6ec6675f9f5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp11-packaging-final/lisaanalysistools-1.2.8-pypi.json": "0a7adf4da727058c441b2f114b6969e4bc6816d320f0da9adc088981b93db179",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/collaboration/linux/EXPERIMENTS_2026-09-11.md": "b22b925eb10af21938853e72133a21cb932aaa3e8a9e99bb70cc6aba1b885582"
+  }
+}

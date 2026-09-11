@@ -1,5 +1,15 @@
 # 🌌 深度解构与重塑：下一代引力波 EMRI 模拟范式
 
+<!-- 2026-09-11 11:20 CST (linux): Preserve this historical brainstorm while
+marking its unsupported physical and architectural claims as superseded by the
+source-backed roadmap. This annotation does not endorse the original prose. -->
+
+> 历史头脑风暴草稿，不应作为事实或实现依据。下文关于“环境接口被堵死”、
+> “ROMAN 缺少历史记忆”、共振被抹平、频率趋于无穷、统一脱相规律及必然巨额加速的
+> 判断存在错误或缺乏依据。请以
+> [2026-09-11 多层优化路线图](../FEW_MULTILAYER_OPTIMIZATION_ROADMAP.md)
+> 的第 7 节勘误和带来源的实验建议为准；原文仅为保留讨论历史。
+
 在 LISA（激光干涉空间天线）任务的严苛要求下，引力波形必须在长达数年（约 $10^5$ 到 $10^6$ 个绕转周期）的时间里，保持相位误差小于 $\sim 1$ 弧度。`FastEMRIWaveforms` (FEW) 虽然在目前是一项伟大的工程壮举，但它本质上是用“计算机工程的奇技淫巧”掩盖了“基础物理模型”的缺失。
 
 ## 第一部分：现有 FastEMRIWaveforms (FEW) 的四大系统性致命缺陷

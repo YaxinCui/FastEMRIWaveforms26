@@ -1,0 +1,302 @@
+{
+  "timestamp_cst": "2026-09-11T14:49:10.606632+08:00",
+  "passes": true,
+  "checks": [
+    {
+      "label": "branch: codex/exp08-effective-mode-selection",
+      "passes": true
+    },
+    {
+      "label": "independent pinned master base: codex/exp08-effective-mode-selection",
+      "passes": true
+    },
+    {
+      "label": "production scope: codex/exp08-effective-mode-selection",
+      "passes": true
+    },
+    {
+      "label": "branch: codex/exp09-distance-conditional-likelihood",
+      "passes": true
+    },
+    {
+      "label": "independent pinned master base: codex/exp09-distance-conditional-likelihood",
+      "passes": true
+    },
+    {
+      "label": "production scope: codex/exp09-distance-conditional-likelihood",
+      "passes": true
+    },
+    {
+      "label": "root branch unchanged",
+      "passes": true
+    },
+    {
+      "label": "root source/Mac tracked files unchanged",
+      "passes": true
+    },
+    {
+      "label": "original exp08 failing baseline preserved",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_stock_audited.json",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_effective_mode_selection.py",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_checks.py",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_mode_selector.py",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/real_config_audited.json",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/real_config_probe.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/utils/modeselector.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "label": "15 actual Kerr configuration calls",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/math_main_audited.json",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/test_distance_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "seven mathematical methods and 298 numeric rows: math_main_audited.json",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/math_response_audited.json",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "source: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/test_distance_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "seven mathematical methods and 298 numeric rows: math_response_audited.json",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.json",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/export_few_distance.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/waveform.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/base.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz",
+      "passes": true
+    },
+    {
+      "label": "bridge embedded metadata agrees with final report",
+      "passes": true
+    },
+    {
+      "label": "authenticated bridge array 0",
+      "passes": true
+    },
+    {
+      "label": "authenticated bridge array 1",
+      "passes": true
+    },
+    {
+      "label": "authenticated bridge array 2",
+      "passes": true
+    },
+    {
+      "label": "authenticated bridge array 3",
+      "passes": true
+    },
+    {
+      "label": "authenticated bridge array 4",
+      "passes": true
+    },
+    {
+      "label": "terminal passing report: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_audited.json",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.json",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_probe.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+      "passes": true
+    },
+    {
+      "label": "identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_audited.npz",
+      "passes": true
+    },
+    {
+      "label": "99 independent residual norm comparisons",
+      "passes": true
+    },
+    {
+      "label": "45 regenerated-chain likelihood comparisons",
+      "passes": true
+    },
+    {
+      "label": "four workload sizes, eight paths, nine raw timings each",
+      "passes": true
+    },
+    {
+      "label": "finite saved TDI/likelihood arrays",
+      "passes": true
+    },
+    {
+      "label": "saved timing outputs agree",
+      "passes": true
+    },
+    {
+      "label": "response-only rebuild terminated successfully",
+      "passes": true
+    },
+    {
+      "label": "three original SIGILL imports preserved",
+      "passes": true
+    },
+    {
+      "label": "rebuilt binary identity: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "passes": true
+    },
+    {
+      "label": "tracked whitespace: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection",
+      "passes": true
+    },
+    {
+      "label": "tracked whitespace: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood",
+      "passes": true
+    },
+    {
+      "label": "tracked whitespace: /home/ubuntu/Desktop/FastEMRIWaveforms",
+      "passes": true
+    }
+  ],
+  "file_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_stock_audited.json": "ad39ee49071996fb979498d23aa63026065a14f2f1d5c33fece6b479780755bb",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/waveform/base.py": "5dfb5c4e124efc164a2f21cb927eb63c5e1648ff4257c82405d1cda0ff07785b",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_effective_mode_selection.py": "9138e3fe5b48961a601d0bedebd34e3c0acafe9b7d08e35d28d456edfe00a468",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/config_checks.py": "812c79d69027c6fbad2496be2849eb201813961f68acf0c7e9682d1687ead965",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/tests/test_mode_selector.py": "4831d9be5a64fcfcd06651bcf5cfb5734570fd133d310f071bc50de28b1c64c1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/real_config_audited.json": "b5a5525592ce8e157f2aa91a78233586dd68411e43ea24c06bb4c038d4c846af",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/collaboration/linux/real_config_probe.py": "1d17f0099d921b9b90aa38087b96627d14114844566c2fe3eed629930622a7cf",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp08-effective-mode-selection/src/few/utils/modeselector.py": "59f711ff723657e249c27d7209671d763b78353c4418455664b28754f9a48da8",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+    "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/math_main_audited.json": "687869797b17da871c91555e22d82a0557289dda04fe4d70aa3223fb3bb6b290",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py": "b88ea25945fe1769272a8418d3b0c3d1f36e4f58c28197dc5abfbcb04742420d",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/test_distance_likelihood.py": "75f474c8f200944c59cc120c37052177e83eb92058acab6b8aae2fff8708832a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/math_response_audited.json": "66684fe636c5855ea508c42b7beccfcbb2ed9eadd1d94b66f1d7b479caacb9e3",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.json": "ef04a6e1baa59a5db7a0567e9e1fc56cedb46b97340fe4f271f0262e56a800f1",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/export_few_distance.py": "78372c221e80d55ad3d72e82663b5163f440816451dfb2ec62a74893aae1b968",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/waveform.py": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/base.py": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz": "592804da5e45184f2cf899d5f3f5481cacc18a167dbd6423bbb53682dcf72b79",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_audited.json": "c3640d5e13394f375407686f5dd4d09950b1a79e7dbb0518d76d386ca9717520",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_probe.py": "22aee7ab6d6908ff2f0b45ddacd32f02bf46dfe48c4991d10ea633d64f9e0f84",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_audited.npz": "d03b053e3180b07ced557afc4b372ecd2fcd0818aa01dd06b2a92cb960411987",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms/collaboration/linux/audit_exp08_exp09.py": "366e133d27344b90224afc951a8488a5d668df8824016f0427820bf7cfa3873d"
+  },
+  "script_sha256": "366e133d27344b90224afc951a8488a5d668df8824016f0427820bf7cfa3873d"
+}

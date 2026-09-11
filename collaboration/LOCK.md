@@ -138,11 +138,61 @@ large-file audits; the commit containing this record is the Ubuntu sync point. -
 
 <!-- 2026-09-03 22:34 CST (linux): Release editing after the first opt-in FP64 CuPy ROMAN candidate passed fresh-wheel build, focused/operator/waveform/dual-host checks, the 53-test fast CUDA suite, Ruff/format/bytecode/JSON/diff audits, and documented performance boundaries. -->
 
-- Branch: `codex/cuda-mixed-precision`
-- Active editor: `none`
+<!-- 2026-09-11 11:10 CST (linux): Acquire a documentation-only lock on the
+user-selected deep-optimization branch for the requested multilayer optimization
+roadmap. Earlier copied entries describe historical branches; the fields below
+are the current ownership record. Research agents are read-only; Linux root is
+the sole file editor. -->
+
+<!-- 2026-09-11 11:22 CST (linux): Release the documentation-only lock after
+peer review, local-link/footnote/Git-object/arithmetic checks and whitespace
+validation. No source implementation, commit, push or host switch occurred. -->
+
+- Branch: `deep-optimization`
+- Active editor: `linux`
 - Last editor: `linux` — Ubuntu x86_64 / NVIDIA GeForce RTX 2080 Ti
-- Last lock acquired: 2026-09-03 21:36 CST (Asia/Shanghai)
-- Lock released: 2026-09-03 22:34 CST (Asia/Shanghai)
-- State: The first opt-in same-FP64 CUDA scheduling candidate is implemented,
-  measured, and regression-tested on `codex/cuda-mixed-precision`. It remains
-  uncommitted; the accepted legacy FP64 path is still the default.
+- Last lock acquired: 2026-09-11 12:57 CST (Asia/Shanghai)
+- Lock released: not released
+- State: Linux root owns coordination files here and isolated, master-based
+  experiment worktrees in the sibling FastEMRIWaveforms-experiments directory.
+  Root production source, Mac-owned files and pre-existing user scripts remain
+  untouched. Research agents are read-only. No host switch is requested.
+
+<!-- 2026-09-11 17:00 CST (linux): User requests another bounded exploration
+round. Retain Linux sole-writer ownership; finish exp13 actual-table validation
+and investigate phase-structured conditional likelihood in a separate master
+experiment. Agents only read/research; no commit, push, or host switch. -->
+
+<!-- 2026-09-11 12:57 CST (linux): Reacquire coordination editing for the active
+user-directed independent-branch experiments. Per-worktree locks separately
+identify each attempt; this entry does not switch the root checkout. -->
+
+<!-- 2026-09-11 17:46 CST (linux): User continuation completed bounded exp15
+on its own master-based worktree. Source/result reads and generated evidence
+are recorded in Linux handoffs. Serial CPU jobs and 680-check audit are terminal;
+root remains deep-optimization and Linux retains sole-writer ownership. No
+commit/push/merge, Mac-owned edit, environment change or host switch occurred. -->
+
+<!-- 2026-09-11 21:06 CST (linux): Revalidate active goal and authoritative
+worktrees; exp15 is completed progress, no old worker is live. Start independent
+master-based exp16 response preparation. Linux remains sole writer/runner;
+agents read only, no installed environment/data/Mac edits or host transfer. -->
+
+<!-- 2026-09-11 21:34 CST (linux): Exp16 source/numeric/lifecycle audit passes;
+all started jobs terminal. Root coordination and new experiment notes updated
+with CST, including preserved failures and narrow reuse benefits. Linux keeps
+ownership; no commit/push/merge or Mac handover, overall goal remains active. -->
+
+<!-- 2026-09-11 21:43 CST (linux): Verified exp16 progress and no live worker.
+Begin independent master exp17 for dependency explicit-link input; retain Linux
+sole-writer lock and leave installed packages/native/data/Mac files untouched. -->
+
+<!-- 2026-09-11 22:17 CST (linux): Complete exp17 tests and 983-check audit;
+all workers terminal, root deep-optimization unchanged. Record read/edit/output
+scope in local handoff and root indexes; retain sole-writer Linux lock for open
+goal. No commit/push/merge, installed source/native/H5 or Mac-owned changes. -->
+
+<!-- 2026-09-11 22:27 CST (linux): User authorized Git publication. Seventeen
+master-based experiments committed and atomically pushed, all remote hashes
+verified. Coordinator documentation checkpoint follows on deep-optimization.
+Linux remains sole editor; no Mac-owned edit, branch merge or host transfer. -->
