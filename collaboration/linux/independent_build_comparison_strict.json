@@ -1,0 +1,31 @@
+{
+  "timestamp_cst": "2026-09-11T13:16:04.193724+08:00",
+  "script_sha256": "12665bddfb41a9bb2945171a7850f36f4bc2b96e03bce969d314ee891a893316",
+  "comparisons": [
+    {
+      "name": "nominal_0.001_legacy.npy",
+      "reference": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp04-waveforms/nominal_0.001_legacy.npy",
+      "candidate": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp01-waveforms/nominal_0.001_legacy.npy",
+      "reference_sha256": "59f9edad6be2bd08290e8cbef5a3c7e4045680ed326871fe4cde1fdf9255294d",
+      "candidate_sha256": "59f9edad6be2bd08290e8cbef5a3c7e4045680ed326871fe4cde1fdf9255294d",
+      "bitwise_equal": true,
+      "absolute_max": 0.0,
+      "normalized_max": 0.0,
+      "relative_l2": 0.0,
+      "passes": true
+    },
+    {
+      "name": "nominal_1.0_legacy.npy",
+      "reference": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp04-waveforms/nominal_1.0_legacy.npy",
+      "candidate": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp01-waveforms/nominal_1.0_legacy.npy",
+      "reference_sha256": "e746d64c7c41ea9c9ac1899fb0696ae593135440662531b280fb25600ecb5bca",
+      "candidate_sha256": "e746d64c7c41ea9c9ac1899fb0696ae593135440662531b280fb25600ecb5bca",
+      "bitwise_equal": true,
+      "absolute_max": 0.0,
+      "normalized_max": 0.0,
+      "relative_l2": 0.0,
+      "passes": true
+    }
+  ],
+  "passes": true
+}

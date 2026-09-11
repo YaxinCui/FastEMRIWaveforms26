@@ -1,0 +1,39 @@
+{
+  "timestamp_cst": "2026-09-11T13:18:37.704179+08:00",
+  "script_sha256": "946d7d24afd0513059cb1d23f362a0f8e38df23437cb446ff31022830f5a15ec",
+  "wheel": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp01-final-wheel/fastemriwaveforms-2.1.0.post1.dev91+g47e4fea4b.d20260911-cp312-cp312-linux_x86_64.whl",
+  "wheel_sha256": "d342ce4aa49c1debcec0f2b4a7d39b7e104dc43454731f49641a3327f7be0c9a",
+  "runtime": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-exp01-final",
+  "scope": "Packaged common-phase oracle plus legacy mode-summation tests, not full FEW suite",
+  "passes": true,
+  "runs": [
+    {
+      "backend": "cpu",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "few.tests.test_common_phase",
+        "few.tests.test_mode_summation",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_empty_and_invalid_inputs (few.tests.test_common_phase.CommonPhaseTest.test_empty_and_invalid_inputs) ... ok\ntest_grouped_native_and_independent_oracle (few.tests.test_common_phase.CommonPhaseTest.test_grouped_native_and_independent_oracle) ... ok\ntest_large_phase_and_nondefault_stream (few.tests.test_common_phase.CommonPhaseTest.test_large_phase_and_nondefault_stream) ... ok\ntest_shared_memory_tile_boundaries (few.tests.test_common_phase.CommonPhaseTest.test_shared_memory_tile_boundaries) ... ok\nTest 'Mode-summation (CubicSpline)' is starting.\n  Test 'Mode-summation (CubicSpline)': running with backend 'cpu'\ntest_cubic_spline (few.tests.test_mode_summation.CubicSplineTest.test_cubic_spline) ... ok\n\n  Test 'Mode-summation (CubicSpline)': done.\nTest 'Mode-summation (Summation)' is starting.\n  Test 'Mode-summation (Summation)': running with backend 'cpu'\ntest_direct_mode_sum (few.tests.test_mode_summation.SummationTest.test_direct_mode_sum) ... ok\ntest_interpolated_mode_sum (few.tests.test_mode_summation.SummationTest.test_interpolated_mode_sum) ... ok\n\n  Test 'Mode-summation (Summation)': done.\n\n----------------------------------------------------------------------\nRan 7 tests in 9.113s\n\nOK\n"
+    },
+    {
+      "backend": "cuda12x",
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms/.venv/bin/python",
+        "-m",
+        "unittest",
+        "few.tests.test_common_phase",
+        "few.tests.test_mode_summation",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_empty_and_invalid_inputs (few.tests.test_common_phase.CommonPhaseTest.test_empty_and_invalid_inputs) ... ok\ntest_grouped_native_and_independent_oracle (few.tests.test_common_phase.CommonPhaseTest.test_grouped_native_and_independent_oracle) ... ok\ntest_large_phase_and_nondefault_stream (few.tests.test_common_phase.CommonPhaseTest.test_large_phase_and_nondefault_stream) ... ok\ntest_shared_memory_tile_boundaries (few.tests.test_common_phase.CommonPhaseTest.test_shared_memory_tile_boundaries) ... ok\nTest 'Mode-summation (CubicSpline)' is starting.\n  Test 'Mode-summation (CubicSpline)': running with backend 'cuda12x'\ntest_cubic_spline (few.tests.test_mode_summation.CubicSplineTest.test_cubic_spline) ... ok\n\n  Test 'Mode-summation (CubicSpline)': done.\nTest 'Mode-summation (Summation)' is starting.\n  Test 'Mode-summation (Summation)': running with backend 'cuda12x'\ntest_direct_mode_sum (few.tests.test_mode_summation.SummationTest.test_direct_mode_sum) ... ok\ntest_interpolated_mode_sum (few.tests.test_mode_summation.SummationTest.test_interpolated_mode_sum) ... ok\n\n  Test 'Mode-summation (Summation)': done.\n\n----------------------------------------------------------------------\nRan 7 tests in 9.599s\n\nOK\n"
+    }
+  ]
+}

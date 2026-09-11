@@ -441,6 +441,9 @@ __device__ void atomicAddComplex(cmplx *a, cmplx b)
 // make a waveform in parallel
 // this uses an efficient summation by loading mode information into shared memory
 // shared memory is leveraged heavily
+// 2026-09-11 12:07 CST (linux): Compile a separate grouped specialization.
+// The legacy specialization keeps its original arithmetic and shared layout.
+template <bool COMMON_PHASE>
 CUDA_KERNEL
 void make_waveform(cmplx *waveform,
                    double *interp_array, double *phase_interp_coeffs,
@@ -468,24 +471,27 @@ void make_waveform(cmplx *waveform,
 
   // declare all the shared memory
   // MAX_MODES_BLOCK is fixed based on shared memory
-  CUDA_SHARED cmplx Ylms[2 * MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_re_y[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_re_c1[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_re_c2[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_re_c3[MAX_MODES_BLOCK];
+  constexpr int MODES_PER_BLOCK = COMMON_PHASE ? MAX_MODES_BLOCK / 2 : MAX_MODES_BLOCK;
+  CUDA_SHARED cmplx Ylms[2 * MODES_PER_BLOCK];
+  CUDA_SHARED double mode_re_y[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_re_c1[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_re_c2[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_re_c3[MODES_PER_BLOCK];
 
-  CUDA_SHARED double mode_im_y[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_im_c1[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_im_c2[MAX_MODES_BLOCK];
-  CUDA_SHARED double mode_im_c3[MAX_MODES_BLOCK];
+  CUDA_SHARED double mode_im_y[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_im_c1[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_im_c2[MODES_PER_BLOCK];
+  CUDA_SHARED double mode_im_c3[MODES_PER_BLOCK];
+  CUDA_SHARED double minus_coeffs[COMMON_PHASE ? 8 * MODES_PER_BLOCK : 1];
 
-  CUDA_SHARED int m_arr[MAX_MODES_BLOCK];
-  CUDA_SHARED int k_arr[MAX_MODES_BLOCK];
-  CUDA_SHARED int n_arr[MAX_MODES_BLOCK];
+  CUDA_SHARED int m_arr[MODES_PER_BLOCK];
+  CUDA_SHARED int k_arr[MODES_PER_BLOCK];
+  CUDA_SHARED int n_arr[MODES_PER_BLOCK];
 
   // number of splines
   // int num_base = init_length * (2 * num_teuk_modes + num_pars);
-  int num_base = init_length * (2 * num_teuk_modes);
+  const int channels = COMMON_PHASE ? 4 : 2;
+  int num_base = init_length * (channels * num_teuk_modes);
   int num_phase_spline = (init_length - 1) * 3;
 
   CUDA_SYNC_THREADS;
@@ -551,14 +557,14 @@ void make_waveform(cmplx *waveform,
   int m, k, n, actual_mode_index;
   cmplx Ylm_plus_m, Ylm_minus_m;
 
-  int num_breaks = (num_teuk_modes / MAX_MODES_BLOCK) + 1;
+  int num_breaks = (num_teuk_modes / MODES_PER_BLOCK) + 1;
 
   // this does a special loop to fill mode information into shared memory in chunks
   for (int block_y = 0; block_y < num_breaks; block_y += 1)
   {
-    num_teuk_here = (((block_y + 1) * MAX_MODES_BLOCK) <= num_teuk_modes) ? MAX_MODES_BLOCK : num_teuk_modes - (block_y * MAX_MODES_BLOCK);
+    num_teuk_here = (((block_y + 1) * MODES_PER_BLOCK) <= num_teuk_modes) ? MODES_PER_BLOCK : num_teuk_modes - (block_y * MODES_PER_BLOCK);
 
-    int init_ind = block_y * MAX_MODES_BLOCK;
+    int init_ind = block_y * MODES_PER_BLOCK;
 
 #ifdef __CUDACC__
 
@@ -578,8 +584,8 @@ void make_waveform(cmplx *waveform,
       // fill mode values and Ylms
       // int ind_re = old_ind * (2 * num_teuk_modes + num_pars) + (init_ind + i);
       // int ind_im = old_ind * (2 * num_teuk_modes + num_pars) + num_teuk_modes + (init_ind + i);
-      int ind_re = old_ind * (2 * num_teuk_modes) + (init_ind + i);
-      int ind_im = old_ind * (2 * num_teuk_modes) + num_teuk_modes + (init_ind + i);
+      int ind_re = old_ind * (channels * num_teuk_modes) + (init_ind + i);
+      int ind_im = old_ind * (channels * num_teuk_modes) + num_teuk_modes + (init_ind + i);
 
       mode_re_y[i] = interp_array[0 * num_base + ind_re];
       mode_re_c1[i] = interp_array[1 * num_base + ind_re];
@@ -594,8 +600,17 @@ void make_waveform(cmplx *waveform,
       m_arr[i] = m_arr_in[init_ind + i];
       k_arr[i] = k_arr_in[init_ind + i];
       n_arr[i] = n_arr_in[init_ind + i];
-      Ylms[2 * i] = Ylms_in[(init_ind + i)];
-      Ylms[2 * i + 1] = Ylms_in[num_teuk_modes + (init_ind + i)];
+      if (COMMON_PHASE) {
+        for (int power = 0; power < 4; ++power) {
+          minus_coeffs[(2 * power) * MODES_PER_BLOCK + i] =
+              interp_array[power * num_base + ind_re + 2 * num_teuk_modes];
+          minus_coeffs[(2 * power + 1) * MODES_PER_BLOCK + i] =
+              interp_array[power * num_base + ind_re + 3 * num_teuk_modes];
+        }
+      } else {
+        Ylms[2 * i] = Ylms_in[(init_ind + i)];
+        Ylms[2 * i + 1] = Ylms_in[num_teuk_modes + (init_ind + i)];
+      }
     }
 
     CUDA_SYNC_THREADS;
@@ -647,7 +662,7 @@ void make_waveform(cmplx *waveform,
       for (int j = 0; j < num_teuk_here; j += 1)
       {
 
-        Ylm_plus_m = Ylms[2 * j];
+        if (!COMMON_PHASE) Ylm_plus_m = Ylms[2 * j];
 
         m = m_arr[j];
         k = k_arr[j];
@@ -659,8 +674,20 @@ void make_waveform(cmplx *waveform,
 
         // fod phase = m * Phi_phi_i + n * Phi_r_i;
         // partial_mode = mode_val * gcmplx::exp(minus_I * phase);
-        partial_mode = gcmplx::exp(minus_I * (m * Phi_phi_i + k * Phi_theta_i + n * Phi_r_i)) * (mode_re_y[j] + mode_re_c1[j] * x + mode_re_c2[j] * x2 + mode_re_c3[j] * x3 + complexI * (mode_im_y[j] + mode_im_c1[j] * x + mode_im_c2[j] * x2 + mode_im_c3[j] * x3));
-        trans_plus_m = partial_mode * Ylm_plus_m;
+        if (COMMON_PHASE) {
+          cmplx phasor = gcmplx::exp(minus_I * (m * Phi_phi_i + k * Phi_theta_i + n * Phi_r_i));
+          cmplx plus = mode_re_y[j] + mode_re_c1[j] * x + mode_re_c2[j] * x2 + mode_re_c3[j] * x3
+              + complexI * (mode_im_y[j] + mode_im_c1[j] * x + mode_im_c2[j] * x2 + mode_im_c3[j] * x3);
+          cmplx minus = minus_coeffs[j] + minus_coeffs[2 * MODES_PER_BLOCK + j] * x
+              + minus_coeffs[4 * MODES_PER_BLOCK + j] * x2 + minus_coeffs[6 * MODES_PER_BLOCK + j] * x3
+              + complexI * (minus_coeffs[MODES_PER_BLOCK + j] + minus_coeffs[3 * MODES_PER_BLOCK + j] * x
+              + minus_coeffs[5 * MODES_PER_BLOCK + j] * x2 + minus_coeffs[7 * MODES_PER_BLOCK + j] * x3);
+          // B- already includes m=0 suppression, (-1)^ell and exclusion masks.
+          trans_plus_m = plus * phasor;
+          trans_minus_m = minus * gcmplx::conj(phasor);
+        } else {
+          partial_mode = gcmplx::exp(minus_I * (m * Phi_phi_i + k * Phi_theta_i + n * Phi_r_i)) * (mode_re_y[j] + mode_re_c1[j] * x + mode_re_c2[j] * x2 + mode_re_c3[j] * x3 + complexI * (mode_im_y[j] + mode_im_c1[j] * x + mode_im_c2[j] * x2 + mode_im_c3[j] * x3));
+          trans_plus_m = partial_mode * Ylm_plus_m;
 
         // minus m if m > 0
         // mode values for +/- m are taking care of when applying
@@ -673,6 +700,7 @@ void make_waveform(cmplx *waveform,
         }
         else
           trans_minus_m = 0.0 + 0.0 * complexI;
+        }
 
         trans = trans + trans_minus_m + trans_plus_m;
       }
@@ -725,7 +753,7 @@ void find_start_inds(int start_inds[], int unit_length[], double *t_arr, double 
 // function for building interpolated EMRI waveform from python
 void get_waveform(cmplx *d_waveform, double *interp_array, double *phase_interp_t, double *phase_interp_coeffs,
                   int *d_m, int *d_k, int *d_n, int init_len, int out_len, int num_teuk_modes, cmplx *d_Ylms,
-                  double delta_t, double *h_t, int dev)
+                  double delta_t, double *h_t, int dev, bool common_phase)
 {
 
   // arrays for determining spline windows for new arrays
@@ -761,22 +789,38 @@ void get_waveform(cmplx *d_waveform, double *interp_array, double *phase_interp_
 
     dim3 gridDim(num_blocks, 1);
     // launch one worker kernel per stream
-    make_waveform<<<gridDim, NUM_THREADS, 0, streams[i]>>>(d_waveform,
+    if (common_phase) {
+      make_waveform<true><<<gridDim, NUM_THREADS, 0, streams[i]>>>(d_waveform,
                                                            interp_array, phase_interp_coeffs,
                                                            d_m, d_k, d_n, num_teuk_modes, d_Ylms,
                                                            delta_t, h_t[i], i, start_inds[i], start_inds[i + 1], init_len,
                                                            phase_interp_t[i], phase_interp_t[i+1] - phase_interp_t[i]);
+    } else {
+    make_waveform<false><<<gridDim, NUM_THREADS, 0, streams[i]>>>(d_waveform,
+                                                           interp_array, phase_interp_coeffs,
+                                                           d_m, d_k, d_n, num_teuk_modes, d_Ylms,
+                                                           delta_t, h_t[i], i, start_inds[i], start_inds[i + 1], init_len,
+                                                           phase_interp_t[i], phase_interp_t[i+1] - phase_interp_t[i]);
+    }
     cudaDeviceSynchronize();
     gpuErrchk(cudaGetLastError());
     cudaDeviceSynchronize();
 #else
 
     // CPU waveform generation
-    make_waveform(d_waveform,
+    if (common_phase) {
+      make_waveform<true>(d_waveform,
                   interp_array, phase_interp_coeffs,
                   d_m, d_k, d_n, num_teuk_modes, d_Ylms,
                   delta_t, h_t[i], i, start_inds[i], start_inds[i + 1], init_len,
                   phase_interp_t[i], phase_interp_t[i+1] - phase_interp_t[i]);
+    } else {
+    make_waveform<false>(d_waveform,
+                  interp_array, phase_interp_coeffs,
+                  d_m, d_k, d_n, num_teuk_modes, d_Ylms,
+                  delta_t, h_t[i], i, start_inds[i], start_inds[i + 1], init_len,
+                  phase_interp_t[i], phase_interp_t[i+1] - phase_interp_t[i]);
+    }
 #endif
   }
 

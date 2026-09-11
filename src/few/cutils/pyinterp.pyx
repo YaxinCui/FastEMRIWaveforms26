@@ -12,7 +12,7 @@ cdef extern from "interpolate.hh":
 
     void get_waveform(cmplx *d_waveform, double *interp_array, double *phase_interp_t, double *phase_interp_coeffs,
                   int *d_m, int *d_k, int *d_n, int init_len, int out_len, int num_teuk_modes, cmplx *d_Ylms,
-                  double delta_t, double *h_t, int dev)
+                  double delta_t, double *h_t, int dev, bool common_phase)
 
     void get_waveform_generic_fd(cmplx *waveform,
              double *interp_array, double *phase_interp_t, double *phase_interp_coeffs,
@@ -38,7 +38,8 @@ def interpolate_arrays_wrap(*args, **kwargs):
     interpolate_arrays(<double *>t_arr_in, <double *>interp_array_in, ninterps, length, <double *>B_in, <double *>upper_diag_in, <double *>diag_in, <double *>lower_diag_in)
 
 
-def get_waveform_wrap(*args, **kwargs):
+# 2026-09-11 12:04 CST (linux): Optional grouped ABI, legacy calls default false.
+def get_waveform_wrap(*args, common_phase=False, **kwargs):
 
     targs, kwargs = wrapper(*args, **kwargs)
 
@@ -58,7 +59,10 @@ def get_waveform_wrap(*args, **kwargs):
 
     get_waveform(<cmplx *>d_waveform_in, <double *>interp_array_in, <double *>phase_interp_t_in, <double *>phase_interp_coeffs_in,
                 <int *>d_m_in, <int *>d_k_in, <int *>d_n_in, init_len, out_len, num_teuk_modes, <cmplx *>d_Ylms_in,
-                delta_t, <double *>h_t_in, dev)
+                delta_t, <double *>h_t_in, dev, common_phase)
+
+
+get_waveform_wrap.supports_common_phase = True
 
 
 def get_waveform_generic_fd_wrap(*args, **kwargs):

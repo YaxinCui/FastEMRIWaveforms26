@@ -1,0 +1,17 @@
+{
+  "timestamp_cst": "2026-09-11T12:42:39.757806+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "few_path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp01-common-phase-fp64/src/few/__init__.py",
+  "few_version": "2.1.0.post1.dev91+g47e4fea4b.d20260911",
+  "backend": "cuda12x",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "protocol": "complete waveforms; shared model/data; 2 warmups each; alternating AB/BA synchronized wall time; no TDI/likelihood",
+  "script_sha256": "b79232ca234048e28c8e7a0f10e84eed4300fa5804e2ce588dc9f7ecff50468c",
+  "cases": [],
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "construction_seconds": 13.380841193000379,
+  "error": {
+    "type": "NotImplementedError",
+    "message": "Only int or ndarray are supported for a"
+  }
+}

@@ -266,10 +266,18 @@ class InterpolatedModeSum(SummationBase):
 
     This class can be run on GPUs and CPUs.
 
+    ``common_phase=True`` opts into FP64 aggregation of selected modes sharing
+    (m,k,n), including independent positive and negative branches. It is intended
+    for the final fixed-observer strain, not for returning separate ell modes.
+
     """
 
-    def __init__(self, force_backend: BackendLike = None, **kwargs):
+    # 2026-09-11 12:04 CST (linux): Keep the legacy path as default; aggregate
+    # only the already-selected modes for a fixed observer when explicitly asked.
+    def __init__(self, force_backend: BackendLike = None, *, common_phase=False, **kwargs):
         SummationBase.__init__(self, **kwargs, force_backend=force_backend)
+        self.common_phase = bool(common_phase)
+        self.common_phase_counts = None
 
     @property
     def get_waveform(self) -> callable:
@@ -328,13 +336,34 @@ class InterpolatedModeSum(SummationBase):
         num_pts = self.num_pts
 
         length = init_len
-        ninterps = 2 * num_teuk_modes  # 2 for re and im
-        y_all = self.xp.zeros((ninterps, length))
+        if self.common_phase:
+            from .commonphase import aggregate_common_phase
 
-        y_all[:num_teuk_modes] = teuk_modes.T.real
-        y_all[num_teuk_modes : 2 * num_teuk_modes] = teuk_modes.T.imag
+            if not getattr(self.get_waveform, "supports_common_phase", False):
+                raise NotImplementedError("This backend must be rebuilt for common_phase support")
+            y_all, (m_arr, k_arr, n_arr) = aggregate_common_phase(
+                teuk_modes, ylms, l_arr, m_arr, k_arr, n_arr, self.xp
+            )
+            original_modes = num_teuk_modes
+            num_teuk_modes = len(m_arr)
+            self.common_phase_counts = (original_modes, num_teuk_modes)
+            if num_teuk_modes == 0:
+                return
+        else:
+            ninterps = 2 * num_teuk_modes  # 2 for re and im
+            y_all = self.xp.zeros((ninterps, length))
+            y_all[:num_teuk_modes] = teuk_modes.T.real
+            y_all[num_teuk_modes : 2 * num_teuk_modes] = teuk_modes.T.imag
 
-        spline = self.build_with_same_backend(CubicSplineInterpolant, args=[t, y_all])
+        if self.common_phase and self.backend.uses_cuda:
+            # Native spline code uses the legacy default stream internally.
+            # Fence the producer and construct all its inputs on that stream.
+            self.xp.cuda.get_current_stream().synchronize()
+            with self.xp.cuda.Stream.null:
+                spline = self.build_with_same_backend(CubicSplineInterpolant, args=[t, y_all])
+            self.xp.cuda.Stream.null.synchronize()
+        else:
+            spline = self.build_with_same_backend(CubicSplineInterpolant, args=[t, y_all])
 
         h_t = t.get() if self.backend.uses_cupy else t
 
@@ -354,10 +383,11 @@ class InterpolatedModeSum(SummationBase):
         ).flatten()
 
         # for ylm with negative m, need to multiply by (-1)**l as this is assumed to have happened by the kernel
-        ylms = ylms.copy()
-        ylms[num_teuk_modes:] *= (-1) ** l_arr
+        if not self.common_phase:
+            ylms = ylms.copy()
+            ylms[num_teuk_modes:] *= (-1) ** l_arr
 
-        self.get_waveform(
+        call_args = (
             self.waveform,
             spline.interp_array,
             phase_interp_t,
@@ -373,3 +403,7 @@ class InterpolatedModeSum(SummationBase):
             h_t,
             dev,
         )
+        # Fence after all argument conversions, including the int32 buffers.
+        if self.common_phase and self.backend.uses_cuda:
+            self.xp.cuda.get_current_stream().synchronize()
+        self.get_waveform(*call_args, **({"common_phase": True} if self.common_phase else {}))

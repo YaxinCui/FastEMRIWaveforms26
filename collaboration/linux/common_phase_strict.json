@@ -1,0 +1,378 @@
+{
+  "timestamp_cst": "2026-09-11T13:10:47.426154+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "few_path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp01-common-phase-fp64/src/few/__init__.py",
+  "few_version": "2.1.0.post1.dev91+g47e4fea4b.d20260911",
+  "backend": "cuda12x",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "protocol": "complete waveforms; shared model/data; 2 warmups each; alternating AB/BA synchronized wall time; no TDI/likelihood",
+  "script_sha256": "6dffca874ef85db61559c21406359348d221e0f1b33dd787e6c6b77792ed8920",
+  "host_derivative_adapter": true,
+  "limits": {
+    "relative_l2": 2e-12,
+    "normalized_max": 2e-12
+  },
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "passes": true,
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 0.001,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            20.392846001414,
+            18.492589999368647,
+            20.298806999562657,
+            17.0485060007195,
+            18.06043999931717,
+            17.87901199895714,
+            16.32410000092932
+          ],
+          "median_ms": 18.06043999931717,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        },
+        "grouped": {
+          "samples_ms": [
+            17.85526099956769,
+            18.440728999848943,
+            18.84878700002446,
+            17.589616001714603,
+            18.252703001053305,
+            19.513891000315198,
+            18.421902999762096
+          ],
+          "median_ms": 18.421902999762096,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        }
+      },
+      "samples": 2104,
+      "selected_modes": 113,
+      "groups": 86,
+      "speedup": 0.9803786286113005,
+      "relative_l2": 5.306481075749381e-16,
+      "normalized_max": 1.1664991475481314e-15,
+      "modes_equal": true,
+      "finite": true
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 1.0,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            185.23036400074488,
+            173.53764299878094,
+            173.7002570007462,
+            173.04125200098497,
+            173.7687469994853,
+            173.2628689987905,
+            173.4195009994437
+          ],
+          "median_ms": 173.53764299878094,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        },
+        "grouped": {
+          "samples_ms": [
+            133.69796599909023,
+            133.36401600099634,
+            131.4499270010856,
+            132.24896300016553,
+            133.18018300014955,
+            132.53977300155384,
+            134.19148200046038
+          ],
+          "median_ms": 133.18018300014955,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        }
+      },
+      "samples": 2103877,
+      "selected_modes": 124,
+      "groups": 90,
+      "speedup": 1.303029017452139,
+      "relative_l2": 5.910611380854725e-16,
+      "normalized_max": 1.5142918670137774e-15,
+      "modes_equal": true,
+      "finite": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 0.001,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            30.726152001079754,
+            30.90700499888044,
+            31.622941000023275,
+            29.77889999965555,
+            31.75663100046222,
+            30.345033999765292,
+            30.107815000519622
+          ],
+          "median_ms": 30.726152001079754,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        },
+        "grouped": {
+          "samples_ms": [
+            28.25197499987553,
+            29.463147000569734,
+            30.179690000295523,
+            28.95087399883778,
+            29.848969999875408,
+            29.417919000479742,
+            29.390214000159176
+          ],
+          "median_ms": 29.417919000479742,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        }
+      },
+      "samples": 2104,
+      "selected_modes": 544,
+      "groups": 382,
+      "speedup": 1.0444706167210087,
+      "relative_l2": 1.1281620894141402e-15,
+      "normalized_max": 2.3469792415960966e-15,
+      "modes_equal": true,
+      "finite": true
+    },
+    {
+      "case": "high_e",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.8,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 1.0,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            611.887895000109,
+            608.8429980009096,
+            608.9894140004617,
+            614.8722729994915,
+            615.9029050013487,
+            615.0055519992748,
+            613.7425489996531
+          ],
+          "median_ms": 613.7425489996531,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        },
+        "grouped": {
+          "samples_ms": [
+            441.0155349996785,
+            442.61423500029196,
+            444.8868859999493,
+            442.79678800012334,
+            444.3741359991691,
+            446.0139889997663,
+            446.10807500066585
+          ],
+          "median_ms": 444.3741359991691,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        }
+      },
+      "samples": 2103877,
+      "selected_modes": 546,
+      "groups": 388,
+      "speedup": 1.381139223190075,
+      "relative_l2": 1.3657376340011426e-15,
+      "normalized_max": 3.7140059034971274e-15,
+      "modes_equal": true,
+      "finite": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.3,
+        -1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 0.001,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            14.417116000913666,
+            14.14112699967518,
+            15.560812998955953,
+            15.25915099955455,
+            14.849867000521044,
+            14.66702899961092,
+            14.915492998625268
+          ],
+          "median_ms": 14.849867000521044,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        },
+        "grouped": {
+          "samples_ms": [
+            15.531629000179237,
+            15.325574999224045,
+            15.341432999775861,
+            15.953215999616077,
+            14.922562000720063,
+            15.235213000778458,
+            15.515729000981082
+          ],
+          "median_ms": 15.341432999775861,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2104
+        }
+      },
+      "samples": 2104,
+      "selected_modes": 94,
+      "groups": 75,
+      "speedup": 0.9679582735679255,
+      "relative_l2": 4.769247810639508e-16,
+      "normalized_max": 1.1660569128887258e-15,
+      "modes_equal": true,
+      "finite": true
+    },
+    {
+      "case": "retrograde",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        12.0,
+        0.3,
+        -1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 1.0,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            119.75569899914262,
+            116.97215999993205,
+            117.80531299882568,
+            116.61346999972011,
+            116.82525600008375,
+            116.73802800032718,
+            116.57875299897569
+          ],
+          "median_ms": 116.82525600008375,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        },
+        "grouped": {
+          "samples_ms": [
+            98.39861300133634,
+            97.97112100022787,
+            98.05752899956133,
+            97.52622199994221,
+            97.13112900135457,
+            100.42758300005517,
+            98.28598399872135
+          ],
+          "median_ms": 98.05752899956133,
+          "finite": true,
+          "dtype": "complex128",
+          "samples": 2103877
+        }
+      },
+      "samples": 2103877,
+      "selected_modes": 93,
+      "groups": 76,
+      "speedup": 1.1913950636121617,
+      "relative_l2": 4.728146024346513e-16,
+      "normalized_max": 1.9132783210950696e-15,
+      "modes_equal": true,
+      "finite": true
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "cupy": "14.2.0",
+  "cuda_runtime": 12090,
+  "cuda_driver": 13020,
+  "construction_seconds": 13.133828785999867,
+  "identities": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp01-common-phase-fp64/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp01-common-phase-fp64/src/few/summation/interpolatedmodesum.py",
+      "sha256": "e692b4c478580e4aa022c7ccdbf00b7737530d847a0e06b0bf353117d9e6dd31"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp01-common-phase-fp64/src/few/summation/commonphase.py",
+      "sha256": "abca75f6ac4689fa5d8cf38cabfe1f6622a696edc80bd590d75d90daa0517edf"
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-exp01/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "3eebf1deaf0fd3c9818a27f47e2b4db40e0a0fd0b745489185bad3c0ca381881"
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834"
+    }
+  ],
+  "gpu_clock_telemetry": "not recorded; timing is pilot evidence, not controlled-clock certification"
+}

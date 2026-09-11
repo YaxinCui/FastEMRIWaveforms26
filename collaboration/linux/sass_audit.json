@@ -1,0 +1,26 @@
+{
+  "timestamp_cst": "2026-09-11T13:07:45.284220+08:00",
+  "script_sha256": "1c90d4d8b4a20984bcb7ba76b06ea0ddea299999b6dbf98e259271ee2a1b9c8a",
+  "scope": "Legacy kernel SASS only; excludes host wrappers, constants, helper code, PTX JIT and performance",
+  "reference": {
+    "module": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/master-build/src/few/cutils/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "module_sha256": "2234b8435c504ce00ab843c78bd195a802ba24a2013889c37b3767cb99aaa38e",
+    "symbol": "_Z13make_waveformPN6gcmplx7complexIdEEPdS3_PiS4_S4_iS2_ddiiiidd",
+    "architecture": "sm_75",
+    "instructions": 1160,
+    "machine_words": 2320,
+    "instruction_sha256": "ef99f0d77cb1ec36305f4d75106fb3bb43a9d8e029ec3c23ee01553c4d3a5d1f",
+    "machine_words_sha256": "a1ad1b02abec7102cc9b8079703d0a56861541ef3bc03de49dd9069215db63a7"
+  },
+  "candidate": {
+    "module": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp01-build/src/few/cutils/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "module_sha256": "724037afb57aee8be2612a0c4ba6aaaeef4be27b2c1e714c8e7357c9768ca0ba",
+    "symbol": "_Z13make_waveformILb0EEvPN6gcmplx7complexIdEEPdS4_PiS5_S5_iS3_ddiiiidd",
+    "architecture": "sm_75",
+    "instructions": 1160,
+    "machine_words": 2320,
+    "instruction_sha256": "ef99f0d77cb1ec36305f4d75106fb3bb43a9d8e029ec3c23ee01553c4d3a5d1f",
+    "machine_words_sha256": "a1ad1b02abec7102cc9b8079703d0a56861541ef3bc03de49dd9069215db63a7"
+  },
+  "passes": true
+}
