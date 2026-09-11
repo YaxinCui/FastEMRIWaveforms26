@@ -1,0 +1,314 @@
+{
+  "timestamp_cst": "2026-09-11T14:01:59.043404+08:00",
+  "host": "linux",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "adapter": false,
+  "scope": "Synthetic positive PSD selection; not physical detector/TDI acceptance",
+  "script": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/collaboration/linux/psd_waveform_probe.py",
+    "sha256": "ee7f3da9485d9464896543bf19f8ae485ac105aa176496774fe5126547577f1e",
+    "bytes": 7477
+  },
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/src/few/waveform/base.py",
+      "sha256": "74f71df9e036370694890a362e5505a9f9e141220bfc639d9481f20674d984f8",
+      "bytes": 25200
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/src/few/utils/modeselector.py",
+      "sha256": "8e3bb1792aace3e22c920b6c8c4be8d19b6c9638de66030a9806c69434b74aa5",
+      "bytes": 26743
+    }
+  ],
+  "parameters": {
+    "nominal": [
+      1000000.0,
+      10.0,
+      0.6,
+      8.0,
+      0.3,
+      1.0
+    ],
+    "high_e": [
+      1000000.0,
+      10.0,
+      0.6,
+      12.0,
+      0.8,
+      1.0
+    ],
+    "retrograde": [
+      1000000.0,
+      10.0,
+      0.6,
+      12.0,
+      0.3,
+      -1.0
+    ]
+  },
+  "views": [
+    [
+      1.0471975511965976,
+      0.7853981633974483,
+      1.0
+    ],
+    [
+      0.02,
+      1.8,
+      2.0
+    ],
+    [
+      1.5707963267948966,
+      -0.4,
+      null
+    ],
+    [
+      2.7,
+      0.3,
+      0.5
+    ]
+  ],
+  "settings": {
+    "T": 0.001,
+    "dt": 15.0,
+    "Phi_phi0": 0.3,
+    "Phi_theta0": 0.4,
+    "Phi_r0": 0.5
+  },
+  "psd": "1 + 1000 * f_Hz**2",
+  "runs": [
+    {
+      "backend": "cpu",
+      "native": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+        "bytes": 9866272
+      },
+      "cases": [
+        {
+          "case": "nominal",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 110,
+          "sha256": "71071a77b2ac04890374f8c02cccd4af64bccf0632872c7da28cf0c7ef999d11"
+        },
+        {
+          "case": "nominal",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 23,
+          "sha256": "e649cee221b33e56014f51be2d9f444ed983cd8deb3ea43ce87aeb427486febd"
+        },
+        {
+          "case": "nominal",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 148,
+          "sha256": "d5233c8e461b5e2be26942adef077b5005e6f0add65f4cd3ee6d6f03f1b35125"
+        },
+        {
+          "case": "nominal",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 65,
+          "sha256": "3c516ec77614f99d2a31d2080b73c5ce0b99f6a8170c5829a9bec4d20c64ea34"
+        },
+        {
+          "case": "high_e",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 542,
+          "sha256": "30a81be5a087a1fcb82dfa60a0ceedcadb21e7727ab3679d911907e414f4ff63"
+        },
+        {
+          "case": "high_e",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 141,
+          "sha256": "6fdf0633c22d889d56603f9c1f8119b50530158b9e5f4e8754efe02e247f413f"
+        },
+        {
+          "case": "high_e",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 624,
+          "sha256": "7a48f265a63b03f8e0c54dbd4ad0722390aace280f762ae6498e822319ad0b04"
+        },
+        {
+          "case": "high_e",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 382,
+          "sha256": "5f5c4678b910d5872c64c85241b635b2d47603fa74d46147c59a1ddd38398c23"
+        },
+        {
+          "case": "retrograde",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 93,
+          "sha256": "3d8e50298b4b74e9bca6a4e489fcb5b7c4edaddc54213bdb016a903051a921cb"
+        },
+        {
+          "case": "retrograde",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 24,
+          "sha256": "4a8669c31260a435d014306c28b76f61bce08bc57487fec0d9884a6e3921f984"
+        },
+        {
+          "case": "retrograde",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 126,
+          "sha256": "6a7b1a85d256295f8b556e3c084650deea57e30a49e3290921654411212c12bf"
+        },
+        {
+          "case": "retrograde",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 58,
+          "sha256": "798d2d80441983a1bdafc905341c1bf1bb4ebe6c8021a4f8972f4ffe8f15a104"
+        }
+      ],
+      "psd_calls": 12
+    },
+    {
+      "backend": "cuda12x",
+      "native": {
+        "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cuda12x/pyinterp.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "0018ae1ef705fb139f66fd05338fc01ec5c5de426123098faa58535bf6621c24",
+        "bytes": 398504
+      },
+      "cases": [
+        {
+          "case": "nominal",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 110,
+          "sha256": "a6b80c71e38bb2867af20527ea54635cc4579c1eb79222bbcbdd81a45a11747f",
+          "relative_l2": 3.0166864115541437e-16,
+          "normalized_max": 6.003291580301489e-16
+        },
+        {
+          "case": "nominal",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 23,
+          "sha256": "1918b95532f07d756a109a6d59d19d22f27bb454354852be9695e8e231078d96",
+          "relative_l2": 2.287354762388382e-16,
+          "normalized_max": 6.317137381405734e-16
+        },
+        {
+          "case": "nominal",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 148,
+          "sha256": "b09a1941a7bb40fe29470b6355b76ad329e5fd22e138806205a1f6242c829a02",
+          "relative_l2": 3.468079222474792e-16,
+          "normalized_max": 5.852655571316954e-16
+        },
+        {
+          "case": "nominal",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 65,
+          "sha256": "b7bb48394be3ec1e27425ad0fe74b52f70b85d90e5996ea7d40965bd25446792",
+          "relative_l2": 2.5428548393627615e-16,
+          "normalized_max": 6.748619683407646e-16
+        },
+        {
+          "case": "high_e",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 542,
+          "sha256": "9f63dbb116cef278815a158251a80b7875fd08ce5bcc7ddf5c34c14e2b98b14c",
+          "relative_l2": 7.045272311940278e-16,
+          "normalized_max": 1.1498842308142033e-15
+        },
+        {
+          "case": "high_e",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 141,
+          "sha256": "2ddd590ea9350c008ddee93b86b0a9b821f15a94b2d8653f0f8bd73b2e60a67e",
+          "relative_l2": 2.828344781248058e-16,
+          "normalized_max": 2.980652035396711e-16
+        },
+        {
+          "case": "high_e",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 624,
+          "sha256": "1d2095b73d05b7d866f889f47f715b0cb083f1f59d9eee15a10aea3d8e14b3da",
+          "relative_l2": 1.4059278515559798e-15,
+          "normalized_max": 2.7542565310366083e-15
+        },
+        {
+          "case": "high_e",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 382,
+          "sha256": "2b8711660f06b9d932ecbcf488278cf47b70371d54918b423e693e2f0ea22b03",
+          "relative_l2": 3.051050201617947e-16,
+          "normalized_max": 4.1390214837353496e-16
+        },
+        {
+          "case": "retrograde",
+          "view": 0,
+          "samples": 2105,
+          "mode_count": 93,
+          "sha256": "9f76cba2df8c8dde60707e899eef73a94700b2d0b689f8a2850ccd93b31a4e8c",
+          "relative_l2": 2.9568104774946633e-16,
+          "normalized_max": 5.312710220895028e-16
+        },
+        {
+          "case": "retrograde",
+          "view": 1,
+          "samples": 2105,
+          "mode_count": 24,
+          "sha256": "91b9a5b53e49aea47013ef2e2feaccd1f19e820f3caa5a4a0a3b994f6fa21884",
+          "relative_l2": 2.437128162576074e-16,
+          "normalized_max": 5.708645082857957e-16
+        },
+        {
+          "case": "retrograde",
+          "view": 2,
+          "samples": 2105,
+          "mode_count": 126,
+          "sha256": "a45a6bca2fb6901093c822d3f2b0ba81fbb3ea4f99198e5379cf52fea1440a2b",
+          "relative_l2": 3.2694824628006008e-16,
+          "normalized_max": 8.748706590471135e-16
+        },
+        {
+          "case": "retrograde",
+          "view": 3,
+          "samples": 2105,
+          "mode_count": 58,
+          "sha256": "db0726b2f577019623209d4bbe45c0f7963035ad86fe6fc10a90dd6bfaad45a8",
+          "relative_l2": 2.645974621520874e-16,
+          "normalized_max": 6.472568993203627e-16
+        }
+      ],
+      "psd_calls": 12
+    }
+  ],
+  "passes": true,
+  "data": {
+    "ZNAmps_l10_m10_n55_DS2Outer.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    "KerrEccEqFluxData.h5": {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  },
+  "artifact": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp07-cuda-selector-frequency-boundary/collaboration/linux/psd_waveform_reference.npz",
+    "sha256": "3ed5fa6ac1873290d9029655df801ea89d4b55167515fe4ccfb435e45bfed952",
+    "bytes": 733966
+  }
+}

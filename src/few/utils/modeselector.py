@@ -396,9 +396,12 @@ class ModeSelector(ParallelModuleBase):
                 
                 mode_freqs = self.xp.abs(
                     get_mode_frequencies(
-                        online_mode_selection_args["f_phi"],
-                        online_mode_selection_args["f_theta"],
-                        online_mode_selection_args["f_r"],
+                        # 2026-09-11 13:58 CST (linux): CPU trajectory helpers
+                        # return NumPy frequencies. Normalize all three small
+                        # vectors at the PSD consumer, retaining dtype and Hz.
+                        self.xp.asarray(online_mode_selection_args["f_phi"]),
+                        self.xp.asarray(online_mode_selection_args["f_theta"]),
+                        self.xp.asarray(online_mode_selection_args["f_r"]),
                         self.m_arr,
                         self.k_arr,
                         self.n_arr
