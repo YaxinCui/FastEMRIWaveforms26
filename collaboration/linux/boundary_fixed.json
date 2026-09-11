@@ -1,0 +1,77 @@
+{
+  "timestamp_cst": "2026-09-11T12:45:14.272181+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "few_path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp04-cuda-trajectory-boundary/src/few/__init__.py",
+  "few_version": "unknown",
+  "backend": "cuda12x",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "protocol": "complete waveforms; shared model/data; 2 warmups each; alternating AB/BA synchronized wall time; no TDI/likelihood",
+  "script_sha256": "73933ca47e0257d876493656d15ca53bbd1b39dd5cf69f3375bd69198f463095",
+  "host_derivative_adapter": false,
+  "cases": [
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 0.001,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            16.873517999556498,
+            16.96674099912343,
+            17.0486160004657,
+            16.24946300034935,
+            16.384805998313823,
+            18.335155000386294,
+            16.289443999994546
+          ],
+          "median_ms": 16.873517999556498
+        }
+      },
+      "samples": 2104,
+      "selected_modes": 113
+    },
+    {
+      "case": "nominal",
+      "parameters": [
+        1000000.0,
+        10.0,
+        0.6,
+        8.0,
+        0.3,
+        1.0,
+        1.0471975511965976,
+        0.7853981633974483
+      ],
+      "T_years": 1.0,
+      "dt_seconds": 15.0,
+      "variants": {
+        "legacy": {
+          "samples_ms": [
+            157.58272799939732,
+            157.3915320004744,
+            157.48993499983044,
+            157.98901899870543,
+            157.59206900111167,
+            157.46126799967897,
+            157.65550000105577
+          ],
+          "median_ms": 157.58272799939732
+        }
+      },
+      "samples": 2103877,
+      "selected_modes": 124
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "construction_seconds": 12.598875622999913
+}
