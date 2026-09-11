@@ -1,0 +1,2004 @@
+{
+  "timestamp_cst": "2026-09-11T14:38:36.541625+08:00",
+  "passes": true,
+  "scope": "Fixed detector-frame masses, sky, orientation, ESA orbit response, sampling, data and Gaussian metric. Not distance marginalization or physical LISA noise validation.",
+  "input": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz",
+    "sha256": "592804da5e45184f2cf899d5f3f5481cacc18a167dbd6423bbb53682dcf72b79",
+    "bytes": 487007
+  },
+  "input_report": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.json",
+    "sha256": "ef04a6e1baa59a5db7a0567e9e1fc56cedb46b97340fe4f271f0262e56a800f1",
+    "bytes": 3667
+  },
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_probe.py",
+      "sha256": "967e7268fcdf663ff716a7e7546e5d0c9bd366c2ae49748ab0c96bb673d0381a",
+      "bytes": 19756
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py",
+      "sha256": "c554bb912f4ce0207237d23845fd89b464ef3ef3554ec749f41d7f7c2d2ec525",
+      "bytes": 7699
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a",
+      "bytes": 31058
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03",
+      "bytes": 26775
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "fastlisaresponse": "1.1.17",
+    "lisaanalysistools": "1.2.8",
+    "h5py": "3.14.0",
+    "gpubackendtools": "0.1.1"
+  },
+  "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "tdi": "2nd generation",
+  "channels": [
+    "A",
+    "E",
+    "T"
+  ],
+  "backend": "cpu",
+  "lagrange_order": 25,
+  "buffer_requested_seconds": 20000.0,
+  "response_scaling": [
+    {
+      "distance_Gpc": 1.0,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.014408737999474397,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 0.5,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.01484865800011903,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 2.0,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.014535861002514139,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 1.3,
+      "relative_l2_per_channel": [
+        5.768933725574925e-15,
+        4.6799573459108774e-14,
+        2.805792503931979e-13
+      ],
+      "response_seconds": 0.014662036999652628,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 1.0000000001,
+      "relative_l2_per_channel": [
+        5.496252772805287e-15,
+        4.667104228366928e-14,
+        2.83037705164183e-13
+      ],
+      "response_seconds": 0.014548058999935165,
+      "samples": 3646
+    }
+  ],
+  "likelihood_checks": [
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 2.0,
+      "delta_logl": -49.99999999999999,
+      "oracle": -50.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.1764705882352942,
+      "delta_logl": -4.500000000000001,
+      "oracle": -4.500000000000002,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0526315789473684,
+      "delta_logl": -0.49999999999999883,
+      "oracle": -0.49999999999999895,
+      "absolute_error": 1.1102230246251565e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.9523809523809523,
+      "delta_logl": -0.5000000000000011,
+      "oracle": -0.5000000000000012,
+      "absolute_error": 1.1102230246251565e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.8695652173913044,
+      "delta_logl": -4.499999999999992,
+      "oracle": -4.499999999999993,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.6666666666666666,
+      "delta_logl": -50.00000000000002,
+      "oracle": -50.000000000000014,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -2.000004000121023e-10,
+      "oracle": -2.0000040001208744e-10,
+      "absolute_error": 1.4863401631812216e-23,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -1.9999959996769338e-10,
+      "oracle": -1.9999959996768886e-10,
+      "absolute_error": 4.52364397489937e-24,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -16199.999999999998,
+      "oracle": -16199.999999999998,
+      "absolute_error": 0.0,
+      "gate": 1.62e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -161.99999999999997,
+      "oracle": -162.0,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.62e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 2.0,
+      "delta_logl": -51.99999999999999,
+      "oracle": -52.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.1764705882352942,
+      "delta_logl": -5.1000000000000005,
+      "oracle": -5.100000000000001,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0526315789473684,
+      "delta_logl": -0.6999999999999985,
+      "oracle": -0.6999999999999987,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.9523809523809523,
+      "delta_logl": -0.300000000000001,
+      "oracle": -0.300000000000001,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.8695652173913044,
+      "delta_logl": -3.899999999999993,
+      "oracle": -3.8999999999999937,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.6666666666666666,
+      "delta_logl": -48.00000000000002,
+      "oracle": -48.000000000000014,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 3.99980399971901e-06,
+      "oracle": 3.999803999718861e-06,
+      "absolute_error": 1.4907779871675686e-19,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -4.0001959992749e-06,
+      "oracle": -4.000195999274857e-06,
+      "absolute_error": 4.319868030996932e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -16163.999999999998,
+      "oracle": -16163.999999999998,
+      "absolute_error": 0.0,
+      "gate": 1.6235999999999997e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -165.59999999999997,
+      "oracle": -165.6,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.656e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 2.0,
+      "delta_logl": -66.32450972513325,
+      "oracle": -66.32450972513325,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.1764705882352942,
+      "delta_logl": -9.397352917539978,
+      "oracle": -9.39735291753998,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0526315789473684,
+      "delta_logl": -2.1324509725133227,
+      "oracle": -2.1324509725133227,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.9523809523809523,
+      "delta_logl": 1.1324509725133265,
+      "oracle": 1.1324509725133267,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.8695652173913044,
+      "delta_logl": 0.39735291753998114,
+      "oracle": 0.39735291753998014,
+      "absolute_error": 9.992007221626409e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.6666666666666666,
+      "delta_logl": -33.67549027486675,
+      "oracle": -33.67549027486676,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": 3.264885209985745e-05,
+      "oracle": 3.264885210008117e-05,
+      "absolute_error": 2.237183420288058e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": -3.264918679819376e-05,
+      "oracle": -3.264918679812823e-05,
+      "absolute_error": 6.553324506317071e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -15906.1588249476,
+      "oracle": -15906.158824947599,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 1.6493841175052396e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -191.38411750523983,
+      "oracle": -191.38411750523986,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.9138411750523986e-10,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.1111111111111112,
+      "delta_logl": -50.00000000000005,
+      "oracle": -50.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0309278350515465,
+      "delta_logl": -4.500000000000034,
+      "oracle": -4.500000000000031,
+      "absolute_error": 2.6645352591003757e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0101010101010102,
+      "delta_logl": -0.5000000000000067,
+      "oracle": -0.5000000000000063,
+      "absolute_error": 3.3306690738754696e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.9900990099009901,
+      "delta_logl": -0.5000000000000011,
+      "oracle": -0.5000000000000009,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.970873786407767,
+      "delta_logl": -4.499999999999997,
+      "oracle": -4.499999999999996,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.9090909090909091,
+      "delta_logl": -50.00000000000005,
+      "oracle": -50.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -5.00001000030256e-09,
+      "oracle": -5.000010000302186e-09,
+      "absolute_error": 3.7471281748652154e-22,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -4.999989999192337e-09,
+      "oracle": -4.999989999192221e-09,
+      "absolute_error": 1.1580528575742387e-22,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -405000.0000000001,
+      "oracle": -404999.99999999994,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.0500000000000015e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -4050.000000000002,
+      "oracle": -4050.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.0500000000000015e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.1111111111111112,
+      "delta_logl": -60.00000000000006,
+      "oracle": -60.000000000000036,
+      "absolute_error": 2.1316282072803006e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0309278350515465,
+      "delta_logl": -7.5000000000000435,
+      "oracle": -7.500000000000041,
+      "absolute_error": 2.6645352591003757e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0101010101010102,
+      "delta_logl": -1.5000000000000129,
+      "oracle": -1.5000000000000124,
+      "absolute_error": 4.440892098500626e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.9900990099009901,
+      "delta_logl": 0.4999999999999995,
+      "oracle": 0.4999999999999997,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.970873786407767,
+      "delta_logl": -1.4999999999999993,
+      "oracle": -1.499999999999998,
+      "absolute_error": 1.3322676295501878e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.9090909090909091,
+      "delta_logl": -40.00000000000005,
+      "oracle": -40.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 9.999509999297524e-05,
+      "oracle": 9.999509999297155e-05,
+      "absolute_error": 3.686287386450715e-18,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -0.00010000489998187251,
+      "oracle": -0.00010000489998187136,
+      "absolute_error": 1.1519648082658485e-18,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -404100.0000000001,
+      "oracle": -404099.99999999994,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.0590000000000016e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -4140.000000000002,
+      "oracle": -4140.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.140000000000002e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.1111111111111112,
+      "delta_logl": -45.11612806683546,
+      "oracle": -45.116128066835444,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0309278350515465,
+      "delta_logl": -3.0348384200506517,
+      "oracle": -3.0348384200506495,
+      "absolute_error": 2.220446049250313e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0101010101010102,
+      "delta_logl": -0.011612806683544438,
+      "oracle": -0.011612806683544363,
+      "absolute_error": 7.45931094670027e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.9900990099009901,
+      "delta_logl": -0.9883871933164605,
+      "oracle": -0.9883871933164605,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.970873786407767,
+      "delta_logl": -5.965161579949373,
+      "oracle": -5.965161579949372,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.9090909090909091,
+      "delta_logl": -54.883871933164635,
+      "oracle": -54.88387193316463,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": -4.8843768181818774e-05,
+      "oracle": -4.884376818159453e-05,
+      "absolute_error": 2.242468905878925e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": 4.883367049895843e-05,
+      "oracle": 4.8833670498904524e-05,
+      "absolute_error": 5.3905176763263674e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -405439.54847398493,
+      "oracle": -405439.54847398476,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.05439548473985e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -4006.0451526015204,
+      "oracle": -4006.0451526015186,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.093954847398483e-09,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0101010101010102,
+      "delta_logl": -50.00000000000064,
+      "oracle": -50.00000000000063,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0030090270812437,
+      "delta_logl": -4.5,
+      "oracle": -4.5,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.001001001001001,
+      "delta_logl": -0.5000000000000883,
+      "oracle": -0.5000000000000883,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9990009990009991,
+      "delta_logl": -0.49999999999985495,
+      "oracle": -0.4999999999998548,
+      "absolute_error": 1.6653345369377348e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9970089730807579,
+      "delta_logl": -4.499999999999581,
+      "oracle": -4.499999999999582,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9900990099009901,
+      "delta_logl": -50.00000000000009,
+      "oracle": -50.000000000000085,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -5.000010000302559e-07,
+      "oracle": -5.000010000302185e-07,
+      "absolute_error": 3.7375328797596e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -4.999989999192336e-07,
+      "oracle": -4.999989999192221e-07,
+      "absolute_error": 1.1434944787933055e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -40500000.0,
+      "oracle": -40499999.99999999,
+      "absolute_error": 7.450580596923828e-09,
+      "gate": 4.05e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -405000.0,
+      "oracle": -404999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 4.05e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0101010101010102,
+      "delta_logl": -150.0000000000013,
+      "oracle": -150.00000000000125,
+      "absolute_error": 5.684341886080802e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0030090270812437,
+      "delta_logl": -34.5,
+      "oracle": -34.49999999999999,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.001001001001001,
+      "delta_logl": -10.50000000000097,
+      "oracle": -10.500000000000968,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9990009990009991,
+      "delta_logl": 9.499999999998694,
+      "oracle": 9.49999999999869,
+      "absolute_error": 3.552713678800501e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9970089730807579,
+      "delta_logl": 25.49999999999902,
+      "oracle": 25.499999999999016,
+      "absolute_error": 3.552713678800501e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9900990099009901,
+      "delta_logl": 50.0,
+      "oracle": 49.99999999999997,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 0.009999509999297529,
+      "oracle": 0.009999509999297152,
+      "absolute_error": 3.7643499428696714e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -0.010000489998187255,
+      "oracle": -0.010000489998187135,
+      "absolute_error": 1.196959198423997e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -40410000.0,
+      "oracle": -40409999.99999999,
+      "absolute_error": 7.450580596923828e-09,
+      "gate": 4.0589999999999996e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -414000.0,
+      "oracle": -413999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 4.14e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0101010101010102,
+      "delta_logl": -41.55577066224076,
+      "oracle": -41.55577066224075,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0030090270812437,
+      "delta_logl": -1.9667311986720517,
+      "oracle": -1.9667311986720515,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.001001001001001,
+      "delta_logl": 0.34442293377596905,
+      "oracle": 0.3444229337759692,
+      "absolute_error": 1.6653345369377348e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9990009990009991,
+      "delta_logl": -1.3444229337757152,
+      "oracle": -1.3444229337757156,
+      "absolute_error": 4.440892098500626e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9970089730807579,
+      "delta_logl": -7.033268801327412,
+      "oracle": -7.033268801327413,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9900990099009901,
+      "delta_logl": -58.44422933775992,
+      "oracle": -58.44422933775992,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": -0.0008449237792240732,
+      "oracle": -0.0008449237792240716,
+      "absolute_error": 1.6263032587282567e-18,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": 0.0008439220902845064,
+      "oracle": 0.000843922090284277,
+      "absolute_error": 2.2941717969793274e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -40507599.80640398,
+      "oracle": -40507599.80640397,
+      "absolute_error": 7.450580596923828e-09,
+      "gate": 4.0507599806403984e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -404240.0193596016,
+      "oracle": -404240.0193596016,
+      "absolute_error": 0.0,
+      "gate": 4.057599806403984e-07,
+      "passes": true
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119",
+      "bytes": 287208
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5",
+      "bytes": 211104
+    }
+  ],
+  "orbit": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+    "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe",
+    "bytes": 1212152
+  },
+  "orbit_and_response_setup_seconds": 0.4544990340000368,
+  "crop": {
+    "samples_each_end": 1333,
+    "first_time_seconds": 19995.0,
+    "samples": 3646,
+    "last_time_seconds": 74670.0
+  },
+  "full_chain_likelihood_checks": [
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.5,
+      "delta_logl": -199.99999999999997,
+      "freshly_generated_oracle": -200.0,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.9999999999999996e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 2.0,
+      "delta_logl": -49.99999999999999,
+      "freshly_generated_oracle": -50.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.3,
+      "delta_logl": -10.650887573964498,
+      "freshly_generated_oracle": -10.650887573964507,
+      "absolute_error": 8.881784197001252e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0000000001,
+      "delta_logl": -2.000000330561497e-18,
+      "freshly_generated_oracle": -2.000005635695158e-18,
+      "absolute_error": 5.305133660977338e-24,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.5,
+      "delta_logl": -195.99999999999997,
+      "freshly_generated_oracle": -196.0,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 2.0399999999999997e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 2.0,
+      "delta_logl": -51.99999999999999,
+      "freshly_generated_oracle": -52.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.3,
+      "delta_logl": -11.573964497041421,
+      "freshly_generated_oracle": -11.57396449704143,
+      "absolute_error": 8.881784197001252e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0000000001,
+      "delta_logl": -4.000000350561485e-10,
+      "freshly_generated_oracle": -4.0000056511923664e-10,
+      "absolute_error": 5.300630881175744e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.5,
+      "delta_logl": -167.35098054973346,
+      "freshly_generated_oracle": -167.3509805497335,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 2.3264901945026646e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 2.0,
+      "delta_logl": -66.32450972513325,
+      "freshly_generated_oracle": -66.32450972513325,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.3,
+      "delta_logl": -18.185276677872157,
+      "freshly_generated_oracle": -18.18527667787215,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0000000001,
+      "delta_logl": -3.2649022168393596e-09,
+      "freshly_generated_oracle": -3.2649172254650694e-09,
+      "absolute_error": 1.5008625709792423e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.5,
+      "delta_logl": -5000.000000000002,
+      "freshly_generated_oracle": -5000.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 5.000000000000002e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 2.0,
+      "delta_logl": -1250.0000000000005,
+      "freshly_generated_oracle": -1250.0,
+      "absolute_error": 4.547473508864641e-13,
+      "gate": 1.2500000000000004e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.3,
+      "delta_logl": -266.2721893491125,
+      "freshly_generated_oracle": -266.27218934911264,
+      "absolute_error": 1.1368683772161603e-13,
+      "gate": 2.6627218934911255e-10,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0000000001,
+      "delta_logl": -5.0000008264037453e-17,
+      "freshly_generated_oracle": -5.000014089237895e-17,
+      "absolute_error": 1.3262834149477412e-22,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.5,
+      "delta_logl": -4900.000000000002,
+      "freshly_generated_oracle": -4900.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 5.100000000000002e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 2.0,
+      "delta_logl": -1300.0000000000005,
+      "freshly_generated_oracle": -1300.0,
+      "absolute_error": 4.547473508864641e-13,
+      "gate": 1.3000000000000005e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.3,
+      "delta_logl": -289.3491124260356,
+      "freshly_generated_oracle": -289.34911242603573,
+      "absolute_error": 1.1368683772161603e-13,
+      "gate": 2.8934911242603564e-10,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0000000001,
+      "delta_logl": -1.0000000876403714e-08,
+      "freshly_generated_oracle": -1.0000014127962281e-08,
+      "absolute_error": 1.3251558567180544e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.5,
+      "delta_logl": -5048.838719331648,
+      "freshly_generated_oracle": -5048.838719331646,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 5.048838719331648e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 2.0,
+      "delta_logl": -1225.5806403341776,
+      "freshly_generated_oracle": -1225.580640334177,
+      "absolute_error": 6.821210263296962e-13,
+      "gate": 1.2744193596658232e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.3,
+      "delta_logl": -255.00171565719424,
+      "freshly_generated_oracle": -255.00171565719432,
+      "absolute_error": 8.526512829121202e-14,
+      "gate": 2.775426630410309e-10,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0000000001,
+      "delta_logl": 4.88387228676957e-09,
+      "freshly_generated_oracle": 4.884144644279331e-09,
+      "absolute_error": 2.723575097609865e-13,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.5,
+      "delta_logl": -500000.0,
+      "freshly_generated_oracle": -499999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 5e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 2.0,
+      "delta_logl": -125000.0,
+      "freshly_generated_oracle": -124999.99999999999,
+      "absolute_error": 1.4551915228366852e-11,
+      "gate": 1.25e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.3,
+      "delta_logl": -26627.218934911245,
+      "freshly_generated_oracle": -26627.218934911263,
+      "absolute_error": 1.8189894035458565e-11,
+      "gate": 2.6627218934911243e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0000000001,
+      "delta_logl": -5.000000826403744e-15,
+      "freshly_generated_oracle": -5.000014089237895e-15,
+      "absolute_error": 1.3262834150808615e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.5,
+      "delta_logl": -490000.0,
+      "freshly_generated_oracle": -489999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 5.1e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 2.0,
+      "delta_logl": -130000.0,
+      "freshly_generated_oracle": -129999.99999999999,
+      "absolute_error": 1.4551915228366852e-11,
+      "gate": 1.3e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.3,
+      "delta_logl": -28934.911242603554,
+      "freshly_generated_oracle": -28934.91124260357,
+      "absolute_error": 1.8189894035458565e-11,
+      "gate": 2.8934911242603552e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0000000001,
+      "delta_logl": -1.0000000876403717e-06,
+      "freshly_generated_oracle": -1.0000014127944934e-06,
+      "absolute_error": 1.3251541217100283e-12,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "freshly_generated_oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.5,
+      "delta_logl": -500844.422933776,
+      "freshly_generated_oracle": -500844.42293377593,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 5.008444229337759e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 2.0,
+      "delta_logl": -124577.788533112,
+      "freshly_generated_oracle": -124577.78853311199,
+      "absolute_error": 1.4551915228366852e-11,
+      "gate": 1.25422211466888e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.3,
+      "delta_logl": -26432.352104039863,
+      "freshly_generated_oracle": -26432.352104039885,
+      "absolute_error": 2.1827872842550278e-11,
+      "gate": 2.6822085765782626e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0000000001,
+      "delta_logl": 8.44422953559399e-08,
+      "freshly_generated_oracle": 8.444716836919497e-08,
+      "absolute_error": 4.873013255067972e-12,
+      "gate": 1e-08,
+      "passes": true
+    }
+  ],
+  "metric": "Synthetic diagonal A/E/T one-sided PSD = 1e-42*[1,2,3]*(1+(f/0.01Hz)^2), globally rescaled per target SNR. This is a chosen Gaussian fixture, NOT the ESA constellation's physical noise covariance. No window or additional frequency mask.",
+  "timing": {
+    "scope": "Fixed-distance conditional scans from the same cached frequency-domain TDI waveform; excludes FEW, orbit/response setup, FFT and data creation for all paths. prepare_and_* directly times its preparation plus scan, not a sum of separate medians.",
+    "rounds": 9,
+    "vectorized_direct_chunk_size": 32,
+    "workloads": [
+      {
+        "distances": 1,
+        "raw_seconds": {
+          "cached_waveform_direct_residual": [
+            1.1009997251676396e-05,
+            1.1411000741645694e-05,
+            1.0277999535901472e-05,
+            1.1439999070717022e-05,
+            1.0233001376036555e-05,
+            1.1850999726448208e-05,
+            9.932999091688544e-06,
+            1.128400253946893e-05,
+            9.91100023384206e-06
+          ],
+          "cached_waveform_direct_batched": [
+            2.5347999326186255e-05,
+            2.5430999812670052e-05,
+            1.999300002353266e-05,
+            2.4809000024106354e-05,
+            1.8441998690832406e-05,
+            2.857300205505453e-05,
+            1.8668000848265365e-05,
+            2.4428998585790396e-05,
+            1.8244998500449583e-05
+          ],
+          "quadratic_scalar": [
+            1.4212000678526238e-05,
+            1.0250998457195237e-05,
+            1.2471999070839956e-05,
+            1.5925001207506284e-05,
+            1.1073003406636417e-05,
+            1.0515999747440219e-05,
+            1.1255000572418794e-05,
+            1.0682000720407814e-05,
+            1.0404000931885093e-05
+          ],
+          "quadratic_vector": [
+            8.989001798909158e-06,
+            9.103998309001327e-06,
+            8.825001714285463e-06,
+            8.961000276030973e-06,
+            1.4364999515237287e-05,
+            9.036997653311118e-06,
+            8.627997885923833e-06,
+            9.082999895326793e-06,
+            8.612998499302194e-06
+          ],
+          "prepare_and_direct": [
+            3.507400106173009e-05,
+            3.422600275371224e-05,
+            3.3788001019274816e-05,
+            3.3439002436352894e-05,
+            3.5088000004179776e-05,
+            3.719099913723767e-05,
+            3.35000004270114e-05,
+            3.336300142109394e-05,
+            3.353599822730757e-05
+          ],
+          "prepare_and_quadratic_scalar": [
+            0.00012713199976133183,
+            0.00011784800153691322,
+            0.00012497399802668951,
+            0.00011680500028887764,
+            0.00012605399751919322,
+            0.00017067800217773765,
+            0.0001415330007148441,
+            0.00011759900007746182,
+            0.00012577099914778955
+          ],
+          "prepare_and_quadratic_vector": [
+            0.00011744899893528782,
+            0.00012076300117769279,
+            0.00011613100286922418,
+            0.0001153840021288488,
+            0.00011624599937931634,
+            0.00013037700045970269,
+            0.00011884799823747016,
+            0.00011464399722171947,
+            0.00011642200115602463
+          ]
+        },
+        "median_seconds": {
+          "cached_waveform_direct_residual": 1.1009997251676396e-05,
+          "cached_waveform_direct_batched": 2.4428998585790396e-05,
+          "quadratic_scalar": 1.1073003406636417e-05,
+          "quadratic_vector": 8.989001798909158e-06,
+          "prepare_and_direct": 3.3788001019274816e-05,
+          "prepare_and_quadratic_scalar": 0.00012577099914778955,
+          "prepare_and_quadratic_vector": 0.00011642200115602463
+        },
+        "max_delta_logl_difference": {
+          "cached_waveform_direct_residual": 0.0,
+          "cached_waveform_direct_batched": 0.0,
+          "quadratic_scalar": 4.263256414560601e-13,
+          "quadratic_vector": 4.263256414560601e-13,
+          "prepare_and_direct": 0.0,
+          "prepare_and_quadratic_scalar": 4.263256414560601e-13,
+          "prepare_and_quadratic_vector": 4.263256414560601e-13
+        },
+        "scalar_speedup": 0.994309930861011,
+        "vector_speedup": 1.2248297973432924,
+        "scalar_preparation_inclusive_speedup": 0.26864699531862346,
+        "vector_preparation_inclusive_speedup": 0.2902200673736344
+      },
+      {
+        "distances": 4,
+        "raw_seconds": {
+          "cached_waveform_direct_residual": [
+            3.550200199242681e-05,
+            4.040899875690229e-05,
+            3.514199852361344e-05,
+            3.8833997678011656e-05,
+            3.523100167512894e-05,
+            3.903499964508228e-05,
+            3.711400131578557e-05,
+            3.856699913740158e-05,
+            3.476200072327629e-05
+          ],
+          "cached_waveform_direct_batched": [
+            6.76220006425865e-05,
+            7.130999802029692e-05,
+            6.158500036690384e-05,
+            6.895199840073474e-05,
+            6.161199780763127e-05,
+            6.844000017736107e-05,
+            6.460499935201369e-05,
+            6.659999780822545e-05,
+            6.0980997659498826e-05
+          ],
+          "quadratic_scalar": [
+            3.83830010832753e-05,
+            3.344599826959893e-05,
+            3.6855999496765435e-05,
+            3.4569002309581265e-05,
+            3.631500294432044e-05,
+            3.376200038474053e-05,
+            3.719999949680641e-05,
+            3.204700260539539e-05,
+            3.6927001929143444e-05
+          ],
+          "quadratic_vector": [
+            8.539002010365948e-06,
+            9.814000804908574e-06,
+            8.72999953571707e-06,
+            9.019000572152436e-06,
+            8.702998457010835e-06,
+            9.948998922482133e-06,
+            8.978000550996512e-06,
+            8.775998139753938e-06,
+            8.822997187962756e-06
+          ],
+          "prepare_and_direct": [
+            5.802400119137019e-05,
+            5.7477001973893493e-05,
+            5.701900226995349e-05,
+            5.580099968938157e-05,
+            5.6330998631892726e-05,
+            5.94769990129862e-05,
+            5.798199708806351e-05,
+            5.566499748965725e-05,
+            5.670399696100503e-05
+          ],
+          "prepare_and_quadratic_scalar": [
+            0.00014869400183670223,
+            0.00014981099957367405,
+            0.00014917900261934847,
+            0.00014632999955210835,
+            0.00014613399980589747,
+            0.0001446030000806786,
+            0.0001511490008851979,
+            0.00014216199997463264,
+            0.0001490359973104205
+          ],
+          "prepare_and_quadratic_vector": [
+            0.00012902900198241696,
+            0.0001386320000165142,
+            0.0001167170012195129,
+            0.00011267999798292294,
+            0.0001153779994638171,
+            0.00011380000069038942,
+            0.00011653999899863265,
+            0.00011322700083837844,
+            0.00011843399988720194
+          ]
+        },
+        "median_seconds": {
+          "cached_waveform_direct_residual": 3.711400131578557e-05,
+          "cached_waveform_direct_batched": 6.659999780822545e-05,
+          "quadratic_scalar": 3.631500294432044e-05,
+          "quadratic_vector": 8.822997187962756e-06,
+          "prepare_and_direct": 5.701900226995349e-05,
+          "prepare_and_quadratic_scalar": 0.00014869400183670223,
+          "prepare_and_quadratic_vector": 0.00011653999899863265
+        },
+        "max_delta_logl_difference": {
+          "cached_waveform_direct_residual": 0.0,
+          "cached_waveform_direct_batched": 9.094947017729282e-13,
+          "quadratic_scalar": 5.915268275202834e-13,
+          "quadratic_vector": 5.915268275202834e-13,
+          "prepare_and_direct": 0.0,
+          "prepare_and_quadratic_scalar": 5.915268275202834e-13,
+          "prepare_and_quadratic_vector": 5.915268275202834e-13
+        },
+        "scalar_speedup": 1.022001880949595,
+        "vector_speedup": 4.206507213492069,
+        "scalar_preparation_inclusive_speedup": 0.38346538236675165,
+        "vector_preparation_inclusive_speedup": 0.4892655119262742
+      },
+      {
+        "distances": 16,
+        "raw_seconds": {
+          "cached_waveform_direct_residual": [
+            0.00013546799891628325,
+            0.00014597699919249862,
+            0.00013533400124288164,
+            0.00014431199815589935,
+            0.0001348770019831136,
+            0.00014683600238640793,
+            0.00013544399917009287,
+            0.00014350300261867233,
+            0.00013538300117943436
+          ],
+          "cached_waveform_direct_batched": [
+            0.0003142300010949839,
+            0.0003460789994278457,
+            0.00028831099916715175,
+            0.00033779899968067184,
+            0.00030473099832306616,
+            0.000320286002533976,
+            0.00028879299861728214,
+            0.00031684900022810325,
+            0.00028806999762309715
+          ],
+          "quadratic_scalar": [
+            0.000135551999846939,
+            0.00012517899813246913,
+            0.00014130999988992698,
+            0.00012775499999406748,
+            0.000138561001222115,
+            0.00012233399684191681,
+            0.0001350089987681713,
+            0.00012184399747638963,
+            0.0001345490018138662
+          ],
+          "quadratic_vector": [
+            9.485000191489235e-06,
+            1.0313000530004501e-05,
+            9.259998478228226e-06,
+            1.1408999853301793e-05,
+            9.036000847117975e-06,
+            1.0172996553592384e-05,
+            9.220999345416203e-06,
+            9.251998562831432e-06,
+            9.193998266709968e-06
+          ],
+          "prepare_and_direct": [
+            0.0001535580013296567,
+            0.00015303200052585453,
+            0.00015237399929901585,
+            0.00016423100169049576,
+            0.00015794399951118976,
+            0.00014892099716234952,
+            0.0001519899997219909,
+            0.00014576499961549416,
+            0.00015776699729030952
+          ],
+          "prepare_and_quadratic_scalar": [
+            0.00026674100081436336,
+            0.00024291899899253622,
+            0.00025912899945979007,
+            0.00023365599918179214,
+            0.0002550749995862134,
+            0.0002464060016791336,
+            0.0002593339995655697,
+            0.00023174799935077317,
+            0.0002592210003058426
+          ],
+          "prepare_and_quadratic_vector": [
+            0.00012536500071291812,
+            0.00012024799798382446,
+            0.00012430399874574505,
+            0.00011728900062735192,
+            0.00012305600102990866,
+            0.0001208850007969886,
+            0.00012271300147403963,
+            0.00011697299851221032,
+            0.00012210600107209757
+          ]
+        },
+        "median_seconds": {
+          "cached_waveform_direct_residual": 0.00013546799891628325,
+          "cached_waveform_direct_batched": 0.0003142300010949839,
+          "quadratic_scalar": 0.0001345490018138662,
+          "quadratic_vector": 9.259998478228226e-06,
+          "prepare_and_direct": 0.00015303200052585453,
+          "prepare_and_quadratic_scalar": 0.0002550749995862134,
+          "prepare_and_quadratic_vector": 0.00012210600107209757
+        },
+        "max_delta_logl_difference": {
+          "cached_waveform_direct_residual": 0.0,
+          "cached_waveform_direct_batched": 1.8189894035458565e-12,
+          "quadratic_scalar": 2.1401769245699143e-12,
+          "quadratic_vector": 2.1401769245699143e-12,
+          "prepare_and_direct": 0.0,
+          "prepare_and_quadratic_scalar": 2.1401769245699143e-12,
+          "prepare_and_quadratic_vector": 2.1401769245699143e-12
+        },
+        "scalar_speedup": 1.006830203792135,
+        "vector_speedup": 14.629375937241319,
+        "scalar_preparation_inclusive_speedup": 0.5999490376324823,
+        "vector_preparation_inclusive_speedup": 1.25327174080082
+      },
+      {
+        "distances": 256,
+        "raw_seconds": {
+          "cached_waveform_direct_residual": [
+            0.0021649209993483964,
+            0.0027725069994630758,
+            0.002787055000226246,
+            0.0022173809993546456,
+            0.002171309999539517,
+            0.0021897700025874656,
+            0.0021743079996667802,
+            0.0022210749993973877,
+            0.002190718998463126
+          ],
+          "cached_waveform_direct_batched": [
+            0.005280146000586683,
+            0.007873280999774579,
+            0.006191835997015005,
+            0.006730002001859248,
+            0.004897472001175629,
+            0.004989027998817619,
+            0.004920240000501508,
+            0.005029826999816578,
+            0.005511616000148933
+          ],
+          "quadratic_scalar": [
+            0.0026584400002320763,
+            0.002163713001209544,
+            0.0022211569994396996,
+            0.004623821001587203,
+            0.001994223999645328,
+            0.001961467001819983,
+            0.001975657000002684,
+            0.0019404730010137428,
+            0.002353597999899648
+          ],
+          "quadratic_vector": [
+            1.6391997633036226e-05,
+            2.9260001610964537e-05,
+            1.589800012880005e-05,
+            2.6439000066602603e-05,
+            1.4605000615119934e-05,
+            1.705699833109975e-05,
+            1.4534998626913875e-05,
+            1.397400046698749e-05,
+            1.791600152500905e-05
+          ],
+          "prepare_and_direct": [
+            0.0023046599999361206,
+            0.0020947199991496745,
+            0.002237691998743685,
+            0.002026677997491788,
+            0.0019752260013774503,
+            0.0019820979978248943,
+            0.0019796820015471894,
+            0.0019628269983513746,
+            0.0027090969997516368
+          ],
+          "prepare_and_quadratic_scalar": [
+            0.0021758660004707053,
+            0.0026182020010310225,
+            0.00236641000083182,
+            0.002063971998722991,
+            0.002110632001858903,
+            0.002061299001070438,
+            0.0021209849983279128,
+            0.0020577770010277163,
+            0.0028070539992768317
+          ],
+          "prepare_and_quadratic_vector": [
+            0.00019895899822586216,
+            0.00017412200031685643,
+            0.00021135499991942197,
+            0.00013844799832440913,
+            0.00014901800022926182,
+            0.0001229350018547848,
+            0.00014246199862100184,
+            0.00012303600306040607,
+            0.00024464799935230985
+          ]
+        },
+        "median_seconds": {
+          "cached_waveform_direct_residual": 0.002190718998463126,
+          "cached_waveform_direct_batched": 0.005280146000586683,
+          "quadratic_scalar": 0.002163713001209544,
+          "quadratic_vector": 1.6391997633036226e-05,
+          "prepare_and_direct": 0.002026677997491788,
+          "prepare_and_quadratic_scalar": 0.0021209849983279128,
+          "prepare_and_quadratic_vector": 0.00014901800022926182
+        },
+        "max_delta_logl_difference": {
+          "cached_waveform_direct_residual": 0.0,
+          "cached_waveform_direct_batched": 3.637978807091713e-12,
+          "quadratic_scalar": 4.31971125536279e-12,
+          "quadratic_vector": 4.31971125536279e-12,
+          "prepare_and_direct": 0.0,
+          "prepare_and_quadratic_scalar": 4.31971125536279e-12,
+          "prepare_and_quadratic_vector": 4.31971125536279e-12
+        },
+        "scalar_speedup": 1.0124813213390524,
+        "vector_speedup": 133.6456390188819,
+        "scalar_preparation_inclusive_speedup": 0.9555362244850991,
+        "vector_preparation_inclusive_speedup": 13.600222754122163
+      }
+    ]
+  },
+  "artifact": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_final.npz",
+    "sha256": "d03b053e3180b07ced557afc4b372ecd2fcd0818aa01dd06b2a92cb960411987",
+    "bytes": 439133
+  }
+}

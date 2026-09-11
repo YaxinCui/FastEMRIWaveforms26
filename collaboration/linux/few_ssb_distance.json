@@ -1,0 +1,116 @@
+{
+  "timestamp_cst": "2026-09-11T14:31:58.199413+08:00",
+  "base_commit": "47e4fea4bb3e5fbe1ba34e5e399ed37c97814191",
+  "backend": "cpu",
+  "parameters": [
+    1000000.0,
+    10.0,
+    0.6,
+    8.0,
+    0.3,
+    1.0,
+    1.0,
+    1.1,
+    0.7,
+    0.8,
+    1.5,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "distances_Gpc": [
+    1.0,
+    0.5,
+    2.0,
+    1.3,
+    1.0000000001
+  ],
+  "settings": {
+    "T": 0.003,
+    "dt": 15.0
+  },
+  "polarization": "SSB h_plus - i*h_cross; conjugate for fastlisaresponse",
+  "passes": true,
+  "runs": [
+    {
+      "distance_Gpc": 1.0,
+      "samples": 6312,
+      "modes": 82,
+      "full_waveform_seconds": 9.754804423999303,
+      "relative_l2": 0.0,
+      "sha256": "f1879b1068c3533b71303ebd3069070b84d6c78fccc63fc363d62a7c1abfd6c5"
+    },
+    {
+      "distance_Gpc": 0.5,
+      "samples": 6312,
+      "modes": 82,
+      "full_waveform_seconds": 0.10912275599912391,
+      "relative_l2": 0.0,
+      "sha256": "0d0aa3c094d4e910eb41aa5c491812493e2d2b577c8978e91d44e67c0a1cca38"
+    },
+    {
+      "distance_Gpc": 2.0,
+      "samples": 6312,
+      "modes": 82,
+      "full_waveform_seconds": 0.10654537599839387,
+      "relative_l2": 0.0,
+      "sha256": "326bbf28fb7e41a5dee6ae3d0ddbffe9e14c102dfea357fe4ebb74ba9ab30b04"
+    },
+    {
+      "distance_Gpc": 1.3,
+      "samples": 6312,
+      "modes": 82,
+      "full_waveform_seconds": 0.10685913500128663,
+      "relative_l2": 1.3515649240097572e-16,
+      "sha256": "0e250190899454a0e8daf34cb6bea1da2045964b783e2a72a9896b7108823b14"
+    },
+    {
+      "distance_Gpc": 1.0000000001,
+      "samples": 6312,
+      "modes": 82,
+      "full_waveform_seconds": 0.10633733199938433,
+      "relative_l2": 1.4489461147878392e-16,
+      "sha256": "f9b1ab700d7c5513615cfa1487a5663dcc34dc4fe36545ea3ac86f01bb6908b9"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/export_few_distance.py",
+      "sha256": "78372c221e80d55ad3d72e82663b5163f440816451dfb2ec62a74893aae1b968",
+      "bytes": 5267
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/waveform.py",
+      "sha256": "8c0959e6450b6cea3fb92895ce8552603a4bfcdc8744b45aa2029066d7092163",
+      "bytes": 34884
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/src/few/waveform/base.py",
+      "sha256": "765ae14fb0c65ec0f6775739a80a6271df88287c50046999c7de605507193559",
+      "bytes": 24996
+    }
+  ],
+  "native": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/runtime-master/few_backend_cpu/pyinterp.cpython-312-x86_64-linux-gnu.so",
+    "sha256": "1879f96679b293253faf13642d636fb9e08ef967a955b11d9730cd51fab04f82",
+    "bytes": 9866272
+  },
+  "data": [
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/ZNAmps_l10_m10_n55_DS2Outer.h5",
+      "sha256": "3236d8b5eff618242291e9eeb24638dbbbb82fac464ae575dc3f2ba158c54834",
+      "bytes": 5089095248
+    },
+    {
+      "path": "/home/ubuntu/.local/share/few/v2.1.0.post1.dev93+g92af2f42c.d20260901/download/KerrEccEqFluxData.h5",
+      "sha256": "db332e617223a650eb9f890c610e928afd095edea1454b544ad06651c03a5014",
+      "bytes": 9857632
+    }
+  ],
+  "construction_seconds": 7.46220680800252,
+  "artifact": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz",
+    "sha256": "592804da5e45184f2cf899d5f3f5481cacc18a167dbd6423bbb53682dcf72b79",
+    "bytes": 487007
+  }
+}

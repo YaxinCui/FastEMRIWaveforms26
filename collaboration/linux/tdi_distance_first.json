@@ -1,0 +1,1178 @@
+{
+  "timestamp_cst": "2026-09-11T14:35:04.139048+08:00",
+  "passes": true,
+  "scope": "Fixed detector-frame masses, sky, orientation, ESA orbit response, sampling, data and Gaussian metric. Not distance marginalization or physical LISA noise validation.",
+  "input": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.npz",
+    "sha256": "592804da5e45184f2cf899d5f3f5481cacc18a167dbd6423bbb53682dcf72b79",
+    "bytes": 487007
+  },
+  "input_report": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/few_ssb_distance.json",
+    "sha256": "ef04a6e1baa59a5db7a0567e9e1fc56cedb46b97340fe4f271f0262e56a800f1",
+    "bytes": 3667
+  },
+  "sources": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_probe.py",
+      "sha256": "c6abe18812acb3e91fbd7e6fb6e37065412b47557f7ed6ce01ff548a0c5f575c",
+      "bytes": 14872
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/distance_likelihood.py",
+      "sha256": "83e0aeced7b0c0b8de82c057d08791e06547742e8659c83f6714ea6fb15b7558",
+      "bytes": 7659
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse/response.py",
+      "sha256": "7a40c9ffd992bf09b2e84d201ce5e9f5da0c2c19ea33efd821f7afa4d027af4a",
+      "bytes": 31058
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/detector.py",
+      "sha256": "f00fccf0be9e67d5ad92ff6932ffdbb0b5cfa306abcbbac9ccbaf83d34b73e03",
+      "bytes": 26775
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "fastlisaresponse": "1.1.17",
+    "lisaanalysistools": "1.2.8",
+    "h5py": "3.14.0",
+    "gpubackendtools": "0.1.1"
+  },
+  "host": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "tdi": "2nd generation",
+  "channels": [
+    "A",
+    "E",
+    "T"
+  ],
+  "backend": "cpu",
+  "lagrange_order": 25,
+  "buffer_requested_seconds": 20000.0,
+  "response_scaling": [
+    {
+      "distance_Gpc": 1.0,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.014631015998020303,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 0.5,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.014246708997234236,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 2.0,
+      "relative_l2_per_channel": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "response_seconds": 0.01430925299791852,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 1.3,
+      "relative_l2_per_channel": [
+        5.768933725574925e-15,
+        4.6799573459108774e-14,
+        2.805792503931979e-13
+      ],
+      "response_seconds": 0.014222090001567267,
+      "samples": 3646
+    },
+    {
+      "distance_Gpc": 1.0000000001,
+      "relative_l2_per_channel": [
+        5.496252772805287e-15,
+        4.667104228366928e-14,
+        2.83037705164183e-13
+      ],
+      "response_seconds": 0.014210452998668188,
+      "samples": 3646
+    }
+  ],
+  "likelihood_checks": [
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 2.0,
+      "delta_logl": -49.99999999999999,
+      "oracle": -50.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.1764705882352942,
+      "delta_logl": -4.500000000000001,
+      "oracle": -4.500000000000002,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0526315789473684,
+      "delta_logl": -0.49999999999999883,
+      "oracle": -0.49999999999999895,
+      "absolute_error": 1.1102230246251565e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.9523809523809523,
+      "delta_logl": -0.5000000000000011,
+      "oracle": -0.5000000000000012,
+      "absolute_error": 1.1102230246251565e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.8695652173913044,
+      "delta_logl": -4.499999999999992,
+      "oracle": -4.499999999999993,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.6666666666666666,
+      "delta_logl": -50.00000000000002,
+      "oracle": -50.000000000000014,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -2.000004000121023e-10,
+      "oracle": -2.0000040001208744e-10,
+      "absolute_error": 1.4863401631812216e-23,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -1.9999959996769338e-10,
+      "oracle": -1.9999959996768886e-10,
+      "absolute_error": 4.52364397489937e-24,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -16199.999999999998,
+      "oracle": -16199.999999999998,
+      "absolute_error": 0.0,
+      "gate": 1.62e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -161.99999999999997,
+      "oracle": -162.0,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.62e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 2.0,
+      "delta_logl": -51.99999999999999,
+      "oracle": -52.0,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.1764705882352942,
+      "delta_logl": -5.1000000000000005,
+      "oracle": -5.100000000000001,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0526315789473684,
+      "delta_logl": -0.6999999999999985,
+      "oracle": -0.6999999999999987,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.9523809523809523,
+      "delta_logl": -0.300000000000001,
+      "oracle": -0.300000000000001,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.8695652173913044,
+      "delta_logl": -3.899999999999993,
+      "oracle": -3.8999999999999937,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.6666666666666666,
+      "delta_logl": -48.00000000000002,
+      "oracle": -48.000000000000014,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 3.99980399971901e-06,
+      "oracle": 3.999803999718861e-06,
+      "absolute_error": 1.4907779871675686e-19,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -4.0001959992749e-06,
+      "oracle": -4.000195999274857e-06,
+      "absolute_error": 4.319868030996932e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -16163.999999999998,
+      "oracle": -16163.999999999998,
+      "absolute_error": 0.0,
+      "gate": 1.6235999999999997e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -165.59999999999997,
+      "oracle": -165.6,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.656e-10,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 2.0,
+      "delta_logl": -61.54122588753723,
+      "oracle": -61.54122588753724,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.1764705882352942,
+      "delta_logl": -7.962367766261172,
+      "oracle": -7.962367766261174,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0526315789473684,
+      "delta_logl": -1.6541225887537212,
+      "oracle": -1.6541225887537216,
+      "absolute_error": 4.440892098500626e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.9523809523809523,
+      "delta_logl": 0.654122588753724,
+      "oracle": 0.6541225887537236,
+      "absolute_error": 3.3306690738754696e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.8695652173913044,
+      "delta_logl": -1.0376322337388237,
+      "oracle": -1.037632233738825,
+      "absolute_error": 1.3322676295501878e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.6666666666666666,
+      "delta_logl": -38.45877411246278,
+      "oracle": -38.45877411246278,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": 2.3082274857813074e-05,
+      "oracle": 2.3082274857699758e-05,
+      "absolute_error": 1.133160676836803e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": -2.308262869034684e-05,
+      "oracle": -2.3082628690662688e-05,
+      "absolute_error": 3.1584842163576154e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -15992.257934024326,
+      "oracle": -15992.257934024328,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 1.640774206597567e-08,
+      "passes": true
+    },
+    {
+      "rho": 20.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -182.774206597567,
+      "oracle": -182.77420659756703,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1.8277420659756703e-10,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.1111111111111112,
+      "delta_logl": -50.00000000000005,
+      "oracle": -50.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0309278350515465,
+      "delta_logl": -4.500000000000034,
+      "oracle": -4.500000000000031,
+      "absolute_error": 2.6645352591003757e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0101010101010102,
+      "delta_logl": -0.5000000000000067,
+      "oracle": -0.5000000000000063,
+      "absolute_error": 3.3306690738754696e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.9900990099009901,
+      "delta_logl": -0.5000000000000011,
+      "oracle": -0.5000000000000009,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.970873786407767,
+      "delta_logl": -4.499999999999997,
+      "oracle": -4.499999999999996,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.9090909090909091,
+      "delta_logl": -50.00000000000005,
+      "oracle": -50.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -5.00001000030256e-09,
+      "oracle": -5.000010000302186e-09,
+      "absolute_error": 3.7471281748652154e-22,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -4.999989999192337e-09,
+      "oracle": -4.999989999192221e-09,
+      "absolute_error": 1.1580528575742387e-22,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -405000.0000000001,
+      "oracle": -404999.99999999994,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.0500000000000015e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -4050.000000000002,
+      "oracle": -4050.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.0500000000000015e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.1111111111111112,
+      "delta_logl": -60.00000000000006,
+      "oracle": -60.000000000000036,
+      "absolute_error": 2.1316282072803006e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0309278350515465,
+      "delta_logl": -7.5000000000000435,
+      "oracle": -7.500000000000041,
+      "absolute_error": 2.6645352591003757e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0101010101010102,
+      "delta_logl": -1.5000000000000129,
+      "oracle": -1.5000000000000124,
+      "absolute_error": 4.440892098500626e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.9900990099009901,
+      "delta_logl": 0.4999999999999995,
+      "oracle": 0.4999999999999997,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.970873786407767,
+      "delta_logl": -1.4999999999999993,
+      "oracle": -1.499999999999998,
+      "absolute_error": 1.3322676295501878e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.9090909090909091,
+      "delta_logl": -40.00000000000005,
+      "oracle": -40.000000000000036,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 9.999509999297524e-05,
+      "oracle": 9.999509999297155e-05,
+      "absolute_error": 3.686287386450715e-18,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -0.00010000489998187251,
+      "oracle": -0.00010000489998187136,
+      "absolute_error": 1.1519648082658485e-18,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -404100.0000000001,
+      "oracle": -404099.99999999994,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.0590000000000016e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -4140.000000000002,
+      "oracle": -4140.0,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.140000000000002e-09,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.1111111111111112,
+      "delta_logl": -46.544700391561186,
+      "oracle": -46.54470039156117,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0309278350515465,
+      "delta_logl": -3.463410117468371,
+      "oracle": -3.4634101174683685,
+      "absolute_error": 2.6645352591003757e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0101010101010102,
+      "delta_logl": -0.154470039156118,
+      "oracle": -0.1544700391561178,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.9900990099009901,
+      "delta_logl": -0.8455299608438877,
+      "oracle": -0.8455299608438873,
+      "absolute_error": 3.3306690738754696e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.970873786407767,
+      "delta_logl": -5.536589882531656,
+      "oracle": -5.536589882531654,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.9090909090909091,
+      "delta_logl": -53.455299608438914,
+      "oracle": -53.4552996084389,
+      "absolute_error": 1.4210854715202004e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": -3.455803064841318e-05,
+      "oracle": -3.455803064844609e-05,
+      "absolute_error": 3.2912312198513094e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": 3.454796153858536e-05,
+      "oracle": 3.4547961538677896e-05,
+      "absolute_error": 9.25366554216378e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -405310.9769647596,
+      "oracle": -405310.9769647594,
+      "absolute_error": 1.7462298274040222e-10,
+      "gate": 4.053109769647597e-07,
+      "passes": true
+    },
+    {
+      "rho": 100.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -4018.902303524052,
+      "oracle": -4018.9023035240502,
+      "absolute_error": 1.8189894035458565e-12,
+      "gate": 4.081097696475952e-09,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0101010101010102,
+      "delta_logl": -50.00000000000064,
+      "oracle": -50.00000000000063,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0030090270812437,
+      "delta_logl": -4.5,
+      "oracle": -4.5,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.001001001001001,
+      "delta_logl": -0.5000000000000883,
+      "oracle": -0.5000000000000883,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9990009990009991,
+      "delta_logl": -0.49999999999985495,
+      "oracle": -0.4999999999998548,
+      "absolute_error": 1.6653345369377348e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9970089730807579,
+      "delta_logl": -4.499999999999581,
+      "oracle": -4.499999999999582,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.9900990099009901,
+      "delta_logl": -50.00000000000009,
+      "oracle": -50.000000000000085,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.999999,
+      "delta_logl": -5.000010000302559e-07,
+      "oracle": -5.000010000302185e-07,
+      "absolute_error": 3.7375328797596e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 1.000001,
+      "delta_logl": -4.999989999192336e-07,
+      "oracle": -4.999989999192221e-07,
+      "absolute_error": 1.1434944787933055e-20,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 0.1,
+      "delta_logl": -40500000.0,
+      "oracle": -40499999.99999999,
+      "absolute_error": 7.450580596923828e-09,
+      "gate": 4.05e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "zero",
+      "distance": 10.0,
+      "delta_logl": -405000.0,
+      "oracle": -404999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 4.05e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0101010101010102,
+      "delta_logl": -150.0000000000013,
+      "oracle": -150.00000000000125,
+      "absolute_error": 5.684341886080802e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0030090270812437,
+      "delta_logl": -34.5,
+      "oracle": -34.49999999999999,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.001001001001001,
+      "delta_logl": -10.50000000000097,
+      "oracle": -10.500000000000968,
+      "absolute_error": 1.7763568394002505e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.0,
+      "delta_logl": 0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9990009990009991,
+      "delta_logl": 9.499999999998694,
+      "oracle": 9.49999999999869,
+      "absolute_error": 3.552713678800501e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9970089730807579,
+      "delta_logl": 25.49999999999902,
+      "oracle": 25.499999999999016,
+      "absolute_error": 3.552713678800501e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.9900990099009901,
+      "delta_logl": 50.0,
+      "oracle": 49.99999999999997,
+      "absolute_error": 2.842170943040401e-14,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.999999,
+      "delta_logl": 0.009999509999297529,
+      "oracle": 0.009999509999297152,
+      "absolute_error": 3.7643499428696714e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 1.000001,
+      "delta_logl": -0.010000489998187255,
+      "oracle": -0.010000489998187135,
+      "absolute_error": 1.196959198423997e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 0.1,
+      "delta_logl": -40410000.0,
+      "oracle": -40409999.99999999,
+      "absolute_error": 7.450580596923828e-09,
+      "gate": 4.0589999999999996e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "parallel",
+      "distance": 10.0,
+      "delta_logl": -414000.0,
+      "oracle": -413999.99999999994,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 4.14e-07,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0101010101010102,
+      "delta_logl": -44.030067840251604,
+      "oracle": -44.0300678402516,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0030090270812437,
+      "delta_logl": -2.709020352075301,
+      "oracle": -2.709020352075301,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.001001001001001,
+      "delta_logl": 0.09699321597486406,
+      "oracle": 0.09699321597486432,
+      "absolute_error": 2.636779683484747e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.0,
+      "delta_logl": -0.0,
+      "oracle": -0.0,
+      "absolute_error": 0.0,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9990009990009991,
+      "delta_logl": -1.096993215974668,
+      "oracle": -1.0969932159746678,
+      "absolute_error": 2.220446049250313e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9970089730807579,
+      "delta_logl": -6.290979647924196,
+      "oracle": -6.290979647924197,
+      "absolute_error": 8.881784197001252e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.9900990099009901,
+      "delta_logl": -55.96993215974909,
+      "oracle": -55.969932159749085,
+      "absolute_error": 7.105427357601002e-15,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.999999,
+      "delta_logl": -0.0005974938139859099,
+      "oracle": -0.0005974938139856611,
+      "absolute_error": 2.487159783681747e-16,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 1.000001,
+      "delta_logl": 0.0005964926199332488,
+      "oracle": 0.0005964926199333309,
+      "absolute_error": 8.207410445715269e-17,
+      "gate": 1e-08,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 0.1,
+      "delta_logl": -40505372.93894378,
+      "oracle": -40505372.938943766,
+      "absolute_error": 1.4901161193847656e-08,
+      "gate": 4.050537293894377e-05,
+      "passes": true
+    },
+    {
+      "rho": 1000.0,
+      "residual": "gaussian",
+      "distance": 10.0,
+      "delta_logl": -404462.70610562264,
+      "oracle": -404462.7061056226,
+      "absolute_error": 5.820766091346741e-11,
+      "gate": 4.055372938943774e-07,
+      "passes": true
+    }
+  ],
+  "native": [
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119",
+      "bytes": 287208
+    },
+    {
+      "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/fastlisaresponse_backend_cpu/responselisa.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "9147aed6cf1036b239c23b4b57d1bb51a2d887959c8a7498480d2592e07921d5",
+      "bytes": 211104
+    }
+  ],
+  "orbit": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools/orbit_files/esa-trailing-orbits.h5",
+    "sha256": "ab7afd7a85da955781896de70bb48cb1156b8a739d732d0e96a2cdc4345cacbe",
+    "bytes": 1212152
+  },
+  "orbit_and_response_setup_seconds": 0.3790434109978378,
+  "crop": {
+    "samples_each_end": 1333,
+    "first_time_seconds": 19995.0,
+    "samples": 3646,
+    "last_time_seconds": 74670.0
+  },
+  "metric": "Synthetic diagonal A/E/T one-sided PSD = 1e-42*[1,2,3]*(1+(f/0.01Hz)^2), globally rescaled per target SNR. This is a chosen Gaussian fixture, NOT the ESA constellation's physical noise covariance. No window or additional frequency mask.",
+  "timing": {
+    "scope": "256 conditional distance evaluations from the same cached frequency-domain TDI waveform; excludes FEW generation, orbit/response setup, FFT and data creation for all variants",
+    "raw_seconds": {
+      "cached_waveform_direct_residual": [
+        0.004426781000802293,
+        0.004429208998772083,
+        0.004421173998707673,
+        0.004423870999744395,
+        0.004400372999953106,
+        0.004430909000802785,
+        0.004423962000146275,
+        0.004422345002240036,
+        0.004475532998185372
+      ],
+      "quadratic_scalar": [
+        0.0019237179985793773,
+        0.0019153339999320451,
+        0.0019155810005031526,
+        0.0019341959996381775,
+        0.0019155029985995498,
+        0.0019104439998045564,
+        0.001907526999275433,
+        0.001915953998832265,
+        0.0019170720006513875
+      ],
+      "quadratic_vector": [
+        1.1464999261079356e-05,
+        9.653998858993873e-06,
+        1.0595002095215023e-05,
+        9.398998372489586e-06,
+        9.872001101030037e-06,
+        8.939998224377632e-06,
+        9.565999789629132e-06,
+        8.674000127939507e-06,
+        1.1208001524209976e-05
+      ]
+    },
+    "median_seconds": {
+      "cached_waveform_direct_residual": 0.004423962000146275,
+      "quadratic_scalar": 0.0019155810005031526,
+      "quadratic_vector": 9.653998858993873e-06
+    },
+    "coefficient_precompute_seconds": 0.00012352400153758936,
+    "direct_prewhitening_seconds": 0.00035719700099434704,
+    "scalar_speedup": 2.3094622461719254,
+    "vector_speedup": 458.2517633120308,
+    "scalar_preparation_inclusive_speedup": 2.3447340849812175,
+    "vector_preparation_inclusive_speedup": 35.900516503499674
+  },
+  "artifact": {
+    "path": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/tdi_distance_first.npz",
+    "sha256": "184930b7d96e8f3399d040403d6ba771054b9ab56be66aa57bcb3958c437f337",
+    "bytes": 439197
+  }
+}

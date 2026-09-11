@@ -1,0 +1,280 @@
+{
+  "timestamp_cst": "2026-09-11T14:30:35.381140+08:00",
+  "environment": "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env",
+  "terminal": true,
+  "commands": [
+    {
+      "command": [
+        "lscpu"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           39 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  16\nOn-line CPU(s) list:                     0-15\nVendor ID:                               GenuineIntel\nModel name:                              13th Gen Intel(R) Core(TM) i5-13400F\nCPU family:                              6\nModel:                                   183\nThread(s) per core:                      2\nCore(s) per socket:                      10\nSocket(s):                               1\nStepping:                                1\nCPU(s) scaling MHz:                      91%\nCPU max MHz:                             4600.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                4992.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities\nVirtualization:                          VT-x\nL1d cache:                               416 KiB (10 instances)\nL1i cache:                               448 KiB (10 instances)\nL2 cache:                                9.5 MiB (7 instances)\nL3 cache:                                20 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-15\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Mitigation; Clear Register File\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import importlib.metadata as m,json; print(json.dumps(sorted([(d.metadata['Name'],d.version) for d in m.distributions()])))"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "[[\"Jinja2\", \"3.1.6\"], [\"MarkupSafe\", \"3.0.3\"], [\"PyYAML\", \"6.0.3\"], [\"Pygments\", \"2.21.0\"], [\"annotated-types\", \"0.8.0\"], [\"attrs\", \"26.1.0\"], [\"certifi\", \"2026.7.22\"], [\"charset-normalizer\", \"3.5.1\"], [\"contourpy\", \"1.3.3\"], [\"cycler\", \"0.12.1\"], [\"fastlisaresponse\", \"1.1.17\"], [\"fonttools\", \"4.65.0\"], [\"gpubackendtools\", \"0.1.1\"], [\"h5py\", \"3.14.0\"], [\"idna\", \"3.19\"], [\"jsonschema\", \"4.26.0\"], [\"jsonschema-specifications\", \"2025.9.1\"], [\"kiwisolver\", \"1.5.1\"], [\"lisaanalysistools\", \"1.2.8\"], [\"lisaconstants\", \"2.0.2\"], [\"llvmlite\", \"0.49.0\"], [\"markdown-it-py\", \"4.2.0\"], [\"matplotlib\", \"3.11.1\"], [\"mdurl\", \"0.1.2\"], [\"multispline\", \"0.9.0\"], [\"numba\", \"0.67.0\"], [\"numpy\", \"2.5.3\"], [\"nvidia-ml-py\", \"13.610.43\"], [\"packaging\", \"26.3\"], [\"pillow\", \"12.3.0\"], [\"platformdirs\", \"4.11.8\"], [\"pydantic\", \"2.13.5\"], [\"pydantic_core\", \"2.46.5\"], [\"pyparsing\", \"3.3.2\"], [\"python-dateutil\", \"2.9.0.post0\"], [\"referencing\", \"0.37.0\"], [\"requests\", \"2.34.2\"], [\"rich\", \"15.0.0\"], [\"rpds-py\", \"2026.6.3\"], [\"scipy\", \"1.18.1\"], [\"six\", \"1.17.0\"], [\"tqdm\", \"4.70.0\"], [\"typing-inspection\", \"0.4.4\"], [\"typing_extensions\", \"4.16.0\"], [\"urllib3\", \"2.7.0\"], [\"wrapt\", \"2.4.1\"]]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import numpy"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import scipy.interpolate"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import h5py"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import llvmlite.binding"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import numba"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import gpubackendtools"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import multispline"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import fastlisaresponse_backend_cpu.responselisa"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import lisatools_backend_cpu.pycppdetector"
+      ],
+      "state": "terminal",
+      "returncode": -4,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import fastlisaresponse"
+      ],
+      "state": "terminal",
+      "returncode": -4,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import lisatools.detector"
+      ],
+      "state": "terminal",
+      "returncode": -4,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "gdb",
+        "--batch",
+        "-ex",
+        "run",
+        "-ex",
+        "x/6i $pc",
+        "-ex",
+        "bt",
+        "--args",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import lisatools_backend_cpu.pycppdetector"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "\nThis GDB supports auto-downloading debuginfo from the following URLs:\n  <https://debuginfod.ubuntu.com>\nEnable debuginfod for this session? (y or [n]) [answered N; input not from terminal]\nDebuginfod has been disabled.\nTo make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"/usr/lib/x86_64-linux-gnu/libthread_db.so.1\".\n\nProgram received signal SIGILL, Illegal instruction.\n0x00007ffff70dd2cb in ?? () from /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so\n=> 0x7ffff70dd2cb:\tvmovdqu8 %xmm0,0x68(%rbx)\n   0x7ffff70dd2d5:\tadd    $0x8,%rsp\n   0x7ffff70dd2d9:\tpop    %rbx\n   0x7ffff70dd2da:\tpop    %rbp\n   0x7ffff70dd2db:\tret\n   0x7ffff70dd2dc:\tnopl   0x0(%rax)\n#0  0x00007ffff70dd2cb in ?? () from /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so\n#1  0x00007ffff70e6006 in ?? () from /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so\n#2  0x0000000001979b64 in PyModule_ExecDef ()\n#3  0x000000000190414b in _imp_exec_dynamic ()\n#4  0x0000000001805768 in cfunction_vectorcall_O.llvm.761105436695843364 ()\n#5  0x000000000181b118 in _PyEval_EvalFrameDefault ()\n#6  0x000000000185f6c3 in _PyObject_VectorcallTstate.llvm.4566426234759026864 ()\n#7  0x000000000185f5fb in object_vacall.llvm ()\n#8  0x000000000185f4bb in PyObject_CallMethodObjArgs ()\n#9  0x000000000183a9d8 in PyImport_ImportModuleLevelObject ()\n#10 0x0000000001821486 in _PyEval_EvalFrameDefault ()\n#11 0x0000000001892c20 in PyEval_EvalCode ()\n#12 0x00000000018afc09 in run_mod.llvm ()\n#13 0x00000000019074fa in PyRun_SimpleStringFlags ()\n#14 0x0000000001ad7495 in Py_RunMain.warm ()\n#15 0x0000000001949e5f in pymain_main.llvm ()\n#16 0x0000000001949c6c in main ()\n",
+      "stderr": "\nwarning: Loadable section \".dynstr\" outside of ELF segments\n  in /home/ubuntu/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/bin/python3.12\n"
+    },
+    {
+      "command": [
+        "git",
+        "clone",
+        "--depth",
+        "1",
+        "--branch",
+        "v1.2.8",
+        "--no-recurse-submodules",
+        "https://github.com/mikekatz04/LISAanalysistools.git",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Cloning into '/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8'...\nNote: switching to '28c13db056bb0abe757ba592ff5b3cd52dc89bbe'.\n\nYou are in 'detached HEAD' state. You can look around, make experimental\nchanges and commit them, and you can discard any commits you make in this\nstate without impacting any branches by switching back to a branch.\n\nIf you want to create a new branch to retain commits you create, you may\ndo so (now or later) by using -c with the switch command. Example:\n\n  git switch -c <new-branch-name>\n\nOr undo this operation with:\n\n  git switch -\n\nTurn off this advice by setting config variable advice.detachedHead to false\n\n"
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8",
+        "rev-parse",
+        "HEAD"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "28c13db056bb0abe757ba592ff5b3cd52dc89bbe\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/.local/bin/uv",
+        "pip",
+        "install",
+        "--python",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "--no-deps",
+        "--reinstall-package",
+        "lisaanalysistools",
+        "--config-setting",
+        "cmake.define.LISATOOLS_MARCH=x86-64",
+        "--config-setting",
+        "cmake.define.LISATOOLS_WITH_GPU=OFF",
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Using Python 3.12.13 environment at: /home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env\nResolved 1 package in 1.76s\n   Building lisaanalysistools @ file:///home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8\n      Built lisaanalysistools @ file:///home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8\nPrepared 1 package in 5.32s\nUninstalled 1 package in 1ms\nInstalled 1 package in 0.71ms\n - lisaanalysistools==1.2.8\n + lisaanalysistools==1.2.8 (from file:///home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8)\n"
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import lisatools_backend_cpu.pycppdetector"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import lisatools.detector"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/bin/python",
+        "-B",
+        "-c",
+        "import fastlisaresponse"
+      ],
+      "state": "terminal",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "sources": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/exp09-distance-conditional-likelihood/collaboration/linux/response_environment.py": "d2e56a9853124af066963700fc46e154c5b65706a1ed05f9655baede1d985544",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8/CMakeLists.txt": "d475ff84518d77460bd3383ae41cb6128757f9ced758c1bf78f93fc860d27205",
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-lisatools-v1.2.8/pyproject.toml": "2115c5216f4760e868929cd1a84efae7f3f0bacfd2a9c9301a4bb79027ae9bbc"
+  },
+  "original_binary_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so": "1fe05e3e293ef30c6f5ec0d9d9b81315f02e6f51b86719febd32285057cb6144"
+  },
+  "rebuilt_binary_sha256": {
+    "/home/ubuntu/Desktop/FastEMRIWaveforms-experiments/artifacts/exp09-response-env/lib/python3.12/site-packages/lisatools_backend_cpu/pycppdetector.cpython-312-x86_64-linux-gnu.so": "17b6c8e62d3a42f250560839ad869bbd2432ed0017a8e69ac103406b86ea4119"
+  },
+  "rebuild_passes": true
+}
